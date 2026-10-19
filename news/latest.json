@@ -1,7 +1,151 @@
 {
   "schema_version": 1,
   "date": "2026-10-20",
-  "generated_at": "2026-10-19T21:14:59Z",
-  "count": 0,
-  "articles": []
+  "generated_at": "2026-10-19T21:22:10Z",
+  "count": 11,
+  "articles": [
+    {
+      "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
+      "summary": "A Russian military satellite maneuvered in “extreme proximity” of a commercial Earth-imaging satellite in recent days in the first known example an unsanctioned rendezvous in low-Earth orbit, according to the orbital intelligence company LeoLabs.",
+      "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine",
+      "source": "Ars Technica",
+      "published_at": "2026-10-19T20:54:17+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "technology"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+      "summary": "On Monday, a court granted the US government’s request to deny release of a former OpenAI engineer accused of bugging a top-secret conference room to steal the frontier lab’s secrets.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says",
+      "source": "Ars Technica",
+      "published_at": "2026-10-19T20:21:53+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "technology"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Batteries help reduce emissions, but how do we reduce their emissions?",
+      "summary": "The first order of business for the energy transition is electrifying applications like vehicles and heating and making sure that the electricity that powers them is made using renewables. But once the dominant slices of the emissions pie have shrunk, other categories with less potential to reduce emissions become important.",
+      "url": "https://arstechnica.com/science/2026/10/batteries-have-a-small-carbon-footprint-we-can-make-it-smaller",
+      "source": "Ars Technica",
+      "published_at": "2026-10-19T20:03:55+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "technology"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Grab Reduces ANRs by 32% and improves startup time by 35% with R8 and Profile guided optimization",
+      "summary": "Grab is Southeast Asia's leading superapp, offering deliveries, mobility, and financial services to millions of users across eight countries through a single app. With a 10-year-old codebase containing over 10 million lines of code and hundreds of third-party libraries built using a hybrid Bazel and Gradle setup, the Grab team faced three growing challenges: high.",
+      "url": "https://developer.android.com/blog/posts/grab-r8-profile-guided-optimization-anr-startup-time",
+      "source": "Android Developers",
+      "published_at": "2026-10-19T15:41:30+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "developers"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Re-Interlacing Bob Deinterlaced 480p",
+      "summary": "Let’s say you’ve decided you want to digitize analog video, like a home movie. And after watching my video about scaling home movies to 4K, you saw the example at 31:18 and thought: “Okay, the RetroTINK’s do an awesome job for most HD tape transfer but I have some footage that’s really important to me.",
+      "url": "https://retrorgb.com/re-interlacing-bob-deinterlaced-480p.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-19T15:25:16+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Admin: 'I spent all weekend on my servers' after Microsoft breaks Exchange Server with October updates",
+      "summary": "The problems are related to this list of Windows Server updates (see here ) and Microsoft makes it clear they are not related to the October 2026 security updates for Exchange Server.",
+      "url": "https://www.theregister.com/software/2026/10/19/admin-i-spent-all-weekend-on-my-servers-after-microsoft-breaks-exchange-server-with-october-updates/5303724",
+      "source": "The Register",
+      "published_at": "2026-10-19T15:00:00+02:00",
+      "category": "programming",
+      "tags": [
+        "software",
+        "technology"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Some Git over HTTPS may temporarily require authentication",
+      "summary": "During periods of unusual traffic, GitHub may temporarily require authentication for some clones and fetches of public repositories over HTTPS to help protect github.com’s availability. If an operation is affected,… The post Some Git over HTTPS may temporarily require authentication appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-19T10:37:30+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "CodeQL changes for macOS 27, Xcode 27, and Swift 6.4",
+      "summary": "Starting with macOS 27 and Xcode 27, Apple no longer includes Intel (x86_64) code in some of the system binaries and libraries that CodeQL relies on to trace builds. As… The post CodeQL changes for macOS 27, Xcode 27, and Swift 6.4 appeared first on The GitHub Blog .",
+      "url": "https://github.blog/changelog/2026-10-19-codeql-changes-for-macos-27-xcode-27-and-swift-6-4",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-19T10:29:09+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Engineer was so sick of office pranks, he 'wiped' his antagonist's disk",
+      "summary": "Monday mornings are no joke, so The Register always tries to lighten them up with a new installment of \"Who, Me?\" – our reader-contributed column that shares your stories of workplace japes, mistakes, and escapes.",
+      "url": "https://www.theregister.com/software/2026/10/19/engineer-was-so-sick-of-office-pranks-he-wiped-his-antagonists-disk/5302162",
+      "source": "The Register",
+      "published_at": "2026-10-19T07:30:00+02:00",
+      "category": "programming",
+      "tags": [
+        "software",
+        "technology"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Tito’s Ultimate Atari Jaguar Upgrades",
+      "summary": "Tito from Macho Nacho Productions recently posted a video showing how he fully restored his Atari Jaguar. This is exactly what I’d do to a Jaguar as well and even if you don’t feel the need to upgrade yours, definitely check out the recommended maintenance and at least get a sense of what the best.",
+      "url": "https://retrorgb.com/titos-ultimate-atari-jaguar-upgrades.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-18T22:23:31+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "RetroTINK 4K Pro – Lumacode, CRT Beam and IVTC Updates",
+      "summary": "Mike Chi has released some firmware updates, with more stable Lumacode support, optimizations and bugfixes for the 6x CE, 4K CE and 4K Pro. There were also some updates to Pro-only features like IVTC and CRT Beam Emulation BFI. I posted a CRT Beam Emulation example above and I’ll go over the rest of it.",
+      "url": "https://retrorgb.com/retrotink-4k-pro-lumacode-crt-beam-and-ivtc-updates.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-17T17:09:27+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    }
+  ]
 }
