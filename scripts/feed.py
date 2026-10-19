@@ -151,6 +151,8 @@ def parse_source(source, now):
             continue
         if re.search(r"\b(rumou?r|reportedly|leaked?|could|might|expected to)\b", title, re.I):
             continue
+        if source["name"] in {"9to5Mac", "MacRumors"} and re.search(r"\b(lawsuit|verdict|patent|court|deal|discount|sale)\b", title, re.I):
+            continue
         when = dt.datetime.fromisoformat(published)
         if when > now + dt.timedelta(hours=1) or when < now - dt.timedelta(hours=72):
             continue
@@ -190,8 +192,6 @@ def summarize(excerpt, page):
             summary = next_summary
             if 25 <= len(summary.split()) <= 55:
                 return summary
-        if len(candidate.split()) > 55:
-            return " ".join(candidate.split()[:55]).rstrip(" ,;:") + "…"
     raise ValueError("no 25-word source-authored lead")
 
 
@@ -214,10 +214,10 @@ def inspect_candidate(candidate):
         raise ValueError("feed excerpt not confirmed at destination")
     source = candidate["source_config"]
     summary = summarize(candidate["excerpt"], page)
-    if source["name"] == "9to5Mac" and re.search(r"\b(rumou?r|reportedly|leaked?|could|might|expected to)\b", summary, re.I):
+    if source["name"] in {"9to5Mac", "MacRumors"} and re.search(r"\b(rumou?r|reportedly|leaked?|could|might|expected to)\b", summary, re.I):
         raise ValueError("unconfirmed Apple rumor")
     category = source["category"]
-    if source["name"] == "9to5Mac":
+    if source["name"] in {"9to5Mac", "MacRumors"}:
         title = candidate["title"]
         if re.search(r"\b(macOS|Mac OS)\b", title, re.I):
             category = "macos"
