@@ -43,7 +43,7 @@ class FeedTests(unittest.TestCase):
                     feed.build(now, sources=[{"name": "test"}])
                 self.assertEqual(now.astimezone(feed.ZoneInfo("Europe/Kyiv")).date().isoformat(), expected)
 
-    def test_seed_files_are_identical(self):
+    def test_latest_and_archive_files_are_identical(self):
         root = Path(__file__).resolve().parents[1]
         latest = (root / "news/latest.json").read_bytes()
         item = json.loads(latest)

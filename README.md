@@ -5,8 +5,8 @@ Public JSON feed for a terminal reader:
 `https://raw.githubusercontent.com/glebone/geek_news/main/news/latest.json`
 
 The same bytes are kept at `news/archive/YYYY-MM-DD.json`, where the date is
-in `Europe/Kyiv`. The current file is an **empty connectivity seed**, not a
-news edition. The feed is not yet proven as an unattended daily service.
+in `Europe/Kyiv`. The current file contains the most recently published
+edition. Check `date` and `generated_at` before treating it as fresh.
 
 ## Contract
 
@@ -21,6 +21,11 @@ day old. `count` equals the number of articles.
 
 [`tests/fixtures/example-v1.json`](tests/fixtures/example-v1.json) is a
 one-item TUI parsing example, not a production edition.
+
+To build a reader for the public feed, follow
+[`docs/build-news-reader.md`](docs/build-news-reader.md). The
+[`docs/reader-contract.md`](docs/reader-contract.md) describes fields,
+freshness, and failure handling in more detail.
 
 ## How it works
 
