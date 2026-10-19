@@ -49,6 +49,12 @@ class FeedTests(unittest.TestCase):
         self.assertEqual(latest, (root / "news/archive" / f"{item['date']}.json").read_bytes())
         self.assertTrue(feed.validate(item, allow_seed=True))
 
+    def test_article_page_lead_when_feed_excerpt_is_short(self):
+        page = '<html><head><meta name="description" content="The maintainers announced a new release with several changes for developers. This source page explains the compatibility details, the updated tooling, and how the project team expects users to evaluate the release before using it in production deployments today."></head></html>'
+        summary = feed.summarize("A short release note", page)
+        self.assertGreaterEqual(len(summary.split()), 25)
+        self.assertLessEqual(len(summary.split()), 55)
+
 
 if __name__ == "__main__":
     unittest.main()

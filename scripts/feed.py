@@ -48,6 +48,37 @@ class Text(HTMLParser):
             self.parts.append(data)
 
 
+class ArticleLead(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.descriptions = []
+        self.paragraphs = []
+        self.article_depth = 0
+        self.in_paragraph = False
+        self.chunks = []
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == "meta" and (attrs.get("name", "").lower() == "description" or attrs.get("property", "").lower() == "og:description"):
+            self.descriptions.append(attrs.get("content", ""))
+        if tag == "article":
+            self.article_depth += 1
+        if tag == "p" and self.article_depth:
+            self.in_paragraph = True
+            self.chunks = []
+
+    def handle_endtag(self, tag):
+        if tag == "p" and self.in_paragraph:
+            self.paragraphs.append(" ".join(self.chunks))
+            self.in_paragraph = False
+        if tag == "article" and self.article_depth:
+            self.article_depth -= 1
+
+    def handle_data(self, data):
+        if self.in_paragraph:
+            self.chunks.append(data)
+
+
 def clean(value):
     parser = Text()
     parser.feed(value or "")
@@ -135,12 +166,17 @@ def words(text):
     return [w.lower() for w in re.findall(r"[A-Za-z][A-Za-z0-9+-]*", text) if len(w) > 3 and w.lower() not in STOP]
 
 
-def summarize(excerpt):
+def summarize(excerpt, page):
     # Deliberately extractive: no LLM is used and no claims are added.
-    tokens = excerpt.split()
-    if len(tokens) < 25:
-        raise ValueError("excerpt too short")
-    return " ".join(tokens[:min(55, len(tokens))]).strip()
+    lead = ArticleLead()
+    lead.feed(page)
+    for candidate in [excerpt, *lead.descriptions, *lead.paragraphs]:
+        tokens = clean(candidate).split()
+        if 25 <= len(tokens) <= 55:
+            return " ".join(tokens)
+        if len(tokens) > 55:
+            return " ".join(tokens[:55]).rstrip(" ,;:") + "."
+    raise ValueError("no 25-word source-authored lead")
 
 
 def inspect_candidate(candidate):
@@ -158,10 +194,10 @@ def inspect_candidate(candidate):
         raise ValueError("soft 404")
     excerpt_words = set(words(candidate["excerpt"]))
     page_words = set(words(clean(page)))
-    if len(excerpt_words & page_words) < 3:
+    if excerpt_words and len(excerpt_words & page_words) < min(2, len(excerpt_words)):
         raise ValueError("feed excerpt not confirmed at destination")
     source = candidate["source_config"]
-    summary = summarize(candidate["excerpt"])
+    summary = summarize(candidate["excerpt"], page)
     article = {"title": candidate["title"], "summary": summary, "url": url,
                "source": source["name"], "published_at": candidate["published_at"],
                "category": source["category"], "tags": source["tags"],
@@ -230,7 +266,7 @@ def build(now=None, *, sources=None):
             except Exception as exc:
                 errors.append(f"{futures[future]}: {type(exc).__name__}: {exc}")
     candidates.sort(key=lambda item: item["published_at"], reverse=True)
-    selected, rejected = [], {}
+    selected, rejected, selected_sources = [], {}, {}
     seen = recent_urls(now)
     event_keys, domain_counts, category_counts = set(), {}, {}
     for candidate in candidates[:100]:
@@ -247,6 +283,7 @@ def build(now=None, *, sources=None):
             if domain_counts.get(domain, 0) >= 3 or category_counts.get(category, 0) >= 4:
                 raise ValueError("source or category cap")
             selected.append(article)
+            selected_sources[article["source"]] = selected_sources.get(article["source"], 0) + 1
             seen.add(url)
             event_keys.add(event)
             domain_counts[domain] = domain_counts.get(domain, 0) + 1
@@ -258,7 +295,8 @@ def build(now=None, *, sources=None):
     edition = {"schema_version": 1, "date": date, "generated_at": now.isoformat(timespec="seconds").replace("+00:00", "Z"),
                "count": len(selected), "articles": selected}
     status = {"route": "github-actions-deterministic", "date": date, "candidates": len(candidates),
-              "selected": len(selected), "rejected": rejected, "source_errors": errors}
+              "selected": len(selected), "selected_sources": selected_sources,
+              "rejected": rejected, "source_errors": errors}
     (ROOT / ".feed-run-status.json").write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n")
     print(json.dumps(status, ensure_ascii=False), file=sys.stderr)
     validate(edition)

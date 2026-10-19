@@ -24,6 +24,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -67,7 +68,7 @@ jobs:
           git commit -m "Publish Geek News edition $(date -u +%F)"
           if ! git push origin HEAD:main; then
             git fetch origin main
-            git rebase origin/main
+            git rebase FETCH_HEAD
             git push origin HEAD:main
           fi
           echo 'changed=true' >> "$GITHUB_OUTPUT"
