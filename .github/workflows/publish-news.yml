@@ -2,6 +2,10 @@ name: Publish Geek News
 
 on:
   workflow_dispatch:
+  # Temporary five-minute cadence for the unattended scheduling trial.
+  schedule:
+    - cron: '*/5 * * * *'
+      timezone: 'Europe/Kyiv'
   push:
     branches: [main]
     paths:
