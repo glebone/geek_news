@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T04:05:00Z",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Rust programming language repository",
+      "summary": "The Rust project hosts its compiler and development history in this public repository. A real daily feed item should link to a specific recent release or technical change and explain its effect on developers.",
+      "url": "https://github.com/rust-lang/rust",
+      "source": "Rust",
+      "published_at": null,
+      "category": "programming",
+      "tags": ["rust", "compiler", "open-source"],
+      "article_type": "project"
+    }
+  ]
+}

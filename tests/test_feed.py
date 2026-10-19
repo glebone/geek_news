@@ -7,6 +7,7 @@ from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import feed
+import check_freshness
 
 
 def edition(count):
@@ -54,6 +55,19 @@ class FeedTests(unittest.TestCase):
         summary = feed.summarize("A short release note", page)
         self.assertGreaterEqual(len(summary.split()), 25)
         self.assertLessEqual(len(summary.split()), 55)
+
+    def test_summary_rejects_affiliate_copy(self):
+        page = '<article><p>This is an eBay paid affiliate link and a discount offer for readers who want to purchase products from our partner storefront today and support the website through their orders.</p></article>'
+        with self.assertRaisesRegex(ValueError, "relevant"):
+            feed.summarize("short", page, "Atari Jaguar restoration")
+
+    def test_public_freshness_rejects_stale_date(self):
+        item = edition(10)
+        data = json.dumps(item).encode()
+        now = dt.datetime(2026, 10, 20, 12, tzinfo=dt.timezone.utc)
+        check_freshness.check(now, reader=lambda path: data)
+        with self.assertRaisesRegex(ValueError, "stale edition"):
+            check_freshness.check(now + dt.timedelta(days=1), reader=lambda path: data)
 
 
 if __name__ == "__main__":

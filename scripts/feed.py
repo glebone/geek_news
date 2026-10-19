@@ -151,7 +151,7 @@ def parse_source(source, now):
             continue
         if re.search(r"\b(rumou?r|reportedly|leaked?|could|might|expected to)\b", title, re.I):
             continue
-        if source["name"] in {"9to5Mac", "MacRumors"} and re.search(r"\b(lawsuit|verdict|patent|court|deal|discount|sale)\b", title, re.I):
+        if source["name"] in {"9to5Mac", "MacRumors", "9to5Google"} and re.search(r"\b(lawsuit|verdict|patent|court|deal|discount|sale|price|pre-order|delivery|walk-in|pickup|shipping)\b|\$\d", title, re.I):
             continue
         when = dt.datetime.fromisoformat(published)
         if when > now + dt.timedelta(hours=1) or when < now - dt.timedelta(hours=72):
@@ -173,12 +173,16 @@ def words(text):
     return [w.lower() for w in re.findall(r"[A-Za-z][A-Za-z0-9+-]*", text) if len(w) > 3 and w.lower() not in STOP]
 
 
-def summarize(excerpt, page):
+def summarize(excerpt, page, title=""):
     # Deliberately extractive: no LLM is used and no claims are added.
     lead = ArticleLead()
     lead.feed(page)
+    candidates = []
+    title_words = set(words(title))
     for candidate in [*lead.paragraphs, *lead.descriptions, excerpt]:
         candidate = clean(candidate)
+        if re.search(r"\b(affiliate|sponsored|eBay|Amazon|buy now|coupon|discount|subscribe)\b", candidate, re.I):
+            continue
         if re.search(r"\bthe post .+ appeared first on\b", candidate, re.I):
             candidate = re.split(r"\bthe post .+ appeared first on\b", candidate, flags=re.I)[0].strip()
         if candidate.endswith(("…", "...")):
@@ -191,8 +195,13 @@ def summarize(excerpt, page):
                 break
             summary = next_summary
             if 25 <= len(summary.split()) <= 55:
-                return summary
-    raise ValueError("no 25-word source-authored lead")
+                overlap = len(title_words & set(words(summary)))
+                if not title_words or overlap:
+                    candidates.append((overlap, summary))
+                break
+    if not candidates:
+        raise ValueError("no relevant 25-word source-authored lead")
+    return max(candidates, key=lambda item: item[0])[1]
 
 
 def inspect_candidate(candidate):
@@ -213,9 +222,9 @@ def inspect_candidate(candidate):
     if excerpt_words and len(excerpt_words & page_words) < min(2, len(excerpt_words)):
         raise ValueError("feed excerpt not confirmed at destination")
     source = candidate["source_config"]
-    summary = summarize(candidate["excerpt"], page)
-    if source["name"] in {"9to5Mac", "MacRumors"} and re.search(r"\b(rumou?r|reportedly|leaked?|could|might|expected to)\b", summary, re.I):
-        raise ValueError("unconfirmed Apple rumor")
+    summary = summarize(candidate["excerpt"], page, candidate["title"])
+    if source["name"] in {"9to5Mac", "MacRumors", "9to5Google"} and re.search(r"\b(rumou?r|reportedly|leaked?|could|might|expected to)\b", summary, re.I):
+        raise ValueError("unconfirmed hardware rumor")
     category = source["category"]
     if source["name"] in {"9to5Mac", "MacRumors"}:
         title = candidate["title"]

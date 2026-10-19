@@ -19,6 +19,9 @@ Categories are `linux`, `macos`, `ios`, `android`, `hardware`, `programming`,
 freshness, and treat the previous good edition as stale if it is more than a
 day old. `count` equals the number of articles.
 
+[`tests/fixtures/example-v1.json`](tests/fixtures/example-v1.json) is a
+one-item TUI parsing example, not a production edition.
+
 ## How it works
 
 `config/sources.json` lists source-operated RSS/Atom feeds. The publisher
