@@ -1,0 +1,78 @@
+name: Publish Geek News
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/publish-news.yml
+      - scripts/**
+      - config/**
+      - tests/**
+
+concurrency:
+  group: geek-news-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test and validate current feed
+        run: |
+          python -m unittest discover -s tests -v
+          python scripts/feed.py validate
+      - name: Build candidate edition
+        run: python scripts/feed.py build
+      - name: Publish both JSON files together
+        id: publish
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add news/latest.json news/archive/
+          if git diff --cached --quiet; then
+            echo 'No changed edition'
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "Publish Geek News edition $(date -u +%F)"
+          if ! git push origin HEAD:main; then
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+          echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Verify public TUI URL
+        if: steps.publish.outputs.changed == 'true'
+        env:
+          EXPECTED_COMMIT: ${{ steps.publish.outputs.commit }}
+        run: |
+          python - <<'PY'
+          import pathlib, time, urllib.request
+          expected = pathlib.Path('news/latest.json').read_bytes()
+          base = 'https://raw.githubusercontent.com/glebone/geek_news/main/news/latest.json'
+          for attempt in range(18):
+              try:
+                  request = urllib.request.Request(base + '?commit=' + __import__('os').environ['EXPECTED_COMMIT'], headers={'Cache-Control': 'no-cache'})
+                  with urllib.request.urlopen(request, timeout=15) as response:
+                      if response.read() == expected:
+                          print('Public latest JSON matches committed edition')
+                          break
+              except Exception as exc:
+                  print(f'Public verification attempt {attempt + 1}: {type(exc).__name__}')
+              if attempt == 17:
+                  raise SystemExit('Public TUI URL did not match edition after retries')
+              time.sleep(20)
+          PY
