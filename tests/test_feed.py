@@ -61,6 +61,11 @@ class FeedTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "relevant"):
             feed.summarize("short", page, "Atari Jaguar restoration")
 
+    def test_summary_rejects_incomplete_sentence(self):
+        partial = "The team announced a new release with a long description of features and updates for developers who use the project every day, including a change to the"
+        with self.assertRaisesRegex(ValueError, "relevant"):
+            feed.summarize(partial, "", "new release")
+
     def test_public_freshness_rejects_stale_date(self):
         item = edition(10)
         data = json.dumps(item).encode()

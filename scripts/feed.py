@@ -181,6 +181,7 @@ def summarize(excerpt, page, title=""):
     title_words = set(words(title))
     for candidate in [*lead.paragraphs, *lead.descriptions, excerpt]:
         candidate = clean(candidate)
+        candidate = re.sub(r"https?://\S+", "", candidate).strip()
         if re.search(r"\b(affiliate|sponsored|eBay|Amazon|buy now|coupon|discount|subscribe)\b", candidate, re.I):
             continue
         if re.search(r"\bthe post .+ appeared first on\b", candidate, re.I):
@@ -194,7 +195,7 @@ def summarize(excerpt, page, title=""):
             if len(next_summary.split()) > 55:
                 break
             summary = next_summary
-            if 25 <= len(summary.split()) <= 55:
+            if 25 <= len(summary.split()) <= 55 and re.search(r"[.!?][\"'”’)]*$", summary):
                 overlap = len(title_words & set(words(summary)))
                 if not title_words or overlap:
                     candidates.append((overlap, summary))
@@ -223,7 +224,7 @@ def inspect_candidate(candidate):
         raise ValueError("feed excerpt not confirmed at destination")
     source = candidate["source_config"]
     summary = summarize(candidate["excerpt"], page, candidate["title"])
-    if source["name"] in {"9to5Mac", "MacRumors", "9to5Google"} and re.search(r"\b(rumou?r|reportedly|leaked?|could|might|expected to)\b", summary, re.I):
+    if source["name"] in {"9to5Mac", "MacRumors", "9to5Google"} and re.search(r"\b(rumou?r(?:ed|s)?|reportedly|leaked?|could|might|likely|supposedly|expected to)\b", summary, re.I):
         raise ValueError("unconfirmed hardware rumor")
     category = source["category"]
     if source["name"] in {"9to5Mac", "MacRumors"}:
@@ -234,10 +235,11 @@ def inspect_candidate(candidate):
             category = "ios"
         else:
             category = "hardware"
+    article_type = "release" if source["name"] == "Simon Willison" and re.search(r"\b\d+\.\d+(?:\.\d+)?\b", candidate["title"]) else source["article_type"]
     article = {"title": candidate["title"], "summary": summary, "url": url,
                "source": source["name"], "published_at": candidate["published_at"],
                "category": category, "tags": source["tags"],
-               "article_type": source["article_type"]}
+               "article_type": article_type}
     return article
 
 

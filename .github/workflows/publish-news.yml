@@ -80,23 +80,25 @@ jobs:
           echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - name: Verify public TUI URL
         if: steps.publish.outputs.changed == 'true'
-        env:
-          EXPECTED_COMMIT: ${{ steps.publish.outputs.commit }}
         run: |
           python - <<'PY'
-          import pathlib, time, urllib.request
+          import json, pathlib, time, urllib.request
           expected = pathlib.Path('news/latest.json').read_bytes()
-          base = 'https://raw.githubusercontent.com/glebone/geek_news/main/news/latest.json'
-          for attempt in range(18):
+          date = json.loads(expected)['date']
+          base = 'https://raw.githubusercontent.com/glebone/geek_news/main/news/'
+          for attempt in range(36):
               try:
-                  request = urllib.request.Request(base + '?commit=' + __import__('os').environ['EXPECTED_COMMIT'], headers={'Cache-Control': 'no-cache'})
-                  with urllib.request.urlopen(request, timeout=15) as response:
-                      if response.read() == expected:
-                          print('Public latest JSON matches committed edition')
-                          break
+                  actual = []
+                  for path in ('latest.json', f'archive/{date}.json'):
+                      request = urllib.request.Request(base + path, headers={'Cache-Control': 'no-cache'})
+                      with urllib.request.urlopen(request, timeout=15) as response:
+                          actual.append(response.read())
+                  if actual == [expected, expected]:
+                      print('Public latest and archive match committed edition')
+                      break
               except Exception as exc:
                   print(f'Public verification attempt {attempt + 1}: {type(exc).__name__}')
-              if attempt == 17:
-                  raise SystemExit('Public TUI URL did not match edition after retries')
+              if attempt == 35:
+                  raise SystemExit('Public latest or archive did not match edition after retries')
               time.sleep(20)
           PY
