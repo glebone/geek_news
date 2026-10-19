@@ -257,8 +257,10 @@ def build(now=None, *, sources=None):
     date = now.astimezone(ZoneInfo("Europe/Kyiv")).date().isoformat()
     edition = {"schema_version": 1, "date": date, "generated_at": now.isoformat(timespec="seconds").replace("+00:00", "Z"),
                "count": len(selected), "articles": selected}
-    print(json.dumps({"route": "github-actions-deterministic", "date": date, "candidates": len(candidates),
-                      "selected": len(selected), "rejected": rejected, "source_errors": errors}, ensure_ascii=False), file=sys.stderr)
+    status = {"route": "github-actions-deterministic", "date": date, "candidates": len(candidates),
+              "selected": len(selected), "rejected": rejected, "source_errors": errors}
+    (ROOT / ".feed-run-status.json").write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n")
+    print(json.dumps(status, ensure_ascii=False), file=sys.stderr)
     validate(edition)
     return edition
 
