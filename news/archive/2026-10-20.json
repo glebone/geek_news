@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "date": "2026-10-20",
-  "generated_at": "2026-10-19T22:10:48Z",
-  "count": 23,
+  "generated_at": "2026-10-19T22:14:14Z",
+  "count": 25,
   "articles": [
     {
       "title": "Meshtastic Sniffer for DragonOS",
@@ -302,6 +302,32 @@
         "developers"
       ],
       "article_type": "technical_article"
+    },
+    {
+      "title": "A Raspberry Pi Pico Halloween",
+      "summary": "An LED strip with buttons that is barely bigger than a Raspberry Pi Pico, these programmable lights can be easily slipped inside decorations and programmed with greens, oranges, and purples to give off a Halloween vibe.",
+      "url": "https://www.raspberrypi.com/news/a-raspberry-pi-pico-halloween",
+      "source": "Raspberry Pi",
+      "published_at": "2026-10-19T14:10:57+00:00",
+      "category": "hardware",
+      "tags": [
+        "raspberry-pi",
+        "hardware"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Charlotte’s New Runway Gets A Digital Twin",
+      "summary": "Over the years, paving technology has gradually improved in the aviation world as it has for roads and highways. Now, there’s a project being built in Charlotte with new digital features that hopes to push the state of the art of runways even further.",
+      "url": "https://hackaday.com/2026/10/19/charlottes-new-runway-gets-a-digital-twin",
+      "source": "Hackaday",
+      "published_at": "2026-10-19T14:00:47+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
     }
   ]
 }
