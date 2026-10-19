@@ -170,7 +170,23 @@ def normalized_url(url):
 
 
 def words(text):
-    return [w.lower() for w in re.findall(r"[A-Za-z][A-Za-z0-9+-]*", text) if len(w) > 3 and w.lower() not in STOP]
+    return [w.lower() for w in re.findall(r"[A-Za-z][A-Za-z0-9+.-]*|\d+(?:\.\d+)*", text)
+            if (len(w) >= 3 or w[0].isdigit()) and w.lower() not in STOP]
+
+
+def event_key(title):
+    return frozenset(words(title))
+
+
+def same_event(key, existing):
+    for previous in existing:
+        numbers = {word for word in key if word[0].isdigit()}
+        previous_numbers = {word for word in previous if word[0].isdigit()}
+        if numbers != previous_numbers:
+            continue
+        if key == previous or (len(key & previous) >= 3 and len(key & previous) / len(key | previous) >= 0.67):
+            return True
+    return False
 
 
 def summarize(excerpt, page, title=""):
@@ -258,8 +274,8 @@ def validate(edition, *, allow_seed=False):
         if set(article) != {"title", "summary", "url", "source", "published_at", "category", "tags", "article_type"}:
             raise ValueError("invalid article fields")
         url = normalized_url(article["url"])
-        event = " ".join(sorted(set(words(article["title"]))))
-        if url in urls or event in events:
+        event = event_key(article["title"])
+        if url in urls or same_event(event, events):
             raise ValueError("duplicate article")
         urls.add(url)
         events.add(event)
@@ -282,14 +298,16 @@ def validate(edition, *, allow_seed=False):
     return True
 
 
-def recent_urls(now):
-    seen = set()
+def recent_archive_keys(now):
+    urls, events = set(), set()
     for offset in range(1, 8):
         date = (now.astimezone(ZoneInfo("Europe/Kyiv")).date() - dt.timedelta(days=offset)).isoformat()
         path = ROOT / "news" / "archive" / f"{date}.json"
         if path.exists():
-            seen.update(normalized_url(article["url"]) for article in json.loads(path.read_text())["articles"])
-    return seen
+            for article in json.loads(path.read_text())["articles"]:
+                urls.add(normalized_url(article["url"]))
+                events.add(event_key(article["title"]))
+    return urls, events
 
 
 def build(now=None, *, sources=None):
@@ -305,18 +323,18 @@ def build(now=None, *, sources=None):
                 errors.append(f"{futures[future]}: {type(exc).__name__}: {exc}")
     candidates.sort(key=lambda item: item["published_at"], reverse=True)
     selected, rejected, selected_sources = [], {}, {}
-    seen = recent_urls(now)
-    event_keys, domain_counts, category_counts = set(), {}, {}
+    seen, event_keys = recent_archive_keys(now)
+    domain_counts, category_counts = {}, {}
     for candidate in candidates[:100]:
         if len(selected) >= 20:
             break
         try:
             article = inspect_candidate(candidate)
             url = article["url"]
-            event = " ".join(sorted(set(words(article["title"]))))
+            event = event_key(article["title"])
             domain = urlparse(url).hostname
             category = article["category"]
-            if url in seen or event in event_keys:
+            if url in seen or same_event(event, event_keys):
                 raise ValueError("duplicate or recent archive")
             if domain_counts.get(domain, 0) >= 3 or category_counts.get(category, 0) >= 4:
                 raise ValueError("source or category cap")

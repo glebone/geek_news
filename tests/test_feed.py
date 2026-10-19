@@ -35,7 +35,7 @@ class FeedTests(unittest.TestCase):
             feed.validate(item)
 
     def test_kyiv_daylight_saving_dates(self):
-        with patch.object(feed, "parse_source", return_value=[]), patch.object(feed, "recent_urls", return_value=set()):
+        with patch.object(feed, "parse_source", return_value=[]), patch.object(feed, "recent_archive_keys", return_value=(set(), set())):
             for instant, expected in [("2026-03-28T22:30:00+00:00", "2026-03-29"),
                                       ("2026-10-24T21:30:00+00:00", "2026-10-25")]:
                 now = dt.datetime.fromisoformat(instant)
@@ -65,6 +65,11 @@ class FeedTests(unittest.TestCase):
         partial = "The team announced a new release with a long description of features and updates for developers who use the project every day, including a change to the"
         with self.assertRaisesRegex(ValueError, "relevant"):
             feed.summarize(partial, "", "new release")
+
+    def test_similar_event_titles_deduplicate_but_versions_do_not(self):
+        old = feed.event_key("Rust 1.93 release brings faster builds")
+        self.assertTrue(feed.same_event(feed.event_key("Rust 1.93 release brings faster compiler builds"), {old}))
+        self.assertFalse(feed.same_event(feed.event_key("Rust 1.94 release brings faster builds"), {old}))
 
     def test_public_freshness_rejects_stale_date(self):
         item = edition(10)

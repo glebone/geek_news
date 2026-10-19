@@ -79,7 +79,6 @@ jobs:
           echo 'changed=true' >> "$GITHUB_OUTPUT"
           echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - name: Verify public TUI URL
-        if: steps.publish.outputs.changed == 'true'
         run: |
           python - <<'PY'
           import json, pathlib, time, urllib.request
