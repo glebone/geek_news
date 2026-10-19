@@ -38,11 +38,13 @@ is logged as degraded. Fewer than 10 items leaves the previous public feed
 unchanged. The summaries are **extractive source text**, not model-written
 or human-curated copy. No LLM API is used.
 
-The workflow currently runs on a code push or manual dispatch for testing.
-The daily schedule is deliberately pending an actual successful unattended
-trial. GitHub Actions `contents: write` is scoped to the publisher job. A
-successful edition is committed in one commit and verified against the public
-raw URL. GitHub may delay raw-content propagation.
+The workflow is configured for 07:00 `Europe/Kyiv` every day, with code push
+and manual dispatch available for testing. GitHub Actions `contents: write` is
+scoped to the publisher job. A successful edition is committed in one commit
+and verified against the public raw URL. GitHub may delay a scheduled run or
+raw-content propagation. The separate freshness workflow checks the public
+feed at 12:00 Kyiv time and reports a failure when today's edition is missing
+or the latest and archive files differ.
 
 ## Development
 
