@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Geek News edition v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "date", "generated_at", "count", "articles"],
+  "properties": {
+    "schema_version": {"const": 2},
+    "date": {"type": "string", "format": "date"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "count": {"type": "integer", "minimum": 0, "maximum": 25},
+    "articles": {
+      "type": "array",
+      "maxItems": 25,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "summary", "url", "source", "published_at", "category", "tags", "article_type"],
+        "properties": {
+          "title": {"type": "string", "minLength": 1},
+          "summary": {"type": "string", "minLength": 1},
+          "url": {"type": "string", "format": "uri", "pattern": "^https://"},
+          "source": {"type": "string", "minLength": 1},
+          "published_at": {"anyOf": [{"type": "string", "format": "date-time"}, {"type": "null"}]},
+          "category": {"enum": ["linux", "macos", "ios", "android", "hardware", "programming", "functional_programming", "retro_computing", "retro_gaming", "ai", "agent_tools", "open_source", "security", "privacy", "web_platform", "cloud"]},
+          "tags": {"type": "array", "minItems": 2, "maxItems": 5, "uniqueItems": true, "items": {"type": "string"}},
+          "article_type": {"enum": ["news", "release", "technical_article", "research", "rumor", "project"]}
+        }
+      }
+    }
+  }
+}

@@ -10,12 +10,15 @@ edition. Check `date` and `generated_at` before treating it as fresh.
 
 ## Contract
 
-[`news/schema-v1.json`](news/schema-v1.json) describes version 1. Each article
+[`news/schema-v2.json`](news/schema-v2.json) describes the current feed;
+[`news/schema-v1.json`](news/schema-v1.json) remains available for older
+archives. Each article
 has a title, 25–55 word source-authored excerpt or page lead, canonical HTTPS URL, source, optional
 publication timestamp, primary category, two to five tags, and article type.
 Categories are `linux`, `macos`, `ios`, `android`, `hardware`, `programming`,
 `functional_programming`, `retro_computing`, `retro_gaming`, `ai`,
-`agent_tools`, and `open_source`. The TUI should use `generated_at` to show
+`agent_tools`, `open_source`, `security`, `privacy`, `web_platform`, and
+`cloud`. The TUI should use `generated_at` to show
 freshness, and treat the previous good edition as stale if it is more than a
 day old. `count` equals the number of articles.
 
@@ -32,9 +35,10 @@ freshness, and failure handling in more detail.
 `config/sources.json` lists source-operated RSS/Atom feeds. The publisher
 checks recent timestamps, resolves each article over HTTPS, compares its
 title and excerpt with the destination page, excludes recent archive URLs,
-limits domains to three and categories to four, and validates the finished
-JSON. It selects up to 20 items. At least 10 are required; a 10–14 item run
-is logged as degraded. Fewer than 10 items leaves the previous public feed
+limits domains to three and categories to four, gives each topic a first
+chance, and validates the finished JSON. It targets 20–25 items. At least 10
+are required; a 10–19 item run is logged as degraded. Fewer than 10 items
+leaves the previous public feed
 unchanged. The summaries are **extractive source text**, not model-written
 or human-curated copy. No LLM API is used.
 

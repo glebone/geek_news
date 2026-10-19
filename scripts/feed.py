@@ -9,6 +9,7 @@ import email.utils
 import hashlib
 import html
 from html.parser import HTMLParser
+from itertools import zip_longest
 import json
 from pathlib import Path
 import re
@@ -22,11 +23,17 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 USER_AGENT = "GeekNewsFeed/1.0 (+https://github.com/glebone/geek_news)"
 MAX_BYTES = 2_000_000
-CATEGORIES = {"linux", "macos", "ios", "android", "hardware", "programming",
-              "functional_programming", "retro_computing", "retro_gaming", "ai",
-              "agent_tools", "open_source"}
+CATEGORIES_V1 = {"linux", "macos", "ios", "android", "hardware", "programming",
+                 "functional_programming", "retro_computing", "retro_gaming", "ai",
+                 "agent_tools", "open_source"}
+CATEGORIES = CATEGORIES_V1 | {"security", "privacy", "web_platform", "cloud"}
 TYPES = {"news", "release", "technical_article", "research", "rumor", "project"}
 STOP = {"the", "and", "for", "with", "from", "this", "that", "into", "your", "about", "their", "have", "will"}
+MIN_ARTICLES = 10
+TARGET_ARTICLES = 20
+MAX_ARTICLES = 25
+MAX_PER_DOMAIN = 3
+MAX_PER_CATEGORY = 4
 
 
 class Text(HTMLParser):
@@ -243,14 +250,24 @@ def inspect_candidate(candidate):
     if source["name"] in {"9to5Mac", "MacRumors", "9to5Google"} and re.search(r"\b(rumou?r(?:ed|s)?|reportedly|leaked?|could|might|likely|supposedly|expected to)\b", summary, re.I):
         raise ValueError("unconfirmed hardware rumor")
     category = source["category"]
+    title = candidate["title"]
     if source["name"] in {"9to5Mac", "MacRumors"}:
-        title = candidate["title"]
         if re.search(r"\b(macOS|Mac OS)\b", title, re.I):
             category = "macos"
         elif re.search(r"\b(iOS|iPadOS)\b", title, re.I):
             category = "ios"
         else:
             category = "hardware"
+    elif source["name"] == "Phoronix":
+        if re.search(r"\b(Atari|Amiga|Commodore|m68k|vintage|retro)\b", title, re.I):
+            category = "retro_computing"
+        elif re.search(r"\b(Intel|AMD|NVIDIA|Radeon|GeForce|GPU|CPU|XeSS)\b", title, re.I):
+            category = "hardware"
+    elif source["name"] in {"The Register", "OSNews", "Hackaday"}:
+        if re.search(r"\b(Haskell|Lisp|Racket|OCaml|Elixir|Erlang|Clojure|F#)\b", title, re.I):
+            category = "functional_programming"
+        elif re.search(r"\b(Atari|Amiga|Commodore|vintage|retro|MS-DOS)\b", title, re.I):
+            category = "retro_computing"
     article_type = "release" if source["name"] == "Simon Willison" and re.search(r"\b\d+\.\d+(?:\.\d+)?\b", candidate["title"]) else source["article_type"]
     article = {"title": candidate["title"], "summary": summary, "url": url,
                "source": source["name"], "published_at": candidate["published_at"],
@@ -260,14 +277,17 @@ def inspect_candidate(candidate):
 
 
 def validate(edition, *, allow_seed=False):
-    if set(edition) != {"schema_version", "date", "generated_at", "count", "articles"} or edition["schema_version"] != 1:
+    if set(edition) != {"schema_version", "date", "generated_at", "count", "articles"} or edition["schema_version"] not in {1, 2}:
         raise ValueError("invalid top-level contract")
+    version = edition["schema_version"]
+    categories_allowed = CATEGORIES_V1 if version == 1 else CATEGORIES
+    max_articles = 20 if version == 1 else MAX_ARTICLES
     dt.date.fromisoformat(edition["date"])
     generated = dt.datetime.fromisoformat(edition["generated_at"].replace("Z", "+00:00"))
     if generated.tzinfo != dt.timezone.utc:
         raise ValueError("generated_at must be UTC")
     articles = edition["articles"]
-    if edition["count"] != len(articles) or (not allow_seed and not 10 <= len(articles) <= 20):
+    if edition["count"] != len(articles) or not (allow_seed and not articles or MIN_ARTICLES <= len(articles) <= max_articles):
         raise ValueError("invalid article count")
     urls, events, domains, categories = set(), set(), {}, {}
     for article in articles:
@@ -282,9 +302,9 @@ def validate(edition, *, allow_seed=False):
         domain = urlparse(url).hostname
         domains[domain] = domains.get(domain, 0) + 1
         categories[article["category"]] = categories.get(article["category"], 0) + 1
-        if domains[domain] > 3 or categories[article["category"]] > 4:
+        if domains[domain] > MAX_PER_DOMAIN or categories[article["category"]] > MAX_PER_CATEGORY:
             raise ValueError("source or category cap exceeded")
-        if article["category"] not in CATEGORIES or article["article_type"] not in TYPES:
+        if article["category"] not in categories_allowed or article["article_type"] not in TYPES:
             raise ValueError("invalid category or type")
         tags = article["tags"]
         if not isinstance(tags, list) or not 2 <= len(tags) <= 5 or len(set(tags)) != len(tags) or any(tag != tag.lower() for tag in tags):
@@ -322,11 +342,17 @@ def build(now=None, *, sources=None):
             except Exception as exc:
                 errors.append(f"{futures[future]}: {type(exc).__name__}: {exc}")
     candidates.sort(key=lambda item: item["published_at"], reverse=True)
+    # Give each topic a first chance before a busy feed consumes the budget.
+    by_category = {}
+    for candidate in candidates:
+        by_category.setdefault(candidate["source_config"]["category"], []).append(candidate)
+    ordered = [candidate for row in zip_longest(*by_category.values())
+               for candidate in row if candidate is not None]
     selected, rejected, selected_sources = [], {}, {}
     seen, event_keys = recent_archive_keys(now)
     domain_counts, category_counts = {}, {}
-    for candidate in candidates[:100]:
-        if len(selected) >= 20:
+    for candidate in ordered[:200]:
+        if len(selected) >= MAX_ARTICLES:
             break
         try:
             article = inspect_candidate(candidate)
@@ -336,7 +362,7 @@ def build(now=None, *, sources=None):
             category = article["category"]
             if url in seen or same_event(event, event_keys):
                 raise ValueError("duplicate or recent archive")
-            if domain_counts.get(domain, 0) >= 3 or category_counts.get(category, 0) >= 4:
+            if domain_counts.get(domain, 0) >= MAX_PER_DOMAIN or category_counts.get(category, 0) >= MAX_PER_CATEGORY:
                 raise ValueError("source or category cap")
             selected.append(article)
             selected_sources[article["source"]] = selected_sources.get(article["source"], 0) + 1
@@ -348,7 +374,7 @@ def build(now=None, *, sources=None):
             key = str(exc) if isinstance(exc, ValueError) else type(exc).__name__
             rejected[key] = rejected.get(key, 0) + 1
     date = now.astimezone(ZoneInfo("Europe/Kyiv")).date().isoformat()
-    edition = {"schema_version": 1, "date": date, "generated_at": now.isoformat(timespec="seconds").replace("+00:00", "Z"),
+    edition = {"schema_version": 2, "date": date, "generated_at": now.isoformat(timespec="seconds").replace("+00:00", "Z"),
                "count": len(selected), "articles": selected}
     status = {"route": "github-actions-deterministic", "date": date, "candidates": len(candidates),
               "selected": len(selected), "selected_sources": selected_sources,
@@ -387,7 +413,7 @@ def main():
     args = parser.parse_args()
     if args.command == "build":
         edition = build()
-        if edition["count"] < 15:
+        if edition["count"] < TARGET_ARTICLES:
             print(f"degraded edition: {edition['count']} items", file=sys.stderr)
         publish(edition)
     else:

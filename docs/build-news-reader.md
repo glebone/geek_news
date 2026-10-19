@@ -44,7 +44,8 @@ def fetch(path):
     edition = json.loads(data)
     if not isinstance(edition, dict):
         raise ValueError("feed root must be an object")
-    if edition.get("schema_version") != 1:
+    version = edition.get("schema_version")
+    if version not in (1, 2):
         raise ValueError("unsupported feed version")
     dt.date.fromisoformat(edition["date"])
     generated = dt.datetime.fromisoformat(edition["generated_at"].replace("Z", "+00:00"))
@@ -53,7 +54,7 @@ def fetch(path):
     articles = edition["articles"]
     if not isinstance(articles, list) or edition["count"] != len(articles):
         raise ValueError("article count mismatch")
-    if not 10 <= len(articles) <= 20:
+    if not 10 <= len(articles) <= (20 if version == 1 else 25):
         raise ValueError("unexpected article count")
     for item in articles:
         if not isinstance(item, dict):
@@ -106,7 +107,7 @@ def main():
     print(f"Published: {edition['generated_at']}")
     if edition["date"] != today:
         print("Today's edition is not available yet; these are older stories.")
-    elif edition["count"] < 15:
+    elif edition["count"] < 20 and edition["schema_version"] == 2:
         print("Shorter edition today: fewer articles passed the publisher checks.")
     print()
 
@@ -168,7 +169,8 @@ edition's Kyiv `date` in the freshness label.
   one item is deliberately below the reader's production minimum. Test the
   running reader against the public `latest.json` URL. Exercise an
   unknown `schema_version`, missing fields, invalid JSON, unsafe URL, HTTP
-  failure, yesterday's edition, and a 10–14 article edition.
+  failure, yesterday's edition, a 10–19 article edition, and both supported
+  schema versions.
 - For a live check after the intended 07:00 Kyiv publication time, compare the
   reader's displayed date with `python3 scripts/check_freshness.py` from this
   repository. That script also checks that the public latest and archive bytes

@@ -10,12 +10,12 @@ import feed
 import check_freshness
 
 
-def edition(count):
+def edition(count, version=2):
     articles = []
-    names = ["Amber", "Birch", "Cedar", "Dahlia", "Elm", "Firwood", "Ginkgo", "Hazel", "Iris", "Juniper"]
+    categories = ["linux", "programming", "ai", "hardware", "security", "web_platform", "retro_computing"]
     for index in range(count):
-        articles.append({"title": f"Distinct {names[index]} project release notes", "summary": "The maintainers describe a specific new release and its changes for developers. The linked technical article explains the release details, compatibility considerations, and practical reasons readers may want to examine the update before adopting it in their own projects.", "url": f"https://source{index // 3}.example/item/{index}", "source": "Example", "published_at": None, "category": ["linux", "programming", "ai"][index // 4], "tags": ["release", "tools"], "article_type": "release"})
-    return {"schema_version": 1, "date": "2026-10-20", "generated_at": "2026-10-19T22:00:00Z", "count": count, "articles": articles}
+        articles.append({"title": f"Distinct project {index} release notes", "summary": "The maintainers describe a specific new release and its changes for developers. The linked technical article explains the release details, compatibility considerations, and practical reasons readers may want to examine the update before adopting it in their own projects.", "url": f"https://source{index // 3}.example/item/{index}", "source": "Example", "published_at": None, "category": categories[index // 4], "tags": ["release", "tools"], "article_type": "release"})
+    return {"schema_version": version, "date": "2026-10-20", "generated_at": "2026-10-19T22:00:00Z", "count": count, "articles": articles}
 
 
 class FeedTests(unittest.TestCase):
@@ -33,6 +33,32 @@ class FeedTests(unittest.TestCase):
         item["articles"][0]["article_type"] = "rumor"
         with self.assertRaisesRegex(ValueError, "rumor"):
             feed.validate(item)
+
+    def test_v2_expanded_count_and_v1_compatibility(self):
+        self.assertTrue(feed.validate(edition(25)))
+        with self.assertRaisesRegex(ValueError, "count"):
+            feed.validate(edition(26))
+        self.assertTrue(feed.validate(edition(10, version=1)))
+        with self.assertRaisesRegex(ValueError, "count"):
+            feed.validate(edition(21, version=1))
+        legacy = edition(10, version=1)
+        legacy["articles"][0]["category"] = "security"
+        with self.assertRaisesRegex(ValueError, "category"):
+            feed.validate(legacy)
+
+    def test_build_gives_topics_a_first_chance(self):
+        now = dt.datetime(2026, 10, 20, 5, tzinfo=dt.timezone.utc)
+        sample = edition(25)
+        candidates = []
+        for index, article in enumerate(sample["articles"]):
+            source = {"name": f"source-{index}", "category": article["category"]}
+            candidates.append({"source_config": source, "published_at": (now - dt.timedelta(minutes=index)).isoformat(), "article": article})
+        with patch.object(feed, "parse_source", return_value=candidates), \
+             patch.object(feed, "inspect_candidate", side_effect=lambda candidate: candidate["article"]), \
+             patch.object(feed, "recent_archive_keys", return_value=(set(), set())):
+            result = feed.build(now, sources=[{"name": "test"}])
+        self.assertEqual(result["count"], 25)
+        self.assertEqual(len({article["category"] for article in result["articles"][:7]}), 7)
 
     def test_kyiv_daylight_saving_dates(self):
         with patch.object(feed, "parse_source", return_value=[]), patch.object(feed, "recent_archive_keys", return_value=(set(), set())):

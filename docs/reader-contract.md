@@ -8,7 +8,8 @@ The reader needs no token or GitHub API access. Fetch these HTTPS URLs:
 | --- | --- |
 | Most recently published edition | `https://raw.githubusercontent.com/glebone/geek_news/main/news/latest.json` |
 | Edition for a Kyiv calendar day | `https://raw.githubusercontent.com/glebone/geek_news/main/news/archive/YYYY-MM-DD.json` |
-| JSON Schema | `https://raw.githubusercontent.com/glebone/geek_news/main/news/schema-v1.json` |
+| Current JSON Schema | `https://raw.githubusercontent.com/glebone/geek_news/main/news/schema-v2.json` |
+| Legacy JSON Schema | `https://raw.githubusercontent.com/glebone/geek_news/main/news/schema-v1.json` |
 
 Replace `YYYY-MM-DD` with a date calculated in `Europe/Kyiv`, not the user's
 machine timezone. `latest.json` and its matching archive file are published
@@ -16,17 +17,17 @@ with identical bytes, although the public CDN can briefly serve different
 revisions of the two URLs after a commit. HTTP `404` for a future or unpublished
 archive is normal. GitHub raw responses can also be cached for a few minutes.
 
-## Version 1 JSON
+## Version 2 JSON
 
-[`news/schema-v1.json`](../news/schema-v1.json) is the authoritative field
+[`news/schema-v2.json`](../news/schema-v2.json) is the current field
 definition. A real edition has this shape:
 
 ```json
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "date": "2026-10-20",
   "generated_at": "2026-10-20T04:00:00Z",
-  "count": 15,
+  "count": 20,
   "articles": [
     {
       "title": "Example headline",
@@ -46,19 +47,20 @@ The object above illustrates fields; its `count` and sample article are not a
 valid full edition. Use [`tests/fixtures/example-v1.json`](../tests/fixtures/example-v1.json)
 for a one-item parser fixture and the public feed for a production edition.
 
-- `schema_version` must be `1`. Reject unknown versions until the reader knows
-  how to handle them.
+- `schema_version` is `2` for new editions. Older archives may be version `1`;
+  their field names are the same, but they allow at most 20 articles and do not
+  use the four new categories. Reject unknown versions.
 - `date` is the edition's `Europe/Kyiv` calendar date. `generated_at` is an
   ISO 8601 timestamp with a UTC offset. `count` equals `len(articles)`.
 - Each article has `title`, `summary`, `url`, `source`, `published_at`,
   `category`, `tags`, and `article_type`. `published_at` may be `null`.
 - Categories: `linux`, `macos`, `ios`, `android`, `hardware`, `programming`,
   `functional_programming`, `retro_computing`, `retro_gaming`, `ai`,
-  `agent_tools`, `open_source`.
+  `agent_tools`, `open_source`, `security`, `privacy`, `web_platform`, `cloud`.
 - Article types: `news`, `release`, `technical_article`, `research`, `rumor`,
   `project`. A `rumor` should be visibly labeled as such.
-- Production editions contain 10–20 articles. A 10–14 article edition is a
-  degraded day; 15–20 is the normal target. If fewer than 10 pass validation,
+- Version 2 production editions contain 10–25 articles. A 10–19 article
+  edition is a degraded day; 20–25 is the target. If fewer than 10 pass validation,
   the publisher preserves the previous good `latest.json`.
 
 ## Freshness and failures
@@ -72,7 +74,7 @@ which edition it is showing.
 1. Fetch `latest.json` with a finite timeout and a response size limit.
 2. Check the version, date, article count, required fields, and article URLs.
 3. If `date` is today in Kyiv, show **Today's news** and the `generated_at`
-   timestamp. Mark 10–14 articles as a shorter edition if useful.
+   timestamp. Mark 10–19 articles as a shorter edition if useful.
 4. If `latest.json` is older or unavailable, try today's archive URL. If it is
    valid, show that edition. Otherwise, a valid older edition may be shown with
    an unmistakable **Previous edition — DATE** label. Never silently present
