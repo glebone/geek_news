@@ -2,21 +2,8 @@
   "schema_version": 2,
   "date": "2026-10-20",
   "generated_at": "2026-10-19T22:10:48Z",
-  "count": 25,
+  "count": 23,
   "articles": [
-    {
-      "title": "Annual Celebration 2026: Street Fair to Showcase Internet Archive’s Projects and Allies",
-      "summary": "Every year, the Internet Archive throws a party at our headquarters, celebrating a different facet of our ongoing preservation work. The theme for 2026 is “Democracy’s Library: Tools for Participation” […] The post Annual Celebration 2026: Street Fair to Showcase Internet Archive’s Projects and Allies first appeared on Internet Archive Blogs .",
-      "url": "https://blog.archive.org/2026/10/19/annual-celebration-2026-street-fair-to-showcase-internet-archives-projects-and-allies",
-      "source": "Internet Archive",
-      "published_at": "2026-10-19T22:09:22+00:00",
-      "category": "retro_computing",
-      "tags": [
-        "preservation",
-        "archive"
-      ],
-      "article_type": "news"
-    },
     {
       "title": "Meshtastic Sniffer for DragonOS",
       "summary": "The sniffing software is built in C and comes as a complete standalone binary and does not rely on GNU Radio. With DragonOS up and running and the software loaded, it can look at the entire bandwidth that Meshtastic operates on and detect any traffic and decode it (as long as the key is known).",
@@ -105,19 +92,6 @@
       "tags": [
         "operating-systems",
         "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "EFF Launches Privacy Badger for Safari on macOS",
-      "summary": "SAN FRANCISCO—Privacy Badger, the award-winning tracker blocker made by the member-supported digital rights nonprofit Electronic Frontier Foundation (EFF), is now available for Safari on macOS.",
-      "url": "https://www.eff.org/press/releases/eff-launches-privacy-badger-safari-macos",
-      "source": "EFF Updates",
-      "published_at": "2026-10-19T16:00:25+00:00",
-      "category": "privacy",
-      "tags": [
-        "privacy",
-        "digital-rights"
       ],
       "article_type": "news"
     },
@@ -309,7 +283,7 @@
       "url": "https://hackaday.com/2026/10/19/one-stop-tool-shows-apple-intelligence-the-door",
       "source": "Hackaday",
       "published_at": "2026-10-19T15:30:11+00:00",
-      "category": "hardware",
+      "category": "macos",
       "tags": [
         "hardware",
         "maker"
