@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "date": "2026-10-20",
-  "generated_at": "2026-10-19T21:29:12Z",
-  "count": 16,
+  "generated_at": "2026-10-19T21:32:53Z",
+  "count": 15,
   "articles": [
     {
       "title": "Third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2 rolling out",
@@ -44,19 +44,6 @@
       "article_type": "news"
     },
     {
-      "title": "RIP, MacBook Ultra",
-      "summary": "Apple today sent out invites for an experience in Los Angeles on Wednesday, October 28 , and the \"Pro and tell\" tagline on the invitation likely means that the rumored MacBook models with touch-enabled OLED displays will stick with MacBook Pro branding instead of the once-rumored \"MacBook Ultra\" name .",
-      "url": "https://www.macrumors.com/2026/10/19/rip-macbook-ultra",
-      "source": "MacRumors",
-      "published_at": "2026-10-19T16:37:40+00:00",
-      "category": "hardware",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
       "title": "Re-Interlacing Bob Deinterlaced 480p",
       "summary": "So as I’ve “warned” many times in this post: This “re-interlacing bob 480p” method SEEMS to work fine, but I’m not sure how this method would hold up after capturing an entire tape.",
       "url": "https://retrorgb.com/re-interlacing-bob-deinterlaced-480p.html",
@@ -71,7 +58,7 @@
     },
     {
       "title": "NordVPN 6.0 for Linux will feature ‘breaking changes’",
-      "summary": "NordVPN say some of the ‘breaking changes’ will affect scripts, cron jobs, systemd unit, etc that interface with its CLI. It’s therefore signposting all of this advance, so users have time to update any affected configurations before it lands.",
+      "summary": "Among the changes, NordVPN 6.0 combines protocol and technology settings in a nordvpn set protocol command, while obfuscation is now handled by NordWhisper, rather than a separate setting.",
       "url": "https://www.omgubuntu.co.uk/2026/10/nordvpn-6-0-linux-cli-changes",
       "source": "OMG! Ubuntu",
       "published_at": "2026-10-19T15:17:45+00:00",
@@ -171,7 +158,7 @@
         "ai",
         "developer-tools"
       ],
-      "article_type": "technical_article"
+      "article_type": "release"
     },
     {
       "title": "llm-echo 0.5",
@@ -184,11 +171,11 @@
         "ai",
         "developer-tools"
       ],
-      "article_type": "technical_article"
+      "article_type": "release"
     },
     {
       "title": "Tito’s Ultimate Atari Jaguar Upgrades",
-      "summary": "https://youtu.be/7JGbhnN1lcY Tito from Macho Nacho Productions recently posted a video showing how he fully restored his Atari Jaguar. This is exactly what I'd do to a Jaguar as well and even if you don't feel the need to upgrade yours, definitely check out the recommended maintenance and at lea",
+      "summary": "Zaxour released a bunch of upgrades for the motherboard that may be worth considering. There’s a power protection mod, as well as a full power circuit replacement, which can revive a Jaguar that’s been shorted out by using the wrong PSU.",
       "url": "https://retrorgb.com/titos-ultimate-atari-jaguar-upgrades.html",
       "source": "RetroRGB",
       "published_at": "2026-10-18T22:23:31+00:00",
