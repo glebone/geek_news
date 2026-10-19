@@ -142,9 +142,14 @@ def parse_source(source, now):
                 if link_node.tag.split("}")[-1] == "link" and link_node.attrib.get("rel", "alternate") == "alternate":
                     link = link_node.attrib.get("href", "")
                     break
-        published = parse_date(child_text(item, {"pubDate", "published", "updated", "date"}))
+        published = parse_date(child_text(item, {"pubDate", "published", "date"}) or child_text(item, {"updated"}))
         excerpt = clean(child_text(item, {"description", "summary", "content", "encoded"}))
         if not title or not link or not published:
+            continue
+        keywords = source.get("title_keywords", [])
+        if keywords and not any(re.search(r"(?<!\w)" + re.escape(word) + r"(?!\w)", title, re.I) for word in keywords):
+            continue
+        if re.search(r"\b(rumou?r|reportedly|leaked?|could|might|expected to)\b", title, re.I):
             continue
         when = dt.datetime.fromisoformat(published)
         if when > now + dt.timedelta(hours=1) or when < now - dt.timedelta(hours=72):
@@ -170,12 +175,23 @@ def summarize(excerpt, page):
     # Deliberately extractive: no LLM is used and no claims are added.
     lead = ArticleLead()
     lead.feed(page)
-    for candidate in [excerpt, *lead.descriptions, *lead.paragraphs]:
-        tokens = clean(candidate).split()
-        if 25 <= len(tokens) <= 55:
-            return " ".join(tokens)
-        if len(tokens) > 55:
-            return " ".join(tokens[:55]).rstrip(" ,;:") + "."
+    for candidate in [*lead.paragraphs, *lead.descriptions, excerpt]:
+        candidate = clean(candidate)
+        if re.search(r"\bthe post .+ appeared first on\b", candidate, re.I):
+            candidate = re.split(r"\bthe post .+ appeared first on\b", candidate, flags=re.I)[0].strip()
+        if candidate.endswith(("…", "...")):
+            continue
+        sentences = re.split(r"(?<=[.!?])\s+", candidate)
+        summary = ""
+        for sentence in sentences:
+            next_summary = (summary + " " + sentence).strip()
+            if len(next_summary.split()) > 55:
+                break
+            summary = next_summary
+            if 25 <= len(summary.split()) <= 55:
+                return summary
+        if len(candidate.split()) > 55:
+            return " ".join(candidate.split()[:55]).rstrip(" ,;:") + "…"
     raise ValueError("no 25-word source-authored lead")
 
 
@@ -198,9 +214,20 @@ def inspect_candidate(candidate):
         raise ValueError("feed excerpt not confirmed at destination")
     source = candidate["source_config"]
     summary = summarize(candidate["excerpt"], page)
+    if source["name"] == "9to5Mac" and re.search(r"\b(rumou?r|reportedly|leaked?|could|might|expected to)\b", summary, re.I):
+        raise ValueError("unconfirmed Apple rumor")
+    category = source["category"]
+    if source["name"] == "9to5Mac":
+        title = candidate["title"]
+        if re.search(r"\b(macOS|Mac OS)\b", title, re.I):
+            category = "macos"
+        elif re.search(r"\b(iOS|iPadOS)\b", title, re.I):
+            category = "ios"
+        else:
+            category = "hardware"
     article = {"title": candidate["title"], "summary": summary, "url": url,
                "source": source["name"], "published_at": candidate["published_at"],
-               "category": source["category"], "tags": source["tags"],
+               "category": category, "tags": source["tags"],
                "article_type": source["article_type"]}
     return article
 

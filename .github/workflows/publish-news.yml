@@ -59,13 +59,18 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          rm -f news/status.json
           git add news/latest.json news/archive/
+          if git ls-files --error-unmatch news/status.json >/dev/null 2>&1; then
+            git add -u -- news/status.json
+          fi
           if git diff --cached --quiet; then
             echo 'No changed edition'
             echo 'changed=false' >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          git commit -m "Publish Geek News edition $(date -u +%F)"
+          edition_date=$(python -c 'import json; print(json.load(open("news/latest.json"))["date"])')
+          git commit -m "Publish Geek News edition $edition_date"
           if ! git push origin HEAD:main; then
             git fetch origin main
             git rebase FETCH_HEAD
