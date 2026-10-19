@@ -16,7 +16,7 @@
   {"name":"Simon Willison","url":"https://simonwillison.net/atom/everything/","category":"agent_tools","article_type":"technical_article","tags":["ai","developer-tools"],"title_keywords":["AI","LLM","agent","model","coding","Python","GitHub"]},
   {"name":"The Register AI","url":"https://www.theregister.com/AI/headlines.atom","category":"ai","article_type":"news","tags":["ai","technology"],"title_keywords":["agent","model","research","developer","open source","coding","inference","training"]},
   {"name":"RetroRGB","url":"https://www.retrorgb.com/feed","category":"retro_gaming","article_type":"news","tags":["retro","gaming"]},
-  {"name":"Internet Archive","url":"https://blog.archive.org/feed/","category":"retro_computing","article_type":"news","tags":["preservation","archive"]},
+  {"name":"Internet Archive","url":"https://blog.archive.org/feed/","category":"retro_computing","article_type":"news","tags":["preservation","archive"],"title_keywords":["software","computer","emulator","emulation","classic","games","Wayback","code","digitization","digital preservation"]},
   {"name":"Hugging Face Blog","url":"https://huggingface.co/blog/feed.xml","category":"ai","article_type":"technical_article","tags":["ai","open-source"]},
   {"name":"arXiv cs.AI","url":"https://rss.arxiv.org/rss/cs.AI","category":"ai","article_type":"research","tags":["ai","research"]},
   {"name":"Python Insider","url":"https://blog.python.org/feeds/posts/default?alt=rss","category":"programming","article_type":"news","tags":["python","language"]},

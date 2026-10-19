@@ -191,7 +191,10 @@ def same_event(key, existing):
         previous_numbers = {word for word in previous if word[0].isdigit()}
         if numbers != previous_numbers:
             continue
-        if key == previous or (len(key & previous) >= 3 and len(key & previous) / len(key | previous) >= 0.67):
+        overlap = len(key & previous)
+        if key == previous or (overlap >= 3 and
+                               (overlap / len(key | previous) >= 0.67 or
+                                overlap / min(len(key), len(previous)) >= 0.8)):
             return True
     return False
 
@@ -264,7 +267,9 @@ def inspect_candidate(candidate):
         elif re.search(r"\b(Intel|AMD|NVIDIA|Radeon|GeForce|GPU|CPU|XeSS)\b", title, re.I):
             category = "hardware"
     elif source["name"] in {"The Register", "OSNews", "Hackaday"}:
-        if re.search(r"\b(Haskell|Lisp|Racket|OCaml|Elixir|Erlang|Clojure|F#)\b", title, re.I):
+        if source["name"] == "Hackaday" and re.search(r"\b(Apple Intelligence|macOS|MacBook)\b", title, re.I):
+            category = "macos"
+        elif re.search(r"\b(Haskell|Lisp|Racket|OCaml|Elixir|Erlang|Clojure|F#)\b", title, re.I):
             category = "functional_programming"
         elif re.search(r"\b(Atari|Amiga|Commodore|vintage|retro|MS-DOS)\b", title, re.I):
             category = "retro_computing"

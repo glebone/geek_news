@@ -96,6 +96,8 @@ class FeedTests(unittest.TestCase):
         old = feed.event_key("Rust 1.93 release brings faster builds")
         self.assertTrue(feed.same_event(feed.event_key("Rust 1.93 release brings faster compiler builds"), {old}))
         self.assertFalse(feed.same_event(feed.event_key("Rust 1.94 release brings faster builds"), {old}))
+        privacy = feed.event_key("Announcing Privacy Badger for Safari on macOS")
+        self.assertTrue(feed.same_event(feed.event_key("EFF Launches Privacy Badger for Safari on macOS"), {privacy}))
 
     def test_public_freshness_rejects_stale_date(self):
         item = edition(10)
