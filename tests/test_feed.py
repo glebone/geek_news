@@ -1,4 +1,5 @@
 import datetime as dt
+import email.utils
 import json
 from pathlib import Path
 import sys
@@ -91,6 +92,18 @@ class FeedTests(unittest.TestCase):
         partial = "The team announced a new release with a long description of features and updates for developers who use the project every day, including a change to the"
         with self.assertRaisesRegex(ValueError, "relevant"):
             feed.summarize(partial, "", "new release")
+
+    def test_archive_source_excludes_unrelated_events(self):
+        now = dt.datetime(2026, 10, 20, 5, tzinfo=dt.timezone.utc)
+        published = email.utils.format_datetime(now - dt.timedelta(hours=1))
+        xml = f"""<rss><channel>
+          <item><title>Annual celebration street fair</title><link>https://blog.archive.org/fair</link><pubDate>{published}</pubDate></item>
+          <item><title>Classic computer preservation update</title><link>https://blog.archive.org/computers</link><pubDate>{published}</pubDate></item>
+        </channel></rss>""".encode()
+        source = {"name": "Internet Archive", "url": "https://blog.archive.org/feed/", "title_keywords": ["computer", "emulator", "preservation"]}
+        with patch.object(feed, "fetch", return_value=(source["url"], xml, "application/rss+xml")):
+            articles = feed.parse_source(source, now)
+        self.assertEqual([article["title"] for article in articles], ["Classic computer preservation update"])
 
     def test_similar_event_titles_deduplicate_but_versions_do_not(self):
         old = feed.event_key("Rust 1.93 release brings faster builds")
