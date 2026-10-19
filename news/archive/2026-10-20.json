@@ -1,9 +1,61 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "date": "2026-10-20",
-  "generated_at": "2026-10-19T21:55:41Z",
-  "count": 15,
+  "generated_at": "2026-10-19T22:10:48Z",
+  "count": 25,
   "articles": [
+    {
+      "title": "Annual Celebration 2026: Street Fair to Showcase Internet Archive’s Projects and Allies",
+      "summary": "Every year, the Internet Archive throws a party at our headquarters, celebrating a different facet of our ongoing preservation work. The theme for 2026 is “Democracy’s Library: Tools for Participation” […] The post Annual Celebration 2026: Street Fair to Showcase Internet Archive’s Projects and Allies first appeared on Internet Archive Blogs .",
+      "url": "https://blog.archive.org/2026/10/19/annual-celebration-2026-street-fair-to-showcase-internet-archives-projects-and-allies",
+      "source": "Internet Archive",
+      "published_at": "2026-10-19T22:09:22+00:00",
+      "category": "retro_computing",
+      "tags": [
+        "preservation",
+        "archive"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Meshtastic Sniffer for DragonOS",
+      "summary": "The sniffing software is built in C and comes as a complete standalone binary and does not rely on GNU Radio. With DragonOS up and running and the software loaded, it can look at the entire bandwidth that Meshtastic operates on and detect any traffic and decode it (as long as the key is known).",
+      "url": "https://hackaday.com/2026/10/19/meshtastic-sniffer-for-dragonos",
+      "source": "Hackaday",
+      "published_at": "2026-10-19T20:00:07+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Announcing Privacy Badger for Safari on macOS",
+      "summary": "If you use Safari on macOS, give Privacy Badger a try. You’ll install Privacy Badger through the App Store on your macOS device. Installing extensions is a little more complicated on Safari than other browsers, so follow Apple’s directions here if you’re having trouble.",
+      "url": "https://www.eff.org/deeplinks/2026/10/announcing-privacy-badger-safari-macos",
+      "source": "EFF Updates",
+      "published_at": "2026-10-19T17:59:22+00:00",
+      "category": "privacy",
+      "tags": [
+        "privacy",
+        "digital-rights"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+      "summary": "This is the third cybersecurity incident that Nikkei disclosed recently. Earlier this month, the company disclosed a breach that occurred in late July, when hackers compromised an employee's Google Workspace account and accessed personal information belonging to employees and business partners.",
+      "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-19T17:49:48-04:00",
+      "category": "security",
+      "tags": [
+        "security",
+        "cybersecurity"
+      ],
+      "article_type": "news"
+    },
     {
       "title": "Linux 7.4 Sunsetting Old EDAC Drivers Due To \"AI Generated Fixes Frenzy\"",
       "summary": "In addition to introducing the new Intel BFF driver, the Error Detection And Correction 'EDAC' kernel subsystem is sunsetting a number of old hardware drivers due to increased noise to AI/LLM-generated bug fixes for these likely unused or minimally used drivers.",
@@ -14,45 +66,6 @@
       "tags": [
         "linux",
         "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2 rolling out",
-      "summary": "In addition to macOS 27.2 Golden Gate RC 1, Apple is also rolling out the third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2.",
-      "url": "https://9to5mac.com/2026/10/19/third-rcs-for-macos-sequoia-15-8-2-and-macos-tahoe-26-7-2-rolling-out",
-      "source": "9to5Mac",
-      "published_at": "2026-10-19T17:30:24+00:00",
-      "category": "macos",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Apple Seeds macOS Golden Gate 27.2 Release Candidate to Developers",
-      "summary": "Apple is testing the next macOS Golden Gate update, and developers can download the ‌macOS Golden Gate‌ 27.2 release candidate. The RC comes a week after Apple released the fourth beta.",
-      "url": "https://www.macrumors.com/2026/10/19/apple-seeds-macos-golden-gate-27-2-rc",
-      "source": "MacRumors",
-      "published_at": "2026-10-19T17:28:17+00:00",
-      "category": "macos",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Apple Releases iOS 27.2 Release Candidate",
-      "summary": "Apple today seeded the release candidate of an upcoming iOS 27.2 update to developers for testing purposes, with the update coming a week after Apple released the fourth iOS 27.2 beta.",
-      "url": "https://www.macrumors.com/2026/10/19/apple-releases-ios-27-2-rc",
-      "source": "MacRumors",
-      "published_at": "2026-10-19T17:26:37+00:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "devices"
       ],
       "article_type": "news"
     },
@@ -70,6 +83,58 @@
       "article_type": "news"
     },
     {
+      "title": "Some Git over HTTPS may temporarily require authentication",
+      "summary": "During periods of unusual traffic, GitHub may temporarily require authentication for some clones and fetches of public repositories over HTTPS to help protect github.com’s availability.",
+      "url": "https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-19T10:37:30+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Wine ported to OpenBSD, runs modern Windows games",
+      "summary": "In what is quite a major achievement, Wine has been ported and made to work on OpenBSD. We have since tested several dozens of 64-bit Windows software, mostly successfully.",
+      "url": "https://www.osnews.com/story/146195/wine-ported-to-openbsd-runs-modern-windows-games",
+      "source": "OSNews",
+      "published_at": "2026-10-19T06:38:40+00:00",
+      "category": "open_source",
+      "tags": [
+        "operating-systems",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "EFF Launches Privacy Badger for Safari on macOS",
+      "summary": "SAN FRANCISCO—Privacy Badger, the award-winning tracker blocker made by the member-supported digital rights nonprofit Electronic Frontier Foundation (EFF), is now available for Safari on macOS.",
+      "url": "https://www.eff.org/press/releases/eff-launches-privacy-badger-safari-macos",
+      "source": "EFF Updates",
+      "published_at": "2026-10-19T16:00:25+00:00",
+      "category": "privacy",
+      "tags": [
+        "privacy",
+        "digital-rights"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+      "summary": "Rank Math PRO is a WordPress search engine optimization (SEO) plugin that helps websites improve visibility in search results. It is the paid version of the free variant that is active on more than 4 million websites .",
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-19T17:24:51-04:00",
+      "category": "security",
+      "tags": [
+        "security",
+        "cybersecurity"
+      ],
+      "article_type": "news"
+    },
+    {
       "title": "NordVPN 6.0 for Linux will feature ‘breaking changes’",
       "summary": "Among the changes, NordVPN 6.0 combines protocol and technology settings in a nordvpn set protocol command, while obfuscation is now handled by NordWhisper, rather than a separate setting.",
       "url": "https://www.omgubuntu.co.uk/2026/10/nordvpn-6-0-linux-cli-changes",
@@ -83,41 +148,15 @@
       "article_type": "news"
     },
     {
-      "title": "Btrfs Brings More Performance Improvements For Linux 7.4",
-      "summary": "With Linux 7.3 there are some nice Btrfs performance improvements to enjoy while the in-development Linux 7.4 kernel is set to bring some additional performance optimizations for this copy-on-write file-system.",
-      "url": "https://www.phoronix.com/news/Linux-7.4-Btrfs",
-      "source": "Phoronix",
-      "published_at": "2026-10-19T14:17:17-04:00",
-      "category": "linux",
+      "title": "Tito’s Ultimate Atari Jaguar Upgrades",
+      "summary": "Zaxour released a bunch of upgrades for the motherboard that may be worth considering. There’s a power protection mod, as well as a full power circuit replacement, which can revive a Jaguar that’s been shorted out by using the wrong PSU.",
+      "url": "https://retrorgb.com/titos-ultimate-atari-jaguar-upgrades.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-18T22:23:31+00:00",
+      "category": "retro_gaming",
       "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Intel Working To Add XMX-Accelerated XeSS To Valve's Steam Play (Proton)",
-      "summary": "An Intel engineer opened the pull requests today for adding Intel XeSS support to Valve's Proton for Steam Play along with associated changes to VKD3D-Proton and DXVK.",
-      "url": "https://www.phoronix.com/news/Intel-XeSS-Steam-Play-Proton",
-      "source": "Phoronix",
-      "published_at": "2026-10-19T13:00:49-04:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Some Git over HTTPS may temporarily require authentication",
-      "summary": "During periods of unusual traffic, GitHub may temporarily require authentication for some clones and fetches of public repositories over HTTPS to help protect github.com’s availability.",
-      "url": "https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication",
-      "source": "GitHub Changelog",
-      "published_at": "2026-10-19T10:37:30+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "github",
-        "developer-tools"
+        "retro",
+        "gaming"
       ],
       "article_type": "news"
     },
@@ -135,54 +174,54 @@
       "article_type": "news"
     },
     {
-      "title": "Grab Reduces ANRs by 32% and improves startup time by 35% with R8 and Profile guided optimization",
-      "summary": "To eliminate ANR’s and improve startup times, Grab implemented R8 optimizations, Baseline Profiles, and Startup Profiles. Profile guided optimization alongside the R8 optimizer delivered an immediate 12% cold start improvement from R8 and an additional 15% from Baseline Profiles—achieving a 27% faster startup time and effectively eliminating the post-release ANR spikes.",
-      "url": "https://developer.android.com/blog/posts/grab-r8-profile-guided-optimization-anr-startup-time",
-      "source": "Android Developers",
-      "published_at": "2026-10-19T00:00:00+00:00",
-      "category": "android",
+      "title": "Single-partition encrypted NetBSD 11 root",
+      "summary": "This is a quick overview which attempts to synthesize DW Armstrong’s tutorial on NetBSD encryption with the cgdroot page from the NetBSD wiki in a single MBR partition, divided into multiple disklabel slices to preserve MBR entries.",
+      "url": "https://www.osnews.com/story/146193/single-partition-encrypted-netbsd-11-root",
+      "source": "OSNews",
+      "published_at": "2026-10-19T06:31:23+00:00",
+      "category": "open_source",
       "tags": [
-        "android",
-        "developers"
+        "operating-systems",
+        "open-source"
       ],
-      "article_type": "technical_article"
+      "article_type": "news"
     },
     {
-      "title": "llm-tools-datasette 0.1.1",
-      "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it.",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
-      "source": "Simon Willison",
-      "published_at": "2026-10-18T23:43:09+00:00",
-      "category": "agent_tools",
+      "title": "Apple Seeds macOS Golden Gate 27.2 Release Candidate to Developers",
+      "summary": "Apple is testing the next macOS Golden Gate update, and developers can download the ‌macOS Golden Gate‌ 27.2 release candidate. The RC comes a week after Apple released the fourth beta.",
+      "url": "https://www.macrumors.com/2026/10/19/apple-seeds-macos-golden-gate-27-2-rc",
+      "source": "MacRumors",
+      "published_at": "2026-10-19T17:28:17+00:00",
+      "category": "macos",
       "tags": [
-        "ai",
-        "developer-tools"
+        "apple",
+        "devices"
       ],
-      "article_type": "release"
+      "article_type": "news"
     },
     {
-      "title": "llm-echo 0.5",
-      "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it.",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-echo",
-      "source": "Simon Willison",
-      "published_at": "2026-10-18T23:16:16+00:00",
-      "category": "agent_tools",
+      "title": "Hackers hijack AOMEI update servers to secretly spread malware",
+      "summary": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state to hide the attacks.",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-19T15:40:58-04:00",
+      "category": "security",
       "tags": [
-        "ai",
-        "developer-tools"
+        "security",
+        "cybersecurity"
       ],
-      "article_type": "release"
+      "article_type": "news"
     },
     {
-      "title": "Tito’s Ultimate Atari Jaguar Upgrades",
-      "summary": "Zaxour released a bunch of upgrades for the motherboard that may be worth considering. There’s a power protection mod, as well as a full power circuit replacement, which can revive a Jaguar that’s been shorted out by using the wrong PSU.",
-      "url": "https://retrorgb.com/titos-ultimate-atari-jaguar-upgrades.html",
-      "source": "RetroRGB",
-      "published_at": "2026-10-18T22:23:31+00:00",
-      "category": "retro_gaming",
+      "title": "Btrfs Brings More Performance Improvements For Linux 7.4",
+      "summary": "With Linux 7.3 there are some nice Btrfs performance improvements to enjoy while the in-development Linux 7.4 kernel is set to bring some additional performance optimizations for this copy-on-write file-system.",
+      "url": "https://www.phoronix.com/news/Linux-7.4-Btrfs",
+      "source": "Phoronix",
+      "published_at": "2026-10-19T14:17:17-04:00",
+      "category": "linux",
       "tags": [
-        "retro",
-        "gaming"
+        "linux",
+        "open-source"
       ],
       "article_type": "news"
     },
@@ -198,6 +237,97 @@
         "gaming"
       ],
       "article_type": "news"
+    },
+    {
+      "title": "llm-tools-datasette 0.1.1",
+      "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it.",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
+      "source": "Simon Willison",
+      "published_at": "2026-10-18T23:43:09+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "ai",
+        "developer-tools"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Apple Releases iOS 27.2 Release Candidate",
+      "summary": "Apple today seeded the release candidate of an upcoming iOS 27.2 update to developers for testing purposes, with the update coming a week after Apple released the fourth iOS 27.2 beta.",
+      "url": "https://www.macrumors.com/2026/10/19/apple-releases-ios-27-2-rc",
+      "source": "MacRumors",
+      "published_at": "2026-10-19T17:26:37+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Intel Working To Add XMX-Accelerated XeSS To Valve's Steam Play (Proton)",
+      "summary": "An Intel engineer opened the pull requests today for adding Intel XeSS support to Valve's Proton for Steam Play along with associated changes to VKD3D-Proton and DXVK.",
+      "url": "https://www.phoronix.com/news/Intel-XeSS-Steam-Play-Proton",
+      "source": "Phoronix",
+      "published_at": "2026-10-19T13:00:49-04:00",
+      "category": "hardware",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "llm-echo 0.5",
+      "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it.",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo",
+      "source": "Simon Willison",
+      "published_at": "2026-10-18T23:16:16+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "ai",
+        "developer-tools"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2 rolling out",
+      "summary": "In addition to macOS 27.2 Golden Gate RC 1, Apple is also rolling out the third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2.",
+      "url": "https://9to5mac.com/2026/10/19/third-rcs-for-macos-sequoia-15-8-2-and-macos-tahoe-26-7-2-rolling-out",
+      "source": "9to5Mac",
+      "published_at": "2026-10-19T17:30:24+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "One-stop Tool Shows Apple Intelligence The Door",
+      "summary": "What’s refreshingly nice about the tool is how transparent it is about what each setting or preset will change, and communicates clearly what exactly one loses access to by disabling it.",
+      "url": "https://hackaday.com/2026/10/19/one-stop-tool-shows-apple-intelligence-the-door",
+      "source": "Hackaday",
+      "published_at": "2026-10-19T15:30:11+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Grab Reduces ANRs by 32% and improves startup time by 35% with R8 and Profile guided optimization",
+      "summary": "To eliminate ANR’s and improve startup times, Grab implemented R8 optimizations, Baseline Profiles, and Startup Profiles. Profile guided optimization alongside the R8 optimizer delivered an immediate 12% cold start improvement from R8 and an additional 15% from Baseline Profiles—achieving a 27% faster startup time and effectively eliminating the post-release ANR spikes.",
+      "url": "https://developer.android.com/blog/posts/grab-r8-profile-guided-optimization-anr-startup-time",
+      "source": "Android Developers",
+      "published_at": "2026-10-19T00:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "developers"
+      ],
+      "article_type": "technical_article"
     }
   ]
 }
