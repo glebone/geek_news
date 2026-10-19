@@ -1,9 +1,22 @@
 {
   "schema_version": 1,
   "date": "2026-10-20",
-  "generated_at": "2026-10-19T21:32:53Z",
+  "generated_at": "2026-10-19T21:55:41Z",
   "count": 15,
   "articles": [
+    {
+      "title": "Linux 7.4 Sunsetting Old EDAC Drivers Due To \"AI Generated Fixes Frenzy\"",
+      "summary": "In addition to introducing the new Intel BFF driver, the Error Detection And Correction 'EDAC' kernel subsystem is sunsetting a number of old hardware drivers due to increased noise to AI/LLM-generated bug fixes for these likely unused or minimally used drivers.",
+      "url": "https://www.phoronix.com/news/Linux-7.4-EDAC",
+      "source": "Phoronix",
+      "published_at": "2026-10-19T17:38:28-04:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
     {
       "title": "Third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2 rolling out",
       "summary": "In addition to macOS 27.2 Golden Gate RC 1, Apple is also rolling out the third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2.",
@@ -88,19 +101,6 @@
       "url": "https://www.phoronix.com/news/Intel-XeSS-Steam-Play-Proton",
       "source": "Phoronix",
       "published_at": "2026-10-19T13:00:49-04:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Linux In 2026 Continues Improving Support For Benefiting Old Atari & Amiga Hardware",
-      "summary": "The Motorola 68000 'm68k' CPU support continues being maintained in the mainline Linux kernel and continuing to see new hardware support for these vintage systems from the likes of Commodore Amiga, Atari, and early Apple Macintosh models.",
-      "url": "https://www.phoronix.com/news/Linux-7.4-m68k",
-      "source": "Phoronix",
-      "published_at": "2026-10-19T11:55:47-04:00",
       "category": "linux",
       "tags": [
         "linux",
