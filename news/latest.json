@@ -1,35 +1,9 @@
 {
   "schema_version": 1,
   "date": "2026-10-20",
-  "generated_at": "2026-10-19T21:27:41Z",
-  "count": 17,
+  "generated_at": "2026-10-19T21:29:12Z",
+  "count": 16,
   "articles": [
-    {
-      "title": "Apple Starts Moving Up iPhone Duo Delivery Dates",
-      "summary": "In the U.S., for example, well-known YouTuber Matt Gonzalez today said his iPhone Duo pre-order initially showed a December delivery estimate, but Apple's online store now shows him an earlier delivery estimate of between November 20 and November 30.",
-      "url": "https://www.macrumors.com/2026/10/19/apple-starts-moving-up-iphone-duo-delivery-dates",
-      "source": "MacRumors",
-      "published_at": "2026-10-19T19:31:47+00:00",
-      "category": "hardware",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Apple Says iPhone Duo Not Available on Walk-In Basis in Two Countries",
-      "summary": "For a limited time, the iPhone Duo and the iPhone 18 Pro Max will be limited to customers with a pickup reservation at Apple Stores in Japan and South Korea , according to notices posted on Apple's localized websites for those countries.",
-      "url": "https://www.macrumors.com/2026/10/19/apple-says-no-iphone-duo-walk-ins-japan-korea",
-      "source": "MacRumors",
-      "published_at": "2026-10-19T18:00:41+00:00",
-      "category": "hardware",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
     {
       "title": "Third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2 rolling out",
       "summary": "In addition to macOS 27.2 Golden Gate RC 1, Apple is also rolling out the third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2.",
@@ -57,8 +31,34 @@
       "article_type": "news"
     },
     {
+      "title": "Apple Releases iOS 27.2 Release Candidate",
+      "summary": "Apple today seeded the release candidate of an upcoming iOS 27.2 update to developers for testing purposes, with the update coming a week after Apple released the fourth iOS 27.2 beta.",
+      "url": "https://www.macrumors.com/2026/10/19/apple-releases-ios-27-2-rc",
+      "source": "MacRumors",
+      "published_at": "2026-10-19T17:26:37+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "RIP, MacBook Ultra",
+      "summary": "Apple today sent out invites for an experience in Los Angeles on Wednesday, October 28 , and the \"Pro and tell\" tagline on the invitation likely means that the rumored MacBook models with touch-enabled OLED displays will stick with MacBook Pro branding instead of the once-rumored \"MacBook Ultra\" name .",
+      "url": "https://www.macrumors.com/2026/10/19/rip-macbook-ultra",
+      "source": "MacRumors",
+      "published_at": "2026-10-19T16:37:40+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
       "title": "Re-Interlacing Bob Deinterlaced 480p",
-      "summary": "You then check your capture card as shown in the video and realize yours can’t capture interlaced video – It automatically deinterlaces all 480i content to 480p.",
+      "summary": "So as I’ve “warned” many times in this post: This “re-interlacing bob 480p” method SEEMS to work fine, but I’m not sure how this method would hold up after capturing an entire tape.",
       "url": "https://retrorgb.com/re-interlacing-bob-deinterlaced-480p.html",
       "source": "RetroRGB",
       "published_at": "2026-10-19T15:25:16+00:00",
@@ -71,7 +71,7 @@
     },
     {
       "title": "NordVPN 6.0 for Linux will feature ‘breaking changes’",
-      "summary": "The NordVPN 6.0 update, which is coming soon and not yet out, “cuts down” the amount of commands which “overlap”. The company say this will make it easier for users to enable and configure VPN settings.",
+      "summary": "NordVPN say some of the ‘breaking changes’ will affect scripts, cron jobs, systemd unit, etc that interface with its CLI. It’s therefore signposting all of this advance, so users have time to update any affected configurations before it lands.",
       "url": "https://www.omgubuntu.co.uk/2026/10/nordvpn-6-0-linux-cli-changes",
       "source": "OMG! Ubuntu",
       "published_at": "2026-10-19T15:17:45+00:00",
@@ -79,19 +79,6 @@
       "tags": [
         "ubuntu",
         "desktop"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Moto Tag 2 is no longer $19.99 as the UWB tracker gears up for Pixel Tag competition",
-      "summary": "Motorola has finally ended its introductory price on the Moto Tag 2 tracker for Android Find Hub, and it couldn't come at a worse time.",
-      "url": "https://9to5google.com/2026/10/19/moto-tag-2-price",
-      "source": "9to5Google",
-      "published_at": "2026-10-19T14:55:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
       ],
       "article_type": "news"
     },
@@ -162,7 +149,7 @@
     },
     {
       "title": "Grab Reduces ANRs by 32% and improves startup time by 35% with R8 and Profile guided optimization",
-      "summary": "Prior to optimizing its build process, Grab faced cold start delays and App Not Responding (ANR) spikes immediately following new updates, primarily driven by the overhead of reading many DEX files during app initialization.",
+      "summary": "To eliminate ANR’s and improve startup times, Grab implemented R8 optimizations, Baseline Profiles, and Startup Profiles. Profile guided optimization alongside the R8 optimizer delivered an immediate 12% cold start improvement from R8 and an additional 15% from Baseline Profiles—achieving a 27% faster startup time and effectively eliminating the post-release ANR spikes.",
       "url": "https://developer.android.com/blog/posts/grab-r8-profile-guided-optimization-anr-startup-time",
       "source": "Android Developers",
       "published_at": "2026-10-19T00:00:00+00:00",
@@ -201,7 +188,7 @@
     },
     {
       "title": "Tito’s Ultimate Atari Jaguar Upgrades",
-      "summary": "If you don’t have one, what better time than now? That’s an eBay paid affiliate link . If I don’t annoyingly put this here, they’ll harass me.",
+      "summary": "https://youtu.be/7JGbhnN1lcY Tito from Macho Nacho Productions recently posted a video showing how he fully restored his Atari Jaguar. This is exactly what I'd do to a Jaguar as well and even if you don't feel the need to upgrade yours, definitely check out the recommended maintenance and at lea",
       "url": "https://retrorgb.com/titos-ultimate-atari-jaguar-upgrades.html",
       "source": "RetroRGB",
       "published_at": "2026-10-18T22:23:31+00:00",
