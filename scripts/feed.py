@@ -37,7 +37,8 @@ MAX_PER_CATEGORY = 4
 SELECTION_CATEGORY_LIMITS = {
     "linux": 6, "open_source": 6, "programming": 5,
     "functional_programming": 4, "ai": 4, "agent_tools": 5,
-    "hardware": 2, "macos": 2, "ios": 2, "android": 2,
+    "hardware": 1, "macos": 2, "ios": 2, "android": 2,
+    "retro_gaming": 2,
     "security": 1, "privacy": 1,
 }
 PREFERRED_CATEGORIES = ("open_source", "linux", "programming", "functional_programming",
