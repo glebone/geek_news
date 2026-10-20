@@ -23,7 +23,7 @@
   {"name":"Elixir Blog","url":"https://elixir-lang.org/atom.xml","category":"functional_programming","article_type":"technical_article","tags":["elixir","functional-programming"]},
   {"name":"Chromium Blog","url":"https://blog.chromium.org/feeds/posts/default?alt=rss","category":"web_platform","article_type":"news","tags":["chromium","browser"]},
   {"name":"Mozilla Hacks","url":"https://hacks.mozilla.org/feed/","category":"web_platform","article_type":"technical_article","tags":["mozilla","web"]},
-  {"name":"Cloudflare Blog","url":"https://blog.cloudflare.com/rss/","category":"cloud","article_type":"technical_article","tags":["DNS","network","developer","performance","open source","Rust","Cloudflare Workers","AI"]},
+  {"name":"Cloudflare Blog","url":"https://blog.cloudflare.com/rss/","category":"cloud","article_type":"technical_article","tags":["cloud","infrastructure"],"title_keywords":["DNS","network","developer","performance","open source","Rust","Cloudflare Workers","AI"]},
   {"name":"Raspberry Pi","url":"https://www.raspberrypi.com/news/feed/","category":"hardware","article_type":"news","tags":["raspberry-pi","hardware"]},
   {"name":"Hackaday","url":"https://hackaday.com/blog/feed/","category":"hardware","article_type":"news","tags":["hardware","maker"]},
   {"name":"OSNews","url":"https://www.osnews.com/feed/","category":"open_source","article_type":"news","tags":["operating-systems","open-source"],"title_keywords":["Linux","FreeBSD","OpenBSD","NetBSD","Haiku","Amiga","Atari","open source","FOSS","retro","vintage"],"priority":0},

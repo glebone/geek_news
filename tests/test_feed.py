@@ -20,6 +20,15 @@ def edition(count, version=2):
 
 
 class FeedTests(unittest.TestCase):
+    def test_configured_source_tags_are_valid(self):
+        root = Path(__file__).resolve().parents[1]
+        for source in json.loads((root / "config/sources.json").read_text()):
+            with self.subTest(source=source["name"]):
+                tags = source["tags"]
+                self.assertTrue(2 <= len(tags) <= 5)
+                self.assertEqual(len(tags), len(set(tags)))
+                self.assertTrue(all(tag == tag.lower() for tag in tags))
+
     def test_valid_and_duplicate_urls(self):
         item = edition(10)
         self.assertTrue(feed.validate(item))
