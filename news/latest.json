@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "date": "2026-10-20",
-  "generated_at": "2026-10-20T10:41:52Z",
-  "count": 23,
+  "generated_at": "2026-10-20T13:32:43Z",
+  "count": 25,
   "articles": [
     {
-      "title": "Helldivers 2 switches over from GameGuard to Easy Anti-Cheat",
-      "summary": "While it's still unavailable in the UK along with some other Sony published games, Arrowhead have moved Helldivers 2 over to Easy Anti-Cheat. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/10/helldivers-2-switches-over-from-gameguard-to-easy-anti-cheat",
+      "title": "Here's the highlights from the recent 2026 Out of Bounds Showcase",
+      "summary": "Entalto Publishing recently held the second edition of its Out of Bounds Showcase, highlighting 16 indie games from developers around the world. The event featured new game announcements, gameplay trailers, playable demos, release date reveals and more.",
+      "url": "https://www.gamingonlinux.com/2026/10/heres-the-highlights-from-the-recent-2026-out-of-bounds-showcase",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-20T10:14:11+00:00",
+      "published_at": "2026-10-20T12:18:08+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -31,15 +31,15 @@
       "article_type": "technical_article"
     },
     {
-      "title": "How to continue a GitHub Copilot app session in VS Code",
-      "summary": "You don’t. You can open the Copilot app session directly in VS Code and continue with its conversation, code changes, and working context intact. That means Copilot can handle the repetitive or time-consuming work, then hand control back to you for closer review, hands-on editing, and local testing.",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
-      "source": "GitHub AI",
-      "published_at": "2026-10-19T18:47:22+00:00",
+      "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+      "summary": "That may be about to change, thanks to a manipulation architecture built by Eka Robotics, which encompasses a force-sensitive gripper and a new kind of deep-learning model.",
+      "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving",
+      "source": "TechCrunch AI",
+      "published_at": "2026-10-20T13:00:00+00:00",
       "category": "ai",
       "tags": [
         "ai",
-        "developer-tools"
+        "models"
       ],
       "article_type": "news"
     },
@@ -70,17 +70,30 @@
       "article_type": "news"
     },
     {
-      "title": "Visualize Regular Expressions with Marbles",
-      "summary": "If you are one of those people who visualize things physically better than in the abstract, then Regex Marble Run by [bottomless] might be for you.",
-      "url": "https://hackaday.com/2026/10/20/visualize-regular-expressions-with-marbles",
-      "source": "Hackaday",
-      "published_at": "2026-10-20T08:00:52+00:00",
+      "title": "Apple Says Nearly 100 iPhone Duo and iPhone 18 Pro Parts Made in USA",
+      "summary": "Apple today announced new and expanded partnerships with two U.S. companies for iPhone Duo and iPhone 18 Pro components and materials. Through its existing American Manufacturing Program, Apple said it will commit up to $100 million over the next three years to Pennsylvania-based manufacturer Perryman, which produces titanium used in iPhone Duo enclosures.",
+      "url": "https://www.macrumors.com/2026/10/20/apple-touts-iphone-duo-18-pro-parts-made-in-usa",
+      "source": "MacRumors",
+      "published_at": "2026-10-20T13:15:15+00:00",
       "category": "hardware",
       "tags": [
-        "hardware",
-        "maker"
+        "apple",
+        "devices"
       ],
       "article_type": "news"
+    },
+    {
+      "title": "Introducing tsrs: a Port of TypeScript to Rust",
+      "summary": "Cloudflare and VoidZero are now working with Max Schwenk of Owner.com on tsrs , a Rust port of the TypeScript compiler. We are doing this work in close collaboration with the TypeScript team, and incubating tsrs as part of the Oxc JavaScript compiler toolchain .",
+      "url": "https://blog.cloudflare.com/typescript-rust-port",
+      "source": "Cloudflare Blog",
+      "published_at": "2026-10-20T13:00:00+00:00",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "infrastructure"
+      ],
+      "article_type": "technical_article"
     },
     {
       "title": "What’s new in Android’s October 2026 Google System Updates [U]",
@@ -96,16 +109,15 @@
       "article_type": "news"
     },
     {
-      "title": "Here's some interesting Native Linux demos in Steam Next Fest Oct 26",
-      "summary": "For those of you who prefer games that have Native Linux versions, I've gone through Steam Next Fest - October 2026 edition to pick some out for you.",
-      "url": "https://www.gamingonlinux.com/2026/10/some-interesting-native-linux-demos-in-steam-next-fest-oct-26",
+      "title": "HEAT: Pedal to the Metal by Days of Wonder is getting an official video game adaptation",
+      "summary": "Play your cards strategically and push your engine to the limit in HEAT: Pedal to the Metal, an official digital adaptation of the award-winning board game.",
+      "url": "https://www.gamingonlinux.com/2026/10/heat-pedal-to-the-metal-by-days-of-wonder-is-getting-an-official-video-game-adaptation",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-20T09:51:03+00:00",
+      "published_at": "2026-10-20T11:39:54+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
-        "games",
-        "steam"
+        "games"
       ],
       "article_type": "news"
     },
@@ -124,15 +136,15 @@
       "article_type": "technical_article"
     },
     {
-      "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
-      "summary": "Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run.",
-      "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help",
-      "source": "The Decoder",
-      "published_at": "2026-10-18T12:39:51+00:00",
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "summary": "You don’t. You can open the Copilot app session directly in VS Code and continue with its conversation, code changes, and working context intact. That means Copilot can handle the repetitive or time-consuming work, then hand control back to you for closer review, hands-on editing, and local testing.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
+      "source": "GitHub AI",
+      "published_at": "2026-10-19T18:47:22+00:00",
       "category": "ai",
       "tags": [
         "ai",
-        "models"
+        "developer-tools"
       ],
       "article_type": "news"
     },
@@ -178,11 +190,11 @@
       "article_type": "news"
     },
     {
-      "title": "Time-looping claymation puzzle-platformer UvsU: You vs You launches in January 2027",
-      "summary": "Claymation is something I love to see more of and we're getting a fun looking treat here with the upcoming puzzle-platformer UvsU: You vs You.",
-      "url": "https://www.gamingonlinux.com/2026/10/time-looping-claymation-puzzle-platformer-uvsu-you-vs-you-launches-in-january-2027",
+      "title": "Unforgiving cave-exploration survival simulator Casualties: Unknown arrives November 9",
+      "summary": "What exactly is it then? Casualties: Unknown is a 2D cave-exploration survival simulator set beneath the surface of a hostile alien planet. Your captors want their lost cargo back, and they’ve sent you down to retrieve it.",
+      "url": "https://www.gamingonlinux.com/2026/10/unforgiving-cave-exploration-survival-simulator-casualties-unknown-arrives-november-9",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-20T09:46:18+00:00",
+      "published_at": "2026-10-20T11:15:02+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -191,17 +203,18 @@
       "article_type": "news"
     },
     {
-      "title": "AI agents have bad taste in long-term decisions and a new benchmark proves it",
-      "summary": "A new benchmark called Taste-Bench tests how well AI agents make strategic choices during long-running tasks. Even the best model, GPT-5.6 Sol, picks the right path on just under 60 percent of simple binary questions.",
-      "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it",
-      "source": "The Decoder",
-      "published_at": "2026-10-18T08:49:41+00:00",
+      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+      "summary": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss.",
+      "url": "https://arxiv.org/abs/2610.23866",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-20T00:00:00-04:00",
       "category": "ai",
       "tags": [
         "ai",
+        "research",
         "models"
       ],
-      "article_type": "news"
+      "article_type": "research"
     },
     {
       "title": "llm-echo 0.5",
@@ -232,16 +245,15 @@
       "article_type": "news"
     },
     {
-      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
-      "summary": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss.",
-      "url": "https://arxiv.org/abs/2610.23866",
+      "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
+      "summary": "There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more.",
+      "url": "https://arxiv.org/abs/2610.23921",
       "source": "arXiv cs.AI",
       "published_at": "2026-10-20T00:00:00-04:00",
       "category": "ai",
       "tags": [
         "ai",
-        "research",
-        "models"
+        "research"
       ],
       "article_type": "research"
     },
@@ -273,19 +285,6 @@
       "article_type": "news"
     },
     {
-      "title": "Third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2 rolling out",
-      "summary": "In addition to macOS 27.2 Golden Gate RC 1 , Apple is also rolling out the third developer and public RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2.",
-      "url": "https://9to5mac.com/2026/10/19/third-rcs-for-macos-sequoia-15-8-2-and-macos-tahoe-26-7-2-rolling-out",
-      "source": "9to5Mac",
-      "published_at": "2026-10-19T17:30:24+00:00",
-      "category": "macos",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
       "title": "GitHub Copilot models deprecated on October 19, 2026",
       "summary": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions).",
       "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
@@ -299,15 +298,41 @@
       "article_type": "news"
     },
     {
-      "title": "First Release Candidate for macOS 27.2 Golden Gate now available",
-      "summary": "Apple is rolling out the first RC for macOS 27.2 for developers and users enrolled in the public beta, ahead of the official release in the next few weeks.",
-      "url": "https://9to5mac.com/2026/10/19/first-release-candidate-for-macos-27-2-golden-gate-now-available",
-      "source": "9to5Mac",
-      "published_at": "2026-10-19T17:29:02+00:00",
+      "title": "Apple Seeds macOS Golden Gate 27.2 Release Candidate to Developers",
+      "summary": "Apple is testing the next macOS Golden Gate update, and developers can download the ‌macOS Golden Gate‌ 27.2 release candidate. The RC comes a week after Apple released the fourth beta.",
+      "url": "https://www.macrumors.com/2026/10/19/apple-seeds-macos-golden-gate-27-2-rc",
+      "source": "MacRumors",
+      "published_at": "2026-10-19T17:28:17+00:00",
       "category": "macos",
       "tags": [
         "apple",
         "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple Releases iOS 27.2 Release Candidate",
+      "summary": "Apple today seeded the release candidate of an upcoming iOS 27.2 update to developers for testing purposes, with the update coming a week after Apple released the fourth iOS 27.2 beta.",
+      "url": "https://www.macrumors.com/2026/10/19/apple-releases-ios-27-2-rc",
+      "source": "MacRumors",
+      "published_at": "2026-10-19T17:26:37+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "BleachBit 6.0.6 released with fixes for admin cleaning on Linux",
+      "summary": "Elsewhere on Linux, issues running BleachBit as Administrator (a separate mode for cleaning system files) on RedHat were resolved by using pkexec . This is also recommended if using admin mode on Ubuntu with a .deb-installed build.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/bleachbit-606-update-speed-boost",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-19T23:57:44+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
       ],
       "article_type": "news"
     }
