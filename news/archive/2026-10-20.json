@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "date": "2026-10-20",
-  "generated_at": "2026-10-20T10:35:35Z",
+  "generated_at": "2026-10-20T10:39:51Z",
   "count": 25,
   "articles": [
     {
@@ -14,6 +14,32 @@
       "tags": [
         "linux-gaming",
         "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Get Your .NET MAUI App Ready for Xcode 27",
+      "summary": "Your existing .NET MAUI app builds with Xcode 27, installs on an iPhone running iOS 27, shows its splash screen, and then disappears. Not exactly the grand entrance you were hoping for.",
+      "url": "https://devblogs.microsoft.com/dotnet/migrate-dotnet-maui-apps-uikit-scene-lifecycle",
+      "source": "dotnet Blog",
+      "published_at": "2026-10-19T16:05:00+00:00",
+      "category": "programming",
+      "tags": [
+        "dotnet",
+        "programming"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "summary": "You don’t. You can open the Copilot app session directly in VS Code and continue with its conversation, code changes, and working context intact. That means Copilot can handle the repetitive or time-consuming work, then hand control back to you for closer review, hands-on editing, and local testing.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
+      "source": "GitHub AI",
+      "published_at": "2026-10-19T18:47:22+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "developer-tools"
       ],
       "article_type": "news"
     },
@@ -71,7 +97,7 @@
     },
     {
       "title": "WhatsApp may soon let iPhone users open any link in an in-app browser",
-      "summary": "After introducing limited in-app browser support for certain business links last year, WhatsApp is now working on expanding the feature to all links shared in chats.",
+      "summary": "Users will be able to enable the in-app browser from the app settings. Here, WhatsApp will add a new option called “In-app browser”. When users enable this feature, they will be able to open any link they send and receive in the chat screen.",
       "url": "https://9to5mac.com/2026/10/19/whatsapp-may-soon-let-iphone-users-open-any-link-in-an-in-app-browser",
       "source": "9to5Mac",
       "published_at": "2026-10-20T00:01:33+00:00",
@@ -96,6 +122,19 @@
       "article_type": "news"
     },
     {
+      "title": "What’s new in Android’s October 2026 Google System Updates [U]",
+      "summary": "The monthly “ Google System Release Notes ” primarily detail what’s new in Play services, Play Store, and Play system update across Android phones/tablets, Wear OS, Google/Android TV, Auto, and PC.",
+      "url": "https://9to5google.com/2026/10/19/october-2026-google-system-updates",
+      "source": "9to5Google",
+      "published_at": "2026-10-19T22:43:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
       "title": "Here's some interesting Native Linux demos in Steam Next Fest Oct 26",
       "summary": "For those of you who prefer games that have Native Linux versions, I've gone through Steam Next Fest - October 2026 edition to pick some out for you.",
       "url": "https://www.gamingonlinux.com/2026/10/some-interesting-native-linux-demos-in-steam-next-fest-oct-26",
@@ -110,18 +149,31 @@
       "article_type": "news"
     },
     {
-      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
-      "summary": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss.",
-      "url": "https://arxiv.org/abs/2610.23866",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-10-20T00:00:00-04:00",
+      "title": "Bring Your Own Model to the GitHub Copilot SDK with C#",
+      "summary": "The GitHub Copilot SDK gives your application an agent runtime. BYOK lets you keep that runtime while sending model requests to your own Microsoft Foundry or Azure OpenAI deployment.",
+      "url": "https://devblogs.microsoft.com/dotnet/bring-your-own-model-to-the-github-copilot-sdk-with-csharp",
+      "source": "dotnet Blog",
+      "published_at": "2026-10-19T16:00:00+00:00",
+      "category": "programming",
+      "tags": [
+        "dotnet",
+        "programming",
+        "models"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Stripe says AI agent purchases are adding up, but it won't share the numbers",
+      "summary": "AI agents are increasingly using Stripe's payment service Link to shop for their users, Upstarts Media reports. The article Stripe says AI agent purchases are adding up, but it won't share the numbers appeared first on The Decoder .",
+      "url": "https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers",
+      "source": "The Decoder",
+      "published_at": "2026-10-19T12:51:12+00:00",
       "category": "ai",
       "tags": [
         "ai",
-        "research",
         "models"
       ],
-      "article_type": "research"
+      "article_type": "news"
     },
     {
       "title": "llm-tools-datasette 0.1.1",
@@ -178,17 +230,17 @@
       "article_type": "news"
     },
     {
-      "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
-      "summary": "There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more.",
-      "url": "https://arxiv.org/abs/2610.23921",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-10-20T00:00:00-04:00",
+      "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
+      "summary": "Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run.",
+      "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help",
+      "source": "The Decoder",
+      "published_at": "2026-10-18T12:39:51+00:00",
       "category": "ai",
       "tags": [
         "ai",
-        "research"
+        "models"
       ],
-      "article_type": "research"
+      "article_type": "news"
     },
     {
       "title": "llm-echo 0.5",
@@ -232,9 +284,9 @@
       "article_type": "news"
     },
     {
-      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
-      "summary": "We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) evidence with reference-based LLM reasoning and deterministic validation.",
-      "url": "https://arxiv.org/abs/2610.23962",
+      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+      "summary": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss.",
+      "url": "https://arxiv.org/abs/2610.23866",
       "source": "arXiv cs.AI",
       "published_at": "2026-10-20T00:00:00-04:00",
       "category": "ai",
@@ -244,6 +296,19 @@
         "models"
       ],
       "article_type": "research"
+    },
+    {
+      "title": "Android Auto ‘Work Account’ support would allow for easy switching in work vehicles",
+      "summary": "Work Account support in Android Auto would be a great addition for work or corporate vehicles. Those who spend work hours behind the wheel are missing out on support for those apps, hindering the experience Android Auto tries to provide.",
+      "url": "https://9to5google.com/2026/10/19/android-auto-tests-work-account-support",
+      "source": "9to5Google",
+      "published_at": "2026-10-19T16:07:32+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
     },
     {
       "title": "Copilot model policy API for enterprise, orgs, and teams",
@@ -269,71 +334,6 @@
       "tags": [
         "github",
         "developer-tools"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2 rolling out",
-      "summary": "In addition to macOS 27.2 Golden Gate RC 1, Apple is also rolling out the third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2.",
-      "url": "https://9to5mac.com/2026/10/19/third-rcs-for-macos-sequoia-15-8-2-and-macos-tahoe-26-7-2-rolling-out",
-      "source": "9to5Mac",
-      "published_at": "2026-10-19T17:30:24+00:00",
-      "category": "macos",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Grab Reduces ANRs by 32% and improves startup time by 35% with R8 and Profile guided optimization",
-      "summary": "To eliminate ANR’s and improve startup times, Grab implemented R8 optimizations, Baseline Profiles, and Startup Profiles. Profile guided optimization alongside the R8 optimizer delivered an immediate 12% cold start improvement from R8 and an additional 15% from Baseline Profiles—achieving a 27% faster startup time and effectively eliminating the post-release ANR spikes.",
-      "url": "https://developer.android.com/blog/posts/grab-r8-profile-guided-optimization-anr-startup-time",
-      "source": "Android Developers",
-      "published_at": "2026-10-19T00:00:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "developers"
-      ],
-      "article_type": "technical_article"
-    },
-    {
-      "title": "Apple Seeds macOS Golden Gate 27.2 Release Candidate to Developers",
-      "summary": "Apple is testing the next macOS Golden Gate update, and developers can download the ‌macOS Golden Gate‌ 27.2 release candidate. The RC comes a week after Apple released the fourth beta.",
-      "url": "https://www.macrumors.com/2026/10/19/apple-seeds-macos-golden-gate-27-2-rc",
-      "source": "MacRumors",
-      "published_at": "2026-10-19T17:28:17+00:00",
-      "category": "macos",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Apple Releases iOS 27.2 Release Candidate",
-      "summary": "Apple today seeded the release candidate of an upcoming iOS 27.2 update to developers for testing purposes, with the update coming a week after Apple released the fourth iOS 27.2 beta.",
-      "url": "https://www.macrumors.com/2026/10/19/apple-releases-ios-27-2-rc",
-      "source": "MacRumors",
-      "published_at": "2026-10-19T17:26:37+00:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "BleachBit 6.0.6 released with fixes for admin cleaning on Linux",
-      "summary": "Elsewhere on Linux, issues running BleachBit as Administrator (a separate mode for cleaning system files) on RedHat were resolved by using pkexec . This is also recommended if using admin mode on Ubuntu with a .deb-installed build.",
-      "url": "https://www.omgubuntu.co.uk/2026/10/bleachbit-606-update-speed-boost",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-10-19T23:57:44+00:00",
-      "category": "linux",
-      "tags": [
-        "ubuntu",
-        "desktop"
       ],
       "article_type": "news"
     }
