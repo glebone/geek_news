@@ -1,9 +1,61 @@
 {
   "schema_version": 2,
   "date": "2026-10-20",
-  "generated_at": "2026-10-20T09:14:09Z",
+  "generated_at": "2026-10-20T10:35:35Z",
   "count": 25,
   "articles": [
+    {
+      "title": "Helldivers 2 switches over from GameGuard to Easy Anti-Cheat",
+      "summary": "While it's still unavailable in the UK along with some other Sony published games, Arrowhead have moved Helldivers 2 over to Easy Anti-Cheat. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/10/helldivers-2-switches-over-from-gameguard-to-easy-anti-cheat",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-20T10:14:11+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Code v2.1.304",
+      "summary": "Added decider: \"person\" to a mod's tool.check answer: only the permission dialog or a host's callback can approve the ask, and it is refused with the mod's reason where nobody can be asked.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+      "source": "Claude Code",
+      "published_at": "2026-10-19T21:34:39+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Re-Interlacing Bob Deinterlaced 480p",
+      "summary": "So as I’ve “warned” many times in this post: This “re-interlacing bob 480p” method SEEMS to work fine, but I’m not sure how this method would hold up after capturing an entire tape.",
+      "url": "https://retrorgb.com/re-interlacing-bob-deinterlaced-480p.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-19T15:25:16+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Revolut outage disrupts online banking operations worldwide",
+      "summary": "Since the incident began, thousands of users on the Downdetector outage tracking platform have reported issues with the Revolut app, mobile banking services, and transferring funds between accounts.",
+      "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-20T05:46:44-04:00",
+      "category": "security",
+      "tags": [
+        "security",
+        "cybersecurity"
+      ],
+      "article_type": "news"
+    },
     {
       "title": "Visualize Regular Expressions with Marbles",
       "summary": "If you are one of those people who visualize things physically better than in the abstract, then Regex Marble Run by [bottomless] might be for you.",
@@ -31,32 +83,6 @@
       "article_type": "news"
     },
     {
-      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
-      "summary": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss.",
-      "url": "https://arxiv.org/abs/2610.23866",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-10-20T00:00:00-04:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "BleachBit 6.0.6 released with fixes for admin cleaning on Linux",
-      "summary": "Elsewhere on Linux, issues running BleachBit as Administrator (a separate mode for cleaning system files) on RedHat were resolved by using pkexec . This is also recommended if using admin mode on Ubuntu with a .deb-installed build.",
-      "url": "https://www.omgubuntu.co.uk/2026/10/bleachbit-606-update-speed-boost",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-10-19T23:57:44+00:00",
-      "category": "linux",
-      "tags": [
-        "ubuntu",
-        "desktop"
-      ],
-      "article_type": "news"
-    },
-    {
       "title": "Require Police to Get a Warrant to Search ALPR Data",
       "summary": "The best way to eliminate these abusive searches is to end ALPR mass surveillance. Where these systems remain, however, courts and state legislatures must require police to get a warrant before searching stored ALPR data.",
       "url": "https://www.eff.org/deeplinks/2026/10/require-police-get-warrant-search-alpr-data",
@@ -70,37 +96,53 @@
       "article_type": "news"
     },
     {
-      "title": "Copilot model policy API for enterprise, orgs, and teams",
-      "summary": "Together, these endpoints make it easier to manage Copilot model availability across your enterprise. Enterprise policies can delegate model control to organizations in organization mode, or to teams and apps in enterprise teams mode.",
-      "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
-      "source": "GitHub Changelog",
-      "published_at": "2026-10-19T21:32:18+00:00",
+      "title": "Here's some interesting Native Linux demos in Steam Next Fest Oct 26",
+      "summary": "For those of you who prefer games that have Native Linux versions, I've gone through Steam Next Fest - October 2026 edition to pick some out for you.",
+      "url": "https://www.gamingonlinux.com/2026/10/some-interesting-native-linux-demos-in-steam-next-fest-oct-26",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-20T09:51:03+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+      "summary": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss.",
+      "url": "https://arxiv.org/abs/2610.23866",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-20T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research",
+        "models"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "llm-tools-datasette 0.1.1",
+      "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it.",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
+      "source": "Simon Willison",
+      "published_at": "2026-10-18T23:43:09+00:00",
       "category": "agent_tools",
       "tags": [
-        "github",
-        "developer-tools"
+        "ai",
+        "developer-tools",
+        "models"
       ],
-      "article_type": "news"
+      "article_type": "release"
     },
     {
-      "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-      "summary": "This is the third cybersecurity incident that Nikkei disclosed recently. Earlier this month, the company disclosed a breach that occurred in late July, when hackers compromised an employee's Google Workspace account and accessed personal information belonging to employees and business partners.",
-      "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-19T17:49:48-04:00",
-      "category": "security",
-      "tags": [
-        "security",
-        "cybersecurity"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Re-Interlacing Bob Deinterlaced 480p",
-      "summary": "So as I’ve “warned” many times in this post: This “re-interlacing bob 480p” method SEEMS to work fine, but I’m not sure how this method would hold up after capturing an entire tape.",
-      "url": "https://retrorgb.com/re-interlacing-bob-deinterlaced-480p.html",
+      "title": "Tito’s Ultimate Atari Jaguar Upgrades",
+      "summary": "Zaxour released a bunch of upgrades for the motherboard that may be worth considering. There’s a power protection mod, as well as a full power circuit replacement, which can revive a Jaguar that’s been shorted out by using the wrong PSU.",
+      "url": "https://retrorgb.com/titos-ultimate-atari-jaguar-upgrades.html",
       "source": "RetroRGB",
-      "published_at": "2026-10-19T15:25:16+00:00",
+      "published_at": "2026-10-18T22:23:31+00:00",
       "category": "retro_gaming",
       "tags": [
         "retro",
@@ -117,20 +159,21 @@
       "category": "open_source",
       "tags": [
         "operating-systems",
-        "open-source"
+        "open-source",
+        "openbsd"
       ],
       "article_type": "news"
     },
     {
-      "title": "Birduino Plays Bird Calls on Demand with NFC-enabled Cards",
-      "summary": "All [Hannah Robertson]’s Birduino needs is for one to tap an NFC-enabled card to the reader, and the device plays one of the vocalizations associated with the bird shown on the card.",
-      "url": "https://hackaday.com/2026/10/19/birduino-plays-bird-calls-on-demand-with-nfc-enabled-cards",
-      "source": "Hackaday",
-      "published_at": "2026-10-20T05:00:25+00:00",
-      "category": "hardware",
+      "title": "Time-looping claymation puzzle-platformer UvsU: You vs You launches in January 2027",
+      "summary": "Claymation is something I love to see more of and we're getting a fun looking treat here with the upcoming puzzle-platformer UvsU: You vs You.",
+      "url": "https://www.gamingonlinux.com/2026/10/time-looping-claymation-puzzle-platformer-uvsu-you-vs-you-launches-in-january-2027",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-20T09:46:18+00:00",
+      "category": "linux",
       "tags": [
-        "hardware",
-        "maker"
+        "linux-gaming",
+        "games"
       ],
       "article_type": "news"
     },
@@ -148,28 +191,71 @@
       "article_type": "research"
     },
     {
-      "title": "From personas to archetypes: a living, shared understanding of the people we build for (Part 1 of 2)",
-      "summary": "The archetypes are the broad, portfolio-wide view. Our User Science team maintains them centrally. Underneath, teams build contextual personas for their own feature or product launch, owned by the team using them.",
-      "url": "https://ubuntu.com//blog/from-personas-to-archetypes",
-      "source": "Ubuntu Blog",
-      "published_at": "2026-10-19T23:07:00+00:00",
-      "category": "linux",
+      "title": "llm-echo 0.5",
+      "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it.",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo",
+      "source": "Simon Willison",
+      "published_at": "2026-10-18T23:16:16+00:00",
+      "category": "agent_tools",
       "tags": [
-        "ubuntu",
-        "linux"
+        "ai",
+        "developer-tools",
+        "models"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "RetroTINK 4K Pro – Lumacode, CRT Beam and IVTC Updates",
+      "summary": "Mike Chi has released some firmware updates, with more stable Lumacode support, optimizations and bugfixes for the 6x CE, 4K CE and 4K Pro. There were also some updates to Pro-only features like IVTC and CRT Beam Emulation BFI.",
+      "url": "https://retrorgb.com/retrotink-4k-pro-lumacode-crt-beam-and-ivtc-updates.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-17T17:09:27+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
       ],
       "article_type": "news"
     },
     {
-      "title": "Announcing Privacy Badger for Safari on macOS",
-      "summary": "If you use Safari on macOS, give Privacy Badger a try. You’ll install Privacy Badger through the App Store on your macOS device. Installing extensions is a little more complicated on Safari than other browsers, so follow Apple’s directions here if you’re having trouble.",
-      "url": "https://www.eff.org/deeplinks/2026/10/announcing-privacy-badger-safari-macos",
-      "source": "EFF Updates",
-      "published_at": "2026-10-19T17:59:22+00:00",
-      "category": "privacy",
+      "title": "Single-partition encrypted NetBSD 11 root",
+      "summary": "This is a quick overview which attempts to synthesize DW Armstrong’s tutorial on NetBSD encryption with the cgdroot page from the NetBSD wiki in a single MBR partition, divided into multiple disklabel slices to preserve MBR entries.",
+      "url": "https://www.osnews.com/story/146193/single-partition-encrypted-netbsd-11-root",
+      "source": "OSNews",
+      "published_at": "2026-10-19T06:31:23+00:00",
+      "category": "open_source",
       "tags": [
-        "privacy",
-        "digital-rights"
+        "operating-systems",
+        "open-source",
+        "netbsd"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
+      "summary": "We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) evidence with reference-based LLM reasoning and deterministic validation.",
+      "url": "https://arxiv.org/abs/2610.23962",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-20T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research",
+        "models"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Copilot model policy API for enterprise, orgs, and teams",
+      "summary": "Together, these endpoints make it easier to manage Copilot model availability across your enterprise. Enterprise policies can delegate model control to organizations in organization mode, or to teams and apps in enterprise teams mode.",
+      "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-19T21:32:18+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools",
+        "models"
       ],
       "article_type": "news"
     },
@@ -187,147 +273,69 @@
       "article_type": "news"
     },
     {
-      "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
-      "summary": "Rank Math PRO is a WordPress search engine optimization (SEO) plugin that helps websites improve visibility in search results. It is the paid version of the free variant that is active on more than 4 million websites .",
-      "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-19T17:24:51-04:00",
-      "category": "security",
+      "title": "Third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2 rolling out",
+      "summary": "In addition to macOS 27.2 Golden Gate RC 1, Apple is also rolling out the third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2.",
+      "url": "https://9to5mac.com/2026/10/19/third-rcs-for-macos-sequoia-15-8-2-and-macos-tahoe-26-7-2-rolling-out",
+      "source": "9to5Mac",
+      "published_at": "2026-10-19T17:30:24+00:00",
+      "category": "macos",
       "tags": [
-        "security",
-        "cybersecurity"
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     },
     {
-      "title": "Tito’s Ultimate Atari Jaguar Upgrades",
-      "summary": "Zaxour released a bunch of upgrades for the motherboard that may be worth considering. There’s a power protection mod, as well as a full power circuit replacement, which can revive a Jaguar that’s been shorted out by using the wrong PSU.",
-      "url": "https://retrorgb.com/titos-ultimate-atari-jaguar-upgrades.html",
-      "source": "RetroRGB",
-      "published_at": "2026-10-18T22:23:31+00:00",
-      "category": "retro_gaming",
+      "title": "Grab Reduces ANRs by 32% and improves startup time by 35% with R8 and Profile guided optimization",
+      "summary": "To eliminate ANR’s and improve startup times, Grab implemented R8 optimizations, Baseline Profiles, and Startup Profiles. Profile guided optimization alongside the R8 optimizer delivered an immediate 12% cold start improvement from R8 and an additional 15% from Baseline Profiles—achieving a 27% faster startup time and effectively eliminating the post-release ANR spikes.",
+      "url": "https://developer.android.com/blog/posts/grab-r8-profile-guided-optimization-anr-startup-time",
+      "source": "Android Developers",
+      "published_at": "2026-10-19T00:00:00+00:00",
+      "category": "android",
       "tags": [
-        "retro",
-        "gaming"
+        "android",
+        "developers"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Apple Seeds macOS Golden Gate 27.2 Release Candidate to Developers",
+      "summary": "Apple is testing the next macOS Golden Gate update, and developers can download the ‌macOS Golden Gate‌ 27.2 release candidate. The RC comes a week after Apple released the fourth beta.",
+      "url": "https://www.macrumors.com/2026/10/19/apple-seeds-macos-golden-gate-27-2-rc",
+      "source": "MacRumors",
+      "published_at": "2026-10-19T17:28:17+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     },
     {
-      "title": "Single-partition encrypted NetBSD 11 root",
-      "summary": "This is a quick overview which attempts to synthesize DW Armstrong’s tutorial on NetBSD encryption with the cgdroot page from the NetBSD wiki in a single MBR partition, divided into multiple disklabel slices to preserve MBR entries.",
-      "url": "https://www.osnews.com/story/146193/single-partition-encrypted-netbsd-11-root",
-      "source": "OSNews",
-      "published_at": "2026-10-19T06:31:23+00:00",
-      "category": "open_source",
+      "title": "Apple Releases iOS 27.2 Release Candidate",
+      "summary": "Apple today seeded the release candidate of an upcoming iOS 27.2 update to developers for testing purposes, with the update coming a week after Apple released the fourth iOS 27.2 beta.",
+      "url": "https://www.macrumors.com/2026/10/19/apple-releases-ios-27-2-rc",
+      "source": "MacRumors",
+      "published_at": "2026-10-19T17:26:37+00:00",
+      "category": "ios",
       "tags": [
-        "operating-systems",
-        "open-source"
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     },
     {
-      "title": "Making Photovoltaic Solar Cells with a Microwave",
-      "summary": "Although solar panels may seem like a kind of magic, they’re really quite simple devices, in their silicon form featuring nothing but the p-type silicon wafer and an n-type layer doped with e.g.",
-      "url": "https://hackaday.com/2026/10/19/making-photovoltaic-solar-cells-with-a-microwave",
-      "source": "Hackaday",
-      "published_at": "2026-10-20T02:00:38+00:00",
-      "category": "hardware",
-      "tags": [
-        "hardware",
-        "maker"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
-      "summary": "We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) evidence with reference-based LLM reasoning and deterministic validation.",
-      "url": "https://arxiv.org/abs/2610.23962",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-10-20T00:00:00-04:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "Audacious 4.6.2 fills the last gaps in its Qt Winamp mode",
-      "summary": "Audacious 4.6.2 lets you drop Winamp skin files onto the Qt window to install them, and adds keyboard navigation for toolbar buttons. You're reading Audacious 4.6.2 fills the last gaps in its Qt Winamp mode , a blog post from OMG!",
-      "url": "https://www.omgubuntu.co.uk/2026/10/audacious-update-qt-winamp-skins",
+      "title": "BleachBit 6.0.6 released with fixes for admin cleaning on Linux",
+      "summary": "Elsewhere on Linux, issues running BleachBit as Administrator (a separate mode for cleaning system files) on RedHat were resolved by using pkexec . This is also recommended if using admin mode on Ubuntu with a .deb-installed build.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/bleachbit-606-update-speed-boost",
       "source": "OMG! Ubuntu",
-      "published_at": "2026-10-19T22:38:14+00:00",
+      "published_at": "2026-10-19T23:57:44+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
         "desktop"
       ],
       "article_type": "news"
-    },
-    {
-      "title": "Some Git over HTTPS may temporarily require authentication",
-      "summary": "During periods of unusual traffic, GitHub may temporarily require authentication for some clones and fetches of public repositories over HTTPS to help protect github.com’s availability.",
-      "url": "https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication",
-      "source": "GitHub Changelog",
-      "published_at": "2026-10-19T10:37:30+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "github",
-        "developer-tools"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Hackers hijack AOMEI update servers to secretly spread malware",
-      "summary": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state to hide the attacks.",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-19T15:40:58-04:00",
-      "category": "security",
-      "tags": [
-        "security",
-        "cybersecurity"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "RetroTINK 4K Pro – Lumacode, CRT Beam and IVTC Updates",
-      "summary": "Mike Chi has released some firmware updates, with more stable Lumacode support, optimizations and bugfixes for the 6x CE, 4K CE and 4K Pro. There were also some updates to Pro-only features like IVTC and CRT Beam Emulation BFI.",
-      "url": "https://retrorgb.com/retrotink-4k-pro-lumacode-crt-beam-and-ivtc-updates.html",
-      "source": "RetroRGB",
-      "published_at": "2026-10-17T17:09:27+00:00",
-      "category": "retro_gaming",
-      "tags": [
-        "retro",
-        "gaming"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Linux 7.4 Sunsetting Old EDAC Drivers Due To \"AI Generated Fixes Frenzy\"",
-      "summary": "In addition to introducing the new Intel BFF driver, the Error Detection And Correction 'EDAC' kernel subsystem is sunsetting a number of old hardware drivers due to increased noise to AI/LLM-generated bug fixes for these likely unused or minimally used drivers.",
-      "url": "https://www.phoronix.com/news/Linux-7.4-EDAC",
-      "source": "Phoronix",
-      "published_at": "2026-10-19T17:38:28-04:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "llm-tools-datasette 0.1.1",
-      "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it.",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
-      "source": "Simon Willison",
-      "published_at": "2026-10-18T23:43:09+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "ai",
-        "developer-tools"
-      ],
-      "article_type": "release"
     }
   ]
 }
