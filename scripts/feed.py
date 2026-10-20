@@ -69,6 +69,8 @@ class ArticleLead(HTMLParser):
         self.descriptions = []
         self.paragraphs = []
         self.article_depth = 0
+        self.content_depth = 0
+        self.content_sections = 0
         self.in_paragraph = False
         self.chunks = []
 
@@ -78,7 +80,17 @@ class ArticleLead(HTMLParser):
             self.descriptions.append(attrs.get("content", ""))
         if tag == "article":
             self.article_depth += 1
-        if tag == "p" and self.article_depth:
+        if tag == "div":
+            if self.content_depth:
+                self.content_depth += 1
+            elif any(name in attrs.get("class", "").split() for name in ("post-content", "entry-content", "article-content")):
+                self.content_depth = 1
+        if tag == "section":
+            if self.content_sections:
+                self.content_sections += 1
+            elif "post__content" in attrs.get("class", "").split():
+                self.content_sections = 1
+        if tag == "p" and (self.article_depth or self.content_depth or self.content_sections):
             self.in_paragraph = True
             self.chunks = []
 
@@ -88,6 +100,10 @@ class ArticleLead(HTMLParser):
             self.in_paragraph = False
         if tag == "article" and self.article_depth:
             self.article_depth -= 1
+        if tag == "div" and self.content_depth:
+            self.content_depth -= 1
+        if tag == "section" and self.content_sections:
+            self.content_sections -= 1
 
     def handle_data(self, data):
         if self.in_paragraph:
@@ -221,7 +237,7 @@ def summarize(excerpt, page, title=""):
     for candidate in [*lead.paragraphs, *lead.descriptions, excerpt]:
         candidate = clean(candidate)
         candidate = re.sub(r"https?://\S+", "", candidate).strip()
-        if re.search(r"\b(affiliate|sponsored|eBay|Amazon|buy now|coupon|discount|subscribe)\b", candidate, re.I):
+        if re.search(r"\b(affiliate|sponsored|eBay|Amazon|buy now|coupon|discount|subscribe|ready to try it|sign up|download the .+ app)\b", candidate, re.I):
             continue
         if re.search(r"\bthe post .+ appeared first on\b", candidate, re.I):
             candidate = re.split(r"\bthe post .+ appeared first on\b", candidate, flags=re.I)[0].strip()

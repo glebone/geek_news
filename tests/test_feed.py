@@ -103,6 +103,12 @@ class FeedTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "relevant"):
             feed.summarize("short", page, "Atari Jaguar restoration")
 
+    def test_article_body_is_used_before_promotional_cta(self):
+        page = '''<section class="post__content"><p>The GitHub Copilot app session can be opened directly in VS Code with its conversation, code changes, and working context intact. Developers can inspect the diff, make edits, and run the project locally before sending their changes for review.</p><div class="post-content-cta"><p>Ready to try it? Download the GitHub Copilot app and open a session in VS Code to see all of the new tools available for your next software project today.</p></div></section>'''
+        summary = feed.summarize("", page, "GitHub Copilot app session in VS Code")
+        self.assertIn("working context intact", summary)
+        self.assertNotIn("Download", summary)
+
     def test_summary_rejects_incomplete_sentence(self):
         partial = "The team announced a new release with a long description of features and updates for developers who use the project every day, including a change to the"
         with self.assertRaisesRegex(ValueError, "relevant"):
