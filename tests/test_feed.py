@@ -13,7 +13,7 @@ import check_freshness
 
 def edition(count, version=2):
     articles = []
-    categories = ["linux", "programming", "ai", "hardware", "security", "web_platform", "retro_computing"]
+    categories = ["linux", "programming", "ai", "open_source", "agent_tools", "retro_computing", "retro_gaming"]
     for index in range(count):
         articles.append({"title": f"Distinct project {index} release notes", "summary": "The maintainers describe a specific new release and its changes for developers. The linked technical article explains the release details, compatibility considerations, and practical reasons readers may want to examine the update before adopting it in their own projects.", "url": f"https://source{index // 3}.example/item/{index}", "source": "Example", "published_at": None, "category": categories[index // 4], "tags": ["release", "tools"], "article_type": "release"})
     return {"schema_version": version, "date": "2026-10-20", "generated_at": "2026-10-19T22:00:00Z", "count": count, "articles": articles}
@@ -61,6 +61,21 @@ class FeedTests(unittest.TestCase):
         self.assertEqual(result["count"], 25)
         self.assertEqual(len({article["category"] for article in result["articles"][:7]}), 7)
 
+    def test_privacy_and_security_take_at_most_one_slot_each(self):
+        now = dt.datetime(2026, 10, 20, 5, tzinfo=dt.timezone.utc)
+        sample = edition(25)
+        for index, article in enumerate(sample["articles"][:6]):
+            article["category"] = "privacy" if index < 3 else "security"
+        candidates = [{"source_config": {"name": f"source-{index}", "category": article["category"]},
+                       "published_at": (now - dt.timedelta(minutes=index)).isoformat(), "article": article}
+                      for index, article in enumerate(sample["articles"])]
+        with patch.object(feed, "parse_source", return_value=candidates), \
+             patch.object(feed, "inspect_candidate", side_effect=lambda candidate: candidate["article"]), \
+             patch.object(feed, "recent_archive_keys", return_value=(set(), set())):
+            result = feed.build(now, sources=[{"name": "test"}])
+        self.assertEqual(sum(a["category"] == "privacy" for a in result["articles"]), 1)
+        self.assertEqual(sum(a["category"] == "security" for a in result["articles"]), 1)
+
     def test_kyiv_daylight_saving_dates(self):
         with patch.object(feed, "parse_source", return_value=[]), patch.object(feed, "recent_archive_keys", return_value=(set(), set())):
             for instant, expected in [("2026-03-28T22:30:00+00:00", "2026-03-29"),
@@ -92,6 +107,12 @@ class FeedTests(unittest.TestCase):
         partial = "The team announced a new release with a long description of features and updates for developers who use the project every day, including a change to the"
         with self.assertRaisesRegex(ValueError, "relevant"):
             feed.summarize(partial, "", "new release")
+
+    def test_release_note_uses_source_bullet(self):
+        notes = "<ul><li>Fixed startup.</li><li>Added a guided setup that reads the current project and recent sessions, then explains which settings affect local tool execution and how users can review the result before enabling the new workflow.</li></ul>"
+        summary = feed.summarize_release(notes)
+        self.assertTrue(summary.startswith("Added a guided setup"))
+        self.assertTrue(summary.endswith("."))
 
     def test_archive_source_excludes_unrelated_events(self):
         now = dt.datetime(2026, 10, 20, 5, tzinfo=dt.timezone.utc)

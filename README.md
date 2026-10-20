@@ -35,8 +35,10 @@ freshness, and failure handling in more detail.
 `config/sources.json` lists source-operated RSS/Atom feeds. The publisher
 checks recent timestamps, resolves each article over HTTPS, compares its
 title and excerpt with the destination page, excludes recent archive URLs,
-limits domains to three and categories to four, gives each topic a first
-chance, and validates the finished JSON. It targets 20–25 items. At least 10
+limits domains to three, gives each topic a first chance, and validates the
+finished JSON. The source mix favors BSD and Haiku, Linux gaming and software,
+programming, AI models and coding tools, and TUI projects. Privacy and security
+each have at most one slot per edition. It targets 20–25 items. At least 10
 are required; a 10–19 item run is logged as degraded. Fewer than 10 items
 leaves the previous public feed
 unchanged. The summaries are **extractive source text**, not model-written

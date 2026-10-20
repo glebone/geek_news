@@ -34,6 +34,14 @@ TARGET_ARTICLES = 20
 MAX_ARTICLES = 25
 MAX_PER_DOMAIN = 3
 MAX_PER_CATEGORY = 4
+SELECTION_CATEGORY_LIMITS = {
+    "linux": 6, "open_source": 6, "programming": 5,
+    "functional_programming": 4, "ai": 4, "agent_tools": 5,
+    "hardware": 2, "macos": 2, "ios": 2, "android": 2,
+    "security": 1, "privacy": 1,
+}
+PREFERRED_CATEGORIES = ("open_source", "linux", "programming", "functional_programming",
+                        "ai", "agent_tools", "retro_computing", "retro_gaming")
 
 
 class Text(HTMLParser):
@@ -150,11 +158,14 @@ def parse_source(source, now):
                     link = link_node.attrib.get("href", "")
                     break
         published = parse_date(child_text(item, {"pubDate", "published", "date"}) or child_text(item, {"updated"}))
-        excerpt = clean(child_text(item, {"description", "summary", "content", "encoded"}))
+        excerpt_html = child_text(item, {"description", "summary", "content", "encoded"})
+        excerpt = clean(excerpt_html)
         if not title or not link or not published:
             continue
         keywords = source.get("title_keywords", [])
         if keywords and not any(re.search(r"(?<!\w)" + re.escape(word) + r"(?!\w)", title, re.I) for word in keywords):
+            continue
+        if source.get("title_exclude_regex") and re.search(source["title_exclude_regex"], title, re.I):
             continue
         if re.search(r"\b(rumou?r|reportedly|leaked?|could|might|expected to)\b", title, re.I):
             continue
@@ -163,7 +174,9 @@ def parse_source(source, now):
         when = dt.datetime.fromisoformat(published)
         if when > now + dt.timedelta(hours=1) or when < now - dt.timedelta(hours=72):
             continue
-        result.append({"title": title, "url": link, "excerpt": excerpt, "published_at": published, "source_config": source})
+        result.append({"title": title, "url": link, "excerpt": excerpt,
+                       "excerpt_html": excerpt_html, "published_at": published,
+                       "source_config": source})
     return result
 
 
@@ -231,6 +244,18 @@ def summarize(excerpt, page, title=""):
     return max(candidates, key=lambda item: item[0])[1]
 
 
+def summarize_release(excerpt_html):
+    """Use a complete paragraph or bullet from source-authored release notes."""
+    pieces = re.findall(r"<(?:p|li)\b[^>]*>(.*?)</(?:p|li)>", excerpt_html, re.I | re.S)
+    for piece in pieces:
+        sentence = clean(piece).strip()
+        if re.search(r"\b(affiliate|sponsored|buy now|coupon|discount)\b", sentence, re.I):
+            continue
+        if 25 <= len(sentence.split()) <= 55:
+            return sentence if sentence.endswith((".", "!", "?")) else sentence + "."
+    raise ValueError("no complete 25-word release note")
+
+
 def inspect_candidate(candidate):
     url, data, content_type = fetch(candidate["url"])
     url = normalized_url(url)
@@ -249,7 +274,10 @@ def inspect_candidate(candidate):
     if excerpt_words and len(excerpt_words & page_words) < min(2, len(excerpt_words)):
         raise ValueError("feed excerpt not confirmed at destination")
     source = candidate["source_config"]
-    summary = summarize(candidate["excerpt"], page, candidate["title"])
+    summary = (summarize_release(candidate.get("excerpt_html", "")) if source.get("github_release")
+               else summarize(candidate["excerpt"], page, candidate["title"]))
+    if source.get("github_release") and len(set(words(summary)) & page_words) < 5:
+        raise ValueError("release note not confirmed at destination")
     if source["name"] in {"9to5Mac", "MacRumors", "9to5Google"} and re.search(r"\b(rumou?r(?:ed|s)?|reportedly|leaked?|could|might|likely|supposedly|expected to)\b", summary, re.I):
         raise ValueError("unconfirmed hardware rumor")
     category = source["category"]
@@ -264,6 +292,8 @@ def inspect_candidate(candidate):
     elif source["name"] == "Phoronix":
         if re.search(r"\b(Atari|Amiga|Commodore|m68k|vintage|retro)\b", title, re.I):
             category = "retro_computing"
+        elif re.search(r"\b(Steam|Steam Deck|Proton|VKD3D|DXVK|Wine|Vulkan|XeSS)\b", title, re.I):
+            category = "linux"
         elif re.search(r"\b(Intel|AMD|NVIDIA|Radeon|GeForce|GPU|CPU|XeSS)\b", title, re.I):
             category = "hardware"
     elif source["name"] in {"The Register", "OSNews", "Hackaday"}:
@@ -273,10 +303,20 @@ def inspect_candidate(candidate):
             category = "functional_programming"
         elif re.search(r"\b(Atari|Amiga|Commodore|vintage|retro|MS-DOS)\b", title, re.I):
             category = "retro_computing"
+    elif source["name"] == "Simon Willison" and re.search(r"\b(GPT|Claude|Gemini|Llama|Qwen|Mistral|model)\b", title, re.I):
+        category = "ai"
     article_type = "release" if source["name"] == "Simon Willison" and re.search(r"\b\d+\.\d+(?:\.\d+)?\b", candidate["title"]) else source["article_type"]
-    article = {"title": candidate["title"], "summary": summary, "url": url,
+    tags = list(source["tags"])
+    for pattern, tag in ((r"\bOpenBSD\b", "openbsd"), (r"\bNetBSD\b", "netbsd"),
+                         (r"\bFreeBSD\b", "freebsd"), (r"\bHaiku\b", "haiku"),
+                         (r"\bSteam\b", "steam"), (r"\bProton\b", "proton"),
+                         (r"\bTUI\b", "tui"), (r"\b(model|LLM|GPT|Claude|Gemini|Llama|Qwen)\b", "models")):
+        if len(tags) < 5 and tag not in tags and re.search(pattern, title, re.I):
+            tags.append(tag)
+    title = f"{source['name']} {title}" if source.get("github_release") else title
+    article = {"title": title, "summary": summary, "url": url,
                "source": source["name"], "published_at": candidate["published_at"],
-               "category": category, "tags": source["tags"],
+               "category": category, "tags": tags,
                "article_type": article_type}
     return article
 
@@ -307,7 +347,7 @@ def validate(edition, *, allow_seed=False):
         domain = urlparse(url).hostname
         domains[domain] = domains.get(domain, 0) + 1
         categories[article["category"]] = categories.get(article["category"], 0) + 1
-        if domains[domain] > MAX_PER_DOMAIN or categories[article["category"]] > MAX_PER_CATEGORY:
+        if domains[domain] > MAX_PER_DOMAIN or categories[article["category"]] > max(MAX_PER_CATEGORY, SELECTION_CATEGORY_LIMITS.get(article["category"], MAX_PER_CATEGORY)):
             raise ValueError("source or category cap exceeded")
         if article["category"] not in categories_allowed or article["article_type"] not in TYPES:
             raise ValueError("invalid category or type")
@@ -346,12 +386,16 @@ def build(now=None, *, sources=None):
                 candidates.extend(future.result())
             except Exception as exc:
                 errors.append(f"{futures[future]}: {type(exc).__name__}: {exc}")
-    candidates.sort(key=lambda item: item["published_at"], reverse=True)
+    candidates.sort(key=lambda item: dt.datetime.fromisoformat(item["published_at"]), reverse=True)
     # Give each topic a first chance before a busy feed consumes the budget.
     by_category = {}
     for candidate in candidates:
         by_category.setdefault(candidate["source_config"]["category"], []).append(candidate)
-    ordered = [candidate for row in zip_longest(*by_category.values())
+    for bucket in by_category.values():
+        bucket.sort(key=lambda candidate: candidate["source_config"].get("priority", 1))
+    category_order = sorted(by_category, key=lambda category:
+                            PREFERRED_CATEGORIES.index(category) if category in PREFERRED_CATEGORIES else len(PREFERRED_CATEGORIES))
+    ordered = [candidate for row in zip_longest(*(by_category[category] for category in category_order))
                for candidate in row if candidate is not None]
     selected, rejected, selected_sources = [], {}, {}
     seen, event_keys = recent_archive_keys(now)
@@ -367,7 +411,7 @@ def build(now=None, *, sources=None):
             category = article["category"]
             if url in seen or same_event(event, event_keys):
                 raise ValueError("duplicate or recent archive")
-            if domain_counts.get(domain, 0) >= MAX_PER_DOMAIN or category_counts.get(category, 0) >= MAX_PER_CATEGORY:
+            if domain_counts.get(domain, 0) >= MAX_PER_DOMAIN or category_counts.get(category, 0) >= SELECTION_CATEGORY_LIMITS.get(category, MAX_PER_CATEGORY):
                 raise ValueError("source or category cap")
             selected.append(article)
             selected_sources[article["source"]] = selected_sources.get(article["source"], 0) + 1

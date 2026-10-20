@@ -62,6 +62,9 @@ for a one-item parser fixture and the public feed for a production edition.
 - Version 2 production editions contain 10–25 articles. A 10–19 article
   edition is a degraded day; 20–25 is the target. If fewer than 10 pass validation,
   the publisher preserves the previous good `latest.json`.
+- Tags such as `openbsd`, `netbsd`, `haiku`, `linux-gaming`, `steam`, `tui`, and
+  `models` can drive interest filters in a reader. The publisher gives more
+  slots to those areas and limits privacy and security to one item each.
 
 ## Freshness and failures
 
