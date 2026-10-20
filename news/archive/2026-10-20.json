@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "date": "2026-10-20",
-  "generated_at": "2026-10-20T10:39:51Z",
+  "generated_at": "2026-10-20T10:41:52Z",
   "count": 25,
   "articles": [
     {
@@ -96,19 +96,6 @@
       "article_type": "news"
     },
     {
-      "title": "WhatsApp may soon let iPhone users open any link in an in-app browser",
-      "summary": "Users will be able to enable the in-app browser from the app settings. Here, WhatsApp will add a new option called “In-app browser”. When users enable this feature, they will be able to open any link they send and receive in the chat screen.",
-      "url": "https://9to5mac.com/2026/10/19/whatsapp-may-soon-let-iphone-users-open-any-link-in-an-in-app-browser",
-      "source": "9to5Mac",
-      "published_at": "2026-10-20T00:01:33+00:00",
-      "category": "hardware",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
       "title": "Require Police to Get a Warrant to Search ALPR Data",
       "summary": "The best way to eliminate these abusive searches is to end ALPR mass surveillance. Where these systems remain, however, courts and state legislatures must require police to get a warrant before searching stored ALPR data.",
       "url": "https://www.eff.org/deeplinks/2026/10/require-police-get-warrant-search-alpr-data",
@@ -163,11 +150,11 @@
       "article_type": "technical_article"
     },
     {
-      "title": "Stripe says AI agent purchases are adding up, but it won't share the numbers",
-      "summary": "AI agents are increasingly using Stripe's payment service Link to shop for their users, Upstarts Media reports. The article Stripe says AI agent purchases are adding up, but it won't share the numbers appeared first on The Decoder .",
-      "url": "https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers",
+      "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
+      "summary": "Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run.",
+      "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help",
       "source": "The Decoder",
-      "published_at": "2026-10-19T12:51:12+00:00",
+      "published_at": "2026-10-18T12:39:51+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -230,11 +217,11 @@
       "article_type": "news"
     },
     {
-      "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
-      "summary": "Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run.",
-      "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help",
+      "title": "AI agents have bad taste in long-term decisions and a new benchmark proves it",
+      "summary": "A new benchmark called Taste-Bench tests how well AI agents make strategic choices during long-running tasks. Even the best model, GPT-5.6 Sol, picks the right path on just under 60 percent of simple binary questions.",
+      "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it",
       "source": "The Decoder",
-      "published_at": "2026-10-18T12:39:51+00:00",
+      "published_at": "2026-10-18T08:49:41+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -255,19 +242,6 @@
         "models"
       ],
       "article_type": "release"
-    },
-    {
-      "title": "RetroTINK 4K Pro – Lumacode, CRT Beam and IVTC Updates",
-      "summary": "Mike Chi has released some firmware updates, with more stable Lumacode support, optimizations and bugfixes for the 6x CE, 4K CE and 4K Pro. There were also some updates to Pro-only features like IVTC and CRT Beam Emulation BFI.",
-      "url": "https://retrorgb.com/retrotink-4k-pro-lumacode-crt-beam-and-ivtc-updates.html",
-      "source": "RetroRGB",
-      "published_at": "2026-10-17T17:09:27+00:00",
-      "category": "retro_gaming",
-      "tags": [
-        "retro",
-        "gaming"
-      ],
-      "article_type": "news"
     },
     {
       "title": "Single-partition encrypted NetBSD 11 root",
@@ -325,6 +299,19 @@
       "article_type": "news"
     },
     {
+      "title": "Third RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2 rolling out",
+      "summary": "In addition to macOS 27.2 Golden Gate RC 1 , Apple is also rolling out the third developer and public RCs for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2.",
+      "url": "https://9to5mac.com/2026/10/19/third-rcs-for-macos-sequoia-15-8-2-and-macos-tahoe-26-7-2-rolling-out",
+      "source": "9to5Mac",
+      "published_at": "2026-10-19T17:30:24+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
       "title": "GitHub Copilot models deprecated on October 19, 2026",
       "summary": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions).",
       "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
@@ -334,6 +321,19 @@
       "tags": [
         "github",
         "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "First Release Candidate for macOS 27.2 Golden Gate now available",
+      "summary": "Apple is rolling out the first RC for macOS 27.2 for developers and users enrolled in the public beta, ahead of the official release in the next few weeks.",
+      "url": "https://9to5mac.com/2026/10/19/first-release-candidate-for-macos-27-2-golden-gate-now-available",
+      "source": "9to5Mac",
+      "published_at": "2026-10-19T17:29:02+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     }
