@@ -27,6 +27,7 @@ CATEGORIES_V1 = {"linux", "macos", "ios", "android", "hardware", "programming",
                  "functional_programming", "retro_computing", "retro_gaming", "ai",
                  "agent_tools", "open_source"}
 CATEGORIES = CATEGORIES_V1 | {"security", "privacy", "web_platform", "cloud"}
+EXCLUDED_CATEGORIES = {"security", "privacy"}
 TYPES = {"news", "release", "technical_article", "research", "rumor", "project"}
 STOP = {"the", "and", "for", "with", "from", "this", "that", "into", "your", "about", "their", "have", "will"}
 MIN_ARTICLES = 10
@@ -39,7 +40,6 @@ SELECTION_CATEGORY_LIMITS = {
     "functional_programming": 4, "ai": 4, "agent_tools": 5,
     "hardware": 1, "macos": 2, "ios": 2, "android": 2,
     "retro_gaming": 2,
-    "security": 1, "privacy": 1,
 }
 PREFERRED_CATEGORIES = ("open_source", "linux", "programming", "functional_programming",
                         "ai", "agent_tools", "retro_computing", "retro_gaming")
@@ -395,6 +395,7 @@ def recent_archive_keys(now):
 def build(now=None, *, sources=None):
     now = now or dt.datetime.now(dt.timezone.utc)
     sources = sources or json.loads((ROOT / "config" / "sources.json").read_text())
+    sources = [source for source in sources if source.get("category") not in EXCLUDED_CATEGORIES]
     candidates, errors = [], []
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
         futures = {pool.submit(parse_source, source, now): source["name"] for source in sources}
@@ -426,6 +427,8 @@ def build(now=None, *, sources=None):
             event = event_key(article["title"])
             domain = urlparse(url).hostname
             category = article["category"]
+            if category in EXCLUDED_CATEGORIES:
+                raise ValueError("excluded category")
             if url in seen or same_event(event, event_keys):
                 raise ValueError("duplicate or recent archive")
             if domain_counts.get(domain, 0) >= MAX_PER_DOMAIN or category_counts.get(category, 0) >= SELECTION_CATEGORY_LIMITS.get(category, MAX_PER_CATEGORY):

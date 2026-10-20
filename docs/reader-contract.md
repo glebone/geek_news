@@ -57,6 +57,7 @@ for a one-item parser fixture and the public feed for a production edition.
 - Categories: `linux`, `macos`, `ios`, `android`, `hardware`, `programming`,
   `functional_programming`, `retro_computing`, `retro_gaming`, `ai`,
   `agent_tools`, `open_source`, `security`, `privacy`, `web_platform`, `cloud`.
+  New editions exclude `security` and `privacy`; older archives may contain them.
 - Article types: `news`, `release`, `technical_article`, `research`, `rumor`,
   `project`. A `rumor` should be visibly labeled as such.
 - Version 2 production editions contain 10–25 articles. A 10–19 article
@@ -64,7 +65,7 @@ for a one-item parser fixture and the public feed for a production edition.
   the publisher preserves the previous good `latest.json`.
 - Tags such as `openbsd`, `netbsd`, `haiku`, `linux-gaming`, `steam`, `tui`, and
   `models` can drive interest filters in a reader. The publisher gives more
-  slots to those areas and limits privacy and security to one item each.
+  slots to those areas and excludes privacy and security from new editions.
 
 ## Freshness and failures
 

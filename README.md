@@ -18,7 +18,8 @@ publication timestamp, primary category, two to five tags, and article type.
 Categories are `linux`, `macos`, `ios`, `android`, `hardware`, `programming`,
 `functional_programming`, `retro_computing`, `retro_gaming`, `ai`,
 `agent_tools`, `open_source`, `security`, `privacy`, `web_platform`, and
-`cloud`. The TUI should use `generated_at` to show
+`cloud`. New editions exclude `security` and `privacy`; the schema keeps them
+for older archives. The TUI should use `generated_at` to show
 freshness, and treat the previous good edition as stale if it is more than a
 day old. `count` equals the number of articles.
 
@@ -38,7 +39,7 @@ title and excerpt with the destination page, excludes recent archive URLs,
 limits domains to three, gives each topic a first chance, and validates the
 finished JSON. The source mix favors BSD and Haiku, Linux gaming and software,
 programming, AI models and coding tools, and TUI projects. Privacy and security
-each have at most one slot per edition. It targets 20–25 items. At least 10
+topics are excluded from new editions. It targets 20–25 items. At least 10
 are required; a 10–19 item run is logged as degraded. Fewer than 10 items
 leaves the previous public feed
 unchanged. The summaries are **extractive source text**, not model-written

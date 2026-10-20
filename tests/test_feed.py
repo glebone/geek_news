@@ -61,7 +61,7 @@ class FeedTests(unittest.TestCase):
         self.assertEqual(result["count"], 25)
         self.assertEqual(len({article["category"] for article in result["articles"][:7]}), 7)
 
-    def test_privacy_and_security_take_at_most_one_slot_each(self):
+    def test_build_excludes_privacy_and_security(self):
         now = dt.datetime(2026, 10, 20, 5, tzinfo=dt.timezone.utc)
         sample = edition(25)
         for index, article in enumerate(sample["articles"][:6]):
@@ -69,12 +69,13 @@ class FeedTests(unittest.TestCase):
         candidates = [{"source_config": {"name": f"source-{index}", "category": article["category"]},
                        "published_at": (now - dt.timedelta(minutes=index)).isoformat(), "article": article}
                       for index, article in enumerate(sample["articles"])]
+        candidates[0]["source_config"]["category"] = "linux"
         with patch.object(feed, "parse_source", return_value=candidates), \
              patch.object(feed, "inspect_candidate", side_effect=lambda candidate: candidate["article"]), \
              patch.object(feed, "recent_archive_keys", return_value=(set(), set())):
             result = feed.build(now, sources=[{"name": "test"}])
-        self.assertEqual(sum(a["category"] == "privacy" for a in result["articles"]), 1)
-        self.assertEqual(sum(a["category"] == "security" for a in result["articles"]), 1)
+        self.assertEqual(result["count"], 19)
+        self.assertFalse({a["category"] for a in result["articles"]} & feed.EXCLUDED_CATEGORIES)
 
     def test_kyiv_daylight_saving_dates(self):
         with patch.object(feed, "parse_source", return_value=[]), patch.object(feed, "recent_archive_keys", return_value=(set(), set())):

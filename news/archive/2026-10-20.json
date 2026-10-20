@@ -2,7 +2,7 @@
   "schema_version": 2,
   "date": "2026-10-20",
   "generated_at": "2026-10-20T10:41:52Z",
-  "count": 25,
+  "count": 23,
   "articles": [
     {
       "title": "Helldivers 2 switches over from GameGuard to Easy Anti-Cheat",
@@ -70,19 +70,6 @@
       "article_type": "news"
     },
     {
-      "title": "Revolut outage disrupts online banking operations worldwide",
-      "summary": "Since the incident began, thousands of users on the Downdetector outage tracking platform have reported issues with the Revolut app, mobile banking services, and transferring funds between accounts.",
-      "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-20T05:46:44-04:00",
-      "category": "security",
-      "tags": [
-        "security",
-        "cybersecurity"
-      ],
-      "article_type": "news"
-    },
-    {
       "title": "Visualize Regular Expressions with Marbles",
       "summary": "If you are one of those people who visualize things physically better than in the abstract, then Regex Marble Run by [bottomless] might be for you.",
       "url": "https://hackaday.com/2026/10/20/visualize-regular-expressions-with-marbles",
@@ -92,19 +79,6 @@
       "tags": [
         "hardware",
         "maker"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Require Police to Get a Warrant to Search ALPR Data",
-      "summary": "The best way to eliminate these abusive searches is to end ALPR mass surveillance. Where these systems remain, however, courts and state legislatures must require police to get a warrant before searching stored ALPR data.",
-      "url": "https://www.eff.org/deeplinks/2026/10/require-police-get-warrant-search-alpr-data",
-      "source": "EFF Updates",
-      "published_at": "2026-10-19T23:28:38+00:00",
-      "category": "privacy",
-      "tags": [
-        "privacy",
-        "digital-rights"
       ],
       "article_type": "news"
     },
