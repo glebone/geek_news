@@ -3,7 +3,9 @@ name: Publish Geek News
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 7 * * *'
+    - cron: '42 6 * * *'
+      timezone: 'Europe/Kyiv'
+    - cron: '7,22,37,52 7 * * *'
       timezone: 'Europe/Kyiv'
   push:
     branches: [main]
@@ -35,8 +37,23 @@ jobs:
         run: |
           python -m unittest discover -s tests -v
           python scripts/feed.py validate
+      - name: Check whether today's scheduled edition is due
+        id: due
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import datetime as dt
+          import json
+          import os
+          from zoneinfo import ZoneInfo
+
+          today = dt.datetime.now(ZoneInfo('Europe/Kyiv')).date().isoformat()
+          published = json.load(open('news/latest.json'))['date'] == today
+          should_build = os.environ['GITHUB_EVENT_NAME'] != 'schedule' or not published
+          print(f"build={str(should_build).lower()}")
+          PY
       - name: Build candidate edition
         id: build
+        if: steps.due.outputs.build == 'true'
         continue-on-error: true
         run: python scripts/feed.py build
       - name: Publish failure diagnostics
@@ -82,6 +99,7 @@ jobs:
           echo 'changed=true' >> "$GITHUB_OUTPUT"
           echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - name: Verify public TUI URL
+        if: steps.due.outputs.build == 'true'
         run: |
           python - <<'PY'
           import json, pathlib, time, urllib.request

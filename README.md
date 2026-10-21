@@ -45,12 +45,13 @@ leaves the previous public feed
 unchanged. The summaries are **extractive source text**, not model-written
 or human-curated copy. No LLM API is used.
 
-The workflow is configured for 07:00 `Europe/Kyiv` every day, with code push
-and manual dispatch available for testing. GitHub Actions `contents: write` is
+The workflow starts at 06:42 `Europe/Kyiv` to aim for a feed ready by 07:00,
+with retries at 07:07, 07:22, 07:37, and 07:52 if today's edition is still
+missing. Code push and manual dispatch are also available. GitHub Actions `contents: write` is
 scoped to the publisher job. A successful edition is committed in one commit
-and verified against the public raw URL. GitHub may delay a scheduled run or
+and verified against the public raw URL. GitHub may delay or skip a scheduled run or
 raw-content propagation. The separate freshness workflow checks the public
-feed at 12:00 Kyiv time and reports a failure when today's edition is missing
+feed at 08:30 Kyiv time and reports a failure when today's edition is missing
 or the latest and archive files differ.
 
 ## Development
