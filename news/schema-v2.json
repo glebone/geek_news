@@ -8,10 +8,10 @@
     "schema_version": {"const": 2},
     "date": {"type": "string", "format": "date"},
     "generated_at": {"type": "string", "format": "date-time"},
-    "count": {"type": "integer", "minimum": 0, "maximum": 25},
+    "count": {"type": "integer", "minimum": 0, "maximum": 30},
     "articles": {
       "type": "array",
-      "maxItems": 25,
+      "maxItems": 30,
       "items": {
         "type": "object",
         "additionalProperties": false,

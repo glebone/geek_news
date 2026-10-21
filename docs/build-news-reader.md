@@ -54,7 +54,7 @@ def fetch(path):
     articles = edition["articles"]
     if not isinstance(articles, list) or edition["count"] != len(articles):
         raise ValueError("article count mismatch")
-    if not 10 <= len(articles) <= (20 if version == 1 else 25):
+    if not 10 <= len(articles) <= (20 if version == 1 else 30):
         raise ValueError("unexpected article count")
     for item in articles:
         if not isinstance(item, dict):
@@ -107,7 +107,7 @@ def main():
     print(f"Published: {edition['generated_at']}")
     if edition["date"] != today:
         print("Today's edition is not available yet; these are older stories.")
-    elif edition["count"] < 20 and edition["schema_version"] == 2:
+    elif edition["count"] < 25 and edition["schema_version"] == 2:
         print("Shorter edition today: fewer articles passed the publisher checks.")
     print()
 

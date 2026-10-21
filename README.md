@@ -36,18 +36,20 @@ freshness, and failure handling in more detail.
 `config/sources.json` lists source-operated RSS/Atom feeds. The publisher
 checks recent timestamps, resolves each article over HTTPS, compares its
 title and excerpt with the destination page, excludes recent archive URLs,
-limits domains to three, gives each topic a first chance, and validates the
+limits domains to four, gives each topic a first chance, and validates the
 finished JSON. The source mix favors BSD and Haiku, Linux gaming and software,
 programming, AI models and coding tools, and TUI projects. Privacy and security
-topics are excluded from new editions. It targets 20–25 items. At least 10
-are required; a 10–19 item run is logged as degraded. Fewer than 10 items
+topics are excluded from new editions. It targets 25–30 items. At least 10
+are required; a 10–24 item run is logged as degraded. Fewer than 10 items
 leaves the previous public feed
 unchanged. The summaries are **extractive source text**, not model-written
 or human-curated copy. No LLM API is used.
 
-The workflow starts at 06:42 `Europe/Kyiv` to aim for a feed ready by 07:00,
-with retries at 07:07, 07:22, 07:37, and 07:52 if today's edition is still
-missing. Code push and manual dispatch are also available. GitHub Actions `contents: write` is
+The workflow starts at 03:07 `Europe/Kyiv` to aim for a feed ready by 07:00,
+with retries at 04:07, 05:07, 06:07, 06:42, 07:07, 07:22, 07:37, and 07:52
+until today's edition has at least 25 stories. A scheduled retry keeps the
+larger same-day edition if fewer stories pass. Code push and manual dispatch are also
+available. GitHub Actions `contents: write` is
 scoped to the publisher job. A successful edition is committed in one commit
 and verified against the public raw URL. GitHub may delay or skip a scheduled run or
 raw-content propagation. The separate freshness workflow checks the public

@@ -11,6 +11,7 @@ import html
 from html.parser import HTMLParser
 from itertools import zip_longest
 import json
+import os
 from pathlib import Path
 import re
 import sys
@@ -28,18 +29,19 @@ CATEGORIES_V1 = {"linux", "macos", "ios", "android", "hardware", "programming",
                  "agent_tools", "open_source"}
 CATEGORIES = CATEGORIES_V1 | {"security", "privacy", "web_platform", "cloud"}
 EXCLUDED_CATEGORIES = {"security", "privacy"}
+EXCLUDED_TOPIC_RE = re.compile(r"\b(?:security|privacy|scam(?:s|-prevention)?|breach(?:es)?|compromis\w*|vulnerab\w*|malware|ransomware|phishing|secret scanning|dependabot alerts|CVE-\d+)\b", re.I)
 TYPES = {"news", "release", "technical_article", "research", "rumor", "project"}
 STOP = {"the", "and", "for", "with", "from", "this", "that", "into", "your", "about", "their", "have", "will"}
 MIN_ARTICLES = 10
-TARGET_ARTICLES = 20
-MAX_ARTICLES = 25
-MAX_PER_DOMAIN = 3
-MAX_PER_CATEGORY = 4
+TARGET_ARTICLES = 25
+MAX_ARTICLES = 30
+MAX_PER_DOMAIN = 4
+MAX_PER_CATEGORY = 5
 SELECTION_CATEGORY_LIMITS = {
-    "linux": 6, "open_source": 6, "programming": 5,
-    "functional_programming": 4, "ai": 4, "agent_tools": 5,
-    "hardware": 1, "macos": 2, "ios": 2, "android": 2,
-    "retro_gaming": 2,
+    "linux": 8, "open_source": 8, "programming": 7,
+    "functional_programming": 5, "ai": 6, "agent_tools": 7,
+    "hardware": 2, "macos": 3, "ios": 3, "android": 3,
+    "retro_gaming": 3,
 }
 PREFERRED_CATEGORIES = ("open_source", "linux", "programming", "functional_programming",
                         "ai", "agent_tools", "retro_computing", "retro_gaming")
@@ -422,6 +424,8 @@ def build(now=None, *, sources=None):
         if len(selected) >= MAX_ARTICLES:
             break
         try:
+            if EXCLUDED_TOPIC_RE.search(candidate["title"]):
+                raise ValueError("excluded topic")
             article = inspect_candidate(candidate)
             url = article["url"]
             event = event_key(article["title"])
@@ -462,9 +466,13 @@ def publish(edition):
     archive = ROOT / "news" / "archive" / f"{edition['date']}.json"
     if latest.exists():
         previous = json.loads(latest.read_text())
-        if previous["date"] == edition["date"] and previous["articles"] == edition["articles"]:
-            print("unchanged edition; no files replaced")
-            return
+        if previous["date"] == edition["date"]:
+            if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and previous["count"] > edition["count"]:
+                print("scheduled edition has fewer articles; no files replaced")
+                return
+            if previous["articles"] == edition["articles"]:
+                print("unchanged edition; no files replaced")
+                return
     latest.parent.mkdir(parents=True, exist_ok=True)
     archive.parent.mkdir(parents=True, exist_ok=True)
     # Both paths are replaced only after the complete edition passes validation.

@@ -3,9 +3,11 @@ name: Publish Geek News
 on:
   workflow_dispatch:
   schedule:
+    - cron: '7 3,4,5,6,7 * * *'
+      timezone: 'Europe/Kyiv'
     - cron: '42 6 * * *'
       timezone: 'Europe/Kyiv'
-    - cron: '7,22,37,52 7 * * *'
+    - cron: '22,37,52 7 * * *'
       timezone: 'Europe/Kyiv'
   push:
     branches: [main]
@@ -44,10 +46,15 @@ jobs:
           import datetime as dt
           import json
           import os
+          import sys
           from zoneinfo import ZoneInfo
 
+          sys.path.insert(0, 'scripts')
+          import feed
+
           today = dt.datetime.now(ZoneInfo('Europe/Kyiv')).date().isoformat()
-          published = json.load(open('news/latest.json'))['date'] == today
+          latest = json.load(open('news/latest.json'))
+          published = latest['date'] == today and latest['count'] >= feed.TARGET_ARTICLES
           should_build = os.environ['GITHUB_EVENT_NAME'] != 'schedule' or not published
           print(f"build={str(should_build).lower()}")
           PY

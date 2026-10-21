@@ -60,8 +60,8 @@ for a one-item parser fixture and the public feed for a production edition.
   New editions exclude `security` and `privacy`; older archives may contain them.
 - Article types: `news`, `release`, `technical_article`, `research`, `rumor`,
   `project`. A `rumor` should be visibly labeled as such.
-- Version 2 production editions contain 10–25 articles. A 10–19 article
-  edition is a degraded day; 20–25 is the target. If fewer than 10 pass validation,
+- Version 2 production editions contain 10–30 articles. A 10–24 article
+  edition is a degraded day; 25–30 is the target. If fewer than 10 pass validation,
   the publisher preserves the previous good `latest.json`.
 - Tags such as `openbsd`, `netbsd`, `haiku`, `linux-gaming`, `steam`, `tui`, and
   `models` can drive interest filters in a reader. The publisher gives more

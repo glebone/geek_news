@@ -1,8 +1,10 @@
 import datetime as dt
 import email.utils
 import json
+import os
 from pathlib import Path
 import sys
+import tempfile
 import unittest
 from unittest.mock import patch
 
@@ -13,7 +15,7 @@ import check_freshness
 
 def edition(count, version=2):
     articles = []
-    categories = ["linux", "programming", "ai", "open_source", "agent_tools", "retro_computing", "retro_gaming"]
+    categories = ["linux", "programming", "ai", "open_source", "agent_tools", "retro_computing", "retro_gaming", "macos"]
     for index in range(count):
         articles.append({"title": f"Distinct project {index} release notes", "summary": "The maintainers describe a specific new release and its changes for developers. The linked technical article explains the release details, compatibility considerations, and practical reasons readers may want to examine the update before adopting it in their own projects.", "url": f"https://source{index // 3}.example/item/{index}", "source": "Example", "published_at": None, "category": categories[index // 4], "tags": ["release", "tools"], "article_type": "release"})
     return {"schema_version": version, "date": "2026-10-20", "generated_at": "2026-10-19T22:00:00Z", "count": count, "articles": articles}
@@ -45,9 +47,9 @@ class FeedTests(unittest.TestCase):
             feed.validate(item)
 
     def test_v2_expanded_count_and_v1_compatibility(self):
-        self.assertTrue(feed.validate(edition(25)))
+        self.assertTrue(feed.validate(edition(30)))
         with self.assertRaisesRegex(ValueError, "count"):
-            feed.validate(edition(26))
+            feed.validate(edition(31))
         self.assertTrue(feed.validate(edition(10, version=1)))
         with self.assertRaisesRegex(ValueError, "count"):
             feed.validate(edition(21, version=1))
@@ -58,16 +60,18 @@ class FeedTests(unittest.TestCase):
 
     def test_build_gives_topics_a_first_chance(self):
         now = dt.datetime(2026, 10, 20, 5, tzinfo=dt.timezone.utc)
-        sample = edition(25)
+        sample = edition(30)
+        sample["articles"][26]["category"] = "linux"
+        sample["articles"][27]["category"] = "open_source"
         candidates = []
         for index, article in enumerate(sample["articles"]):
             source = {"name": f"source-{index}", "category": article["category"]}
-            candidates.append({"source_config": source, "published_at": (now - dt.timedelta(minutes=index)).isoformat(), "article": article})
+            candidates.append({"source_config": source, "published_at": (now - dt.timedelta(minutes=index)).isoformat(), "title": article["title"], "article": article})
         with patch.object(feed, "parse_source", return_value=candidates), \
              patch.object(feed, "inspect_candidate", side_effect=lambda candidate: candidate["article"]), \
              patch.object(feed, "recent_archive_keys", return_value=(set(), set())):
             result = feed.build(now, sources=[{"name": "test"}])
-        self.assertEqual(result["count"], 25)
+        self.assertEqual(result["count"], 30)
         self.assertEqual(len({article["category"] for article in result["articles"][:7]}), 7)
 
     def test_build_excludes_privacy_and_security(self):
@@ -75,15 +79,17 @@ class FeedTests(unittest.TestCase):
         sample = edition(25)
         for index, article in enumerate(sample["articles"][:6]):
             article["category"] = "privacy" if index < 3 else "security"
+        sample["articles"][6]["title"] = "Firefox security fixes released"
+        sample["articles"][7]["title"] = "Browser privacy update released"
         candidates = [{"source_config": {"name": f"source-{index}", "category": article["category"]},
-                       "published_at": (now - dt.timedelta(minutes=index)).isoformat(), "article": article}
+                       "published_at": (now - dt.timedelta(minutes=index)).isoformat(), "title": article["title"], "article": article}
                       for index, article in enumerate(sample["articles"])]
         candidates[0]["source_config"]["category"] = "linux"
         with patch.object(feed, "parse_source", return_value=candidates), \
              patch.object(feed, "inspect_candidate", side_effect=lambda candidate: candidate["article"]), \
              patch.object(feed, "recent_archive_keys", return_value=(set(), set())):
             result = feed.build(now, sources=[{"name": "test"}])
-        self.assertEqual(result["count"], 19)
+        self.assertEqual(result["count"], 17)
         self.assertFalse({a["category"] for a in result["articles"]} & feed.EXCLUDED_CATEGORIES)
 
     def test_kyiv_daylight_saving_dates(self):
@@ -101,6 +107,21 @@ class FeedTests(unittest.TestCase):
         item = json.loads(latest)
         self.assertEqual(latest, (root / "news/archive" / f"{item['date']}.json").read_bytes())
         self.assertTrue(feed.validate(item, allow_seed=True))
+
+    def test_scheduled_retry_preserves_larger_edition(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "news/archive").mkdir(parents=True)
+            previous = edition(25)
+            data = json.dumps(previous).encode()
+            latest = root / "news/latest.json"
+            archive = root / "news/archive/2026-10-20.json"
+            latest.write_bytes(data)
+            archive.write_bytes(data)
+            with patch.object(feed, "ROOT", root), patch.dict(os.environ, {"GITHUB_EVENT_NAME": "schedule"}):
+                feed.publish(edition(20))
+            self.assertEqual(latest.read_bytes(), data)
+            self.assertEqual(archive.read_bytes(), data)
 
     def test_article_page_lead_when_feed_excerpt_is_short(self):
         page = '<html><head><meta name="description" content="The maintainers announced a new release with several changes for developers. This source page explains the compatibility details, the updated tooling, and how the project team expects users to evaluate the release before using it in production deployments today."></head></html>'
