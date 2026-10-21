@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "date": "2026-10-21",
-  "generated_at": "2026-10-21T09:45:32Z",
-  "count": 22,
+  "generated_at": "2026-10-21T09:48:44Z",
+  "count": 26,
   "articles": [
     {
       "title": "OpenBSD 8.0 released",
@@ -45,15 +45,15 @@
       "article_type": "news"
     },
     {
-      "title": "A Stereo Vision Board For Hardware Hackers",
-      "summary": "If you’re new to experimenting with stereo vision, you might find this to be a useful platform for getting started. Design files are on GitHub for the curious.",
-      "url": "https://hackaday.com/2026/10/21/a-stereo-vision-board-for-hardware-hackers",
-      "source": "Hackaday",
-      "published_at": "2026-10-21T08:00:50+00:00",
+      "title": "Loop Capital Cuts Apple Rating Over iPhone Sales Outlook",
+      "summary": "Loop Capital has lowered its rating on Apple from \"Buy\" to \"Hold,\" saying the company is unlikely to make up an estimated 13 million iPhone shipments cut from its plans for the second half of 2026, according to Investing.com .",
+      "url": "https://www.macrumors.com/2026/10/21/loop-capital-cuts-apple-rating-over-iphone-sales-outlook",
+      "source": "MacRumors",
+      "published_at": "2026-10-21T08:38:06+00:00",
       "category": "hardware",
       "tags": [
-        "hardware",
-        "maker"
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     },
@@ -123,11 +123,11 @@
       "article_type": "news"
     },
     {
-      "title": "5 GHz Drone Video, With An ESP32",
-      "summary": "It’s good to see these projects appear, especially as this one’s 5 GHz and shows those chips work too with the hack. We’d be interested to know whether the latency of the SDR affects its usability though.",
-      "url": "https://hackaday.com/2026/10/20/5-ghz-drone-video-with-an-esp32",
+      "title": "A Stereo Vision Board For Hardware Hackers",
+      "summary": "If you’re new to experimenting with stereo vision, you might find this to be a useful platform for getting started. Design files are on GitHub for the curious.",
+      "url": "https://hackaday.com/2026/10/21/a-stereo-vision-board-for-hardware-hackers",
       "source": "Hackaday",
-      "published_at": "2026-10-21T05:00:05+00:00",
+      "published_at": "2026-10-21T08:00:50+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -268,6 +268,32 @@
       "article_type": "news"
     },
     {
+      "title": "GitHub package firewall in public preview",
+      "summary": "The package firewall is available in public preview as we scale up the infrastructure behind it and continue to add features based on customer demand.",
+      "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-20T16:11:53+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Dependabot now supports npm 12, pnpm 11 and 12, and Bun 1.4",
+      "summary": "You can now upgrade your projects to npm 12, pnpm 11 or 12, or Bun 1.4 and keep receiving Dependabot updates. Support for these package manager versions is available to all github.com users and will be included in GitHub Enterprise Server 3.24.",
+      "url": "https://github.blog/changelog/2026-10-20-dependabot-now-supports-npm-12-pnpm-11-and-12-and-bun-1-4",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-20T13:52:38+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
       "title": "PS5 Linux hack now supports (some) newer firmware versions",
       "summary": "New PS5 Linux hack pLinux5-NG supports newer firmware, allowing Linux and Steam games to run on Sony's console. But not for long, welp. You're reading PS5 Linux hack now supports (some) newer firmware versions , a blog post from OMG!",
       "url": "https://www.omgubuntu.co.uk/2026/10/ps5-linux-hack-newer-firmware",
@@ -286,6 +312,32 @@
       "url": "https://www.omgubuntu.co.uk/2026/10/nautilus-my-computer-view",
       "source": "OMG! Ubuntu",
       "published_at": "2026-10-20T17:43:46+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Audacious 4.6.2 fills the last gaps in its Qt Winamp mode",
+      "summary": "Audacious 4.6.2 lets you drop Winamp skin files onto the Qt window to install them, and adds keyboard navigation for toolbar buttons. You're reading Audacious 4.6.2 fills the last gaps in its Qt Winamp mode , a blog post from OMG!",
+      "url": "https://www.omgubuntu.co.uk/2026/10/audacious-update-qt-winamp-skins",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-19T22:38:14+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "NordVPN 6.0 for Linux will feature ‘breaking changes’",
+      "summary": "Among the changes, NordVPN 6.0 combines protocol and technology settings in a nordvpn set protocol command, while obfuscation is now handled by NordWhisper, rather than a separate setting.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/nordvpn-6-0-linux-cli-changes",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-19T15:17:45+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
