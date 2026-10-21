@@ -1,0 +1,270 @@
+{
+  "schema_version": 2,
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T09:10:55Z",
+  "count": 20,
+  "articles": [
+    {
+      "title": "OpenBSD 8.0 released",
+      "summary": "Hot on the heels of Wine being ported to OpenBSD , we now have the release of OpenBSD 8.0 . It adds hibernate support for arm64, switches the sparc64 toolchain to LLVM, and updates the DRM graphics drivers to Linux 6.18.53, which also adds support for Intel Arc A-Series (DG2/Alchemist) graphics cards.",
+      "url": "https://www.osnews.com/story/146200/openbsd-8-0-released",
+      "source": "OSNews",
+      "published_at": "2026-10-20T17:50:54+00:00",
+      "category": "open_source",
+      "tags": [
+        "operating-systems",
+        "open-source",
+        "openbsd"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "OpenXR gets a cross-platform Spatial Windowing API",
+      "summary": "What's happened? The OpenXR Working Group within Khronos just released the Spatial Containers extensions to bring a cross-platform windowing API to XR. What are they?",
+      "url": "https://www.gamingonlinux.com/2026/10/openxr-gets-a-cross-platform-spatial-windowing-api",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-21T09:01:33+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Science tackles deadly scorpion stings by designing protein binders from scratch",
+      "summary": "Anthropic's Claude independently designed protein binders targeting deadly scorpion neurotoxins. Out of more than 318,000 designs, 211 were tested in the lab. Seventeen met the criteria, and the two strongest bind extremely tightly to Cn2, a toxin from a Mexican scorpion.",
+      "url": "https://the-decoder.com/claude-science-tackles-deadly-scorpion-stings-by-designing-protein-binders-from-scratch",
+      "source": "The Decoder",
+      "published_at": "2026-10-21T08:37:06+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Loop Capital Cuts Apple Rating Over iPhone Sales Outlook",
+      "summary": "Loop Capital has lowered its rating on Apple from \"Buy\" to \"Hold,\" saying the company is unlikely to make up an estimated 13 million iPhone shipments cut from its plans for the second half of 2026, according to Investing.com .",
+      "url": "https://www.macrumors.com/2026/10/21/loop-capital-cuts-apple-rating-over-iphone-sales-outlook",
+      "source": "MacRumors",
+      "published_at": "2026-10-21T08:38:06+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Here’s everything new in Android 17 QPR3 Beta 2 [Gallery]",
+      "summary": "Over the coming hours, we’ll dive into all of Android 17 QPR3 Beta 2’s new features and every single change. (The newest updates will be at the top of this list.",
+      "url": "https://9to5google.com/2026/10/20/android-17-qpr3-beta-2-everything-new",
+      "source": "9to5Google",
+      "published_at": "2026-10-20T21:05:40+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27 adds scam-prevention feature to iPhone, here’s how to enable it",
+      "summary": "iOS 27 introduces a new security feature called ‘Impersonation Risk Detection’ that helps protect you against scams, but it’s off by default. Here’s what the feature does, and how to enable it.",
+      "url": "https://9to5mac.com/2026/10/20/ios-27-adds-scam-prevention-feature-to-iphone-heres-how-to-enable-it",
+      "source": "9to5Mac",
+      "published_at": "2026-10-20T18:56:15+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "RTS game Theatre of War: Rearmed set for release on December 9",
+      "summary": "Bringing together all the classic Theatre of War RTS games into one upgraded package, Theatre of War: Rearmed set for release on December 9th. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/10/rts-game-theatre-of-war-rearmed-set-for-release-on-december-9",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-21T08:26:05+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Deepseek open-sources the inference engine that powers its fastest and cheapest AI model",
+      "summary": "Deepseek has open-sourced DeepInfer, its internal inference framework, under the Apache License 2.0. Inference is how a trained AI model handles requests and generates responses.",
+      "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model",
+      "source": "The Decoder",
+      "published_at": "2026-10-20T18:56:15+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Code v2.1.305",
+      "summary": "Fixed every request failing on Vertex, Bedrock and other providers when the endpoint or a gateway rejects tool search, and behind gateways with ToolSearch disallowed or left out of --tools (a 2.1.304 regression): Claude Code now retries without it.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
+      "source": "Claude Code",
+      "published_at": "2026-10-20T20:46:50+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "SuperSwitch HD – SNES HDMI Mod",
+      "summary": "Stanislav Parhomovich, the creator of the Sega Genesis / Mega Drive HDMI mod called the MegaSwitch HD has just released an HDMI mod for the Super Nintendo / Super Famicom.",
+      "url": "https://retrorgb.com/superswitch-hd-snes-hdmi-mod.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-20T15:48:48+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Android 17 QPR3 Beta 2 for Pixel rolling out with 21 fixes",
+      "summary": "You can report issues via the Android Beta Feedback app on Pixel devices. Access it from the application drawer or Quick Settings to file bugs in Google’s issue tracker.",
+      "url": "https://9to5google.com/2026/10/20/android-17-qpr3-beta-2-pixel",
+      "source": "9to5Google",
+      "published_at": "2026-10-20T20:31:34+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.2 adds new features in six iPhone apps, here’s what’s coming",
+      "summary": "Every major streaming service has its own profiles feature, letting users on the same account keep their viewing history and recommendations separate. Apple TV has long offered such a feature in tvOS, but now with iOS 27.2 and iPadOS 27.2 it’s coming to iPhone and iPad too.",
+      "url": "https://9to5mac.com/2026/10/20/ios-27-2-adds-new-features-in-six-iphone-apps-heres-whats-coming",
+      "source": "9to5Mac",
+      "published_at": "2026-10-20T16:18:15+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Here's another 15 demos worth checking out in Steam Next Fest - October 2026 edition",
+      "summary": "Steam Next Fest - October 2026 edition is sadly rammed full of very clear low-effort slop games, they're everywhere. It's pretty east to spot them too thanks to the AI warning browser plugin , along with certain types of Steam images looking the same.",
+      "url": "https://www.gamingonlinux.com/2026/10/heres-another-15-demos-worth-checking-out-in-steam-next-fest-october-2026-edition",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-21T08:09:37+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time",
+      "summary": "Mistral AI has launched Voxtral 3, a new family of language models built for real-time voice agents. The system includes a speech-to-text model (Voxtral Small Transcribe 3), a text-to-speech model (Voxtral Mini TTS 3), and a voice agent SDK based on LiveKit.",
+      "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time",
+      "source": "The Decoder",
+      "published_at": "2026-10-20T17:17:55+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "summary": "To learn how experienced developers strike that balance, we spoke with three Java Champions, all with over a decade of experience in using Java. They shared concrete examples of using GitHub Copilot in production and open source, along with the practices they use to turn AI-generated output into reliable software.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
+      "source": "GitHub AI",
+      "published_at": "2026-10-20T16:05:03+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Bulk migrate branch protections to rulesets for a repository",
+      "summary": "You can now convert all branch protection rules of a repository to rulesets in a single action. This is an extension of the ability to convert a single branch protection rule to a ruleset that we released previously, now allowing for at-scale conversions.",
+      "url": "https://github.blog/changelog/2026-10-20-bulk-migrate-branch-protections-to-rulesets-for-a-repository",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-20T18:06:21+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Updates to GitHub secret scanning",
+      "summary": "On November 12, 2026 , the business field in affected secret_scanning_alert.* and secret_scanning_push_protection.bypass audit log events will change from the enterprise display name to the enterprise slug .",
+      "url": "https://github.blog/changelog/2026-10-20-updates-to-github-secret-scanning",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-20T18:03:55+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "PS5 Linux hack now supports (some) newer firmware versions",
+      "summary": "New PS5 Linux hack pLinux5-NG supports newer firmware, allowing Linux and Steam games to run on Sony's console. But not for long, welp. You're reading PS5 Linux hack now supports (some) newer firmware versions , a blog post from OMG!",
+      "url": "https://www.omgubuntu.co.uk/2026/10/ps5-linux-hack-newer-firmware",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-21T01:13:51+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Firefox 158.0.1 is out with important security fixes",
+      "summary": "Mozilla Firefox 158.0.1 is rolling out with some important security fixes. Now, I don’t tend to cover Firefox point releases as mainly ship minor fixes for things the majority of users won’t have noticed were wrong in the first place.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/firefox-fixes-emudhra-secuity-issue",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-21T00:33:36+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "eMudhra CA compromise fixes available",
+      "summary": "The private keys of the eMudhra Certificate Authority (CA) have been demonstrated on 20 October 2026 to have been compromised. The Ubuntu Security Team has released updates to the system PKI (Public Key Infrastructure) root CA store in the ca-certificates package.",
+      "url": "https://ubuntu.com//blog/emudhra-ca-compromise-fixes-available",
+      "source": "Ubuntu Blog",
+      "published_at": "2026-10-20T23:45:09+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "linux"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
