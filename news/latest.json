@@ -1,29 +1,15 @@
 {
   "schema_version": 2,
-  "date": "2026-10-21",
-  "generated_at": "2026-10-21T09:48:44Z",
-  "count": 26,
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T04:33:44Z",
+  "count": 28,
   "articles": [
     {
-      "title": "OpenBSD 8.0 released",
-      "summary": "Hot on the heels of Wine being ported to OpenBSD , we now have the release of OpenBSD 8.0 . It adds hibernate support for arm64, switches the sparc64 toolchain to LLVM, and updates the DRM graphics drivers to Linux 6.18.53, which also adds support for Intel Arc A-Series (DG2/Alchemist) graphics cards.",
-      "url": "https://www.osnews.com/story/146200/openbsd-8-0-released",
-      "source": "OSNews",
-      "published_at": "2026-10-20T17:50:54+00:00",
-      "category": "open_source",
-      "tags": [
-        "operating-systems",
-        "open-source",
-        "openbsd"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "OpenXR gets a cross-platform Spatial Windowing API",
-      "summary": "What's happened? The OpenXR Working Group within Khronos just released the Spatial Containers extensions to bring a cross-platform windowing API to XR. What are they?",
-      "url": "https://www.gamingonlinux.com/2026/10/openxr-gets-a-cross-platform-spatial-windowing-api",
+      "title": "Electronic Arts (EA) to shut down BioWare and cancel the next Mass Effect",
+      "summary": "After Electronic Arts (EA) was sold off , the inevitable has happened - they're doing some restructuring and cutting jobs. This was announced on the official EA website today, in a post from Cam Weber, President and CSO, and David Tinson, President and COO.",
+      "url": "https://www.gamingonlinux.com/2026/10/electronic-arts-ea-to-shut-down-bioware-and-cancel-the-next-mass-effect",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-21T09:01:33+00:00",
+      "published_at": "2026-10-21T17:30:26+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -32,11 +18,11 @@
       "article_type": "news"
     },
     {
-      "title": "Claude Science tackles deadly scorpion stings by designing protein binders from scratch",
-      "summary": "Anthropic's Claude independently designed protein binders targeting deadly scorpion neurotoxins. Out of more than 318,000 designs, 211 were tested in the lab. Seventeen met the criteria, and the two strongest bind extremely tightly to Cn2, a toxin from a Mexican scorpion.",
-      "url": "https://the-decoder.com/claude-science-tackles-deadly-scorpion-stings-by-designing-protein-binders-from-scratch",
-      "source": "The Decoder",
-      "published_at": "2026-10-21T08:37:06+00:00",
+      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai",
+      "source": "TechCrunch AI",
+      "published_at": "2026-10-21T20:27:41+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -45,63 +31,11 @@
       "article_type": "news"
     },
     {
-      "title": "Loop Capital Cuts Apple Rating Over iPhone Sales Outlook",
-      "summary": "Loop Capital has lowered its rating on Apple from \"Buy\" to \"Hold,\" saying the company is unlikely to make up an estimated 13 million iPhone shipments cut from its plans for the second half of 2026, according to Investing.com .",
-      "url": "https://www.macrumors.com/2026/10/21/loop-capital-cuts-apple-rating-over-iphone-sales-outlook",
-      "source": "MacRumors",
-      "published_at": "2026-10-21T08:38:06+00:00",
-      "category": "hardware",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Here’s everything new in Android 17 QPR3 Beta 2 [Gallery]",
-      "summary": "Over the coming hours, we’ll dive into all of Android 17 QPR3 Beta 2’s new features and every single change. (The newest updates will be at the top of this list.",
-      "url": "https://9to5google.com/2026/10/20/android-17-qpr3-beta-2-everything-new",
-      "source": "9to5Google",
-      "published_at": "2026-10-20T21:05:40+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "RTS game Theatre of War: Rearmed set for release on December 9",
-      "summary": "Bringing together all the classic Theatre of War RTS games into one upgraded package, Theatre of War: Rearmed set for release on December 9th. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/10/rts-game-theatre-of-war-rearmed-set-for-release-on-december-9",
-      "source": "GamingOnLinux",
-      "published_at": "2026-10-21T08:26:05+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Deepseek open-sources the inference engine that powers its fastest and cheapest AI model",
-      "summary": "Deepseek has open-sourced DeepInfer, its internal inference framework, under the Apache License 2.0. Inference is how a trained AI model handles requests and generates responses.",
-      "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model",
-      "source": "The Decoder",
-      "published_at": "2026-10-20T18:56:15+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Claude Code v2.1.305",
-      "summary": "Fixed every request failing on Vertex, Bedrock and other providers when the endpoint or a gateway rejects tool search, and behind gateways with ToolSearch disallowed or left out of --tools (a 2.1.304 regression): Claude Code now retries without it.",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
+      "title": "Claude Code v2.1.307",
+      "summary": "Added the claude_code.safety_event OpenTelemetry event for each tool call a permission rule, auto mode, a safety check, a hook or the sandbox stopped, prompted or sent back.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
       "source": "Claude Code",
-      "published_at": "2026-10-20T20:46:50+00:00",
+      "published_at": "2026-10-21T22:17:02+00:00",
       "category": "agent_tools",
       "tags": [
         "claude-code",
@@ -110,24 +44,24 @@
       "article_type": "release"
     },
     {
-      "title": "SuperSwitch HD – SNES HDMI Mod",
-      "summary": "Stanislav Parhomovich, the creator of the Sega Genesis / Mega Drive HDMI mod called the MegaSwitch HD has just released an HDMI mod for the Super Nintendo / Super Famicom.",
-      "url": "https://retrorgb.com/superswitch-hd-snes-hdmi-mod.html",
-      "source": "RetroRGB",
-      "published_at": "2026-10-20T15:48:48+00:00",
-      "category": "retro_gaming",
+      "title": "Apple must open iPhone to alternative app stores in Australia after Epic Games ruling",
+      "summary": "Today’s order follows a ruling last year that Apple violated Australian competition law by restricting alternative app distribution and payment methods, in a lawsuit brought by Epic Games similar to its long-running legal battle with Apple in the US.",
+      "url": "https://9to5mac.com/2026/10/21/apple-must-open-iphone-to-alternative-app-stores-in-australia-after-epic-games-ruling",
+      "source": "9to5Mac",
+      "published_at": "2026-10-22T03:57:58+00:00",
+      "category": "hardware",
       "tags": [
-        "retro",
-        "gaming"
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     },
     {
-      "title": "A Stereo Vision Board For Hardware Hackers",
-      "summary": "If you’re new to experimenting with stereo vision, you might find this to be a useful platform for getting started. Design files are on GitHub for the curious.",
-      "url": "https://hackaday.com/2026/10/21/a-stereo-vision-board-for-hardware-hackers",
+      "title": "Making a Five-Segment Display with Platinum-Titanium Cathodes",
+      "summary": "Before the advent of effective semiconductor LEDs many display types existed to display things like numbers and other characters. The Nixie tube is a well-known one, along with VFDs and there are also lesser known ones such as Burrough’s Panaplex, which all saw plentiful use in everything from calculators to audio equipment.",
+      "url": "https://hackaday.com/2026/10/21/making-a-five-segment-display-with-platinum-titanium-cathodes",
       "source": "Hackaday",
-      "published_at": "2026-10-21T08:00:50+00:00",
+      "published_at": "2026-10-22T02:00:41+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -136,11 +70,11 @@
       "article_type": "news"
     },
     {
-      "title": "Android 17 QPR3 Beta 2 for Pixel rolling out with 21 fixes",
-      "summary": "You can report issues via the Android Beta Feedback app on Pixel devices. Access it from the application drawer or Quick Settings to file bugs in Google’s issue tracker.",
-      "url": "https://9to5google.com/2026/10/20/android-17-qpr3-beta-2-pixel",
+      "title": "Someone made a Walkman music player for the Galaxy Z Fold 8, and it works with YouTube Music",
+      "summary": "A Walkman-esque app fits so well on the Galaxy Z Fold 8 because of how wide and short the front display is, just like Sony’s original cassette player.",
+      "url": "https://9to5google.com/2026/10/21/walkman-player-for-the-galaxy-z-fold-8",
       "source": "9to5Google",
-      "published_at": "2026-10-20T20:31:34+00:00",
+      "published_at": "2026-10-21T21:01:25+00:00",
       "category": "android",
       "tags": [
         "android",
@@ -149,65 +83,24 @@
       "article_type": "news"
     },
     {
-      "title": "iOS 27.2 adds new features in six iPhone apps, here’s what’s coming",
-      "summary": "Every major streaming service has its own profiles feature, letting users on the same account keep their viewing history and recommendations separate. Apple TV has long offered such a feature in tvOS, but now with iOS 27.2 and iPadOS 27.2 it’s coming to iPhone and iPad too.",
-      "url": "https://9to5mac.com/2026/10/20/ios-27-2-adds-new-features-in-six-iphone-apps-heres-whats-coming",
-      "source": "9to5Mac",
-      "published_at": "2026-10-20T16:18:15+00:00",
-      "category": "ios",
+      "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+      "summary": "We'll keep investing in WebMCP as the standard evolves, starting with helping agents find a site's tools more easily. Cloudflare and Commerce.com will continue to work together to make shopping with agents fast, reliable and safe for both merchants and shoppers.",
+      "url": "https://blog.cloudflare.com/webmcp-commerce",
+      "source": "Cloudflare Blog",
+      "published_at": "2026-10-21T13:00:00+00:00",
+      "category": "cloud",
       "tags": [
-        "apple",
-        "devices"
+        "cloud",
+        "infrastructure"
       ],
-      "article_type": "news"
+      "article_type": "technical_article"
     },
     {
-      "title": "Here's another 15 demos worth checking out in Steam Next Fest - October 2026 edition",
-      "summary": "Steam Next Fest - October 2026 edition is sadly rammed full of very clear low-effort slop games, they're everywhere. It's pretty east to spot them too thanks to the AI warning browser plugin , along with certain types of Steam images looking the same.",
-      "url": "https://www.gamingonlinux.com/2026/10/heres-another-15-demos-worth-checking-out-in-steam-next-fest-october-2026-edition",
+      "title": "Stellaris: Willpower expansion set for launch on November 23",
+      "summary": "Launching alongside another free update version 4.6 'Corona Borealis', the Stellaris: Willpower expansion arrives November 23rd. This is another expansion that sees work from the Abrakam studio.",
+      "url": "https://www.gamingonlinux.com/2026/10/stellaris-willpower-expansion-set-for-launch-on-november-23",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-21T08:09:37+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games",
-        "steam"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time",
-      "summary": "Mistral AI has launched Voxtral 3, a new family of language models built for real-time voice agents. The system includes a speech-to-text model (Voxtral Small Transcribe 3), a text-to-speech model (Voxtral Mini TTS 3), and a voice agent SDK based on LiveKit.",
-      "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time",
-      "source": "The Decoder",
-      "published_at": "2026-10-20T17:17:55+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Google upgrading Gemini for Android Auto with Personal Intelligence",
-      "summary": "On the privacy front, Personal Intelligence is opt-in, though it will come to Android Auto automatically if you enabled it for the Gemini app on your phone.",
-      "url": "https://9to5google.com/2026/10/20/gemini-android-auto-personal-intelligence",
-      "source": "9to5Google",
-      "published_at": "2026-10-20T20:00:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Play with friends with the Social Multiplayer Games Collection from Digiphile",
-      "summary": "Digiphile (former Humble Bundler staff) just launched their new Social Multiplayer Games Collection . This bundle supports the International Medical Corps charity with a portion of proceeds going to it.",
-      "url": "https://www.gamingonlinux.com/2026/10/play-with-friends-with-the-social-multiplayer-games-collection-from-digiphile",
-      "source": "GamingOnLinux",
-      "published_at": "2026-10-21T07:10:24+00:00",
+      "published_at": "2026-10-21T14:14:18+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -216,11 +109,11 @@
       "article_type": "news"
     },
     {
-      "title": "OpenAI says GPT-6 is much better with legacy programming languages such as COBOL and Fortran",
-      "summary": "OpenAI improved its latest models for low-resource programming languages like COBOL, Fortran, and Visual Basic. On the new MultiLangBench, GPT-6 Astra hits an 87.4 percent test pass rate across 20 languages, up from about 38 percent for GPT-5.6 Terra.",
-      "url": "https://the-decoder.com/openai-says-gpt-6-is-much-better-with-legacy-programming-languages-such-as-cobol-and-fortran",
+      "title": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites",
+      "summary": "OpenAI's GPT-5.6 Sol discovered a critical PHP vulnerability as part of the Patch the Planet initiative that could affect millions of websites. Security firm Wiz independently found the same flaw using Google's Gemini 4 Argon.",
+      "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites",
       "source": "The Decoder",
-      "published_at": "2026-10-20T16:40:29+00:00",
+      "published_at": "2026-10-21T19:45:01+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -229,24 +122,37 @@
       "article_type": "news"
     },
     {
-      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
-      "summary": "To learn how experienced developers strike that balance, we spoke with three Java Champions, all with over a decade of experience in using Java. They shared concrete examples of using GitHub Copilot in production and open source, along with the practices they use to turn AI-generated output into reliable software.",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
-      "source": "GitHub AI",
-      "published_at": "2026-10-20T16:05:03+00:00",
-      "category": "ai",
+      "title": "Combolands will take away all your free time",
+      "summary": "This is one that will end up taking away all of your free time. Very satisfying gameplay overall, I love how different it feels each time with the generated maps on top of the random tile cards from your picked guilds.",
+      "url": "https://www.gamingonlinux.com/2026/10/combolands-will-take-away-all-your-free-time",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-21T12:19:15+00:00",
+      "category": "linux",
       "tags": [
-        "ai",
-        "developer-tools"
+        "linux-gaming",
+        "games"
       ],
       "article_type": "news"
     },
     {
-      "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
-      "summary": "The founders believe their model could one day lead to a tool that would let people “speak” to plants. “We’re listening more than we’re speaking, but listening’s the first step,” said Mast, co-founder and CEO of Electric Plant.",
-      "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language",
-      "source": "TechCrunch AI",
-      "published_at": "2026-10-20T16:00:00+00:00",
+      "title": "AI cuts coding time, but it's also filling open source's inbox with crap",
+      "summary": "Almost three-quarters (71 percent) of maintainers reckon GenAI has lowered the barriers to contributing to open source, but just over half (53 percent) disagree that the technology has improved community trust.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/21/ai-cuts-coding-time-but-its-also-filling-open-sources-inbox-with-crap/5304389",
+      "source": "The Register",
+      "published_at": "2026-10-21T14:43:00+02:00",
+      "category": "programming",
+      "tags": [
+        "software",
+        "technology"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Cloud now offers OpenAI models alongside Gemini and Claude, becoming the only major provider with all three",
+      "summary": "Google Cloud is now the only major cloud provider offering Gemini, Claude, and OpenAI models on one platform. Three OpenAI models are available starting today : GPT-6 Astra for demanding tasks like coding and research, GPT-6.1 Sol as a cheaper alternative with similar performance, and GPT-6 Luna as a fast, cost-efficient option for everyday use.",
+      "url": "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three",
+      "source": "The Decoder",
+      "published_at": "2026-10-21T17:44:22+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -255,11 +161,90 @@
       "article_type": "news"
     },
     {
-      "title": "Bulk migrate branch protections to rulesets for a repository",
-      "summary": "You can now convert all branch protection rules of a repository to rulesets in a single action. This is an extension of the ability to convert a single branch protection rule to a ruleset that we released previously, now allowing for at-scale conversions.",
-      "url": "https://github.blog/changelog/2026-10-20-bulk-migrate-branch-protections-to-rulesets-for-a-repository",
+      "title": "iPhone Duo review roundup: The same problems Android foldables face, but with Apple’s polish",
+      "summary": "Looking at iPhone Duo reviews from the perspective of someone who’s been using Android foldables as their daily driver for over half a decade at this point, I can’t help but look at Apple’s first attempt and see the foundation it’s building on, but also the places where Apple’s inherent polish comes into play.",
+      "url": "https://9to5google.com/2026/10/21/iphone-duo-review-roundup",
+      "source": "9to5Google",
+      "published_at": "2026-10-21T16:15:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "HEADCUTTER is a real juicy looking upcoming shooter",
+      "summary": "HEADCUTTER is an upcoming sci-fi spaghetti western FPS with brutal combat, destructible environments, and lots of gore. Fans of over the top action will definitely want to be keeping an eye on this one, no demo available just yet though.",
+      "url": "https://www.gamingonlinux.com/2026/10/headcutter-is-a-real-juicy-looking-upcoming-shooter",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-21T10:04:48+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Python 3.15.1, 3.14.9 and 3.13.17 are out",
+      "summary": "We don’t normally update pip for security releases like Python 3.13 because of backward compatibility concerns, but since 3.13 only just entered security-only mode, doing a special release with installers seemed prudent.",
+      "url": "https://blog.python.org/2026/10/python-3151-3149-31317",
+      "source": "Python Insider",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "category": "programming",
+      "tags": [
+        "python",
+        "language"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Inception's Mercury 3 diffusion model claims to beat GPT-6 Luna and Claude Haiku 5.5 at a fraction of the wait",
+      "summary": "Inception says Mercury 3 is the most capable diffusion language model released so far. The company claims it runs four to eight times faster than GPT-6 Luna and Claude Haiku 5.5 and beats both in eight of 12 benchmarks.",
+      "url": "https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait",
+      "source": "The Decoder",
+      "published_at": "2026-10-21T14:45:45+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models",
+        "haiku"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "A more reliable way to add and edit contacts on Android",
+      "summary": "Apps that target the upcoming Android release will no longer be able to directly write to contacts with the WRITE_CONTACTS permission. Instead, you can use the standard contact intents ( ACTION_INSERT , ACTION_EDIT , and ACTION_INSERT_OR_EDIT ).",
+      "url": "https://developer.android.com/blog/posts/reliable-way-to-add-and-edit-contacts-android",
+      "source": "Android Developers",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "developers"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Mistral and Nvidia want to speed up industrial design with physics AI",
+      "summary": "Mistral and Nvidia are teaming up to speed up engineering simulations and industrial product design with AI. The article Mistral and Nvidia want to speed up industrial design with physics AI appeared first on The Decoder .",
+      "url": "https://the-decoder.com/mistral-and-nvidia-want-to-speed-up-industrial-design-with-physics-ai",
+      "source": "The Decoder",
+      "published_at": "2026-10-21T14:40:51+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens",
+      "summary": "You can now use expiring, automatically refreshing OAuth credentials in GitHub CLI as part of a public preview. When you opt in, gh stores an expiring access token alongside a rotating refresh token and automatically refreshes the token whenever it is needed.",
+      "url": "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens",
       "source": "GitHub Changelog",
-      "published_at": "2026-10-20T18:06:21+00:00",
+      "published_at": "2026-10-21T16:43:23+00:00",
       "category": "agent_tools",
       "tags": [
         "github",
@@ -268,11 +253,51 @@
       "article_type": "news"
     },
     {
-      "title": "GitHub package firewall in public preview",
-      "summary": "The package firewall is available in public preview as we scale up the infrastructure behind it and continue to add features based on customer demand.",
-      "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview",
+      "title": "iOS Decoded: iOS 27.2 RC – hands-on w/ HomePod Sound Glow, TV profiles, Apple TV Home Theater assets, more [Video]",
+      "summary": "We also go hands-on with other changes, like the handy new profiles option for the TV app and Suggested Actions for Messages. Further, we take a look at and listen to some of the assets and sounds from Apple TV’s new surround-sound Home Theater functionality.",
+      "url": "https://9to5mac.com/2026/10/21/ios-decoded-ios-27-2-rc-hands-on-w-homepod-sound-glow-tv-profiles-apple-tv-home-theater-assets-more-video",
+      "source": "9to5Mac",
+      "published_at": "2026-10-21T17:00:32+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Announcing rustup 1.29.2",
+      "summary": "The rustup team is happy to announce the release of rustup version 1.29.2. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software.",
+      "url": "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2",
+      "source": "Rust Blog",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "category": "programming",
+      "tags": [
+        "rust",
+        "language"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
+      "summary": "Query clarification is essential for retrieval-augmented generation (RAG) systems that face ambiguous user queries. We consider multi-turn grounded conversational scenarios where a user query is either ill-formed or ambiguous in the context of the prior dialog or, more interestingly, it may be well-formed but when posed against retrieved documents there are multiple relevant interpretations.",
+      "url": "https://arxiv.org/abs/2610.28686",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-22T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research",
+        "models"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Some Git over HTTPS may temporarily require authentication",
+      "summary": "During periods of unusual traffic, GitHub may temporarily require authentication for some clones and fetches of public repositories over HTTPS to help protect github.com’s availability.",
+      "url": "https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication",
       "source": "GitHub Changelog",
-      "published_at": "2026-10-20T16:11:53+00:00",
+      "published_at": "2026-10-19T10:37:30+00:00",
       "category": "agent_tools",
       "tags": [
         "github",
@@ -281,11 +306,11 @@
       "article_type": "news"
     },
     {
-      "title": "Dependabot now supports npm 12, pnpm 11 and 12, and Bun 1.4",
-      "summary": "You can now upgrade your projects to npm 12, pnpm 11 or 12, or Bun 1.4 and keep receiving Dependabot updates. Support for these package manager versions is available to all github.com users and will be included in GitHub Enterprise Server 3.24.",
-      "url": "https://github.blog/changelog/2026-10-20-dependabot-now-supports-npm-12-pnpm-11-and-12-and-bun-1-4",
+      "title": "CodeQL changes for macOS 27, Xcode 27, and Swift 6.4",
+      "summary": "Starting with macOS 27 and Xcode 27, Apple no longer includes Intel (x86_64) code in some of the system binaries and libraries that CodeQL relies on to trace builds.",
+      "url": "https://github.blog/changelog/2026-10-19-codeql-changes-for-macos-27-xcode-27-and-swift-6-4",
       "source": "GitHub Changelog",
-      "published_at": "2026-10-20T13:52:38+00:00",
+      "published_at": "2026-10-19T10:29:09+00:00",
       "category": "agent_tools",
       "tags": [
         "github",
@@ -294,11 +319,11 @@
       "article_type": "news"
     },
     {
-      "title": "PS5 Linux hack now supports (some) newer firmware versions",
-      "summary": "New PS5 Linux hack pLinux5-NG supports newer firmware, allowing Linux and Steam games to run on Sony's console. But not for long, welp. You're reading PS5 Linux hack now supports (some) newer firmware versions , a blog post from OMG!",
-      "url": "https://www.omgubuntu.co.uk/2026/10/ps5-linux-hack-newer-firmware",
+      "title": "Ubuntu rolls out php2shell, eMudhra certificate fixes",
+      "summary": "Ubuntu has released security updates for the php2shell PHP flaw that’s led to websites being taken offline , and a key compromise at the eMudhra certificate authority.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/ubuntu-php2shell-emudhra-security-fixes",
       "source": "OMG! Ubuntu",
-      "published_at": "2026-10-21T01:13:51+00:00",
+      "published_at": "2026-10-21T22:19:00+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
@@ -307,41 +332,41 @@
       "article_type": "news"
     },
     {
-      "title": "Give Nautilus file manager the ‘Computer’ view it lacks",
-      "summary": "The Nautilus file manager is great for browsing your files and folders, but it lacks a dedicated way to see all your drives a how much space is left on each – but you can add one.",
-      "url": "https://www.omgubuntu.co.uk/2026/10/nautilus-my-computer-view",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-10-20T17:43:46+00:00",
+      "title": "Linux 7.4 Kernel Crypto Library Enjoying Optimized AES Implementations On x86 & RISC-V",
+      "summary": "The latest Linux kernel cryptographic subsystem performance work carried out by Google engineer Eric Biggers is migrating x86/x86_64 and RISC-V optimized implementations of different AES modes into the lib/crypto kernel crypto library to enjoy faster performance there.",
+      "url": "https://www.phoronix.com/news/Linux-7.4-Crypto-Library",
+      "source": "Phoronix",
+      "published_at": "2026-10-21T16:11:03-04:00",
       "category": "linux",
       "tags": [
-        "ubuntu",
-        "desktop"
+        "linux",
+        "open-source"
       ],
       "article_type": "news"
     },
     {
-      "title": "Audacious 4.6.2 fills the last gaps in its Qt Winamp mode",
-      "summary": "Audacious 4.6.2 lets you drop Winamp skin files onto the Qt window to install them, and adds keyboard navigation for toolbar buttons. You're reading Audacious 4.6.2 fills the last gaps in its Qt Winamp mode , a blog post from OMG!",
-      "url": "https://www.omgubuntu.co.uk/2026/10/audacious-update-qt-winamp-skins",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-10-19T22:38:14+00:00",
+      "title": "Snapdragon X2 Performance On Linux Exceeding Expectations In Initial Benchmarks",
+      "summary": "For your viewing pleasure today are the first Linux benchmarks of the Qualcomm Snapdragon X2 Elite Extreme on Linux using the new Ubuntu 26.10 X1E Concept ISO for Snapdragon X laptop support on Linux.",
+      "url": "https://www.phoronix.com/review/snapdragon-x2-linux",
+      "source": "Phoronix",
+      "published_at": "2026-10-21T10:50:41-04:00",
       "category": "linux",
       "tags": [
-        "ubuntu",
-        "desktop"
+        "linux",
+        "open-source"
       ],
       "article_type": "news"
     },
     {
-      "title": "NordVPN 6.0 for Linux will feature ‘breaking changes’",
-      "summary": "Among the changes, NordVPN 6.0 combines protocol and technology settings in a nordvpn set protocol command, while obfuscation is now handled by NordWhisper, rather than a separate setting.",
-      "url": "https://www.omgubuntu.co.uk/2026/10/nordvpn-6-0-linux-cli-changes",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-10-19T15:17:45+00:00",
+      "title": "Fwupd Working Toward Proper Android Integration",
+      "summary": "Google Chromebooks already have a mandate for nice Fwupd support with the Linux Vendor Firmware (LVFS) while now there is work on improving the Android integration for Fwupd/LVFS.",
+      "url": "https://www.phoronix.com/news/Fwupd-To-Android-Integration",
+      "source": "Phoronix",
+      "published_at": "2026-10-21T06:16:13-04:00",
       "category": "linux",
       "tags": [
-        "ubuntu",
-        "desktop"
+        "linux",
+        "open-source"
       ],
       "article_type": "news"
     }
