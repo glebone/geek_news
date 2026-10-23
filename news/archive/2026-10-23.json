@@ -1,0 +1,400 @@
+{
+  "schema_version": 2,
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T01:22:17Z",
+  "count": 30,
+  "articles": [
+    {
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "summary": "OpenAI made its Decisions API model widely available to users for the first time, entering the market for fast, cheap intelligence that recently made TypeSafe, a startup founded by a former researcher at the frontier lab, a $7.6 billion company .",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up",
+      "source": "TechCrunch AI",
+      "published_at": "2026-10-22T19:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Code v2.1.309",
+      "summary": "Fixed Bash permission checks not prompting for some compound commands that change directory before running git when the cd is wrapped or prefixed, as they do for a plain cd.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+      "source": "Claude Code",
+      "published_at": "2026-10-22T22:18:57+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Pokémon Mini ROM Cart: PM2354 SD",
+      "summary": "A Kickstarter campaign was recently launched for a Pokémon Mini ROM Cart. There’s already a working prototype that plays Pokémon mini and original Game Boy roms.",
+      "url": "https://retrorgb.com/pokemon-mini-rom-cart-pm2354-sd.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-22T18:24:19+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Retro game emulator Delta looks great on the iPhone Duo",
+      "summary": "The popular retro game emulator Delta has today launched a big new 2.0 version, most notably featuring a refreshed Liquid Glass interface and support for the iPhone Duo.",
+      "url": "https://9to5mac.com/2026/10/22/retro-game-emulator-delta-looks-great-on-the-iphone-duo",
+      "source": "9to5Mac",
+      "published_at": "2026-10-22T23:23:32+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Car’s Camera Footage Backed up to NAS",
+      "summary": "The system is built around a Raspberry Pi Zero 2 W which plugs directly into a USB port in the car’s glovebox. To set it up, the software only needs to be flashed onto the Pi and then it can be controlled from a smartphone.",
+      "url": "https://hackaday.com/2026/10/22/cars-camera-footage-backed-up-to-nas",
+      "source": "Hackaday",
+      "published_at": "2026-10-22T23:00:13+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "YouTube removing ‘Subscriptions’ bottom bar tab on Android, iOS after nearly a decade",
+      "summary": "“Subs” appears in the second position after “Home” with a red underline that will take some getting used to. This change will break a lot of muscle memory, with Subscriptions appearing in the YouTube bottom bar for nearly a decade (2017).",
+      "url": "https://9to5google.com/2026/10/22/youtube-subscriptions-android-ios",
+      "source": "9to5Google",
+      "published_at": "2026-10-22T22:05:06+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Canva releases its first image generation model",
+      "summary": "Design platform Canva released its first image generation model, called Canva Craft, developed by its research team to compete with same-category models from Google, OpenAI, ByteDance, and Meta.",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model",
+      "source": "TechCrunch AI",
+      "published_at": "2026-10-22T19:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Morph 4K – Complete Firmware Overhaul",
+      "summary": "PixelFX have just released a beta version of their upcoming v4 firmware for the Morph 4K. This is a massive update with tons of additions and changes.",
+      "url": "https://retrorgb.com/morph-4k-complete-firmware-overhaul.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-22T17:49:54+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Samsung reiterates that Galaxy Z Fold 8 is a hit, and that iPhone Duo puts a spotlight on it",
+      "summary": "Samsung says that the Galaxy Z Fold 8 series is performing considerably better than the Galaxy Z Fold 7, with a 45% increased in sales in Europe when focused in to the first nine weeks post-launch.",
+      "url": "https://9to5google.com/2026/10/22/galaxy-z-fold-8-hit-iphone-duo-boost",
+      "source": "9to5Google",
+      "published_at": "2026-10-22T21:05:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine",
+      "summary": "Google announced Agent Compute Engine, a service that gives each AI agent its own isolated virtual machine. The service already powers Gemini and will open for preview in the coming months.",
+      "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine",
+      "source": "The Decoder",
+      "published_at": "2026-10-22T17:50:09+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "9to5Mac Daily: October 22, 2026 – iOS 27.2 features, Apple Music rebrand",
+      "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players.",
+      "url": "https://9to5mac.com/2026/10/22/daily-october-22-2026",
+      "source": "9to5Mac",
+      "published_at": "2026-10-22T22:23:46+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google explains how to fix time zones on Android amid changes in Canada",
+      "summary": "Time is usually set automatically on Android, and it sounds like that will still happen for the most part. Google says to “apply any pending updates from your phone’s manufacturer and Google, and then restart your device” if your phone’s time is incorrect on November 1 after the changes kick in.",
+      "url": "https://9to5google.com/2026/10/22/google-explains-how-to-fix-time-zones-on-android-amid-changes-in-canada",
+      "source": "9to5Google",
+      "published_at": "2026-10-22T20:45:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Duet app is Anthropic’s bet on agents",
+      "summary": "Anthropic says Duet proactively delivers its recommendations as it monitors ongoing tasks. Built on the Claude Opus 5.5 model, Duet can connect to over 6,000 connectors and plug-ins in the Claude Marketplace.",
+      "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+      "source": "TechCrunch AI",
+      "published_at": "2026-10-22T13:53:26+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Introducing the Elephant-Goldfish Model plugin: scaling design-driven AI software development",
+      "summary": "To put this methodology into practice at scale, we are thrilled to announce the Elephant-Goldfish Model plugin . Originally, this plugin was developed internally for Google software engineers, and is now open source.",
+      "url": "https://opensource.googleblog.com/2026/10/introducing-elephant-goldfish-model-plugin.html",
+      "source": "Google Open Source",
+      "published_at": "2026-10-22T18:30:00+00:00",
+      "category": "open_source",
+      "tags": [
+        "google",
+        "open-source",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27 adds new Phone app feature that’s an instant favorite",
+      "summary": "iOS 27 is packed with new features for apps like Notes , Wallet , Maps , Messages , and more. But one iOS 27 addition that’s especially impressed me is a new Phone feature : Call Context.",
+      "url": "https://9to5mac.com/2026/10/22/ios-27-adds-new-phone-app-feature-thats-an-instant-favorite",
+      "source": "9to5Mac",
+      "published_at": "2026-10-22T20:29:15+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Announcing the verifiable quantum circuit compilation competition on Kaggle",
+      "summary": "To help bridge this gap, the Google Quantum AI team is launching a competition on Kaggle challenging you to use AI to build smaller, more efficient quantum circuits.",
+      "url": "https://opensource.googleblog.com/2026/10/announcing-verifiable-quantum-circuit-compilation-competition-on-kaggle.html",
+      "source": "Google Open Source",
+      "published_at": "2026-10-21T18:30:00+00:00",
+      "category": "open_source",
+      "tags": [
+        "google",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GitHub Copilot in Visual Studio — September update",
+      "summary": "September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags them.",
+      "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-23T00:17:51+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple TV is adding two new features with iOS 27.2",
+      "summary": "Alongside the expansion of profiles to more platforms, Apple has added a variety of new profile image options in iOS 27.2. Characters from Apple TV kids’ series like The Snoopy Show, Frog and Toad, and Stillwater are all now available.",
+      "url": "https://9to5mac.com/2026/10/22/apple-tv-is-adding-two-new-features-with-ios-27-2",
+      "source": "9to5Mac",
+      "published_at": "2026-10-22T18:16:52+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "SteamVR 2.18 brings Linux fixes, Steam Frame improvements, new Aurora environment",
+      "summary": "Nice to see so many fixes and improvements here - hopefully the Steam Frame experience will be even better with it. Valve have been doing lots of rapid updates recently, with the Steam Frame still being a bit undercooked at release .",
+      "url": "https://www.gamingonlinux.com/2026/10/steamvr-2-18-brings-linux-fixes-steam-frame-improvements-new-aurora-environment",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-22T07:01:05+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Custom skills, agents, and MCP servers in usage metrics API",
+      "summary": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under other or custom .",
+      "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-22T22:19:17+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Electronic Arts (EA) to shut down BioWare and cancel the next Mass Effect",
+      "summary": "After Electronic Arts (EA) was sold off , the inevitable has happened - they're doing some restructuring and cutting jobs. This was announced on the official EA website today, in a post from Cam Weber, President and CSO, and David Tinson, President and COO.",
+      "url": "https://www.gamingonlinux.com/2026/10/electronic-arts-ea-to-shut-down-bioware-and-cancel-the-next-mass-effect",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-21T17:30:26+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Global default for Copilot features generally available",
+      "summary": "In September, we announced a global default policy for generally available GitHub Copilot features and supported client capabilities on Copilot Business and Copilot Enterprise plans.",
+      "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-22T20:44:28+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Stellaris: Willpower expansion set for launch on November 23",
+      "summary": "Launching alongside another free update version 4.6 'Corona Borealis', the Stellaris: Willpower expansion arrives November 23rd. This is another expansion that sees work from the Abrakam studio.",
+      "url": "https://www.gamingonlinux.com/2026/10/stellaris-willpower-expansion-set-for-launch-on-november-23",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-21T14:14:18+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Meta API endpoints updated for Actions blob storage",
+      "summary": "We’re adding blob storage endpoints for GitHub Actions on github.com as part of our ongoing work to improve capacity and reliability. The meta API now includes these new endpoints.",
+      "url": "https://github.blog/changelog/2026-10-22-meta-api-endpoints-updated-for-actions-blob-storage",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-22T18:14:16+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Combolands will take away all your free time",
+      "summary": "This is one that will end up taking away all of your free time. Very satisfying gameplay overall, I love how different it feels each time with the generated maps on top of the random tile cards from your picked guilds.",
+      "url": "https://www.gamingonlinux.com/2026/10/combolands-will-take-away-all-your-free-time",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-21T12:19:15+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+      "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear.",
+      "url": "https://arxiv.org/abs/2610.28698",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-22T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Epic’s new ‘vibe-coded’ games launcher is ready to test on Ubuntu",
+      "summary": "Epic Games has confirmed that Fortnite is coming to Linux, and the launcher it will arrive through is available to try in preview on Ubuntu – a vibe-coded wonder that’s been royally roasted on the internet.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/epic-confirm-fortnite-linux",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-22T22:59:55+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery",
+      "summary": "LLM-driven evolutionary search is a promising paradigm for scientific discovery, but existing methods remain costly and slow, often applying expensive reasoning uniformly while underusing evidence from failed, redundant, and saturated trials.",
+      "url": "https://arxiv.org/abs/2610.28706",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-22T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "KeePassXC 2.8 brings Qt 6 UI, auto-type on Wayland",
+      "summary": "KeePassXC 2.8.0 sees some “long-awaited new features” arrive, including a Qt6 port of the main app interface, auto-type support on Wayland via XDG Desktop Portals, fingerprint unlock and a new experimental Aarch64 AppImage.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/keepassxc-2-8-auto-type-wayland",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-22T17:17:39+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Snapdragon X2 Performance On Linux Exceeding Expectations In Initial Benchmarks",
+      "summary": "For your viewing pleasure today are the first Linux benchmarks of the Qualcomm Snapdragon X2 Elite Extreme on Linux using the new Ubuntu 26.10 X1E Concept ISO for Snapdragon X laptop support on Linux.",
+      "url": "https://www.phoronix.com/review/snapdragon-x2-linux",
+      "source": "Phoronix",
+      "published_at": "2026-10-21T10:50:41-04:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
