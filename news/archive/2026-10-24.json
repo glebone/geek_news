@@ -1,0 +1,361 @@
+{
+  "schema_version": 2,
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T01:28:06Z",
+  "count": 27,
+  "articles": [
+    {
+      "title": "Be ready for spooky season with new games from Fanatical's Build your own Frightmare Bundle (Halloween 2026)",
+      "summary": "Fanatical have launched their Build your own Frightmare Bundle (Halloween 2026), another good chance to save some monies and get new games. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/10/be-ready-for-spooky-season-with-new-games-from-fanaticals-build-your-own-frightmare-bundle-halloween-2026",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-23T13:46:02+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
+      "summary": "Only Claude Opus 5.5 (58), Claude Sonnet 5.5 (56), and Muse Wonder Full (56) rank higher, according to Artificial Analysis . If Moonshot releases the model weights as planned by November 4, 2026, K3.1 Pro would become the highest-scoring open-weights model available.",
+      "url": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5",
+      "source": "The Decoder",
+      "published_at": "2026-10-23T19:00:07+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Code v2.1.310",
+      "summary": "Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "source": "Claude Code",
+      "published_at": "2026-10-23T23:39:00+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Fightbox R10 Remix – Spinner/Trackball Controller",
+      "summary": "Fightbox offered to let me borrow their new R10 Remix, which is like their R10 Pro, but with only a Spinner and Trackball (no stick).",
+      "url": "https://retrorgb.com/fightbox-r10-remix-spinner-trackball-controller.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-23T16:36:56+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple exploring fix for Safari’s cramped layout on the iPhone Duo’s outer display",
+      "summary": "In a post highlighting what’s new in Safari 27.1, including how websites adapt to the iPhone Duo’s different screen sizes and folding positions, Simmons acknowledged that websites currently can’t extend behind the controls on the device’s outer display, and said Apple is exploring ways to address that limitation.",
+      "url": "https://9to5mac.com/2026/10/23/apple-exploring-fix-for-safaris-cramped-layout-on-the-iphone-duos-outer-display",
+      "source": "9to5Mac",
+      "published_at": "2026-10-23T23:50:49+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "The iPhone Duo Can Be a Tiny Mac, a Toaster, and a Nintendo DS",
+      "summary": "The iPhone Duo has an all-new form factor with multiple folding and orientation options, and app developers are having some fun with it. You can find quite a few apps using the foldable display in unique ways, many with skeuomorphic designs.",
+      "url": "https://www.macrumors.com/2026/10/23/iphone-duo-fun-apps",
+      "source": "MacRumors",
+      "published_at": "2026-10-23T23:22:55+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Gemini for Android rolls out side panel and settings redesign",
+      "summary": "The updated side panel and settings rolled out to iOS, macOS, and the web app last week with the launch of Gemini 4 Argon .",
+      "url": "https://9to5google.com/2026/10/23/gemini-settings-redesign-android",
+      "source": "9to5Google",
+      "published_at": "2026-10-23T22:02:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Factorio 2.1 is out now with the native ARM64 Linux build to run on Steam Frame, Raspberry Pi and more",
+      "summary": "A big one is the addition of ARM64 support for Linux. From their announcement : \"Factorio now runs natively on ARM64 Linux, which means the game runs on Steam Frame, Raspberry Pi (headless servers), Asahi Linux on Apple Silicon MacBooks, the free VPS you claimed from Oracle that one time, and other assorted hardware.\"",
+      "url": "https://www.gamingonlinux.com/2026/10/factorio-2-1-is-out-now-with-the-native-arm64-linux-build-to-run-on-steam-frame-raspberry-pi-and-more",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-23T11:16:14+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1",
+      "summary": "Anthropic says it has an internal AI model that outperforms and is better aligned than Mythos 5.1. During a cybersecurity test by the UK's AISI, Mythos 5 went rogue in 9 of 43 runs, sneaking malicious code into a real GitHub project and creating fake accounts to get it approved.",
+      "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1",
+      "source": "The Decoder",
+      "published_at": "2026-10-23T17:19:49+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Friday’s Android app deals and freebies: DREDGE, Slaps And Beans, Thronefall, more",
+      "summary": "Friday’s best Google Play app and game deals are ready, including DREDGE, Slaps And Beans, Argo’s Choice: Offline Game, The Ancestral Legacy, Ticket to Ride, Thronefall, Demon Castle Story, Lumino City, and more.",
+      "url": "https://9to5toys.com/2026/10/23/todays-highlight-google-play-deals-35",
+      "source": "9to5Google",
+      "published_at": "2026-10-23T19:55:20+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "This Week in Open Source for October 23, 2026",
+      "summary": "What actually sustains an open source community when the cost of generating code drops toward zero, while the human labor required to review, govern, and secure it stays just as demanding?",
+      "url": "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-23.html",
+      "source": "Google Open Source",
+      "published_at": "2026-10-23T18:30:00+00:00",
+      "category": "open_source",
+      "tags": [
+        "google",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Total War: SHOGUN 2 - Complete Edition pulled from sale due to mass complaints",
+      "summary": "Oh dear, oh dear. Generative AI strikes again? The recently released Total War: SHOGUN 2 - Complete Edition was pulled down after mass complaints. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/10/total-war-shogun-2-complete-edition-pulled-from-sale-due-to-mass-complaints",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-23T10:38:28+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Canva launches Craft, its first in-house image model",
+      "summary": "Design platform Canva has released Canva Craft, its first in-house image generation model. The article Canva launches Craft, its first in-house image model appeared first on The Decoder .",
+      "url": "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model",
+      "source": "The Decoder",
+      "published_at": "2026-10-23T11:36:30+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Health 5.11 rolling out expanded 100+ activity detection to Fitbit Air, Pixel Watch",
+      "summary": "Expanded activity detection is appearing with Google Health 5.11, which is widely available on iOS and still rolling out on Android . After updating, users are seeing an “Expanded activity detection, built to learn” screen.",
+      "url": "https://9to5google.com/2026/10/23/google-health-expanded-activity-detection",
+      "source": "9to5Google",
+      "published_at": "2026-10-23T18:36:47+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Epic Games has gone completely off the deep end with AI",
+      "summary": "What a shame to see what Epic Games has become. From some of my core gaming memories blasting through Unreal Tournament to seeing them advertise an AI generation competition with a 6 fingered hand.",
+      "url": "https://www.gamingonlinux.com/2026/10/epic-games-has-gone-completely-off-the-deep-end-with-ai",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-23T10:09:00+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Anthropic's Claude now writes code and proves it safe automatically",
+      "summary": "Anthropic used Claude to mathematically prove that existing code is correct. The approach tackles a core problem with AI-generated software but comes with strict practical limits.",
+      "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically",
+      "source": "The Decoder",
+      "published_at": "2026-10-23T11:32:19+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Usage metrics API adds usage from tools like OpenCode",
+      "summary": "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren’t previously captured in your reports.",
+      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-23T23:42:03+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Turn notifications into code with GitHub Copilot in Teams",
+      "summary": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation.",
+      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-23T21:29:58+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Offer your subscriptions to businesses and schools",
+      "summary": "Starting today, organizations and educational institutions can purchase subscriptions to apps in volume with multiseat purchasing. This makes it easy for organizations that use Apple Business or Apple School Manager to discover and purchase your auto-renewable subscription.",
+      "url": "https://developer.apple.com/news?id=yfo21auu",
+      "source": "Apple Developer",
+      "published_at": "2026-10-22T11:00:08-07:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "developers"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Public monitoring adds triage, validity, API, and webhooks",
+      "summary": "Public monitoring now automatically checks token validity on an ongoing basis for supported providers. Alerts display whether a credential is Active , Inactive , or Unknown , allowing security teams to quickly prioritize response for live tokens.",
+      "url": "https://github.blog/changelog/2026-10-23-public-monitoring-adds-triage-validity-api-and-webhooks",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-23T17:17:58+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Enterprise installations for GitHub Apps generally available",
+      "summary": "Installing GitHub Apps on your enterprise is now generally available. You can replace classic PATs with GitHub Apps in more of your enterprise and organization automation with the expanded API support detailed below.",
+      "url": "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-23T15:03:30+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple Released iOS 27.1 for iPhone Duo Only",
+      "summary": "Apple this week released the full and final version of iOS 27.1, but it is only available for the foldable iPhone Duo that launched today.",
+      "url": "https://www.macrumors.com/2026/10/23/apple-releases-ios-27-1",
+      "source": "MacRumors",
+      "published_at": "2026-10-23T15:35:00+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols",
+      "summary": "Every interaction between AI agents begins with a handshake: the initiating agent must locate its counterpart, learn what it can do, and establish a session before the first useful message can be sent.",
+      "url": "https://arxiv.org/abs/2610.30151",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-23T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "MCP vs CLI for AI Agents: A Comparative Analysis of Tool Integration Strategies for Autonomous Systems",
+      "summary": "AI agents require interfaces to interact with external systems such as files, APIs, databases, and cloud services. Two competing paradigms have emerged: CLI (Command Line Interface), where agents execute shell commands directly, and MCP (Model Context Protocol), a structured JSON-RPC protocol providing governed, typed tool access.",
+      "url": "https://arxiv.org/abs/2610.30157",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-23T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "KDE Plasma 6.9 Stabilizes KWin's Wayland Picture-In-Picture Support",
+      "summary": "With the wonderful KDE Plasma 6.8 having shipped just more than one week ago, KDE developers are beginning to go heavy on new features for Plasma 6.9.",
+      "url": "https://www.phoronix.com/news/KDE-Plasma-6.9-Wayland-PiP",
+      "source": "Phoronix",
+      "published_at": "2026-10-23T20:56:16-04:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Calibre 9.7 touts faster ebook conversion speeds",
+      "summary": "Calibre 9.17 has been released with faster ebook conversion speeds and JPEG XL image support. The open-source ebook editor improves output compression speeds for MOBI, AZW3 and PDB files, which makes conversions to those formats quicker.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/calibre-9-7-faster-conversion",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-23T15:45:01+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Canonical dev mocks up an Ubuntu launcher that uses AI",
+      "summary": "A Canonical engineer has published a prototype launcher that simulates how on-device AI could be used to enhance and aid users of the Ubuntu desktop.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/ubuntu-ai-launcher-prototype",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-23T04:05:46+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
