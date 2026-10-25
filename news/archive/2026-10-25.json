@@ -1,0 +1,216 @@
+{
+  "schema_version": 2,
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T00:58:30Z",
+  "count": 16,
+  "articles": [
+    {
+      "title": "Block’s new voice model sounds eerily human",
+      "summary": "Jack Dorsey’s Block released a new voice model out of the company’s research lab that runs locally and sounds strangely human with its expressions like laughs, pauses, and cries.",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human",
+      "source": "TechCrunch AI",
+      "published_at": "2026-10-24T16:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "The Sonic Hacking Contest 2026 is Here",
+      "summary": "I keep saying this every time I cover it but, in case you don’t know, the Sonic Hacking Contest is a yearly event put on by fans of Sonic the Hedgehog to showcase ROM hacks and game mods for various Sonic games.",
+      "url": "https://retrorgb.com/the-sonic-hacking-contest-2026-is-here.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-24T16:00:44+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "'Arguably Better Than Face ID': the iPhone Duo Touch ID Tip to Try",
+      "summary": "An iPhone Duo owner has shared a Touch ID tip on Reddit they claim is \"arguably better than Face ID.\" It involves registering the lowest part of your index finger instead of the pad of your fingertip.",
+      "url": "https://www.macrumors.com/2026/10/24/better-than-face-id-iphone-duo-touch-id-tip",
+      "source": "MacRumors",
+      "published_at": "2026-10-24T23:48:55+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Indie App Spotlight: ‘Flipcorder’ lets you shoot retro footage on your iPhone Duo",
+      "summary": "If you want more of a nostalgic video feel from your iPhone footage, Flipcorder is a great app to check out. It’s optimized for iPhone Duo, though the app also works on all other iPhone models.",
+      "url": "https://9to5mac.com/2026/10/24/indie-app-spotlight-flipcorder-lets-you-shoot-retro-footage-on-your-iphone-duo",
+      "source": "9to5Mac",
+      "published_at": "2026-10-24T19:30:00+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "summary": "Most AI chatbots won’t outright tell you who to vote for, but some of the models behind them will. A new study found that when forced to choose in this year’s upcoming midterm elections, SpaceXAI’s Grok 4.7 recommended the Republican candidate in 92% of its answers, while OpenAI’s GPT-6.1 Sol picked the Democrat in 97%.",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats",
+      "source": "TechCrunch AI",
+      "published_at": "2026-10-24T15:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Block's new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss",
+      "summary": "Block says Dessa is the first AI model trained entirely on human speech, with no text data at all, built from scratch. Instead of converting audio to text first, Dessa processes speech directly as audio.",
+      "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss",
+      "source": "The Decoder",
+      "published_at": "2026-10-24T14:09:46+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iPhone Duo’s software restricts an already-small display; Galaxy Z Fold 8 doesn’t",
+      "summary": "The iPhone Duo is already available, but its availability is limited . Meanwhile, the Galaxy Z Fold 8 is continuing to prove a success for Samsung.",
+      "url": "https://9to5google.com/2026/10/23/iphone-duo-software-restricts-small-display-galaxy-z-fold-8-doesnt",
+      "source": "9to5Google",
+      "published_at": "2026-10-23T15:13:53+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "OnePlus starts rolling out stable Android 17 updates early, marking the end of OxygenOS",
+      "summary": "OnePlus is now rolling out stable Android 17 updates to OnePlus 15 and OnePlus Pad 4, marking the end of OxygenOS as these devices are just the first to transition to ColorOS.",
+      "url": "https://9to5google.com/2026/10/23/oneplus-stable-android-17-rollout-begins",
+      "source": "9to5Google",
+      "published_at": "2026-10-23T14:15:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Bazzite Linux announce ROG XBOX Ally X20 and Acer Predator Atlas support is in testing",
+      "summary": "Another release of the popular Bazzite Linux is coming up, with new devices currently in testing like the ROG XBOX Ally X20 and Acer Predator Atlas.",
+      "url": "https://www.gamingonlinux.com/2026/10/bazzite-linux-announce-rog-xbox-ally-x20-and-acer-predator-atlas-support-is-in-testing",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-23T09:39:44+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GameMaker announce their next-gen runtime GMRT will be free for commercial use",
+      "summary": "Not only will the source code be available to view for non-console platforms, but it will also now be \"made free for commercial use\" starting January 1st, 2027.",
+      "url": "https://www.gamingonlinux.com/2026/10/gamemaker-announce-their-next-gen-runtime-gmrt-will-be-free-for-commercial-use",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-23T09:31:34+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Check out 'Clicky Islands', a unique blend of incremental and city-builders",
+      "summary": "You might lose quite a few hours to this one! Clicky Islands from Karrot Games and Pocketpair Publishing has a fun genre mixture. The developer emailed GamingOnLinux about it because not only does it have Native Linux support built with Godot, but it's also developed on Linux.",
+      "url": "https://www.gamingonlinux.com/2026/10/check-out-clicky-islands-a-unique-blend-of-incremental-and-city-builders",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-23T08:57:05+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Fanatical's Build your own Legendary Bundle (Fall 2026) has some top hits for cheaps",
+      "summary": "With multiple games new to bundles here, Fanatical have launched the Build your own Legendary Bundle (Fall 2026) . You can grab some highly rated games while saving money once again.",
+      "url": "https://www.gamingonlinux.com/2026/10/fanaticals-build-your-own-legendary-bundle-fall-2026-has-some-top-hits-for-cheaps",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-23T08:24:03+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Public monitoring now available with data residency",
+      "summary": "Public monitoring is available in public preview for GitHub Enterprise Cloud customers with data residency. Using public monitoring requires an active GitHub Advanced Security or GitHub Secret Protection license.",
+      "url": "https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-22T18:12:58+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "systemd Merges Support For Rust Programs",
+      "summary": "As of today in systemd Git it's now possible for the systemd programs to be written in the Rust programming language as an alternative to C.",
+      "url": "https://www.phoronix.com/news/systemd-Merges-Rust-Programs",
+      "source": "Phoronix",
+      "published_at": "2026-10-24T07:11:00-04:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Shader Effects is the coolest GNOME extension you’ll try this weekend",
+      "summary": "The Shader Effects extension applies GPU-accelerated filters, things like scan lines, NTSC RGB bloom and flickery green CRT glow, to your entire desktop or, if you’d rather, just a specific window(s).",
+      "url": "https://www.omgubuntu.co.uk/2026/10/shader-effect-gnome-extension",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-24T03:29:18+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Calibre 9.17 release brings faster ebook conversions",
+      "summary": "Calibre 9.17 has been released with faster ebook conversion speeds and JPEG XL image support. The open-source ebook editor improves output compression speeds for MOBI, AZW3 and PDB files, which makes conversions to those formats quicker.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/calibre-9-17-faster-conversion",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-23T15:45:01+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
