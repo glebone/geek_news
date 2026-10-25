@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "date": "2026-10-25",
-  "generated_at": "2026-10-25T07:29:43Z",
+  "generated_at": "2026-10-25T09:25:06Z",
   "count": 17,
   "articles": [
     {
@@ -31,11 +31,11 @@
       "article_type": "news"
     },
     {
-      "title": "Pushing Bluetooth out to 12 Kilometers",
-      "summary": "Bluetooth is a short-range protocol that’s great for peripherals and finding your keys, but it’s limited range is mainly a product of how it’s usually implemented.",
-      "url": "https://hackaday.com/2026/10/24/pushing-bluetooth-out-to-12-kilometers",
+      "title": "An Analog TV Station For Anyone",
+      "summary": "I am amused that the headline uses “analog” in American house style but the body text uses “analogue” according to the columnist’s native spelling conventions!",
+      "url": "https://hackaday.com/2026/10/25/an-analog-tv-station-for-anyone",
       "source": "Hackaday",
-      "published_at": "2026-10-25T05:00:51+00:00",
+      "published_at": "2026-10-25T08:00:24+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
