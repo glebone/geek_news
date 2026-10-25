@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "date": "2026-10-25",
-  "generated_at": "2026-10-25T00:58:30Z",
-  "count": 16,
+  "generated_at": "2026-10-25T07:29:43Z",
+  "count": 17,
   "articles": [
     {
       "title": "Block’s new voice model sounds eerily human",
@@ -31,15 +31,15 @@
       "article_type": "news"
     },
     {
-      "title": "'Arguably Better Than Face ID': the iPhone Duo Touch ID Tip to Try",
-      "summary": "An iPhone Duo owner has shared a Touch ID tip on Reddit they claim is \"arguably better than Face ID.\" It involves registering the lowest part of your index finger instead of the pad of your fingertip.",
-      "url": "https://www.macrumors.com/2026/10/24/better-than-face-id-iphone-duo-touch-id-tip",
-      "source": "MacRumors",
-      "published_at": "2026-10-24T23:48:55+00:00",
+      "title": "Pushing Bluetooth out to 12 Kilometers",
+      "summary": "Bluetooth is a short-range protocol that’s great for peripherals and finding your keys, but it’s limited range is mainly a product of how it’s usually implemented.",
+      "url": "https://hackaday.com/2026/10/24/pushing-bluetooth-out-to-12-kilometers",
+      "source": "Hackaday",
+      "published_at": "2026-10-25T05:00:51+00:00",
       "category": "hardware",
       "tags": [
-        "apple",
-        "devices"
+        "hardware",
+        "maker"
       ],
       "article_type": "news"
     },
@@ -170,6 +170,19 @@
       "tags": [
         "github",
         "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "PHP2Shell scare sees SuperTuxKart pull its online server",
+      "summary": "SuperTuxKart notes that attempts to exploit php2shell were recorded as early as 17 October, four days the flaw was publicly disclosed. Its own server was not breached, but suggests anyone reusing their SuperTuxKart Online password elsewhere, to change it there.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/supertuxkart-goes-offline-php2shell",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-25T05:05:13+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
       ],
       "article_type": "news"
     },
