@@ -1,9 +1,22 @@
 {
   "schema_version": 2,
   "date": "2026-10-26",
-  "generated_at": "2026-10-26T04:21:01Z",
-  "count": 12,
+  "generated_at": "2026-10-26T10:31:45Z",
+  "count": 14,
   "articles": [
+    {
+      "title": "PlayStation 5 Linux project upgraded to support PS5 Pro and newer firmware",
+      "summary": "The impressive PlayStation 5 Linux project is continuing on, and recent updates to it have again expanded what it can support. Even though one of the main people behind it quit , others seem to have taking it upon themselves to continue it on.",
+      "url": "https://www.gamingonlinux.com/2026/10/playstation-5-linux-project-upgraded-to-support-ps5-pro-and-newer-firmware",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-26T10:10:54+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
     {
       "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
       "summary": "Labeling one hour of robot video for 72 cents instead of $88 is what Nvidia promises with Flora, its open data engine. But the comparison with GPT-6 Astra isn't quite as lopsided as the price tag suggests.",
@@ -18,28 +31,83 @@
       "article_type": "news"
     },
     {
-      "title": "OLED MacBook Air and iMac Remain in Testing",
-      "summary": "Apple is testing OLED displays for future MacBook Air and iMac models, though both upgrades remain some way off, according to Bloomberg 's Mark Gurman in his latest \"Power On\" newsletter .",
-      "url": "https://www.macrumors.com/2026/10/25/oled-macbook-air-and-imac-in-testing",
-      "source": "MacRumors",
-      "published_at": "2026-10-26T03:41:01+00:00",
+      "title": "Hairy Armor For Combat Robot? It’s Not Terrible!",
+      "summary": "How well did it perform? Well enough to merit further study! Where past robots got their outer shells broken up, the hairy robot seems to have come through quite intact.",
+      "url": "https://hackaday.com/2026/10/26/hairy-armor-for-combat-robot-its-not-terrible",
+      "source": "Hackaday",
+      "published_at": "2026-10-26T08:00:59+00:00",
       "category": "hardware",
       "tags": [
-        "apple",
-        "devices"
+        "hardware",
+        "maker"
       ],
       "article_type": "news"
     },
     {
-      "title": "iFixit tears down iPhone Duo, finds possible causes of early screen failures",
-      "summary": "Speaking of stress, however, iFixit has found some possible culprits for the early screen failures reported by iPhone Duo owners , many of whom have described hearing a crunch while folding or unfolding the device, followed by bright lines appearing across the inner display.",
-      "url": "https://9to5mac.com/2026/10/25/ifixit-tears-down-iphone-duo-finds-possible-causes-of-early-screen-failures",
-      "source": "9to5Mac",
-      "published_at": "2026-10-25T21:36:58+00:00",
+      "title": "Steam's useful Personal Calendar gets a full release",
+      "summary": "I forgot it was ever a Beta, because Steam's Personal Calendar is actually one of the most useful features they've added to the store recently.",
+      "url": "https://www.gamingonlinux.com/2026/10/steams-useful-personal-calendar-gets-a-full-release",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-26T09:50:09+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Python 3.15.2, 3.14.10, 3.13.18, 3.12.16 and 3.11.18 are out",
+      "summary": "They address the compromised eMudhra intermediate CA keys . These keys are now blocked by the ssl module as a last resort against their use.",
+      "url": "https://blog.python.org/2026/10/python-3152-31410-31318-31216-31118",
+      "source": "Python Insider",
+      "published_at": "2026-10-26T00:00:00+00:00",
+      "category": "programming",
+      "tags": [
+        "python",
+        "language"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Building a Swashplate-less Helicoper Rotor",
+      "summary": "[worked in theory] tested two such rotor designs: one with one hinge per rotor, and one with one hinge for both rotors. The design using a single hinge seemed less sensitive to friction, was more responsive in testing, and had a more linear control response, so he used that.",
+      "url": "https://hackaday.com/2026/10/25/building-a-swashplate-less-helicoper-rotor",
+      "source": "Hackaday",
+      "published_at": "2026-10-26T05:00:22+00:00",
       "category": "hardware",
       "tags": [
-        "apple",
-        "devices"
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Epic's Tim Sweeney believes AI notices on Steam are a \"political statement\" for the \"hate mob\"",
+      "summary": "Valve requires developers to disclose AI-generated content in games and on Steam store pages, something Epic Games CEO Tim Sweeney isn't happy about. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/10/epics-tim-sweeney-believes-ai-notices-on-steam-are-political-statement-for-the-hate-mob",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-26T09:33:26+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Steam Next Fest - October 2026, here's the most-played demos so far",
+      "summary": "Valve sent word via email as Steam Next Fest - October 2026 beings to wind down about what has been the most popular during this event.",
+      "url": "https://www.gamingonlinux.com/2026/10/steam-next-fest-october-2026-heres-the-most-played-demos-so-far",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-26T08:51:33+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
       ],
       "article_type": "news"
     },
@@ -94,46 +162,6 @@
         "research"
       ],
       "article_type": "research"
-    },
-    {
-      "title": "METRO 2033 Redux and METRO Last Light Redux next-gen updates are out now",
-      "summary": "The brand new next-gen updates are now available free for both METRO 2033 Redux and METRO Last Light Redux - here's everything that's new and improved.",
-      "url": "https://www.gamingonlinux.com/2026/10/metro-2033-redux-and-metro-last-light-redux-next-gen-update-are-out-now",
-      "source": "GamingOnLinux",
-      "published_at": "2026-10-23T07:44:50+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Legacy Games store is closing down",
-      "summary": "Legacy Games has had the privilege of making and selling games both from our website, www.legacygames.com, and at retail since 1998. Back then, I was taking care of four kids and started this company on a wing and a prayer, as they say.",
-      "url": "https://www.gamingonlinux.com/2026/10/legacy-games-store-is-closing-down",
-      "source": "GamingOnLinux",
-      "published_at": "2026-10-23T07:34:36+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Steam Client Beta - October 22nd revamps Remote Play HDR support",
-      "summary": "Valve just released another upgrade with the Steam Client Beta - October 22nd update bringing overhauled Remote Play HDR support. Steam Deck support is back for it too, after previously being removed due to various issues.",
-      "url": "https://www.gamingonlinux.com/2026/10/steam-client-beta-october-22nd-revamps-remote-play-hdr-support",
-      "source": "GamingOnLinux",
-      "published_at": "2026-10-23T07:27:32+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games",
-        "steam"
-      ],
-      "article_type": "news"
     },
     {
       "title": "Ubuntu users can now file bugs against specific Launchpad PPAs",
