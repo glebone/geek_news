@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "date": "2026-10-26",
-  "generated_at": "2026-10-26T10:55:49Z",
+  "generated_at": "2026-10-26T11:17:40Z",
   "count": 14,
   "articles": [
     {
@@ -31,11 +31,24 @@
       "article_type": "news"
     },
     {
-      "title": "Hairy Armor For Combat Robot? It’s Not Terrible!",
-      "summary": "How well did it perform? Well enough to merit further study! Where past robots got their outer shells broken up, the hairy robot seems to have come through quite intact.",
-      "url": "https://hackaday.com/2026/10/26/hairy-armor-for-combat-robot-its-not-terrible",
+      "title": "iPhone Duo tested to destruction, including removing nanotexture layer",
+      "summary": "Apple warns against removing the nanotexture layer yourself, as you can easily damage the display beneath it, but of course that didn’t stop Jerry. He found that while the display is much more reflective without it, it kind of looks better.",
+      "url": "https://9to5mac.com/2026/10/26/iphone-duo-tested-to-destruction-including-removing-nanotexture-layer",
+      "source": "9to5Mac",
+      "published_at": "2026-10-26T11:12:44+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hiding Virtualization From Other Software",
+      "summary": "The Kernel-based Virtual Machine (KVM) allows Linux systems to function as hypervisors without needing any extra software, but VMs created with it don’t behave exactly like real hardware does.",
+      "url": "https://hackaday.com/2026/10/26/hiding-virtualization-from-other-software",
       "source": "Hackaday",
-      "published_at": "2026-10-26T08:00:59+00:00",
+      "published_at": "2026-10-26T11:00:56+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -66,19 +79,6 @@
       "tags": [
         "python",
         "language"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Building a Swashplate-less Helicoper Rotor",
-      "summary": "[worked in theory] tested two such rotor designs: one with one hinge per rotor, and one with one hinge for both rotors. The design using a single hinge seemed less sensitive to friction, was more responsive in testing, and had a more linear control response, so he used that.",
-      "url": "https://hackaday.com/2026/10/25/building-a-swashplate-less-helicoper-rotor",
-      "source": "Hackaday",
-      "published_at": "2026-10-26T05:00:22+00:00",
-      "category": "hardware",
-      "tags": [
-        "hardware",
-        "maker"
       ],
       "article_type": "news"
     },
