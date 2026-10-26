@@ -1,0 +1,165 @@
+{
+  "schema_version": 2,
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T04:21:01Z",
+  "count": 12,
+  "articles": [
+    {
+      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+      "summary": "Labeling one hour of robot video for 72 cents instead of $88 is what Nvidia promises with Flora, its open data engine. But the comparison with GPT-6 Astra isn't quite as lopsided as the price tag suggests.",
+      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra",
+      "source": "The Decoder",
+      "published_at": "2026-10-25T10:08:49+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "OLED MacBook Air and iMac Remain in Testing",
+      "summary": "Apple is testing OLED displays for future MacBook Air and iMac models, though both upgrades remain some way off, according to Bloomberg 's Mark Gurman in his latest \"Power On\" newsletter .",
+      "url": "https://www.macrumors.com/2026/10/25/oled-macbook-air-and-imac-in-testing",
+      "source": "MacRumors",
+      "published_at": "2026-10-26T03:41:01+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iFixit tears down iPhone Duo, finds possible causes of early screen failures",
+      "summary": "Speaking of stress, however, iFixit has found some possible culprits for the early screen failures reported by iPhone Duo owners , many of whom have described hearing a crunch while folding or unfolding the device, followed by bright lines appearing across the inner display.",
+      "url": "https://9to5mac.com/2026/10/25/ifixit-tears-down-iphone-duo-finds-possible-causes-of-early-screen-failures",
+      "source": "9to5Mac",
+      "published_at": "2026-10-25T21:36:58+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+      "summary": "Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines which accounts receive seller coverage, which seller-account relationships are preserved, and how limited field capacity is distributed.",
+      "url": "https://arxiv.org/abs/2610.31701",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-26T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+      "summary": "Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typically relies on manually written skills and curated memory.",
+      "url": "https://arxiv.org/abs/2610.31789",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-26T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+      "summary": "Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for human judges.",
+      "url": "https://arxiv.org/abs/2610.31808",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-26T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+      "summary": "Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-verified version.",
+      "url": "https://arxiv.org/abs/2610.31810",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-26T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "METRO 2033 Redux and METRO Last Light Redux next-gen updates are out now",
+      "summary": "The brand new next-gen updates are now available free for both METRO 2033 Redux and METRO Last Light Redux - here's everything that's new and improved.",
+      "url": "https://www.gamingonlinux.com/2026/10/metro-2033-redux-and-metro-last-light-redux-next-gen-update-are-out-now",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-23T07:44:50+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Legacy Games store is closing down",
+      "summary": "Legacy Games has had the privilege of making and selling games both from our website, www.legacygames.com, and at retail since 1998. Back then, I was taking care of four kids and started this company on a wing and a prayer, as they say.",
+      "url": "https://www.gamingonlinux.com/2026/10/legacy-games-store-is-closing-down",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-23T07:34:36+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Steam Client Beta - October 22nd revamps Remote Play HDR support",
+      "summary": "Valve just released another upgrade with the Steam Client Beta - October 22nd update bringing overhauled Remote Play HDR support. Steam Deck support is back for it too, after previously being removed due to various issues.",
+      "url": "https://www.gamingonlinux.com/2026/10/steam-client-beta-october-22nd-revamps-remote-play-hdr-support",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-23T07:27:32+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Ubuntu users can now file bugs against specific Launchpad PPAs",
+      "summary": "With the new tracking support, users can finally problems against the packages they’ve installed from that PPA. Bugs can be about the PPA a whole, an individual source package within it or a build for a specific Ubuntu version.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/launchpad-ppa-dedicated-bug-tracker",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-25T23:41:00+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Linux 7.4 Sound Changes Merged: \"The AI Flood Continues\"",
+      "summary": "Linux sound subsystem maintainer Takashi Iwai of SUSE began the Linux 7.4 sound pull request by noting that 'the AI flood continues' with there continuing to be a lot of new patches coming as a result of AI/LLM agents devising patches as well as uncovering new kernel bugs.",
+      "url": "https://www.phoronix.com/news/Linux-7.4-Sound",
+      "source": "Phoronix",
+      "published_at": "2026-10-25T10:01:55-04:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    }
+  ]
+}

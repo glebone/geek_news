@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
-  "date": "2026-10-25",
-  "generated_at": "2026-10-25T09:25:06Z",
-  "count": 17,
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T04:21:01Z",
+  "count": 12,
   "articles": [
     {
-      "title": "Block’s new voice model sounds eerily human",
-      "summary": "Jack Dorsey’s Block released a new voice model out of the company’s research lab that runs locally and sounds strangely human with its expressions like laughs, pauses, and cries.",
-      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human",
-      "source": "TechCrunch AI",
-      "published_at": "2026-10-24T16:00:00+00:00",
+      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+      "summary": "Labeling one hour of robot video for 72 cents instead of $88 is what Nvidia promises with Flora, its open data engine. But the comparison with GPT-6 Astra isn't quite as lopsided as the price tag suggests.",
+      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra",
+      "source": "The Decoder",
+      "published_at": "2026-10-25T10:08:49+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -18,37 +18,11 @@
       "article_type": "news"
     },
     {
-      "title": "The Sonic Hacking Contest 2026 is Here",
-      "summary": "I keep saying this every time I cover it but, in case you don’t know, the Sonic Hacking Contest is a yearly event put on by fans of Sonic the Hedgehog to showcase ROM hacks and game mods for various Sonic games.",
-      "url": "https://retrorgb.com/the-sonic-hacking-contest-2026-is-here.html",
-      "source": "RetroRGB",
-      "published_at": "2026-10-24T16:00:44+00:00",
-      "category": "retro_gaming",
-      "tags": [
-        "retro",
-        "gaming"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "An Analog TV Station For Anyone",
-      "summary": "I am amused that the headline uses “analog” in American house style but the body text uses “analogue” according to the columnist’s native spelling conventions!",
-      "url": "https://hackaday.com/2026/10/25/an-analog-tv-station-for-anyone",
-      "source": "Hackaday",
-      "published_at": "2026-10-25T08:00:24+00:00",
-      "category": "hardware",
-      "tags": [
-        "hardware",
-        "maker"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Indie App Spotlight: ‘Flipcorder’ lets you shoot retro footage on your iPhone Duo",
-      "summary": "If you want more of a nostalgic video feel from your iPhone footage, Flipcorder is a great app to check out. It’s optimized for iPhone Duo, though the app also works on all other iPhone models.",
-      "url": "https://9to5mac.com/2026/10/24/indie-app-spotlight-flipcorder-lets-you-shoot-retro-footage-on-your-iphone-duo",
-      "source": "9to5Mac",
-      "published_at": "2026-10-24T19:30:00+00:00",
+      "title": "OLED MacBook Air and iMac Remain in Testing",
+      "summary": "Apple is testing OLED displays for future MacBook Air and iMac models, though both upgrades remain some way off, according to Bloomberg 's Mark Gurman in his latest \"Power On\" newsletter .",
+      "url": "https://www.macrumors.com/2026/10/25/oled-macbook-air-and-imac-in-testing",
+      "source": "MacRumors",
+      "published_at": "2026-10-26T03:41:01+00:00",
       "category": "hardware",
       "tags": [
         "apple",
@@ -57,63 +31,76 @@
       "article_type": "news"
     },
     {
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "summary": "Most AI chatbots won’t outright tell you who to vote for, but some of the models behind them will. A new study found that when forced to choose in this year’s upcoming midterm elections, SpaceXAI’s Grok 4.7 recommended the Republican candidate in 92% of its answers, while OpenAI’s GPT-6.1 Sol picked the Democrat in 97%.",
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats",
-      "source": "TechCrunch AI",
-      "published_at": "2026-10-24T15:00:00+00:00",
+      "title": "iFixit tears down iPhone Duo, finds possible causes of early screen failures",
+      "summary": "Speaking of stress, however, iFixit has found some possible culprits for the early screen failures reported by iPhone Duo owners , many of whom have described hearing a crunch while folding or unfolding the device, followed by bright lines appearing across the inner display.",
+      "url": "https://9to5mac.com/2026/10/25/ifixit-tears-down-iphone-duo-finds-possible-causes-of-early-screen-failures",
+      "source": "9to5Mac",
+      "published_at": "2026-10-25T21:36:58+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+      "summary": "Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines which accounts receive seller coverage, which seller-account relationships are preserved, and how limited field capacity is distributed.",
+      "url": "https://arxiv.org/abs/2610.31701",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-26T00:00:00-04:00",
       "category": "ai",
       "tags": [
         "ai",
-        "models"
+        "research"
       ],
-      "article_type": "news"
+      "article_type": "research"
     },
     {
-      "title": "Block's new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss",
-      "summary": "Block says Dessa is the first AI model trained entirely on human speech, with no text data at all, built from scratch. Instead of converting audio to text first, Dessa processes speech directly as audio.",
-      "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss",
-      "source": "The Decoder",
-      "published_at": "2026-10-24T14:09:46+00:00",
+      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+      "summary": "Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typically relies on manually written skills and curated memory.",
+      "url": "https://arxiv.org/abs/2610.31789",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-26T00:00:00-04:00",
       "category": "ai",
       "tags": [
         "ai",
-        "models"
+        "research"
       ],
-      "article_type": "news"
+      "article_type": "research"
     },
     {
-      "title": "iPhone Duo’s software restricts an already-small display; Galaxy Z Fold 8 doesn’t",
-      "summary": "The iPhone Duo is already available, but its availability is limited . Meanwhile, the Galaxy Z Fold 8 is continuing to prove a success for Samsung.",
-      "url": "https://9to5google.com/2026/10/23/iphone-duo-software-restricts-small-display-galaxy-z-fold-8-doesnt",
-      "source": "9to5Google",
-      "published_at": "2026-10-23T15:13:53+00:00",
-      "category": "android",
+      "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+      "summary": "Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for human judges.",
+      "url": "https://arxiv.org/abs/2610.31808",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-26T00:00:00-04:00",
+      "category": "ai",
       "tags": [
-        "android",
-        "google"
+        "ai",
+        "research"
       ],
-      "article_type": "news"
+      "article_type": "research"
     },
     {
-      "title": "OnePlus starts rolling out stable Android 17 updates early, marking the end of OxygenOS",
-      "summary": "OnePlus is now rolling out stable Android 17 updates to OnePlus 15 and OnePlus Pad 4, marking the end of OxygenOS as these devices are just the first to transition to ColorOS.",
-      "url": "https://9to5google.com/2026/10/23/oneplus-stable-android-17-rollout-begins",
-      "source": "9to5Google",
-      "published_at": "2026-10-23T14:15:00+00:00",
-      "category": "android",
+      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+      "summary": "Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-verified version.",
+      "url": "https://arxiv.org/abs/2610.31810",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-26T00:00:00-04:00",
+      "category": "ai",
       "tags": [
-        "android",
-        "google"
+        "ai",
+        "research"
       ],
-      "article_type": "news"
+      "article_type": "research"
     },
     {
-      "title": "Bazzite Linux announce ROG XBOX Ally X20 and Acer Predator Atlas support is in testing",
-      "summary": "Another release of the popular Bazzite Linux is coming up, with new devices currently in testing like the ROG XBOX Ally X20 and Acer Predator Atlas.",
-      "url": "https://www.gamingonlinux.com/2026/10/bazzite-linux-announce-rog-xbox-ally-x20-and-acer-predator-atlas-support-is-in-testing",
+      "title": "METRO 2033 Redux and METRO Last Light Redux next-gen updates are out now",
+      "summary": "The brand new next-gen updates are now available free for both METRO 2033 Redux and METRO Last Light Redux - here's everything that's new and improved.",
+      "url": "https://www.gamingonlinux.com/2026/10/metro-2033-redux-and-metro-last-light-redux-next-gen-update-are-out-now",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-23T09:39:44+00:00",
+      "published_at": "2026-10-23T07:44:50+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -122,11 +109,11 @@
       "article_type": "news"
     },
     {
-      "title": "GameMaker announce their next-gen runtime GMRT will be free for commercial use",
-      "summary": "Not only will the source code be available to view for non-console platforms, but it will also now be \"made free for commercial use\" starting January 1st, 2027.",
-      "url": "https://www.gamingonlinux.com/2026/10/gamemaker-announce-their-next-gen-runtime-gmrt-will-be-free-for-commercial-use",
+      "title": "Legacy Games store is closing down",
+      "summary": "Legacy Games has had the privilege of making and selling games both from our website, www.legacygames.com, and at retail since 1998. Back then, I was taking care of four kids and started this company on a wing and a prayer, as they say.",
+      "url": "https://www.gamingonlinux.com/2026/10/legacy-games-store-is-closing-down",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-23T09:31:34+00:00",
+      "published_at": "2026-10-23T07:34:36+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -135,50 +122,25 @@
       "article_type": "news"
     },
     {
-      "title": "Check out 'Clicky Islands', a unique blend of incremental and city-builders",
-      "summary": "You might lose quite a few hours to this one! Clicky Islands from Karrot Games and Pocketpair Publishing has a fun genre mixture. The developer emailed GamingOnLinux about it because not only does it have Native Linux support built with Godot, but it's also developed on Linux.",
-      "url": "https://www.gamingonlinux.com/2026/10/check-out-clicky-islands-a-unique-blend-of-incremental-and-city-builders",
+      "title": "Steam Client Beta - October 22nd revamps Remote Play HDR support",
+      "summary": "Valve just released another upgrade with the Steam Client Beta - October 22nd update bringing overhauled Remote Play HDR support. Steam Deck support is back for it too, after previously being removed due to various issues.",
+      "url": "https://www.gamingonlinux.com/2026/10/steam-client-beta-october-22nd-revamps-remote-play-hdr-support",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-23T08:57:05+00:00",
+      "published_at": "2026-10-23T07:27:32+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
-        "games"
+        "games",
+        "steam"
       ],
       "article_type": "news"
     },
     {
-      "title": "Fanatical's Build your own Legendary Bundle (Fall 2026) has some top hits for cheaps",
-      "summary": "With multiple games new to bundles here, Fanatical have launched the Build your own Legendary Bundle (Fall 2026) . You can grab some highly rated games while saving money once again.",
-      "url": "https://www.gamingonlinux.com/2026/10/fanaticals-build-your-own-legendary-bundle-fall-2026-has-some-top-hits-for-cheaps",
-      "source": "GamingOnLinux",
-      "published_at": "2026-10-23T08:24:03+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Public monitoring now available with data residency",
-      "summary": "Public monitoring is available in public preview for GitHub Enterprise Cloud customers with data residency. Using public monitoring requires an active GitHub Advanced Security or GitHub Secret Protection license.",
-      "url": "https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency",
-      "source": "GitHub Changelog",
-      "published_at": "2026-10-22T18:12:58+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "github",
-        "developer-tools"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "PHP2Shell scare sees SuperTuxKart pull its online server",
-      "summary": "SuperTuxKart notes that attempts to exploit php2shell were recorded as early as 17 October, four days the flaw was publicly disclosed. Its own server was not breached, but suggests anyone reusing their SuperTuxKart Online password elsewhere, to change it there.",
-      "url": "https://www.omgubuntu.co.uk/2026/10/supertuxkart-goes-offline-php2shell",
+      "title": "Ubuntu users can now file bugs against specific Launchpad PPAs",
+      "summary": "With the new tracking support, users can finally problems against the packages they’ve installed from that PPA. Bugs can be about the PPA a whole, an individual source package within it or a build for a specific Ubuntu version.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/launchpad-ppa-dedicated-bug-tracker",
       "source": "OMG! Ubuntu",
-      "published_at": "2026-10-25T05:05:13+00:00",
+      "published_at": "2026-10-25T23:41:00+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
@@ -187,41 +149,15 @@
       "article_type": "news"
     },
     {
-      "title": "systemd Merges Support For Rust Programs",
-      "summary": "As of today in systemd Git it's now possible for the systemd programs to be written in the Rust programming language as an alternative to C.",
-      "url": "https://www.phoronix.com/news/systemd-Merges-Rust-Programs",
+      "title": "Linux 7.4 Sound Changes Merged: \"The AI Flood Continues\"",
+      "summary": "Linux sound subsystem maintainer Takashi Iwai of SUSE began the Linux 7.4 sound pull request by noting that 'the AI flood continues' with there continuing to be a lot of new patches coming as a result of AI/LLM agents devising patches as well as uncovering new kernel bugs.",
+      "url": "https://www.phoronix.com/news/Linux-7.4-Sound",
       "source": "Phoronix",
-      "published_at": "2026-10-24T07:11:00-04:00",
+      "published_at": "2026-10-25T10:01:55-04:00",
       "category": "linux",
       "tags": [
         "linux",
         "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Shader Effects is the coolest GNOME extension you’ll try this weekend",
-      "summary": "The Shader Effects extension applies GPU-accelerated filters, things like scan lines, NTSC RGB bloom and flickery green CRT glow, to your entire desktop or, if you’d rather, just a specific window(s).",
-      "url": "https://www.omgubuntu.co.uk/2026/10/shader-effect-gnome-extension",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-10-24T03:29:18+00:00",
-      "category": "linux",
-      "tags": [
-        "ubuntu",
-        "desktop"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Calibre 9.17 release brings faster ebook conversions",
-      "summary": "Calibre 9.17 has been released with faster ebook conversion speeds and JPEG XL image support. The open-source ebook editor improves output compression speeds for MOBI, AZW3 and PDB files, which makes conversions to those formats quicker.",
-      "url": "https://www.omgubuntu.co.uk/2026/10/calibre-9-17-faster-conversion",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-10-23T15:45:01+00:00",
-      "category": "linux",
-      "tags": [
-        "ubuntu",
-        "desktop"
       ],
       "article_type": "news"
     }
