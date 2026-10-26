@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "date": "2026-10-26",
-  "generated_at": "2026-10-26T10:31:45Z",
+  "generated_at": "2026-10-26T10:55:49Z",
   "count": 14,
   "articles": [
     {
-      "title": "PlayStation 5 Linux project upgraded to support PS5 Pro and newer firmware",
-      "summary": "The impressive PlayStation 5 Linux project is continuing on, and recent updates to it have again expanded what it can support. Even though one of the main people behind it quit , others seem to have taking it upon themselves to continue it on.",
-      "url": "https://www.gamingonlinux.com/2026/10/playstation-5-linux-project-upgraded-to-support-ps5-pro-and-newer-firmware",
+      "title": "Pick up many quality puzzle and physics games with two new Humble Bundles",
+      "summary": "Start your week with two more fresh sets of games with the Phunkier Physics and Puzzlers to Puzzle You bundles. Another chance for you to build up your Steam library, while spending less and supporting charity too.",
+      "url": "https://www.gamingonlinux.com/2026/10/pick-up-many-quality-puzzle-and-physics-games-with-two-new-humble-bundles",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-26T10:10:54+00:00",
+      "published_at": "2026-10-26T10:38:16+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -44,16 +44,15 @@
       "article_type": "news"
     },
     {
-      "title": "Steam's useful Personal Calendar gets a full release",
-      "summary": "I forgot it was ever a Beta, because Steam's Personal Calendar is actually one of the most useful features they've added to the store recently.",
-      "url": "https://www.gamingonlinux.com/2026/10/steams-useful-personal-calendar-gets-a-full-release",
+      "title": "PlayStation 5 Linux project upgraded to support PS5 Pro and newer firmware",
+      "summary": "The impressive PlayStation 5 Linux project is continuing on, and recent updates to it have again expanded what it can support. Even though one of the main people behind it quit , others seem to have taking it upon themselves to continue it on.",
+      "url": "https://www.gamingonlinux.com/2026/10/playstation-5-linux-project-upgraded-to-support-ps5-pro-and-newer-firmware",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-26T09:50:09+00:00",
+      "published_at": "2026-10-26T10:10:54+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
-        "games",
-        "steam"
+        "games"
       ],
       "article_type": "news"
     },
@@ -84,11 +83,11 @@
       "article_type": "news"
     },
     {
-      "title": "Epic's Tim Sweeney believes AI notices on Steam are a \"political statement\" for the \"hate mob\"",
-      "summary": "Valve requires developers to disclose AI-generated content in games and on Steam store pages, something Epic Games CEO Tim Sweeney isn't happy about. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/10/epics-tim-sweeney-believes-ai-notices-on-steam-are-political-statement-for-the-hate-mob",
+      "title": "Steam's useful Personal Calendar gets a full release",
+      "summary": "I forgot it was ever a Beta, because Steam's Personal Calendar is actually one of the most useful features they've added to the store recently.",
+      "url": "https://www.gamingonlinux.com/2026/10/steams-useful-personal-calendar-gets-a-full-release",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-26T09:33:26+00:00",
+      "published_at": "2026-10-26T09:50:09+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -98,11 +97,11 @@
       "article_type": "news"
     },
     {
-      "title": "Steam Next Fest - October 2026, here's the most-played demos so far",
-      "summary": "Valve sent word via email as Steam Next Fest - October 2026 beings to wind down about what has been the most popular during this event.",
-      "url": "https://www.gamingonlinux.com/2026/10/steam-next-fest-october-2026-heres-the-most-played-demos-so-far",
+      "title": "Epic's Tim Sweeney believes AI notices on Steam are a \"political statement\" for the \"hate mob\"",
+      "summary": "Valve requires developers to disclose AI-generated content in games and on Steam store pages, something Epic Games CEO Tim Sweeney isn't happy about. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/10/epics-tim-sweeney-believes-ai-notices-on-steam-are-political-statement-for-the-hate-mob",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-26T08:51:33+00:00",
+      "published_at": "2026-10-26T09:33:26+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
