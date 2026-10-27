@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
-  "date": "2026-10-26",
-  "generated_at": "2026-10-26T11:17:40Z",
-  "count": 14,
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T04:40:10Z",
+  "count": 28,
   "articles": [
     {
-      "title": "Pick up many quality puzzle and physics games with two new Humble Bundles",
-      "summary": "Start your week with two more fresh sets of games with the Phunkier Physics and Puzzlers to Puzzle You bundles. Another chance for you to build up your Steam library, while spending less and supporting charity too.",
-      "url": "https://www.gamingonlinux.com/2026/10/pick-up-many-quality-puzzle-and-physics-games-with-two-new-humble-bundles",
+      "title": "Microlandia, a deeply simulated city-builder gets a big game engine upgrade",
+      "summary": "Every single citizen counts in Microlandia, a deeply simulated cozy-looking city-builder. And now, it should work better than ever. It also wasn't on my radar at all before now, until I happened to come across it on my travels diving into the depths of Steam.",
+      "url": "https://www.gamingonlinux.com/2026/10/microlandia-a-deeply-simulated-city-builder-gets-a-big-game-engine-upgrade",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-26T10:38:16+00:00",
+      "published_at": "2026-10-26T16:37:00+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -18,11 +18,11 @@
       "article_type": "news"
     },
     {
-      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
-      "summary": "Labeling one hour of robot video for 72 cents instead of $88 is what Nvidia promises with Flora, its open data engine. But the comparison with GPT-6 Astra isn't quite as lopsided as the price tag suggests.",
-      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra",
-      "source": "The Decoder",
-      "published_at": "2026-10-25T10:08:49+00:00",
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "summary": "Canadian AI company Cohere said on Monday that it found one of Alibaba’s newest AI models, Qwen3.8-Flash-Next, trying to upload a file to a server in Beijing during a routine cybersecurity test, even though the model had said in its own notes that it wouldn’t use any tools.",
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing",
+      "source": "TechCrunch AI",
+      "published_at": "2026-10-27T01:12:21+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -31,11 +31,37 @@
       "article_type": "news"
     },
     {
-      "title": "iPhone Duo tested to destruction, including removing nanotexture layer",
-      "summary": "Apple warns against removing the nanotexture layer yourself, as you can easily damage the display beneath it, but of course that didn’t stop Jerry. He found that while the display is much more reflective without it, it kind of looks better.",
-      "url": "https://9to5mac.com/2026/10/26/iphone-duo-tested-to-destruction-including-removing-nanotexture-layer",
+      "title": "Claude Code v2.1.311",
+      "summary": "Fixed interrupting Claude not taking effect until a timeout while an MCP server had not answered a resource read or a skill was still downloading.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+      "source": "Claude Code",
+      "published_at": "2026-10-26T21:51:23+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "MiSTer Laggy – Lag Tester For MiSTer",
+      "summary": "The MiSTer Laggy is a cheap photodiode that you can use with any MiSTer FPGA kit that offers a SNAC/UserIO port. Simply load the corresponding MiSTer Laggy core – If you’ve run Update_all in the past few years, it’ll already be in “Utility”, right on the main menu.",
+      "url": "https://retrorgb.com/mister-laggy-lag-tester-for-mister.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-26T15:40:49+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "9to5Mac Daily: October 26, 2026 – Apple unveils new iPad mini",
+      "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players.",
+      "url": "https://9to5mac.com/2026/10/26/daily-october-26-2026",
       "source": "9to5Mac",
-      "published_at": "2026-10-26T11:12:44+00:00",
+      "published_at": "2026-10-27T00:16:31+00:00",
       "category": "hardware",
       "tags": [
         "apple",
@@ -44,24 +70,39 @@
       "article_type": "news"
     },
     {
-      "title": "Hiding Virtualization From Other Software",
-      "summary": "The Kernel-based Virtual Machine (KVM) allows Linux systems to function as hypervisors without needing any extra software, but VMs created with it don’t behave exactly like real hardware does.",
-      "url": "https://hackaday.com/2026/10/26/hiding-virtualization-from-other-software",
-      "source": "Hackaday",
-      "published_at": "2026-10-26T11:00:56+00:00",
-      "category": "hardware",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "summary": "This specific report of cross-request KV cache exposure was the result of two overlapping issues. The first was a misconfiguration of the open-source inference engine, SGLang, used by Cloudflare.",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation",
+      "source": "Cloudflare Blog",
+      "published_at": "2026-10-26T22:01:23+00:00",
+      "category": "cloud",
       "tags": [
-        "hardware",
-        "maker"
+        "cloud",
+        "infrastructure",
+        "models"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Google says Gemini 4 Argon ranks well behind Claude and GPT-6 for Android coding",
+      "summary": "Google has updated its Android Bench list for showing how good AI models are at Android coding assistance, with Gemini 4 Argon ranking way behind that of the latest Claude and GPT models.",
+      "url": "https://9to5google.com/2026/10/26/android-bench-rankings-gemini-4-argon",
+      "source": "9to5Google",
+      "published_at": "2026-10-26T22:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google",
+        "models"
       ],
       "article_type": "news"
     },
     {
-      "title": "PlayStation 5 Linux project upgraded to support PS5 Pro and newer firmware",
-      "summary": "The impressive PlayStation 5 Linux project is continuing on, and recent updates to it have again expanded what it can support. Even though one of the main people behind it quit , others seem to have taking it upon themselves to continue it on.",
-      "url": "https://www.gamingonlinux.com/2026/10/playstation-5-linux-project-upgraded-to-support-ps5-pro-and-newer-firmware",
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl 2.1 adds A-Life NPC visualisation distance options",
+      "summary": "S.T.A.L.K.E.R. 2: Heart of Chornobyl from GSC Game World has another free update out now, and it sounds fun if you have a powerful PC.",
+      "url": "https://www.gamingonlinux.com/2026/10/s-t-a-l-k-e-r-2-heart-of-chornobyl-2-1-adds-a-life-npc-visualisation-distance-options",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-26T10:10:54+00:00",
+      "published_at": "2026-10-26T15:58:55+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -70,24 +111,50 @@
       "article_type": "news"
     },
     {
-      "title": "Python 3.15.2, 3.14.10, 3.13.18, 3.12.16 and 3.11.18 are out",
-      "summary": "They address the compromised eMudhra intermediate CA keys . These keys are now blocked by the ssl module as a last resort against their use.",
-      "url": "https://blog.python.org/2026/10/python-3152-31410-31318-31216-31118",
-      "source": "Python Insider",
+      "title": "How to fund Rust contributors",
+      "summary": "TLDR: To fund general maintenance, donate to the Rust Foundation Maintainers Fund or sponsor the RustNL Maintainers Team To fund specific features and improvements, sponsor fundable Rust Project Goals To fund individual contributors, donate to their GitHub Sponsors accounts There is always so much to do in the Rust Project!",
+      "url": "https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors",
+      "source": "Rust Blog",
       "published_at": "2026-10-26T00:00:00+00:00",
       "category": "programming",
       "tags": [
-        "python",
+        "rust",
         "language"
       ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "GitHub Copilot assisted permissions generally available",
+      "summary": "When Copilot requests permission to run a command, access a file system path, or open a URL, a large language model evaluates the request. Requests classified as clearly safe automatically proceed.",
+      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-26T22:31:30+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
       "article_type": "news"
     },
     {
-      "title": "Steam's useful Personal Calendar gets a full release",
-      "summary": "I forgot it was ever a Beta, because Steam's Personal Calendar is actually one of the most useful features they've added to the store recently.",
-      "url": "https://www.gamingonlinux.com/2026/10/steams-useful-personal-calendar-gets-a-full-release",
+      "title": "In Praise Of A Legendary Power Transistor",
+      "summary": "Where this is being written there are several 2N3055s, in the by now rather old office audio amplifier, in a bench power supply, and probably elsewhere too.",
+      "url": "https://hackaday.com/2026/10/26/in-praise-of-a-legendary-power-transistor",
+      "source": "Hackaday",
+      "published_at": "2026-10-27T02:00:15+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Guide: Steam Frame tips and tricks",
+      "summary": "There's actually quite a lot you can do with the Steam Frame, and some of the more useful features aren't immediately obvious. So, whether you've just received yours or you've been using it for a while, here are some tips and tricks to help you get the most out of it.",
+      "url": "https://www.gamingonlinux.com/guides/view/steam-frame-tips-and-tricks",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-26T09:50:09+00:00",
+      "published_at": "2026-10-26T15:46:17+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -97,77 +164,116 @@
       "article_type": "news"
     },
     {
-      "title": "Epic's Tim Sweeney believes AI notices on Steam are a \"political statement\" for the \"hate mob\"",
-      "summary": "Valve requires developers to disclose AI-generated content in games and on Steam store pages, something Epic Games CEO Tim Sweeney isn't happy about. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/10/epics-tim-sweeney-believes-ai-notices-on-steam-are-political-statement-for-the-hate-mob",
-      "source": "GamingOnLinux",
-      "published_at": "2026-10-26T09:33:26+00:00",
-      "category": "linux",
+      "title": "GPT-6.1 Terra halves OpenAI's API prices and still gains ground on its larger models",
+      "summary": "OpenAI has released GPT-6.1 Terra, a model it says pushes the cost-to-performance boundary further than any of its predecessors. API prices are half those of GPT-5.6 Terra.",
+      "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models",
+      "source": "The Decoder",
+      "published_at": "2026-10-26T20:30:55+00:00",
+      "category": "ai",
       "tags": [
-        "linux-gaming",
-        "games",
-        "steam"
+        "ai",
+        "models"
       ],
       "article_type": "news"
     },
     {
-      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
-      "summary": "Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines which accounts receive seller coverage, which seller-account relationships are preserved, and how limited field capacity is distributed.",
-      "url": "https://arxiv.org/abs/2610.31701",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-10-26T00:00:00-04:00",
-      "category": "ai",
+      "title": "GPT-6.1 Terra in GitHub Copilot",
+      "summary": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol.",
+      "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-26T19:15:53+00:00",
+      "category": "agent_tools",
       "tags": [
-        "ai",
-        "research"
+        "github",
+        "developer-tools",
+        "models"
       ],
-      "article_type": "research"
+      "article_type": "news"
     },
     {
-      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
-      "summary": "Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typically relies on manually written skills and curated memory.",
-      "url": "https://arxiv.org/abs/2610.31789",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-10-26T00:00:00-04:00",
-      "category": "ai",
+      "title": "Older Siri Remotes Now Show Up in Find My With iOS 27.2",
+      "summary": "You'll need iOS 27.2 and tvOS 27.2 installed to get ‌Siri‌ Remotes to show up in the ‌Find My‌ app. After installing tvOS 27.2, you may have to wait for new firmware to be delivered to the ‌Siri‌ Remote before it is added to ‌Find My‌.",
+      "url": "https://www.macrumors.com/2026/10/26/siri-remote-find-my-ios-27-2",
+      "source": "MacRumors",
+      "published_at": "2026-10-27T00:13:30+00:00",
+      "category": "ios",
       "tags": [
-        "ai",
-        "research"
+        "apple",
+        "devices"
       ],
-      "article_type": "research"
+      "article_type": "news"
     },
     {
-      "title": "Patronizing and Condescending Language Detection in English and Mandarin",
-      "summary": "Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for human judges.",
-      "url": "https://arxiv.org/abs/2610.31808",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-10-26T00:00:00-04:00",
-      "category": "ai",
+      "title": "iPhone Duo just got two new features in iOS 27.2",
+      "summary": "iOS 27.2 is officially here , with additions that include upgraded Siri AI powers and new features for Messages , Apple TV , and more .",
+      "url": "https://9to5mac.com/2026/10/26/iphone-duo-just-got-two-new-features-in-ios-27-2",
+      "source": "9to5Mac",
+      "published_at": "2026-10-26T19:18:19+00:00",
+      "category": "ios",
       "tags": [
-        "ai",
-        "research"
+        "apple",
+        "devices"
       ],
-      "article_type": "research"
+      "article_type": "news"
     },
     {
-      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
-      "summary": "Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-verified version.",
-      "url": "https://arxiv.org/abs/2610.31810",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-10-26T00:00:00-04:00",
-      "category": "ai",
+      "title": "I’ve been using Android’s iPad Mini OLED for months, and it’s the better tiny tablet",
+      "summary": "But over the past few months, I’ve been using what has now turned out to be a close rival to that tablet. The Redmagic Astra 2 may be a gaming-focused Android tablet, but it matches or even beats the new iPad Mini in some crucial ways.",
+      "url": "https://9to5google.com/2026/10/26/android-ipad-mini-oled-redmagic-astra-2-review",
+      "source": "9to5Google",
+      "published_at": "2026-10-26T19:30:00+00:00",
+      "category": "android",
       "tags": [
-        "ai",
-        "research"
+        "android",
+        "google"
       ],
-      "article_type": "research"
+      "article_type": "news"
     },
     {
-      "title": "Ubuntu users can now file bugs against specific Launchpad PPAs",
-      "summary": "With the new tracking support, users can finally problems against the packages they’ve installed from that PPA. Bugs can be about the PPA a whole, an individual source package within it or a build for a specific Ubuntu version.",
-      "url": "https://www.omgubuntu.co.uk/2026/10/launchpad-ppa-dedicated-bug-tracker",
+      "title": "Here's 17 upcoming VR games worth keeping eyes on",
+      "summary": "Got your Steam Frame or any other VR kit and want to follow some interesting upcoming games? Here's some potentials for you that could be good.",
+      "url": "https://www.gamingonlinux.com/2026/10/heres-17-upcoming-vr-games-worth-keeping-eyes-on",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-26T11:25:02+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Monday’s Android app deals and freebies: War of Mine, Siralim Ultimate, 20 Minutes Till Dawn, more",
+      "summary": "Today’s best Google Play app and game deals are ready, including This War of Mine, Siralim Ultimate, The Last Warlord, Anodyne, 20 Minutes Till Dawn:Premium, TLOTS: Gold Edition, and more.",
+      "url": "https://9to5toys.com/2026/10/26/todays-highlight-google-play-deals-36",
+      "source": "9to5Google",
+      "published_at": "2026-10-26T18:45:36+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Siri AI keeps getting better, here’s what’s new in iOS 27.2",
+      "summary": "Siri AI launched last month in iOS 27 as a major overhaul of Apple’s assistant. But Siri is getting even better today with new 27.2 software updates that are rolling out.",
+      "url": "https://9to5mac.com/2026/10/26/siri-ai-keeps-getting-better-heres-whats-new-in-ios-27-2",
+      "source": "9to5Mac",
+      "published_at": "2026-10-26T18:36:02+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Firefox 159 released with Wayland Linux fixes",
+      "summary": "And Linux system with AMD GPUs who noticed Firefox consuming excessive memory on sites like ChatGPT when Mapbox GL JS maps were displayed, will be pleased to hear that issue is now resolved.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/firefox-159-released",
       "source": "OMG! Ubuntu",
-      "published_at": "2026-10-25T23:41:00+00:00",
+      "published_at": "2026-10-27T01:28:51+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
@@ -176,11 +282,90 @@
       "article_type": "news"
     },
     {
-      "title": "Linux 7.4 Sound Changes Merged: \"The AI Flood Continues\"",
-      "summary": "Linux sound subsystem maintainer Takashi Iwai of SUSE began the Linux 7.4 sound pull request by noting that 'the AI flood continues' with there continuing to be a lot of new patches coming as a result of AI/LLM agents devising patches as well as uncovering new kernel bugs.",
-      "url": "https://www.phoronix.com/news/Linux-7.4-Sound",
+      "title": "Trash talking Ubuntu’s confusing British bin labels",
+      "summary": "It seems the identity crisis is solely in the British English terminology, as Ubuntu’s US translations are consistent in calling trash Trash (pronounced Traaash , in your best American drawl accent).",
+      "url": "https://www.omgubuntu.co.uk/2026/10/trash-talk-ubuntu-uk-rubbish-bin-terminology",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-26T23:58:00+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+      "summary": "Intelligent agents should learn from their mistakes so that experience leads to continuous improvement. Yet today's agents recover from a mistake only temporarily: in-context reflections are easily forgotten across sessions and compete for limited context, while full-parameter fine-tuning is expensive and can interfere with existing capabilities.",
+      "url": "https://arxiv.org/abs/2610.31846",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-27T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
+      "summary": "We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-standard electronic-design-automation (EDA) tools such as Cadence Virtuoso/Spectre, Calibre, Cadence EMX, and Ansys HFSS to design RF and mmWave modules.",
+      "url": "https://arxiv.org/abs/2610.31882",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-27T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows",
+      "summary": "A durable agent can resume a consequential action while its authority changes and the action's external outcome remains uncertain. We study execution-time reliability of tool-using AI agents, isolating recovery decisions from language-model behavior.",
+      "url": "https://arxiv.org/abs/2610.31916",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-27T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "$M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process",
+      "summary": "Modern Large Language Models (LLMs) remain vulnerable to carefully orchestrated multi-turn interactions that progressively bypass safety mechanisms. However, many existing red-teaming approaches rely on heuristics or impose strong assumptions that limit their applicability in fully black box settings.",
+      "url": "https://arxiv.org/abs/2610.31937",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-27T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research",
+        "models"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Snapdragon X1 Elite / Acer Swift 14 AI Performance On The Ubuntu 26.10 X1E Concept",
+      "summary": "For those curious about the Snapdragon X1 Elite performance on the recently released Ubuntu 26.10 Concept X1E ISO , here are some benchmarks showing the performance relative to Ubuntu 26.04 LTS X1E state on the same hardware.",
+      "url": "https://www.phoronix.com/review/ubuntu-2610-snapdragon-x1e",
       "source": "Phoronix",
-      "published_at": "2026-10-25T10:01:55-04:00",
+      "published_at": "2026-10-26T09:55:24-04:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Linux 7.4 EFI Brings Improvement For Helping Systemd When Kernel Booted Directly",
+      "summary": "The EFI updates have been merged for the Linux 7.4 kernel and include an improvement for when the system was booted directly into the kernel on EFI-based systems without using a bootloader like GRUB or systemd-boot.",
+      "url": "https://www.phoronix.com/news/Linux-7.4-EFI",
+      "source": "Phoronix",
+      "published_at": "2026-10-26T08:54:13-04:00",
       "category": "linux",
       "tags": [
         "linux",
