@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "date": "2026-10-28",
-  "generated_at": "2026-10-28T05:13:53Z",
-  "count": 24,
+  "generated_at": "2026-10-28T10:50:04Z",
+  "count": 25,
   "articles": [
     {
       "title": "Bullet Banshee puts a survivor-like spin on classic shoot 'em up action",
@@ -42,32 +42,6 @@
         "ai-coding"
       ],
       "article_type": "release"
-    },
-    {
-      "title": "8K60 / 4K120 HDMI Splitter – VRR & PS3/Streaming Box Compatible",
-      "summary": "This HDMI splitter can accept up to 8K60, supports true VRR, works with PS3/Streaming boxes and is fully compatible with MiSTer FPGA, even in direct video mode.",
-      "url": "https://retrorgb.com/8k60-4k120-hdmi-splitter-vrr-ps3-streaming-box-compatible.html",
-      "source": "RetroRGB",
-      "published_at": "2026-10-27T17:25:22+00:00",
-      "category": "retro_gaming",
-      "tags": [
-        "retro",
-        "gaming"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Airborne Particle Monitoring, the BIG way",
-      "summary": "Airborne micro particles can be a significant health hazard in a workshop, and thus it’s important to maintain a high standard of ventilation. But monitoring their concentration is also important, and thus there exists a range of sensors to help keep you safe.",
-      "url": "https://hackaday.com/2026/10/27/airborne-particle-monitoring-the-big-way",
-      "source": "Hackaday",
-      "published_at": "2026-10-28T02:00:01+00:00",
-      "category": "hardware",
-      "tags": [
-        "hardware",
-        "maker"
-      ],
-      "article_type": "news"
     },
     {
       "title": "Apple releases two new real-life Apple Watch stories, including a life-saving alert",
@@ -119,6 +93,32 @@
       "tags": [
         "ai",
         "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "8K60 / 4K120 HDMI Splitter – VRR & PS3/Streaming Box Compatible",
+      "summary": "This HDMI splitter can accept up to 8K60, supports true VRR, works with PS3/Streaming boxes and is fully compatible with MiSTer FPGA, even in direct video mode.",
+      "url": "https://retrorgb.com/8k60-4k120-hdmi-splitter-vrr-ps3-streaming-box-compatible.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-27T17:25:22+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "SLAM Navigation For an Arduino Powered Car",
+      "summary": "The robot is a built on a small plastic chassis, with one gear motor per drive wheel. Running the show is an Arduino Uno R4 Wi-Fi, paired with the Sensor Shield 5.0 and an L298N motor driver board.",
+      "url": "https://hackaday.com/2026/10/28/slam-navigation-for-an-arduino-powered-car",
+      "source": "Hackaday",
+      "published_at": "2026-10-28T08:00:33+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
       ],
       "article_type": "news"
     },
@@ -278,6 +278,19 @@
         "models"
       ],
       "article_type": "research"
+    },
+    {
+      "title": "Retiring BSD-Compress Proposed For Linux PPP Network Code",
+      "summary": "A patch has been proposed to remove the BSD-Compress support from the Linux kernel for the Linux networking point-to-point protocol (PPP) due to being unmaintained and having fundamental issues with the code that can lead to a fatal error.",
+      "url": "https://www.phoronix.com/news/Linux-May-Retire-PPP-BSD-Comp",
+      "source": "Phoronix",
+      "published_at": "2026-10-28T05:50:55-04:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
     },
     {
       "title": "Wine Merges Support For MESA_map_buffer_client_pointer To Improve WoW64 32-bit OpenGL",
