@@ -1,0 +1,361 @@
+{
+  "schema_version": 2,
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T05:24:44Z",
+  "count": 27,
+  "articles": [
+    {
+      "title": "NetBSD adds nano-like text editor to base system",
+      "summary": "Flag Linux NetBSD made a seemingly small, but very welcome announcement today: they’re adding a more user-friendly, easier to use command-line text editor to the base install.",
+      "url": "https://www.osnews.com/story/146256/netbsd-adds-nano-like-text-editor-to-base-system",
+      "source": "OSNews",
+      "published_at": "2026-10-29T00:38:24+00:00",
+      "category": "open_source",
+      "tags": [
+        "operating-systems",
+        "open-source",
+        "netbsd"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "AMD FSR SDK 2.4 is out with FSR Upscaling 4.1.2 for older hardware and Vulkan support",
+      "summary": "AMD FSR SDK 2.4 is now officially out bringing the newer FSR Upscaling 4.1.2 for older Radeon GPUs and Ryzen APUs, along with Vulkan support for newer FSR.",
+      "url": "https://www.gamingonlinux.com/2026/10/amd-fsr-sdk-2-4-is-out-with-fsr-upscaling-4-1-2-for-older-hardware-and-vulkan-support",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-28T15:45:57+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
+      "summary": "Google Deepmind shipped Gemini 4 Carbon just two weeks after Argon, and the new model takes the top spot on the Artificial Analysis Intelligence Index.",
+      "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board",
+      "source": "The Decoder",
+      "published_at": "2026-10-28T19:17:58+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GitHub Octoverse 2026",
+      "summary": "GitHub Octoverse 2026 I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular: This is a pretty stark representation of the impact of agentic engineering on GitHub.",
+      "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026",
+      "source": "Simon Willison",
+      "published_at": "2026-10-28T16:45:23+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "ai",
+        "developer-tools"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "gcompsw 8×2 Switch In Stock",
+      "summary": "Both CastleMania Games and Stone Age Gamer now have gcomp switches in stock and ready. The gcompsw is widely regarded as one of the highest quality switches you can buy, with each of the eight inputs supporting YPbPr video and L/R audio, as well as a composite video input.",
+      "url": "https://retrorgb.com/gcompsw-8x2-switch-in-stock.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-28T13:46:31+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "2026 Retrocomputing Challenge: Custom RISC-V Processor For Retro System",
+      "summary": "Although once little more than an academic endeavor, the RISC-V architecture is slowly supplanting applications that would have normally gone to ARM. Even a few microcontrollers have chips running this open-source instruction set now, and we expect it to grow in the future since it doesn’t require the licensing of an ARM or x86 chip.",
+      "url": "https://hackaday.com/2026/10/28/2026-retrocomputing-challenge-custom-risc-v-processor-for-retro-system",
+      "source": "Hackaday",
+      "published_at": "2026-10-29T05:00:43+00:00",
+      "category": "retro_computing",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Some Pixel Watch users report a sudden decrease in battery life",
+      "summary": "A surge of online reports indicates that some users are experiencing a recent increase in battery drain on their Pixel Watch, by as much as 20% every few hours.",
+      "url": "https://9to5google.com/2026/10/28/pixel-watch-users-report-battery-drain",
+      "source": "9to5Google",
+      "published_at": "2026-10-28T20:28:44+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "CONTROL Resonant gets a DRM-free release on GOG",
+      "summary": "Good news for fans of DRM-free gaming as the popular recent release of CONTROL Resonant is now available on GOG.com. Nice to see, although surprisingly quick after the initial Steam release - would have been nice to see it release at the same time.",
+      "url": "https://www.gamingonlinux.com/2026/10/control-resonant-gets-a-drm-free-release-on-gog",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-28T15:26:26+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "summary": "Google is making it easier for businesses to connect their apps to its AI experiences across Search and Gemini with the debut of its Connected Apps Platform.",
+      "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps",
+      "source": "TechCrunch AI",
+      "published_at": "2026-10-28T17:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Battery Prototype Uses Superextensive Quantum Effects to Charge Faster",
+      "summary": "Although the term ‘quantum battery’ is a bit of a vague term, the cell that [Kieran Hymas] et al. demonstrate in a recent paper does seem to suggest that it uses quantum effects to charge faster than would otherwise be possible, with this rate increasing faster than its volume, meaning at a superextensive rate.",
+      "url": "https://hackaday.com/2026/10/28/battery-prototype-uses-superextensive-quantum-effects-to-charge-faster",
+      "source": "Hackaday",
+      "published_at": "2026-10-29T02:00:26+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "All-new MacBook Pro brings back beloved design feature from the past",
+      "summary": "Apple unveiled its MacBook Pro with PROLED XDR today, and the all-new model features the return of a beloved design feature: a glowing Apple logo on the lid.",
+      "url": "https://9to5mac.com/2026/10/28/all-new-macbook-pro-brings-back-beloved-design-feature-from-the-past",
+      "source": "9to5Mac",
+      "published_at": "2026-10-28T19:06:55+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Arriving this Winter, the frog town-building game Croakwood from the Parkitect devs looks lovely",
+      "summary": "Croakwood, the relaxed frog town-building and management game from the Parkitect devs has a newish trailer out now and it arrives sometime this Winter. Bit of a vague release window, so perhaps before the end of the year we will see it in Early Access.",
+      "url": "https://www.gamingonlinux.com/2026/10/arriving-this-winter-the-frog-town-building-game-croakwood-from-the-parkitect-devs-looks-lovely",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-28T12:37:11+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google opens Android development to third-party AI agents and unveils new Gemini APIs",
+      "summary": "Google is centering its development environment around AI agents at the Android Dev Summit. The updates include integrations for Anthropic and OpenAI models, new APIs for local smartphone agents, and a pair of smart glasses.",
+      "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis",
+      "source": "The Decoder",
+      "published_at": "2026-10-28T16:59:59+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Agentic and Flexible: A next era of Android development",
+      "summary": "In a time when the way you work is changing, your craft, creativity, and expertise are needed more than ever. Today at the Android Dev Summit , we annouced the broad availability of many tools and APIs designed to remove everyday friction and give you more flexibility to build great Android apps.",
+      "url": "https://developer.android.com/blog/posts/build-it-your-way-a-next-era-of-android-development",
+      "source": "Android Developers",
+      "published_at": "2026-10-28T00:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "developers"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Deep Rock Galactic: Survivor - Knockout Expansion arrives November 17",
+      "summary": "The popular bullet heaven survivor-like Deep Rock Galactic: Survivor is set for the Knockout Expansion to arrive on November 17th. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/10/deep-rock-galactic-survivor-knockout-expansion-arrives-november-17",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-28T12:22:04+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude for Legal now verifies sources automatically, then hands the file to a lawyer",
+      "summary": "Anthropic is expanding Claude Enterprise for legal professionals with pre-built templates. The company introduced new \"artifacts\" for Claude for Legal, features legal teams have requested since its May launch.",
+      "url": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer",
+      "source": "The Decoder",
+      "published_at": "2026-10-28T16:20:03+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Route and orchestrate models with GitHub Copilot Fusion",
+      "summary": "GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-28T16:00:00+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "What's new in Android developer tools and performance at Android Dev Summit",
+      "summary": "We shared some of these updates in action in the Android Dev Summit keynote . In this blog post we round up all of the developer tools and performance announcements from Android Dev Summit and point you to the event content where you can go deeper.",
+      "url": "https://developer.android.com/blog/posts/android-dev-summit-26-developer-tools-performance",
+      "source": "Android Developers",
+      "published_at": "2026-10-28T00:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "developers"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+      "summary": "Nvidia on Wednesday released Nemotron 3.5 Transcribe , a free, open-weight model that transcribes audio in up to 40 languages. It also released version 2 of Granary, its open source speech dataset.",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model",
+      "source": "TechCrunch AI",
+      "published_at": "2026-10-28T15:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GitHub Copilot app, Universe releases",
+      "summary": "Ask Copilot to work through tasks in your desktop apps, such as an expense-report workflow. Computer use—in public preview on macOS and Windows—lets Copilot read app content, click controls, enter or edit text, and navigate across apps, including those without an API, command-line interface, or MCP integration.",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-28T15:55:00+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GitHub Enterprise now includes access to GitHub Copilot",
+      "summary": "Enterprises working with a GitHub or Microsoft account team can now get Copilot included with GitHub Enterprise for every licensed user. Previously, you had to manage two things: how many Copilot seats you were paying for and how much AI usage those users consumed.",
+      "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-28T15:50:00+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GitHub intelligence puts your code, context, and history to work",
+      "summary": "GitHub intelligence is the context and learning layer sourced from the graph of GitHub data. It makes this data useful to agents, helping them remember how you work, keep that guidance current, and find the code and development history relevant to the next task.",
+      "url": "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-28T15:40:00+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+      "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity.",
+      "url": "https://arxiv.org/abs/2610.36077",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-29T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Ghostty 1.4 is out with big improvements on Linux",
+      "summary": "Ghostty 1.4.0 brings a varied set of changes after seven months of development. There are welcome performance optimisations on Linux and macOS, a more capable SSH implementation and an easier way to rearrange tab splits – dragging them!",
+      "url": "https://www.omgubuntu.co.uk/2026/10/ghostty-1-4-released",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-29T04:08:04+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Ubuntu Core Desktop ‘accelerating’ development ahead of 27.04",
+      "summary": "A newly-formed Ubuntu Core Desktop team within the company will work on bringing Ubuntu Core Desktop into shape, with builds available ahead of the 27.04 release next year.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/ubuntu-core-desktop-2704",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-28T19:38:29+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "NetBSD Adds Alternative Text Editor To vi & xedit For Easing New Users",
+      "summary": "NetBSD-current has added a new command line text editor to its base set of packages for helping out new users as an alternative to their vi and xedit editors currently included.",
+      "url": "https://www.phoronix.com/news/NetBSD-New-Text-Editor",
+      "source": "Phoronix",
+      "published_at": "2026-10-28T09:48:00-04:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source",
+        "netbsd"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "X.Org XCB Co-Creator Praises Wayland's Protocol Design",
+      "summary": "Open-source developer Jamey Sharp who is a longtime X.Org developer and co-creator of the X protocol C-language Binding (XCB) finally had the need to write a Wayland client and ended up praising its design.",
+      "url": "https://www.phoronix.com/news/Jamey-Sharp-Praises-Wayland",
+      "source": "Phoronix",
+      "published_at": "2026-10-28T08:54:28-04:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
