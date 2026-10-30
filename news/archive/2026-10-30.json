@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "date": "2026-10-30",
-  "generated_at": "2026-10-30T05:24:44Z",
-  "count": 24,
+  "generated_at": "2026-10-30T11:01:52Z",
+  "count": 28,
   "articles": [
     {
       "title": "AlpineBSD combines NetBSD with Alpine’s apk package manager",
@@ -19,11 +19,11 @@
       "article_type": "news"
     },
     {
-      "title": "Jagex are now publishing Melvor Idle 2 as an official RuneScape game",
-      "summary": "Melvor Idle 2 (now Melvor Idle 2: A RuneScape Adventure) massively expands on the very popular original game and now has publishing help. It's all a bit more official now, with it becoming an actual standalone RuneScape game.",
-      "url": "https://www.gamingonlinux.com/2026/10/jagex-are-now-publishing-melvor-idle-2-as-an-official-runescape-game",
+      "title": "Check out the demo for INANIMA, a retro survival-horror inspired by Resident Evil and SIGNALIS",
+      "summary": "INANIMA is an upcoming release from developer Obscure Tales (Lamentum) focused on you surviving in an isolated facility of a strange corporation. The developer emailed GamingOnLinux to note the new demo is live, with full Native Linux support.",
+      "url": "https://www.gamingonlinux.com/2026/10/check-out-the-demo-for-inanima-a-retro-survival-horror-inspired-by-resident-evil-and-signalis",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-29T14:29:11+00:00",
+      "published_at": "2026-10-30T10:40:27+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -45,15 +45,15 @@
       "article_type": "release"
     },
     {
-      "title": "Is This The Only Instrument You Need?",
-      "summary": "When working on an electronic project it’s likely you will find yourself working with a variety of different instruments, be they logic analysers, oscilloscopes, or whatever.",
-      "url": "https://hackaday.com/2026/10/29/is-this-the-only-instrument-you-need",
-      "source": "Hackaday",
-      "published_at": "2026-10-30T05:00:10+00:00",
+      "title": "Where Did All the iPhone Duos Go? Mostly to Apple's Stores",
+      "summary": "Apple allocated roughly 80% of its initial iPhone Duo inventory to its retail stores, with locations holding as few as 50 units each, according to Bloomberg 's Mark Gurman.",
+      "url": "https://www.macrumors.com/2026/10/30/apple-stores-as-few-as-50-iphone-duo-units",
+      "source": "MacRumors",
+      "published_at": "2026-10-30T10:10:09+00:00",
       "category": "hardware",
       "tags": [
-        "hardware",
-        "maker"
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     },
@@ -85,11 +85,11 @@
       "article_type": "news"
     },
     {
-      "title": "System76 tease the new mini Thelio Prime Desktop coming in November",
-      "summary": "System76 have been busy cooking, with a teaser of their new mini Thelio Prime Desktop that will be launching November 18th. They didn't seem to send any press notice on this (or they just skipped us), but I did spot System76 founder Carl Richell posting about it on Bluesky .",
-      "url": "https://www.gamingonlinux.com/2026/10/system76-tease-the-new-mini-thelio-prime-desktop-coming-in-november",
+      "title": "Open source evolution sim 'Thrive' v1.7 works towards completing the multicellular stage",
+      "summary": "The multicellular stage is getting more complete for the open source evolution sim Thrive, with version 1.7 out now. Thrive is free and open source but you can buy it from stores to support the development.",
+      "url": "https://www.gamingonlinux.com/2026/10/open-source-evolution-sim-thrive-v1-7-works-towards-completing-the-multicellular-stage",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-29T14:08:11+00:00",
+      "published_at": "2026-10-30T10:30:17+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -124,11 +124,11 @@
       "article_type": "news"
     },
     {
-      "title": "GOG and Retrovibe team up for indie game publishing",
-      "summary": "Indie game publisher Retrovibe and GOG are formally teaming up to offer more ways for indie game developers to get published. Publishing can help with a lot of things like actually getting games approved on various stores, admin, marketing and much more.",
-      "url": "https://www.gamingonlinux.com/2026/10/gog-and-retrovibe-team-up-for-indie-game-publishing",
+      "title": "Dune: Awakening's free Blood and Ice expansion launches December 1",
+      "summary": "Funcom reveals the Blood and Ice expansion and detailed what's coming over the next three to four months - including new events, offline single-player and more.",
+      "url": "https://www.gamingonlinux.com/2026/10/dune-awakenings-free-blood-and-ice-expansion-launches-december-1",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-29T13:53:51+00:00",
+      "published_at": "2026-10-30T10:08:41+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -163,11 +163,11 @@
       "article_type": "news"
     },
     {
-      "title": "No Man's Sky Forsaken update brings Seamless Warping, New Cockpits, Forsaken Traders and more",
-      "summary": "Somehow, Hello Games keep on adding impressive new bits into their ageing space survival game, with the No Man's Sky Forsaken update out now. Yes, another big free update for the game that came out in 2016!",
-      "url": "https://www.gamingonlinux.com/2026/10/no-mans-sky-forsaken-update-brings-seamless-warping-new-cockpits-forsaken-traders-and-more",
+      "title": "Multiplayer music playground 'Vibe Together' sounds like a super-fun idea",
+      "summary": "“My two biggest loves are music and indie games. Vibe Together was born by bringing those two loves together: a place where music making feels more like playing a game,” said The Music Unc.",
+      "url": "https://www.gamingonlinux.com/2026/10/multiplayer-music-playground-vibe-together-sounds-like-a-super-fun-idea",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-29T12:01:05+00:00",
+      "published_at": "2026-10-30T09:49:10+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -215,6 +215,19 @@
       "article_type": "news"
     },
     {
+      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+      "summary": "Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks. Existing placement and replication methods redistribute this workload, yet additional expert copies compete with token-related buffers for limited GPU memory.",
+      "url": "https://arxiv.org/abs/2610.37720",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
       "title": "iOS 27.2 gives Shortcuts app these new and improved features",
       "summary": "iOS 27.2 launched this week with a variety of new features for Siri AI , FaceTime , Messages , and more, plus a handful of improvements for the Shortcuts app.",
       "url": "https://9to5mac.com/2026/10/29/ios-27-2-gives-shortcuts-app-these-new-and-improved-features",
@@ -228,6 +241,33 @@
       "article_type": "news"
     },
     {
+      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+      "summary": "Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and contexts affect calibration and must be accounted for and quantified.",
+      "url": "https://arxiv.org/abs/2610.37731",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research",
+        "models"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
+      "summary": "Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on. Reading those probabilities from one forward pass is fast but often wrong on decisions that take several steps, such as arithmetic, counting, and date comparison.",
+      "url": "https://arxiv.org/abs/2610.37732",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
       "title": "Build shared workflows for your team with Copilot Automations",
       "summary": "With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the way your team works. Copilot runs autonomously in the cloud, using only the tools you’ve allowed.",
       "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations",
@@ -239,6 +279,19 @@
         "developer-tools"
       ],
       "article_type": "news"
+    },
+    {
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "summary": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging.",
+      "url": "https://arxiv.org/abs/2610.37739",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
     },
     {
       "title": "Repository plugin defaults and enterprise plugin controls generally available",
