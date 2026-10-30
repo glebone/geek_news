@@ -1,0 +1,322 @@
+{
+  "schema_version": 2,
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T05:24:44Z",
+  "count": 24,
+  "articles": [
+    {
+      "title": "AlpineBSD combines NetBSD with Alpine’s apk package manager",
+      "summary": "AlpineBSD uses the NetBSD kernel, libc, and essential tools, and combines them with Alpine’s apk-tools package manager, busybox, and generlaly preferring GNU tools over their BSD equivalents.",
+      "url": "https://www.osnews.com/story/146267/alpinebsd-combines-netbsd-with-alpines-apk-package-manager",
+      "source": "OSNews",
+      "published_at": "2026-10-30T00:16:30+00:00",
+      "category": "open_source",
+      "tags": [
+        "operating-systems",
+        "open-source",
+        "netbsd"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Jagex are now publishing Melvor Idle 2 as an official RuneScape game",
+      "summary": "Melvor Idle 2 (now Melvor Idle 2: A RuneScape Adventure) massively expands on the very popular original game and now has publishing help. It's all a bit more official now, with it becoming an actual standalone RuneScape game.",
+      "url": "https://www.gamingonlinux.com/2026/10/jagex-are-now-publishing-melvor-idle-2-as-an-official-runescape-game",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-29T14:29:11+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Code v2.1.314",
+      "summary": "Added an optional groups list to Claude apps gateway upstreams: only developers in the listed IdP groups are sent to that upstream, on failover too.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+      "source": "Claude Code",
+      "published_at": "2026-10-30T01:06:26+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Is This The Only Instrument You Need?",
+      "summary": "When working on an electronic project it’s likely you will find yourself working with a variety of different instruments, be they logic analysers, oscilloscopes, or whatever.",
+      "url": "https://hackaday.com/2026/10/29/is-this-the-only-instrument-you-need",
+      "source": "Hackaday",
+      "published_at": "2026-10-30T05:00:10+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple’s best MacBook Pro decision this week had nothing to do with touch",
+      "summary": "Apple’s new touchscreen MacBook Pro brings plenty of welcome upgrades, but one of the best things about this week’s launch is what the company decided not to change.",
+      "url": "https://9to5mac.com/2026/10/29/apples-best-macbook-pro-decision-this-week-had-nothing-to-do-with-touch",
+      "source": "9to5Mac",
+      "published_at": "2026-10-30T02:06:23+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Latest Gemini design comes to all Android devices, app upgrades file generation",
+      "summary": "This updated design was first introduced on phones with Gemini Intelligence (Pixel 11) and is now available on all other devices we checked today. Make sure to Force stop the Google app if you’re not seeing it yet.",
+      "url": "https://9to5google.com/2026/10/29/gemini-design-file-generation",
+      "source": "9to5Google",
+      "published_at": "2026-10-30T01:01:47+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "System76 tease the new mini Thelio Prime Desktop coming in November",
+      "summary": "System76 have been busy cooking, with a teaser of their new mini Thelio Prime Desktop that will be launching November 18th. They didn't seem to send any press notice on this (or they just skipped us), but I did spot System76 founder Carl Richell posting about it on Bluesky .",
+      "url": "https://www.gamingonlinux.com/2026/10/system76-tease-the-new-mini-thelio-prime-desktop-coming-in-november",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-29T14:08:11+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "summary": "French AI company Mistral has released the weights for its trillion-parameter open source AI model Mistral Large 4 (ML4), allowing businesses and governments to download and deploy the system themselves.",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+      "source": "TechCrunch AI",
+      "published_at": "2026-10-29T17:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Here’s everything new in Android 17 QPR3 Beta 3 [Gallery]",
+      "summary": "Over the coming hours, we’ll dive into all of Android 17 QPR3 Beta 3’s new features and every single change. (The newest updates will be at the top of this list.",
+      "url": "https://9to5google.com/2026/10/29/android-17-qpr3-beta-3-everything-new",
+      "source": "9to5Google",
+      "published_at": "2026-10-29T20:38:07+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GOG and Retrovibe team up for indie game publishing",
+      "summary": "Indie game publisher Retrovibe and GOG are formally teaming up to offer more ways for indie game developers to get published. Publishing can help with a lot of things like actually getting games approved on various stores, admin, marketing and much more.",
+      "url": "https://www.gamingonlinux.com/2026/10/gog-and-retrovibe-team-up-for-indie-game-publishing",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-29T13:53:51+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
+      "summary": "Mistral has released the weights for Mistral Large 4, its largest model yet. The company says the model beats its open rivals at coding. In the first independent test, it turns out to be fast and fairly cheap, but it trails Chinese models in the overall rankings.",
+      "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall",
+      "source": "The Decoder",
+      "published_at": "2026-10-29T15:25:27+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Android 17 QPR3 Beta 3 rolling out with 26 Pixel fixes",
+      "summary": "Report issues via the Android Beta Feedback app on Pixel devices. Access it from the application drawer or Quick Settings to file bugs in Google’s issue tracker.",
+      "url": "https://9to5google.com/2026/10/29/android-17-qpr3-beta-3-pixel",
+      "source": "9to5Google",
+      "published_at": "2026-10-29T20:21:06+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "No Man's Sky Forsaken update brings Seamless Warping, New Cockpits, Forsaken Traders and more",
+      "summary": "Somehow, Hello Games keep on adding impressive new bits into their ageing space survival game, with the No Man's Sky Forsaken update out now. Yes, another big free update for the game that came out in 2016!",
+      "url": "https://www.gamingonlinux.com/2026/10/no-mans-sky-forsaken-update-brings-seamless-warping-new-cockpits-forsaken-traders-and-more",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-29T12:01:05+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.2 adds new video feature that’s perfect for iPhone Duo",
+      "summary": "iOS 27.2 launched this week with many new features , including an upgrade for the Apple TV app that’s especially perfect for iPhone Duo: Multiview.",
+      "url": "https://9to5mac.com/2026/10/29/ios-27-2-adds-new-video-feature-thats-perfect-for-iphone-duo",
+      "source": "9to5Mac",
+      "published_at": "2026-10-29T18:00:43+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple says it’s ‘only getting started’ updating macOS for touchscreens",
+      "summary": "Apple’s new MacBook Pro with PROLED XDR Display ( pre-order here ) includes a variety of software optimizations for touch input. But Apple says it’s “only getting started” making macOS more touch-friendly.",
+      "url": "https://9to5mac.com/2026/10/29/apple-says-its-only-getting-started-updating-macos-for-touchscreens",
+      "source": "9to5Mac",
+      "published_at": "2026-10-29T17:01:44+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Adjustments to the Taiwan storefront of the App Store on iOS and iPadOS",
+      "summary": "As of October 31, 2026, the commission rate for standard Apple In-App Purchase and paid app transactions will be 26% on the Taiwan storefront of the App Store on iOS and iPadOS.",
+      "url": "https://developer.apple.com/news?id=w9mxlhek",
+      "source": "Apple Developer",
+      "published_at": "2026-10-29T08:00:56-07:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "developers"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.2 gives Shortcuts app these new and improved features",
+      "summary": "iOS 27.2 launched this week with a variety of new features for Siri AI , FaceTime , Messages , and more, plus a handful of improvements for the Shortcuts app.",
+      "url": "https://9to5mac.com/2026/10/29/ios-27-2-gives-shortcuts-app-these-new-and-improved-features",
+      "source": "9to5Mac",
+      "published_at": "2026-10-29T14:16:33+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Build shared workflows for your team with Copilot Automations",
+      "summary": "With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the way your team works. Copilot runs autonomously in the cloud, using only the tools you’ve allowed.",
+      "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-28T15:35:00+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Repository plugin defaults and enterprise plugin controls generally available",
+      "summary": "Repository plugin defaults and enterprise-managed plugin controls are now generally available in VS Code, Copilot CLI, and the GitHub Copilot app. Trusted repositories can install and enable default plugins for contributors.",
+      "url": "https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-28T15:33:00+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Generate and edit images directly in Copilot",
+      "summary": "You can now generate and edit images using natural language in GitHub Copilot. When you ask for an image, your selected reasoning model calls a dedicated image-generation tool powered by GPT Image 2.5 Flare, previews the result inline, and saves it to your project.",
+      "url": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot",
+      "source": "GitHub Changelog",
+      "published_at": "2026-10-28T15:30:55+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "How macOS Adapts Its Controls for Touch on the New MacBook Pro",
+      "summary": "Apple announced a new MacBook Pro with PROLED XDR Display on Wednesday. It's Apple's first Mac with a screen that supports touch, and demonstrations Apple gave to the media show how macOS reshapes its controls for finger input.",
+      "url": "https://www.macrumors.com/2026/10/29/macos-adapts-controls-touch-macbook-pro",
+      "source": "MacRumors",
+      "published_at": "2026-10-29T12:33:47+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "This app lets you manage Nothing & CMF earbuds on Linux",
+      "summary": "EarA , a new open-source tool, aims to nix that palaver. It’s a GTK4 app (with a CLI for those who prefer the terminal), and lets you change settings on earbuds like the Nothing Ear (a) and CMF Buds 2 , from your Linux desktop.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/cmf-nothing-earbuds-linux-companion-app",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-30T03:15:04+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Gelly is a GTK desktop music player for Jellyfin and Navidrome",
+      "summary": "If you run your own music streaming server using Jellyfin or Navidrome/Subsonic, and you want a solid desktop player to browse and stream your library in, Gelly is worth a look.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/gelly-jellyfin-desktop-music-player-linux",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-29T23:22:00+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Graphics/NPU Driver Changes Already Begin Queuing Up For What Will Be Linux 7.5",
+      "summary": "Since last week drm-misc-next pull requests have already been sent out to DRM-Next to begin staging new feature code for what's intended for the Linux 7.5 kernel cycle kicking off at the end of the year.",
+      "url": "https://www.phoronix.com/news/Linux-7.5-drm-misc-next",
+      "source": "Phoronix",
+      "published_at": "2026-10-29T05:48:22-04:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
