@@ -1,0 +1,348 @@
+{
+  "schema_version": 2,
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T05:08:46Z",
+  "count": 26,
+  "articles": [
+    {
+      "title": "Proton Experimental brings new fixes for Helldivers 2, BeamNG.drive and more",
+      "summary": "Valve released the latest upgrade for Proton Experimental bringing a fresh set of fixes for Windows games on SteamOS / Linux for October 30th .",
+      "url": "https://www.gamingonlinux.com/2026/10/proton-experimental-brings-new-fixes-for-helldivers-2-beamng-drive-and-more",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-30T18:08:21+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "proton"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Kodee’s Kotlin Roundup: Shipaton 2026 Winners, Kotlin 2.5.0-Beta2, and KotlinConf 2027",
+      "summary": "Hi everyone! It’s been a busy few weeks since my last roundup: the Shipaton 2026 winners are in, and three Kotlin Multiplatform apps took the Ship Kotlin Everywhere Award.",
+      "url": "https://blog.jetbrains.com/kotlin/2026/10/kodee-s-kotlin-roundup-shipaton-2026-winners-kotlin-2-5-0-beta2-and-kotlinconf-2027",
+      "source": "Kotlin Blog",
+      "published_at": "2026-10-30T12:02:33+00:00",
+      "category": "programming",
+      "tags": [
+        "kotlin",
+        "programming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+      "summary": "The team gave Claude Sonnet 5 a list of 19 possible gene therapies, an epilepsy mouse model in which researchers induce seizures to test treatments, and access to a custom motorized surgical device with cameras.",
+      "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making",
+      "source": "The Decoder",
+      "published_at": "2026-10-30T19:42:59+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Code v2.1.316",
+      "summary": "Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with pooled_budget on the spend limits admin API.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "source": "Claude Code",
+      "published_at": "2026-10-31T01:01:35+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Capture 480i with Magewell Cards",
+      "summary": "Here’s a short guide, showing how to use both internal and USB capture cards from the company Magewell, to capture true 480i over HDMI. I’ve demoed this before with the USB version, however this guide adds an important tip not previously mentioned (basically, just “save to device”).",
+      "url": "https://retrorgb.com/capture-480i-with-magewell-cards.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-30T17:39:32+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "VR Headset Ditches the Base Stations with DIY Tracking",
+      "summary": "Those in the virtual reality scene might be interested in [Prohurtz]’s add-on for the Bigscreen Beyond VR headset. BSB-SLAM adds SLAM (Simultaneous Localization and Mapping) tracking to the headset by attaching a sensor to the front of the headset, and providing the software to tie the two together.",
+      "url": "https://hackaday.com/2026/10/30/vr-headset-ditches-the-base-stations-with-diy-tracking",
+      "source": "Hackaday",
+      "published_at": "2026-10-31T02:00:41+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple confirms iOS 27.3 beta is coming next week with Apple Intelligence in China",
+      "summary": "Now, as spotted by MacRumors , a press release published on Apple’s Chinese Newsroom website confirms that testing of Apple Intelligence in China will begin on November 4, as part of the next iOS developer beta.",
+      "url": "https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china",
+      "source": "9to5Mac",
+      "published_at": "2026-10-30T22:37:36+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Friday’s Android app deals and freebies: Thronefall, Demon Castle Story, Pocket Academy 3, Dungeon Village 2, more",
+      "summary": "Friday’s best Google Play app and game deals are ready, including Thronefall, Demon Castle Story, Pocket Academy 3, Dungeon Village 2, RPG Silver Nornir, Witchcraft!, Lovecraft’s Untold Stories, Angelo and Deemon (Full), and more.",
+      "url": "https://9to5toys.com/2026/10/30/todays-highlight-google-play-deals-40",
+      "source": "9to5Google",
+      "published_at": "2026-10-30T17:58:04+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Northgard Battlegrounds takes the strategy game into a new auto-battling direction",
+      "summary": "The original Northgard was more of a proper real-time strategy experience, where you build up a settlement and take territory. This strips quite a lot back, to spin it into something rather different.",
+      "url": "https://www.gamingonlinux.com/2026/10/northgard-battlegrounds-takes-the-strategy-game-into-a-new-auto-battling-direction",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-30T17:59:06+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Malicious Claude Code extension in Cursor's marketplace attempted remote access and data theft",
+      "summary": "A tampered Claude Code extension was live on the Cursor marketplace for about 11 hours, affecting up to 5,000 users. It tried to steal user data and set up remote access.",
+      "url": "https://the-decoder.com/malicious-claude-code-extension-in-cursors-marketplace-attempted-remote-access-and-data-theft",
+      "source": "The Decoder",
+      "published_at": "2026-10-30T18:16:10+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Inside the FPGB Mini",
+      "summary": "FunnyPlaying has been cooking up a new FPGA handheld called the GB Mini, and they were kind enough to send one my way for testing.",
+      "url": "https://retrorgb.com/inside-the-fpgb-mini.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-30T13:01:23+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "A 1982 Modem for $100",
+      "summary": "[Dave Farquhar] takes a walk down memory lane about the Commodore 1600 VICModem , perhaps the first phone modem to sell for less than $100.",
+      "url": "https://hackaday.com/2026/10/30/a-1982-modem-for-100",
+      "source": "Hackaday",
+      "published_at": "2026-10-30T23:00:57+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple Music 7.0 for Android rolls out with Liquid Glass redesign",
+      "summary": "Following a month of beta testing , Apple Music 7.0 is rolling out with a Liquid Glass redesign for Android, as well as the new icon for the streaming service.",
+      "url": "https://9to5google.com/2026/10/30/apple-music-7-0-redesign",
+      "source": "9to5Google",
+      "published_at": "2026-10-30T17:26:48+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "This Week in Open Source for October 30, 2026",
+      "summary": "Right before Halloween weekend, it feels fitting to ask what actually haunts open source communities right now—from supply-chain ghosts lurking in commit histories and the hidden cost of maintaining isolated \"zombie\" forks to models wearing open source costumes without sharing what is under the mask.",
+      "url": "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-29.html",
+      "source": "Google Open Source",
+      "published_at": "2026-10-30T18:30:00+00:00",
+      "category": "open_source",
+      "tags": [
+        "google",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "The popular idle clicker game Idle Slayer added Linux and macOS support",
+      "summary": "With a mixture of idle and clicker mechanics, the popular and well-reviewed Idle Slayer is now support on both Linux and macOS. It has over 11,000 user reviews on Steam with a Very Positive rating.",
+      "url": "https://www.gamingonlinux.com/2026/10/the-popular-idle-clicker-game-idle-slayer-added-linux-and-macos-support",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-30T12:07:14+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48 hours",
+      "summary": "Across all successful attacks on current Firefox versions, GLM 5.3 relied on a previously unknown vulnerability that the model independently rediscovered in every attempt, allowing it to bypass the browser's sandbox protections and read files directly from the computer.",
+      "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours",
+      "source": "The Decoder",
+      "published_at": "2026-10-30T12:22:18+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.2 adds two FaceTime features, including a personal favorite",
+      "summary": "Dual Capture was added to FaceTime in iOS 27 and quickly became one of my favorite features. Rather than having to choose between showing your face or the rear camera view, Dual Capture lets you show both at once.",
+      "url": "https://9to5mac.com/2026/10/30/ios-27-2-adds-two-facetime-features-including-a-personal-favorite",
+      "source": "9to5Mac",
+      "published_at": "2026-10-30T19:22:05+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Deep Google Store discounts on Pixel 11, Pixel Watch 5 start early",
+      "summary": "Like other retailers, the US Google Store is already starting Black Friday-level discounts on the Pixel 11 series and Pixel Watch 5 at the end of October.",
+      "url": "https://9to5google.com/2026/10/30/google-store-pixel-11-early-deals",
+      "source": "9to5Google",
+      "published_at": "2026-10-30T16:57:47+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.3 Will Enable These Apple Intelligence Features in China",
+      "summary": "Apple's website in China says iOS 27.3 will enable some Apple Intelligence features in China, such as Writing Tools, Genmoji, Clean Up, Notification Summaries, Priority Notifications, Visual Intelligence, and Live Translation with AirPods.",
+      "url": "https://www.macrumors.com/2026/10/30/ios-27-3-apple-intelligence-china",
+      "source": "MacRumors",
+      "published_at": "2026-10-30T21:46:00+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Get 18 spooky games in the Fanatical FrightFest Ripper Bundle",
+      "summary": "Fanatical's FrightFest Ripper Bundle is live with 18 different games you can grab for one cheap price. You can get the entire thing for £14.99 and there's some fun looking treats in there.",
+      "url": "https://www.gamingonlinux.com/2026/10/get-18-spooky-games-in-the-fanatical-frightfest-ripper-bundle",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-30T09:38:56+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+      "summary": "Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-site engineering, while generative construction can diverge from specified real websites.",
+      "url": "https://arxiv.org/abs/2610.37786",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-31T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
+      "summary": "LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reliable judge.",
+      "url": "https://arxiv.org/abs/2610.37809",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-31T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research",
+        "models"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Wine 11.21 Released With Better WoW64 OpenGL Performance",
+      "summary": "Wine 11.21 is out as the newest bi-weekly development release of Wine and as we near Wine 12.0 stable release happenings getting underway in about one month with the official v12.0 release expected early in the new year.",
+      "url": "https://www.phoronix.com/news/Wine-11.21-Released",
+      "source": "Phoronix",
+      "published_at": "2026-10-30T20:29:01-04:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Detecting Covert Collusion between AI Agents through Partner-Outsider Positive Listening",
+      "summary": "AI agents that share a secret convention can coordinate through messages that look innocent, so a monitor that reads only the messages can miss them.",
+      "url": "https://arxiv.org/abs/2610.37849",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-31T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Ubuntu 27.04 ‘Tenacious T-Rex’ opens for development",
+      "summary": "Development on Ubuntu 27.04, codenamed ‘Tenacious T-Rex’, has officially begun. The tenacious archive is now open (30 October 2026), with auto-sync from Debian set to pull in a tranche of updated packages since the Ubuntu 26.10 release.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/ubuntu-2704-opens-for-development",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-30T21:15:12+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "We added a manual dark mode toggle to the site (cos you asked)",
+      "summary": "Secondly, there’s a manual dark mode toggle in the masthead. The site still follows your OS dark mode preference automatically, but you can override with this simple two-state switch: light or dark mode.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/site-design-changes-2026-part-one",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-30T01:01:00+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    }
+  ]
+}

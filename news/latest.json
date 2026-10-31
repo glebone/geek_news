@@ -1,42 +1,55 @@
 {
   "schema_version": 2,
-  "date": "2026-10-30",
-  "generated_at": "2026-10-30T11:01:52Z",
-  "count": 28,
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T05:08:46Z",
+  "count": 26,
   "articles": [
     {
-      "title": "AlpineBSD combines NetBSD with Alpine’s apk package manager",
-      "summary": "AlpineBSD uses the NetBSD kernel, libc, and essential tools, and combines them with Alpine’s apk-tools package manager, busybox, and generlaly preferring GNU tools over their BSD equivalents.",
-      "url": "https://www.osnews.com/story/146267/alpinebsd-combines-netbsd-with-alpines-apk-package-manager",
-      "source": "OSNews",
-      "published_at": "2026-10-30T00:16:30+00:00",
-      "category": "open_source",
-      "tags": [
-        "operating-systems",
-        "open-source",
-        "netbsd"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Check out the demo for INANIMA, a retro survival-horror inspired by Resident Evil and SIGNALIS",
-      "summary": "INANIMA is an upcoming release from developer Obscure Tales (Lamentum) focused on you surviving in an isolated facility of a strange corporation. The developer emailed GamingOnLinux to note the new demo is live, with full Native Linux support.",
-      "url": "https://www.gamingonlinux.com/2026/10/check-out-the-demo-for-inanima-a-retro-survival-horror-inspired-by-resident-evil-and-signalis",
+      "title": "Proton Experimental brings new fixes for Helldivers 2, BeamNG.drive and more",
+      "summary": "Valve released the latest upgrade for Proton Experimental bringing a fresh set of fixes for Windows games on SteamOS / Linux for October 30th .",
+      "url": "https://www.gamingonlinux.com/2026/10/proton-experimental-brings-new-fixes-for-helldivers-2-beamng-drive-and-more",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-30T10:40:27+00:00",
+      "published_at": "2026-10-30T18:08:21+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
-        "games"
+        "games",
+        "proton"
       ],
       "article_type": "news"
     },
     {
-      "title": "Claude Code v2.1.314",
-      "summary": "Added an optional groups list to Claude apps gateway upstreams: only developers in the listed IdP groups are sent to that upstream, on failover too.",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+      "title": "Kodee’s Kotlin Roundup: Shipaton 2026 Winners, Kotlin 2.5.0-Beta2, and KotlinConf 2027",
+      "summary": "Hi everyone! It’s been a busy few weeks since my last roundup: the Shipaton 2026 winners are in, and three Kotlin Multiplatform apps took the Ship Kotlin Everywhere Award.",
+      "url": "https://blog.jetbrains.com/kotlin/2026/10/kodee-s-kotlin-roundup-shipaton-2026-winners-kotlin-2-5-0-beta2-and-kotlinconf-2027",
+      "source": "Kotlin Blog",
+      "published_at": "2026-10-30T12:02:33+00:00",
+      "category": "programming",
+      "tags": [
+        "kotlin",
+        "programming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+      "summary": "The team gave Claude Sonnet 5 a list of 19 possible gene therapies, an epilepsy mouse model in which researchers induce seizures to test treatments, and access to a custom motorized surgical device with cameras.",
+      "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making",
+      "source": "The Decoder",
+      "published_at": "2026-10-30T19:42:59+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Code v2.1.316",
+      "summary": "Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with pooled_budget on the spend limits admin API.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
       "source": "Claude Code",
-      "published_at": "2026-10-30T01:06:26+00:00",
+      "published_at": "2026-10-31T01:01:35+00:00",
       "category": "agent_tools",
       "tags": [
         "claude-code",
@@ -45,25 +58,38 @@
       "article_type": "release"
     },
     {
-      "title": "Where Did All the iPhone Duos Go? Mostly to Apple's Stores",
-      "summary": "Apple allocated roughly 80% of its initial iPhone Duo inventory to its retail stores, with locations holding as few as 50 units each, according to Bloomberg 's Mark Gurman.",
-      "url": "https://www.macrumors.com/2026/10/30/apple-stores-as-few-as-50-iphone-duo-units",
-      "source": "MacRumors",
-      "published_at": "2026-10-30T10:10:09+00:00",
-      "category": "hardware",
+      "title": "Capture 480i with Magewell Cards",
+      "summary": "Here’s a short guide, showing how to use both internal and USB capture cards from the company Magewell, to capture true 480i over HDMI. I’ve demoed this before with the USB version, however this guide adds an important tip not previously mentioned (basically, just “save to device”).",
+      "url": "https://retrorgb.com/capture-480i-with-magewell-cards.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-30T17:39:32+00:00",
+      "category": "retro_gaming",
       "tags": [
-        "apple",
-        "devices"
+        "retro",
+        "gaming"
       ],
       "article_type": "news"
     },
     {
-      "title": "Apple’s best MacBook Pro decision this week had nothing to do with touch",
-      "summary": "Apple’s new touchscreen MacBook Pro brings plenty of welcome upgrades, but one of the best things about this week’s launch is what the company decided not to change.",
-      "url": "https://9to5mac.com/2026/10/29/apples-best-macbook-pro-decision-this-week-had-nothing-to-do-with-touch",
+      "title": "VR Headset Ditches the Base Stations with DIY Tracking",
+      "summary": "Those in the virtual reality scene might be interested in [Prohurtz]’s add-on for the Bigscreen Beyond VR headset. BSB-SLAM adds SLAM (Simultaneous Localization and Mapping) tracking to the headset by attaching a sensor to the front of the headset, and providing the software to tie the two together.",
+      "url": "https://hackaday.com/2026/10/30/vr-headset-ditches-the-base-stations-with-diy-tracking",
+      "source": "Hackaday",
+      "published_at": "2026-10-31T02:00:41+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple confirms iOS 27.3 beta is coming next week with Apple Intelligence in China",
+      "summary": "Now, as spotted by MacRumors , a press release published on Apple’s Chinese Newsroom website confirms that testing of Apple Intelligence in China will begin on November 4, as part of the next iOS developer beta.",
+      "url": "https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china",
       "source": "9to5Mac",
-      "published_at": "2026-10-30T02:06:23+00:00",
-      "category": "hardware",
+      "published_at": "2026-10-30T22:37:36+00:00",
+      "category": "ios",
       "tags": [
         "apple",
         "devices"
@@ -71,51 +97,11 @@
       "article_type": "news"
     },
     {
-      "title": "Latest Gemini design comes to all Android devices, app upgrades file generation",
-      "summary": "This updated design was first introduced on phones with Gemini Intelligence (Pixel 11) and is now available on all other devices we checked today. Make sure to Force stop the Google app if you’re not seeing it yet.",
-      "url": "https://9to5google.com/2026/10/29/gemini-design-file-generation",
+      "title": "Friday’s Android app deals and freebies: Thronefall, Demon Castle Story, Pocket Academy 3, Dungeon Village 2, more",
+      "summary": "Friday’s best Google Play app and game deals are ready, including Thronefall, Demon Castle Story, Pocket Academy 3, Dungeon Village 2, RPG Silver Nornir, Witchcraft!, Lovecraft’s Untold Stories, Angelo and Deemon (Full), and more.",
+      "url": "https://9to5toys.com/2026/10/30/todays-highlight-google-play-deals-40",
       "source": "9to5Google",
-      "published_at": "2026-10-30T01:01:47+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Open source evolution sim 'Thrive' v1.7 works towards completing the multicellular stage",
-      "summary": "The multicellular stage is getting more complete for the open source evolution sim Thrive, with version 1.7 out now. Thrive is free and open source but you can buy it from stores to support the development.",
-      "url": "https://www.gamingonlinux.com/2026/10/open-source-evolution-sim-thrive-v1-7-works-towards-completing-the-multicellular-stage",
-      "source": "GamingOnLinux",
-      "published_at": "2026-10-30T10:30:17+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "summary": "French AI company Mistral has released the weights for its trillion-parameter open source AI model Mistral Large 4 (ML4), allowing businesses and governments to download and deploy the system themselves.",
-      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
-      "source": "TechCrunch AI",
-      "published_at": "2026-10-29T17:00:00+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Here’s everything new in Android 17 QPR3 Beta 3 [Gallery]",
-      "summary": "Over the coming hours, we’ll dive into all of Android 17 QPR3 Beta 3’s new features and every single change. (The newest updates will be at the top of this list.",
-      "url": "https://9to5google.com/2026/10/29/android-17-qpr3-beta-3-everything-new",
-      "source": "9to5Google",
-      "published_at": "2026-10-29T20:38:07+00:00",
+      "published_at": "2026-10-30T17:58:04+00:00",
       "category": "android",
       "tags": [
         "android",
@@ -124,11 +110,11 @@
       "article_type": "news"
     },
     {
-      "title": "Dune: Awakening's free Blood and Ice expansion launches December 1",
-      "summary": "Funcom reveals the Blood and Ice expansion and detailed what's coming over the next three to four months - including new events, offline single-player and more.",
-      "url": "https://www.gamingonlinux.com/2026/10/dune-awakenings-free-blood-and-ice-expansion-launches-december-1",
+      "title": "Northgard Battlegrounds takes the strategy game into a new auto-battling direction",
+      "summary": "The original Northgard was more of a proper real-time strategy experience, where you build up a settlement and take territory. This strips quite a lot back, to spin it into something rather different.",
+      "url": "https://www.gamingonlinux.com/2026/10/northgard-battlegrounds-takes-the-strategy-game-into-a-new-auto-battling-direction",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-30T10:08:41+00:00",
+      "published_at": "2026-10-30T17:59:06+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -137,11 +123,11 @@
       "article_type": "news"
     },
     {
-      "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
-      "summary": "Mistral has released the weights for Mistral Large 4, its largest model yet. The company says the model beats its open rivals at coding. In the first independent test, it turns out to be fast and fairly cheap, but it trails Chinese models in the overall rankings.",
-      "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall",
+      "title": "Malicious Claude Code extension in Cursor's marketplace attempted remote access and data theft",
+      "summary": "A tampered Claude Code extension was live on the Cursor marketplace for about 11 hours, affecting up to 5,000 users. It tried to steal user data and set up remote access.",
+      "url": "https://the-decoder.com/malicious-claude-code-extension-in-cursors-marketplace-attempted-remote-access-and-data-theft",
       "source": "The Decoder",
-      "published_at": "2026-10-29T15:25:27+00:00",
+      "published_at": "2026-10-30T18:16:10+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -150,11 +136,37 @@
       "article_type": "news"
     },
     {
-      "title": "Android 17 QPR3 Beta 3 rolling out with 26 Pixel fixes",
-      "summary": "Report issues via the Android Beta Feedback app on Pixel devices. Access it from the application drawer or Quick Settings to file bugs in Google’s issue tracker.",
-      "url": "https://9to5google.com/2026/10/29/android-17-qpr3-beta-3-pixel",
+      "title": "Inside the FPGB Mini",
+      "summary": "FunnyPlaying has been cooking up a new FPGA handheld called the GB Mini, and they were kind enough to send one my way for testing.",
+      "url": "https://retrorgb.com/inside-the-fpgb-mini.html",
+      "source": "RetroRGB",
+      "published_at": "2026-10-30T13:01:23+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "A 1982 Modem for $100",
+      "summary": "[Dave Farquhar] takes a walk down memory lane about the Commodore 1600 VICModem , perhaps the first phone modem to sell for less than $100.",
+      "url": "https://hackaday.com/2026/10/30/a-1982-modem-for-100",
+      "source": "Hackaday",
+      "published_at": "2026-10-30T23:00:57+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple Music 7.0 for Android rolls out with Liquid Glass redesign",
+      "summary": "Following a month of beta testing , Apple Music 7.0 is rolling out with a Liquid Glass redesign for Android, as well as the new icon for the streaming service.",
+      "url": "https://9to5google.com/2026/10/30/apple-music-7-0-redesign",
       "source": "9to5Google",
-      "published_at": "2026-10-29T20:21:06+00:00",
+      "published_at": "2026-10-30T17:26:48+00:00",
       "category": "android",
       "tags": [
         "android",
@@ -163,11 +175,24 @@
       "article_type": "news"
     },
     {
-      "title": "Multiplayer music playground 'Vibe Together' sounds like a super-fun idea",
-      "summary": "“My two biggest loves are music and indie games. Vibe Together was born by bringing those two loves together: a place where music making feels more like playing a game,” said The Music Unc.",
-      "url": "https://www.gamingonlinux.com/2026/10/multiplayer-music-playground-vibe-together-sounds-like-a-super-fun-idea",
+      "title": "This Week in Open Source for October 30, 2026",
+      "summary": "Right before Halloween weekend, it feels fitting to ask what actually haunts open source communities right now—from supply-chain ghosts lurking in commit histories and the hidden cost of maintaining isolated \"zombie\" forks to models wearing open source costumes without sharing what is under the mask.",
+      "url": "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-29.html",
+      "source": "Google Open Source",
+      "published_at": "2026-10-30T18:30:00+00:00",
+      "category": "open_source",
+      "tags": [
+        "google",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "The popular idle clicker game Idle Slayer added Linux and macOS support",
+      "summary": "With a mixture of idle and clicker mechanics, the popular and well-reviewed Idle Slayer is now support on both Linux and macOS. It has over 11,000 user reviews on Steam with a Very Positive rating.",
+      "url": "https://www.gamingonlinux.com/2026/10/the-popular-idle-clicker-game-idle-slayer-added-linux-and-macos-support",
       "source": "GamingOnLinux",
-      "published_at": "2026-10-30T09:49:10+00:00",
+      "published_at": "2026-10-30T12:07:14+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -176,11 +201,24 @@
       "article_type": "news"
     },
     {
-      "title": "iOS 27.2 adds new video feature that’s perfect for iPhone Duo",
-      "summary": "iOS 27.2 launched this week with many new features , including an upgrade for the Apple TV app that’s especially perfect for iPhone Duo: Multiview.",
-      "url": "https://9to5mac.com/2026/10/29/ios-27-2-adds-new-video-feature-thats-perfect-for-iphone-duo",
+      "title": "Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48 hours",
+      "summary": "Across all successful attacks on current Firefox versions, GLM 5.3 relied on a previously unknown vulnerability that the model independently rediscovered in every attempt, allowing it to bypass the browser's sandbox protections and read files directly from the computer.",
+      "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours",
+      "source": "The Decoder",
+      "published_at": "2026-10-30T12:22:18+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.2 adds two FaceTime features, including a personal favorite",
+      "summary": "Dual Capture was added to FaceTime in iOS 27 and quickly became one of my favorite features. Rather than having to choose between showing your face or the rear camera view, Dual Capture lets you show both at once.",
+      "url": "https://9to5mac.com/2026/10/30/ios-27-2-adds-two-facetime-features-including-a-personal-favorite",
       "source": "9to5Mac",
-      "published_at": "2026-10-29T18:00:43+00:00",
+      "published_at": "2026-10-30T19:22:05+00:00",
       "category": "ios",
       "tags": [
         "apple",
@@ -189,12 +227,25 @@
       "article_type": "news"
     },
     {
-      "title": "Apple says it’s ‘only getting started’ updating macOS for touchscreens",
-      "summary": "Apple’s new MacBook Pro with PROLED XDR Display ( pre-order here ) includes a variety of software optimizations for touch input. But Apple says it’s “only getting started” making macOS more touch-friendly.",
-      "url": "https://9to5mac.com/2026/10/29/apple-says-its-only-getting-started-updating-macos-for-touchscreens",
-      "source": "9to5Mac",
-      "published_at": "2026-10-29T17:01:44+00:00",
-      "category": "macos",
+      "title": "Deep Google Store discounts on Pixel 11, Pixel Watch 5 start early",
+      "summary": "Like other retailers, the US Google Store is already starting Black Friday-level discounts on the Pixel 11 series and Pixel Watch 5 at the end of October.",
+      "url": "https://9to5google.com/2026/10/30/google-store-pixel-11-early-deals",
+      "source": "9to5Google",
+      "published_at": "2026-10-30T16:57:47+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.3 Will Enable These Apple Intelligence Features in China",
+      "summary": "Apple's website in China says iOS 27.3 will enable some Apple Intelligence features in China, such as Writing Tools, Genmoji, Clean Up, Notification Summaries, Priority Notifications, Visual Intelligence, and Live Translation with AirPods.",
+      "url": "https://www.macrumors.com/2026/10/30/ios-27-3-apple-intelligence-china",
+      "source": "MacRumors",
+      "published_at": "2026-10-30T21:46:00+00:00",
+      "category": "ios",
       "tags": [
         "apple",
         "devices"
@@ -202,24 +253,24 @@
       "article_type": "news"
     },
     {
-      "title": "Adjustments to the Taiwan storefront of the App Store on iOS and iPadOS",
-      "summary": "As of October 31, 2026, the commission rate for standard Apple In-App Purchase and paid app transactions will be 26% on the Taiwan storefront of the App Store on iOS and iPadOS.",
-      "url": "https://developer.apple.com/news?id=w9mxlhek",
-      "source": "Apple Developer",
-      "published_at": "2026-10-29T08:00:56-07:00",
-      "category": "ios",
+      "title": "Get 18 spooky games in the Fanatical FrightFest Ripper Bundle",
+      "summary": "Fanatical's FrightFest Ripper Bundle is live with 18 different games you can grab for one cheap price. You can get the entire thing for £14.99 and there's some fun looking treats in there.",
+      "url": "https://www.gamingonlinux.com/2026/10/get-18-spooky-games-in-the-fanatical-frightfest-ripper-bundle",
+      "source": "GamingOnLinux",
+      "published_at": "2026-10-30T09:38:56+00:00",
+      "category": "linux",
       "tags": [
-        "apple",
-        "developers"
+        "linux-gaming",
+        "games"
       ],
       "article_type": "news"
     },
     {
-      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
-      "summary": "Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks. Existing placement and replication methods redistribute this workload, yet additional expert copies compete with token-related buffers for limited GPU memory.",
-      "url": "https://arxiv.org/abs/2610.37720",
+      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+      "summary": "Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-site engineering, while generative construction can diverge from specified real websites.",
+      "url": "https://arxiv.org/abs/2610.37786",
       "source": "arXiv cs.AI",
-      "published_at": "2026-10-30T00:00:00-04:00",
+      "published_at": "2026-10-31T00:00:00-04:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -228,24 +279,11 @@
       "article_type": "research"
     },
     {
-      "title": "iOS 27.2 gives Shortcuts app these new and improved features",
-      "summary": "iOS 27.2 launched this week with a variety of new features for Siri AI , FaceTime , Messages , and more, plus a handful of improvements for the Shortcuts app.",
-      "url": "https://9to5mac.com/2026/10/29/ios-27-2-gives-shortcuts-app-these-new-and-improved-features",
-      "source": "9to5Mac",
-      "published_at": "2026-10-29T14:16:33+00:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
-      "summary": "Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and contexts affect calibration and must be accounted for and quantified.",
-      "url": "https://arxiv.org/abs/2610.37731",
+      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
+      "summary": "LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reliable judge.",
+      "url": "https://arxiv.org/abs/2610.37809",
       "source": "arXiv cs.AI",
-      "published_at": "2026-10-30T00:00:00-04:00",
+      "published_at": "2026-10-31T00:00:00-04:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -255,119 +293,54 @@
       "article_type": "research"
     },
     {
-      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
-      "summary": "Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on. Reading those probabilities from one forward pass is fast but often wrong on decisions that take several steps, such as arithmetic, counting, and date comparison.",
-      "url": "https://arxiv.org/abs/2610.37732",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-10-30T00:00:00-04:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "Build shared workflows for your team with Copilot Automations",
-      "summary": "With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the way your team works. Copilot runs autonomously in the cloud, using only the tools you’ve allowed.",
-      "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations",
-      "source": "GitHub Changelog",
-      "published_at": "2026-10-28T15:35:00+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "github",
-        "developer-tools"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
-      "summary": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging.",
-      "url": "https://arxiv.org/abs/2610.37739",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-10-30T00:00:00-04:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "Repository plugin defaults and enterprise plugin controls generally available",
-      "summary": "Repository plugin defaults and enterprise-managed plugin controls are now generally available in VS Code, Copilot CLI, and the GitHub Copilot app. Trusted repositories can install and enable default plugins for contributors.",
-      "url": "https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available",
-      "source": "GitHub Changelog",
-      "published_at": "2026-10-28T15:33:00+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "github",
-        "developer-tools"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Generate and edit images directly in Copilot",
-      "summary": "You can now generate and edit images using natural language in GitHub Copilot. When you ask for an image, your selected reasoning model calls a dedicated image-generation tool powered by GPT Image 2.5 Flare, previews the result inline, and saves it to your project.",
-      "url": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot",
-      "source": "GitHub Changelog",
-      "published_at": "2026-10-28T15:30:55+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "github",
-        "developer-tools"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "How macOS Adapts Its Controls for Touch on the New MacBook Pro",
-      "summary": "Apple announced a new MacBook Pro with PROLED XDR Display on Wednesday. It's Apple's first Mac with a screen that supports touch, and demonstrations Apple gave to the media show how macOS reshapes its controls for finger input.",
-      "url": "https://www.macrumors.com/2026/10/29/macos-adapts-controls-touch-macbook-pro",
-      "source": "MacRumors",
-      "published_at": "2026-10-29T12:33:47+00:00",
-      "category": "macos",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "This app lets you manage Nothing & CMF earbuds on Linux",
-      "summary": "EarA , a new open-source tool, aims to nix that palaver. It’s a GTK4 app (with a CLI for those who prefer the terminal), and lets you change settings on earbuds like the Nothing Ear (a) and CMF Buds 2 , from your Linux desktop.",
-      "url": "https://www.omgubuntu.co.uk/2026/10/cmf-nothing-earbuds-linux-companion-app",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-10-30T03:15:04+00:00",
-      "category": "linux",
-      "tags": [
-        "ubuntu",
-        "desktop"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Gelly is a GTK desktop music player for Jellyfin and Navidrome",
-      "summary": "If you run your own music streaming server using Jellyfin or Navidrome/Subsonic, and you want a solid desktop player to browse and stream your library in, Gelly is worth a look.",
-      "url": "https://www.omgubuntu.co.uk/2026/10/gelly-jellyfin-desktop-music-player-linux",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-10-29T23:22:00+00:00",
-      "category": "linux",
-      "tags": [
-        "ubuntu",
-        "desktop"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Graphics/NPU Driver Changes Already Begin Queuing Up For What Will Be Linux 7.5",
-      "summary": "Since last week drm-misc-next pull requests have already been sent out to DRM-Next to begin staging new feature code for what's intended for the Linux 7.5 kernel cycle kicking off at the end of the year.",
-      "url": "https://www.phoronix.com/news/Linux-7.5-drm-misc-next",
+      "title": "Wine 11.21 Released With Better WoW64 OpenGL Performance",
+      "summary": "Wine 11.21 is out as the newest bi-weekly development release of Wine and as we near Wine 12.0 stable release happenings getting underway in about one month with the official v12.0 release expected early in the new year.",
+      "url": "https://www.phoronix.com/news/Wine-11.21-Released",
       "source": "Phoronix",
-      "published_at": "2026-10-29T05:48:22-04:00",
+      "published_at": "2026-10-30T20:29:01-04:00",
       "category": "linux",
       "tags": [
         "linux",
         "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Detecting Covert Collusion between AI Agents through Partner-Outsider Positive Listening",
+      "summary": "AI agents that share a secret convention can coordinate through messages that look innocent, so a monitor that reads only the messages can miss them.",
+      "url": "https://arxiv.org/abs/2610.37849",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-31T00:00:00-04:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Ubuntu 27.04 ‘Tenacious T-Rex’ opens for development",
+      "summary": "Development on Ubuntu 27.04, codenamed ‘Tenacious T-Rex’, has officially begun. The tenacious archive is now open (30 October 2026), with auto-sync from Debian set to pull in a tranche of updated packages since the Ubuntu 26.10 release.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/ubuntu-2704-opens-for-development",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-30T21:15:12+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "We added a manual dark mode toggle to the site (cos you asked)",
+      "summary": "Secondly, there’s a manual dark mode toggle in the masthead. The site still follows your OS dark mode preference automatically, but you can override with this simple two-state switch: light or dark mode.",
+      "url": "https://www.omgubuntu.co.uk/2026/10/site-design-changes-2026-part-one",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-10-30T01:01:00+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
       ],
       "article_type": "news"
     }
