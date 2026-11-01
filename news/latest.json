@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "date": "2026-11-01",
-  "generated_at": "2026-11-01T11:29:38Z",
+  "generated_at": "2026-11-01T11:54:54Z",
   "count": 20,
   "articles": [
     {
@@ -45,15 +45,15 @@
       "article_type": "news"
     },
     {
-      "title": "Building an ADS-B Receiver For Less Than You Think",
-      "summary": "If you’ve ever wondered about the planes flying above your head, you could always listen in to ADS-B transmissions to learn more about them. [thefatmoop] has built a rig to do just that, and it comes in under $50 in parts.",
-      "url": "https://hackaday.com/2026/11/01/building-an-ads-b-receiver-for-less-than-you-think",
-      "source": "Hackaday",
-      "published_at": "2026-11-01T08:00:22+00:00",
+      "title": "Apple Offers Steps to Fix Daylight Saving Time Bug on Apple Watch",
+      "summary": "Apple has published a support document describing what to do if your Apple Watch continues to show time that's off by one hour after daylight savings time changes.",
+      "url": "https://www.macrumors.com/2026/11/01/apple-offers-steps-to-fix-dst-apple-watch-bug",
+      "source": "MacRumors",
+      "published_at": "2026-11-01T11:34:49+00:00",
       "category": "hardware",
       "tags": [
-        "hardware",
-        "maker"
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     },
@@ -97,11 +97,11 @@
       "article_type": "news"
     },
     {
-      "title": "Huge PalmOS Development Archive Goes Online, Thanks to Personal Backups",
-      "summary": "This led [Aaron] to dust off and publish his substantial personal archive of development tools, source code, documentation, and more all related to his years of working with Palm OS in the early days of mobile computing.",
-      "url": "https://hackaday.com/2026/10/31/huge-palmos-development-archive-goes-online-thanks-to-personal-backups",
+      "title": "Building an ADS-B Receiver For Less Than You Think",
+      "summary": "If you’ve ever wondered about the planes flying above your head, you could always listen in to ADS-B transmissions to learn more about them. [thefatmoop] has built a rig to do just that, and it comes in under $50 in parts.",
+      "url": "https://hackaday.com/2026/11/01/building-an-ads-b-receiver-for-less-than-you-think",
       "source": "Hackaday",
-      "published_at": "2026-11-01T05:00:00+00:00",
+      "published_at": "2026-11-01T08:00:22+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -214,6 +214,19 @@
       "article_type": "news"
     },
     {
+      "title": "OverlayFS Sees Many Fixes Thanks To AI Code Review",
+      "summary": "Merged this weekend for Linux 7.4 and also marked for back-porting to current stable kernel versions are a number of fixes to the OverlayFS union mount file-system.",
+      "url": "https://www.phoronix.com/news/OverlayFS-Many-Fixes",
+      "source": "Phoronix",
+      "published_at": "2026-11-01T06:37:07-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
       "title": "OpenShot 4.1 Released With Auto-Optimize, CLI Automation & ARM64 Linux Builds",
       "summary": "OpenShot is closing out the month of October by releasing OpenShot 4.1 as the latest major feature release for this useful open-source video editing solution.",
       "url": "https://www.phoronix.com/news/OpenShot-4.1-Released",
@@ -245,19 +258,6 @@
       "url": "https://www.phoronix.com/news/Linux-Mint-October-2026",
       "source": "Phoronix",
       "published_at": "2026-10-31T10:36:11-04:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "New Linux 7.4 Feature For Reducing AI Noise Already Reverted Due To A \"Crazy Beast\"",
-      "summary": "A new feature merged last week for Linux 7.4 to help reduce AI/LLM generated noise from invalid/irrelevant testing configurations is now reverted due to a 'crazy beast' in the VFIO subsystem.",
-      "url": "https://www.phoronix.com/news/Linux-7.4-Drops-Taint-Bind",
-      "source": "Phoronix",
-      "published_at": "2026-10-31T08:15:22-04:00",
       "category": "linux",
       "tags": [
         "linux",
