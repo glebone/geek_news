@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "date": "2026-11-01",
-  "generated_at": "2026-11-01T05:39:03Z",
+  "generated_at": "2026-11-01T11:29:38Z",
   "count": 20,
   "articles": [
     {
@@ -45,11 +45,11 @@
       "article_type": "news"
     },
     {
-      "title": "Huge PalmOS Development Archive Goes Online, Thanks to Personal Backups",
-      "summary": "This led [Aaron] to dust off and publish his substantial personal archive of development tools, source code, documentation, and more all related to his years of working with Palm OS in the early days of mobile computing.",
-      "url": "https://hackaday.com/2026/10/31/huge-palmos-development-archive-goes-online-thanks-to-personal-backups",
+      "title": "Building an ADS-B Receiver For Less Than You Think",
+      "summary": "If you’ve ever wondered about the planes flying above your head, you could always listen in to ADS-B transmissions to learn more about them. [thefatmoop] has built a rig to do just that, and it comes in under $50 in parts.",
+      "url": "https://hackaday.com/2026/11/01/building-an-ads-b-receiver-for-less-than-you-think",
       "source": "Hackaday",
-      "published_at": "2026-11-01T05:00:00+00:00",
+      "published_at": "2026-11-01T08:00:22+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -97,11 +97,11 @@
       "article_type": "news"
     },
     {
-      "title": "Upgrading an Action Camera with an External Battery",
-      "summary": "[Evan Monsma], the prolific experimenter with cameras, found himself with an issue: he had a small Sony action camera with good performance in every respect but battery life, which was as low as twenty minutes.",
-      "url": "https://hackaday.com/2026/10/31/upgrading-an-action-camera-with-an-external-battery",
+      "title": "Huge PalmOS Development Archive Goes Online, Thanks to Personal Backups",
+      "summary": "This led [Aaron] to dust off and publish his substantial personal archive of development tools, source code, documentation, and more all related to his years of working with Palm OS in the early days of mobile computing.",
+      "url": "https://hackaday.com/2026/10/31/huge-palmos-development-archive-goes-online-thanks-to-personal-backups",
       "source": "Hackaday",
-      "published_at": "2026-11-01T02:00:00+00:00",
+      "published_at": "2026-11-01T05:00:00+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
