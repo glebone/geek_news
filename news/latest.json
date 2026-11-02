@@ -1,55 +1,15 @@
 {
   "schema_version": 2,
-  "date": "2026-11-01",
-  "generated_at": "2026-11-01T11:54:54Z",
-  "count": 20,
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T05:37:48Z",
+  "count": 11,
   "articles": [
     {
-      "title": "Anthropic's watermark rollout leaves a loophole on two older Claude models",
-      "summary": "Anthropic is expanding its text watermark to four more Claude models, but API users can dodge the mark on two of them by tweaking a single sampling parameter.",
-      "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models",
-      "source": "The Decoder",
-      "published_at": "2026-10-31T19:20:55+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "datasette-llm 0.1a9",
-      "summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin.",
-      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm",
-      "source": "Simon Willison",
-      "published_at": "2026-10-31T22:10:01+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "ai",
-        "developer-tools",
-        "models"
-      ],
-      "article_type": "technical_article"
-    },
-    {
-      "title": "The Movement Physics of Super Mario Bros – Behind the Code",
-      "summary": "In this episode of Behind the Code, we look into the movement physics – the motion – of Mario in the original Super Mario Bros.",
-      "url": "https://retrorgb.com/the-movement-physics-of-super-mario-bros-behind-the-code.html",
-      "source": "RetroRGB",
-      "published_at": "2026-10-31T15:47:13+00:00",
-      "category": "retro_gaming",
-      "tags": [
-        "retro",
-        "gaming"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Apple Offers Steps to Fix Daylight Saving Time Bug on Apple Watch",
-      "summary": "Apple has published a support document describing what to do if your Apple Watch continues to show time that's off by one hour after daylight savings time changes.",
-      "url": "https://www.macrumors.com/2026/11/01/apple-offers-steps-to-fix-dst-apple-watch-bug",
-      "source": "MacRumors",
-      "published_at": "2026-11-01T11:34:49+00:00",
+      "title": "These are the best MacBook deals right now: November 2026 Buyer’s Guide",
+      "summary": "There’s no notable retail discounts on MacBook Neo right now, though Apple does offer them refurbished for $100-120 off compared to retail pricing. Apple refurbished offers the same 1 year warranty and a like-new experience, with every major component being replaced.",
+      "url": "https://9to5mac.com/2026/11/01/best-macbook-discounts-november-2026-edition",
+      "source": "9to5Mac",
+      "published_at": "2026-11-02T05:01:57+00:00",
       "category": "hardware",
       "tags": [
         "apple",
@@ -58,50 +18,11 @@
       "article_type": "news"
     },
     {
-      "title": "Here’s how the new MacBook Pro and macOS 27 are optimized for touch",
-      "summary": "Apple just unveiled the new MacBook Pro with PROLED XDR , its first MacBook with a touch display. While Apple already added a handful of touch optimizations to macOS 27 Golden Gate earlier this year, there’s also a number of new optimizations that were unveiled alongside the new MacBook Pro.",
-      "url": "https://9to5mac.com/2026/10/31/macbook-pro-touch-optimizations-macos-27-golden-gate",
-      "source": "9to5Mac",
-      "published_at": "2026-10-31T19:49:44+00:00",
-      "category": "macos",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Samsung mercilessly mocks iPhone Duo ‘crackgate’ in Galaxy Z Fold 8 ads [Video]",
-      "summary": "Samsung isn’t holding back when it comes to the iPhone Duo’s messy start. In new ads, the company mocks iPhone Duo’s “crackgate” with a push for customers to buy the Galaxy Z Fold 8 instead, and there’s not an ounce of subtlety here.",
-      "url": "https://9to5google.com/2026/10/30/samsung-mocks-iphone-duo-crackgate-galaxy-z-fold-8",
-      "source": "9to5Google",
-      "published_at": "2026-10-31T01:20:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Fightbox R10 Pro Full Review: Spinner, Trackball, 0.7ms Arcade Stick",
-      "summary": "Here’s a full review of my new favorite arcade stick: The R10 Pro from Fightbox that includes a trackball and spinner. It averages less than 1 millisecond of lag via one USB output and is compatible with basically everything.",
-      "url": "https://retrorgb.com/fightbox-r10-pro-full-review-spinner-trackball-0-7ms-arcade-stick.html",
-      "source": "RetroRGB",
-      "published_at": "2026-10-31T13:04:26+00:00",
-      "category": "retro_gaming",
-      "tags": [
-        "retro",
-        "gaming"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Building an ADS-B Receiver For Less Than You Think",
-      "summary": "If you’ve ever wondered about the planes flying above your head, you could always listen in to ADS-B transmissions to learn more about them. [thefatmoop] has built a rig to do just that, and it comes in under $50 in parts.",
-      "url": "https://hackaday.com/2026/11/01/building-an-ads-b-receiver-for-less-than-you-think",
+      "title": "Hackaday Links: November 1, 2026",
+      "summary": "We’re less than a week away from the 2026 Hackaday Supercon, and things are getting a little… intense. So we trust you’ll forgive us if this week’s post weighs in a bit less than usual and reaches you a little later in the day.",
+      "url": "https://hackaday.com/2026/11/01/hackaday-links-november-1-2026",
       "source": "Hackaday",
-      "published_at": "2026-11-01T08:00:22+00:00",
+      "published_at": "2026-11-02T03:00:09+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -110,24 +31,11 @@
       "article_type": "news"
     },
     {
-      "title": "8-Bit NES CDROM Expansion Concept",
-      "summary": "I love projects like this, as while it’s definitely not practical, it’s a lot of fun. And as Tito pointed out in the video, it would have technically been possible in the NES’s heyday, as CDROM addons for consoles had just started with the PC Engine CDROM.",
-      "url": "https://retrorgb.com/8-bit-nes-cdrom-expansion-concept.html",
-      "source": "RetroRGB",
-      "published_at": "2026-10-31T13:00:23+00:00",
-      "category": "retro_gaming",
-      "tags": [
-        "retro",
-        "gaming"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Pixel 6 postmortem: How Google’s flawed reboot defined future hardware [Video]",
-      "summary": "So with that in mind, this is the Google Pixel 6 and 6 Pro: the good, the bad, the ugly, and how this turbulent reboot shaped the future of Pixel.",
-      "url": "https://9to5google.com/2026/10/30/pixel-6-postmortem",
+      "title": "Wear OS adding ‘system status bar’ to apps, Wear OS 7.1 coming",
+      "summary": "The upcoming feature in question is a “persistent system status bar over Wear OS app windows at the top position of the circular display.” It will display the “current time and system status indicators,” similar to Android on phones and tablets.",
+      "url": "https://9to5google.com/2026/11/01/wear-os-status-bar",
       "source": "9to5Google",
-      "published_at": "2026-10-30T16:05:00+00:00",
+      "published_at": "2026-11-01T20:44:36+00:00",
       "category": "android",
       "tags": [
         "android",
@@ -136,115 +44,76 @@
       "article_type": "news"
     },
     {
-      "title": "Google says Android Auto video apps are still ‘coming soon’ as deadline nears",
-      "summary": "In a brief update at its latest dev conference, Google says that video and browser apps for Android Auto are still “coming soon,” with the company’s self-imposed deadline approaching quickly.",
-      "url": "https://9to5google.com/2026/10/30/google-android-auto-video-apps-deadline",
-      "source": "9to5Google",
-      "published_at": "2026-10-30T14:30:00+00:00",
-      "category": "android",
+      "title": "Cheap FPGA Board Becomes Retro-Style Computer",
+      "summary": "The Tang Nano 9K is a cheap FPGA development board that can usually be acquired for around $15 or so. [ThePartsBin] has been experimenting with this hardware and figured out how to set it up as a retro-style computer.",
+      "url": "https://hackaday.com/2026/11/01/cheap-fpga-board-becomes-retro-style-computer",
+      "source": "Hackaday",
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "category": "retro_computing",
       "tags": [
-        "android",
-        "google"
+        "hardware",
+        "maker"
       ],
       "article_type": "news"
     },
     {
-      "title": "Five more classics join the GOG Preservation Program",
-      "summary": "In addition to publishing more games , the GOG Preservation Program has expanded again with another five classic games added. Hopefully GOG will actually deliver on the confirmed GOG Galaxy for Linux , until then you can use the Heroic Launcher .",
-      "url": "https://www.gamingonlinux.com/2026/10/five-more-classics-join-the-gog-preservation-program",
-      "source": "GamingOnLinux",
-      "published_at": "2026-10-30T09:25:25+00:00",
-      "category": "linux",
+      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "summary": "Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every new rule.",
+      "url": "https://arxiv.org/abs/2610.40758",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-02T00:00:00-05:00",
+      "category": "ai",
       "tags": [
-        "linux-gaming",
-        "games"
+        "ai",
+        "research"
       ],
-      "article_type": "news"
+      "article_type": "research"
     },
     {
-      "title": "Epic Games Launcher Preview updated to fix logins on some Linux systems",
-      "summary": "Numerous users reported issues with the system keyring, which caused the Epic Games Launcher Preview for Linux in some cases to not even open, and for others just preventing logins at all - that should all now be solved.",
-      "url": "https://www.gamingonlinux.com/2026/10/epic-games-launcher-preview-updated-to-fix-logins-on-some-linux-systems",
-      "source": "GamingOnLinux",
-      "published_at": "2026-10-30T08:47:26+00:00",
-      "category": "linux",
+      "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+      "summary": "Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision.",
+      "url": "https://arxiv.org/abs/2610.40798",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-02T00:00:00-05:00",
+      "category": "ai",
       "tags": [
-        "linux-gaming",
-        "games"
+        "ai",
+        "research"
       ],
-      "article_type": "news"
+      "article_type": "research"
     },
     {
-      "title": "Jagex are now publishing Melvor Idle 2 as an official RuneScape game",
-      "summary": "Melvor Idle 2 (now Melvor Idle 2: A RuneScape Adventure) massively expands on the very popular original game and now has publishing help. It's all a bit more official now, with it becoming an actual standalone RuneScape game.",
-      "url": "https://www.gamingonlinux.com/2026/10/jagex-are-now-publishing-melvor-idle-2-as-an-official-runescape-game",
-      "source": "GamingOnLinux",
-      "published_at": "2026-10-29T14:29:11+00:00",
-      "category": "linux",
+      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
+      "summary": "AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio of models and resells it to users at a profit.",
+      "url": "https://arxiv.org/abs/2610.40831",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-02T00:00:00-05:00",
+      "category": "ai",
       "tags": [
-        "linux-gaming",
-        "games"
+        "ai",
+        "research"
       ],
-      "article_type": "news"
+      "article_type": "research"
     },
     {
-      "title": "System76 tease the new mini Thelio Prime Desktop coming in November",
-      "summary": "System76 have been busy cooking, with a teaser of their new mini Thelio Prime Desktop that will be launching November 18th. They didn't seem to send any press notice on this (or they just skipped us), but I did spot System76 founder Carl Richell posting about it on Bluesky .",
-      "url": "https://www.gamingonlinux.com/2026/10/system76-tease-the-new-mini-thelio-prime-desktop-coming-in-november",
-      "source": "GamingOnLinux",
-      "published_at": "2026-10-29T14:08:11+00:00",
-      "category": "linux",
+      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+      "summary": "Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition.",
+      "url": "https://arxiv.org/abs/2610.40883",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-02T00:00:00-05:00",
+      "category": "ai",
       "tags": [
-        "linux-gaming",
-        "games"
+        "ai",
+        "research"
       ],
-      "article_type": "news"
+      "article_type": "research"
     },
     {
-      "title": "14 New Things Your iPhone Can Do in iOS 27.2",
-      "summary": "iOS 27.2 is available to download to your device now via Settings ➝ General ➝ Software Update. Note that some features may not be available in all regions or on all iPhone models.",
-      "url": "https://www.macrumors.com/2026/10/30/new-things-iphone-can-do-ios-27-2",
-      "source": "MacRumors",
-      "published_at": "2026-10-30T19:42:54+00:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "OverlayFS Sees Many Fixes Thanks To AI Code Review",
-      "summary": "Merged this weekend for Linux 7.4 and also marked for back-porting to current stable kernel versions are a number of fixes to the OverlayFS union mount file-system.",
-      "url": "https://www.phoronix.com/news/OverlayFS-Many-Fixes",
-      "source": "Phoronix",
-      "published_at": "2026-11-01T06:37:07-05:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "OpenShot 4.1 Released With Auto-Optimize, CLI Automation & ARM64 Linux Builds",
-      "summary": "OpenShot is closing out the month of October by releasing OpenShot 4.1 as the latest major feature release for this useful open-source video editing solution.",
-      "url": "https://www.phoronix.com/news/OpenShot-4.1-Released",
-      "source": "Phoronix",
-      "published_at": "2026-10-31T19:28:50-04:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Sanket lets you redesign GNOME’s date menu and Quick Settings",
-      "summary": "Sanket is a GNOME Shell extension that lets you rejig how the desktop’s date menu, calendar, notifications and Quick Settings look and behave – and then some.",
-      "url": "https://www.omgubuntu.co.uk/2026/10/sanket-rearrange-gnome-calendar-menus",
+      "title": "Linux App Release Roundup (October 2026)",
+      "summary": "October’s Linux app releases brought plenty of treats, a couple of tricks and mercifully few frights. In this post, I recap the updates that landed last month.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/linux-app-release-roundup-october-2026",
       "source": "OMG! Ubuntu",
-      "published_at": "2026-10-31T20:51:16+00:00",
+      "published_at": "2026-11-01T23:59:00+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
@@ -253,11 +122,24 @@
       "article_type": "news"
     },
     {
-      "title": "Linux Mint Developing New Apps For Terminal & System Monitoring",
-      "summary": "Linux Mint is out with their October 2026 status report to outline various initiatives they have underway in their lead-up to the Linux Mint 27 stable release happening on/around Christmas.",
-      "url": "https://www.phoronix.com/news/Linux-Mint-October-2026",
+      "title": "Enlightenment desktop 0.28 released with better networking",
+      "summary": "Enlightenment 0.28 has been released, the first major update to the open-source desktop environment since early 2025. Given the time between this and the previous 0.27 release, the changelog is suitably lengthy.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/enlightenment-0-28-features",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-01T19:18:50+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "New Linux 7.4 Feature For Reducing AI Noise Already Reverted Due To A \"Crazy Beast\"",
+      "summary": "A new feature merged last week for Linux 7.4 to help reduce AI/LLM generated noise from invalid/irrelevant testing configurations is now reverted due to a 'crazy beast' in the VFIO subsystem.",
+      "url": "https://www.phoronix.com/news/Linux-7.4-Drops-Taint-Bind",
       "source": "Phoronix",
-      "published_at": "2026-10-31T10:36:11-04:00",
+      "published_at": "2026-10-31T08:15:22-04:00",
       "category": "linux",
       "tags": [
         "linux",

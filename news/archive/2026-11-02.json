@@ -1,0 +1,151 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T05:37:48Z",
+  "count": 11,
+  "articles": [
+    {
+      "title": "These are the best MacBook deals right now: November 2026 Buyer’s Guide",
+      "summary": "There’s no notable retail discounts on MacBook Neo right now, though Apple does offer them refurbished for $100-120 off compared to retail pricing. Apple refurbished offers the same 1 year warranty and a like-new experience, with every major component being replaced.",
+      "url": "https://9to5mac.com/2026/11/01/best-macbook-discounts-november-2026-edition",
+      "source": "9to5Mac",
+      "published_at": "2026-11-02T05:01:57+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hackaday Links: November 1, 2026",
+      "summary": "We’re less than a week away from the 2026 Hackaday Supercon, and things are getting a little… intense. So we trust you’ll forgive us if this week’s post weighs in a bit less than usual and reaches you a little later in the day.",
+      "url": "https://hackaday.com/2026/11/01/hackaday-links-november-1-2026",
+      "source": "Hackaday",
+      "published_at": "2026-11-02T03:00:09+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Wear OS adding ‘system status bar’ to apps, Wear OS 7.1 coming",
+      "summary": "The upcoming feature in question is a “persistent system status bar over Wear OS app windows at the top position of the circular display.” It will display the “current time and system status indicators,” similar to Android on phones and tablets.",
+      "url": "https://9to5google.com/2026/11/01/wear-os-status-bar",
+      "source": "9to5Google",
+      "published_at": "2026-11-01T20:44:36+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Cheap FPGA Board Becomes Retro-Style Computer",
+      "summary": "The Tang Nano 9K is a cheap FPGA development board that can usually be acquired for around $15 or so. [ThePartsBin] has been experimenting with this hardware and figured out how to set it up as a retro-style computer.",
+      "url": "https://hackaday.com/2026/11/01/cheap-fpga-board-becomes-retro-style-computer",
+      "source": "Hackaday",
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "category": "retro_computing",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "summary": "Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every new rule.",
+      "url": "https://arxiv.org/abs/2610.40758",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-02T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+      "summary": "Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision.",
+      "url": "https://arxiv.org/abs/2610.40798",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-02T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
+      "summary": "AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio of models and resells it to users at a profit.",
+      "url": "https://arxiv.org/abs/2610.40831",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-02T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+      "summary": "Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition.",
+      "url": "https://arxiv.org/abs/2610.40883",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-02T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Linux App Release Roundup (October 2026)",
+      "summary": "October’s Linux app releases brought plenty of treats, a couple of tricks and mercifully few frights. In this post, I recap the updates that landed last month.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/linux-app-release-roundup-october-2026",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-01T23:59:00+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Enlightenment desktop 0.28 released with better networking",
+      "summary": "Enlightenment 0.28 has been released, the first major update to the open-source desktop environment since early 2025. Given the time between this and the previous 0.27 release, the changelog is suitably lengthy.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/enlightenment-0-28-features",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-01T19:18:50+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "New Linux 7.4 Feature For Reducing AI Noise Already Reverted Due To A \"Crazy Beast\"",
+      "summary": "A new feature merged last week for Linux 7.4 to help reduce AI/LLM generated noise from invalid/irrelevant testing configurations is now reverted due to a 'crazy beast' in the VFIO subsystem.",
+      "url": "https://www.phoronix.com/news/Linux-7.4-Drops-Taint-Bind",
+      "source": "Phoronix",
+      "published_at": "2026-10-31T08:15:22-04:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
