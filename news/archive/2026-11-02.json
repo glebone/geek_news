@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T12:52:41Z",
+  "generated_at": "2026-11-02T13:40:04Z",
   "count": 17,
   "articles": [
     {
@@ -18,11 +18,11 @@
       "article_type": "news"
     },
     {
-      "title": "OpenMW 0.52.0 for Morrowind gets a fresh release candidate to test new features",
-      "summary": "The amazing open source game engine OpenMW for the classic RPG Morrowind has released a release candidate for the upcoming 0.52.0 release. Lots of exciting changes are coming for players and modders, I've rounded-up some of the bigger bits along with the full changelog below.",
-      "url": "https://www.gamingonlinux.com/2026/11/openmw-0-52-0-for-morrowind-gets-a-fresh-release-candidate-to-test-new-features",
+      "title": "Crunchy retro shooter Selaco Chapter 2 arrives November 13",
+      "summary": "The crunchy retro-shooter Selaco is about to get a massive content update with Selaco Chapter 2: The Machines of War releasing November 13th. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/crunchy-retro-shooter-selaco-chapter-2-arrives-november-13",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-02T10:57:04+00:00",
+      "published_at": "2026-11-02T13:27:25+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -44,11 +44,11 @@
       "article_type": "news"
     },
     {
-      "title": "iPhone Duo: Latest Buyer Wait Times",
-      "summary": "iPhone Duo order wait times averaged 89 days despite falling by a week, according to UBS Investment Bank data as of October 30. (Via Investing.com.) The USB Evidence Lab tracker covers iPhone availability across more than 30 markets, and puts the iPhone Duo buyer wait time at nearly three months, even after the slight improvement.",
-      "url": "https://www.macrumors.com/2026/11/02/iphone-duo-latest-buyer-wait-times",
-      "source": "MacRumors",
-      "published_at": "2026-11-02T12:32:29+00:00",
+      "title": "Always-on Apple Watch display showing the wrong time? Here’s the fix",
+      "summary": "Issues around daylight saving time switches date back to the Apple Watch Series 4 in 2018 . Apple applied a fix, but a similar problem emerged in 2021 and it has occurred again for some Apple Watch owners over the past week.",
+      "url": "https://9to5mac.com/2026/11/02/always-on-apple-watch-display-showing-the-wrong-time-heres-the-fix",
+      "source": "9to5Mac",
+      "published_at": "2026-11-02T13:36:16+00:00",
       "category": "hardware",
       "tags": [
         "apple",
@@ -57,11 +57,11 @@
       "article_type": "news"
     },
     {
-      "title": "These are the best MacBook deals right now: November 2026 Buyer’s Guide",
-      "summary": "There’s no notable retail discounts on MacBook Neo right now, though Apple does offer them refurbished for $100-120 off compared to retail pricing. Apple refurbished offers the same 1 year warranty and a like-new experience, with every major component being replaced.",
-      "url": "https://9to5mac.com/2026/11/01/best-macbook-discounts-november-2026-edition",
-      "source": "9to5Mac",
-      "published_at": "2026-11-02T05:01:57+00:00",
+      "title": "iPhone Duo: Latest Buyer Wait Times",
+      "summary": "iPhone Duo order wait times averaged 89 days despite falling by a week, according to UBS Investment Bank data as of October 30. (Via Investing.com.) The USB Evidence Lab tracker covers iPhone availability across more than 30 markets, and puts the iPhone Duo buyer wait time at nearly three months, even after the slight improvement.",
+      "url": "https://www.macrumors.com/2026/11/02/iphone-duo-latest-buyer-wait-times",
+      "source": "MacRumors",
+      "published_at": "2026-11-02T12:32:29+00:00",
       "category": "hardware",
       "tags": [
         "apple",
@@ -83,11 +83,11 @@
       "article_type": "news"
     },
     {
-      "title": "DXVK-NVAPI 0.9.3 adds initial ARM64 support, DirectX Raytracing (DXR) upgrades",
-      "summary": "DXVK-NVAPI is the implementation of NVIDIA's NVAPI/NVOFAPI library for usage with DXVK and VKD3D-Proton - with a new release out now. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/11/dxvk-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",
+      "title": "OpenMW 0.52.0 for Morrowind gets a fresh release candidate to test new features",
+      "summary": "The amazing open source game engine OpenMW for the classic RPG Morrowind has released a release candidate for the upcoming 0.52.0 release. Lots of exciting changes are coming for players and modders, I've rounded-up some of the bigger bits along with the full changelog below.",
+      "url": "https://www.gamingonlinux.com/2026/11/openmw-0-52-0-for-morrowind-gets-a-fresh-release-candidate-to-test-new-features",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-02T10:40:11+00:00",
+      "published_at": "2026-11-02T10:57:04+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -109,11 +109,11 @@
       "article_type": "research"
     },
     {
-      "title": "SK Hynix expect the hardware crisis to continue through 2030",
-      "summary": "The company assessed that supply, on the other hand, is not keeping pace with the growth of the market. Given technical difficulty of leading-edge processes and the long lead time required to build new production facilities, it expects the structure in which demand exceeds supply to persist through 2030.\"",
-      "url": "https://www.gamingonlinux.com/2026/11/sk-hynix-expect-the-hardware-crisis-to-continue-through-2030",
+      "title": "DXVK-NVAPI 0.9.3 adds initial ARM64 support, DirectX Raytracing (DXR) upgrades",
+      "summary": "DXVK-NVAPI is the implementation of NVIDIA's NVAPI/NVOFAPI library for usage with DXVK and VKD3D-Proton - with a new release out now. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/dxvk-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",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-02T10:29:23+00:00",
+      "published_at": "2026-11-02T10:40:11+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -135,11 +135,11 @@
       "article_type": "research"
     },
     {
-      "title": "Raspberry Pi has another price increase thanks to AI data centres",
-      "summary": "The dream of cheap single-board computers seems a little far from reality nowadays, with the Raspberry Pi announcing another price increase. A lot of this continues to be thanks to AI data centres, buying up all the available RAM and other parts they need.",
-      "url": "https://www.gamingonlinux.com/2026/11/raspberry-pi-has-another-price-increase-thanks-to-ai-data-centres",
+      "title": "SK Hynix expect the hardware crisis to continue through 2030",
+      "summary": "The company assessed that supply, on the other hand, is not keeping pace with the growth of the market. Given technical difficulty of leading-edge processes and the long lead time required to build new production facilities, it expects the structure in which demand exceeds supply to persist through 2030.\"",
+      "url": "https://www.gamingonlinux.com/2026/11/sk-hynix-expect-the-hardware-crisis-to-continue-through-2030",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-02T10:23:38+00:00",
+      "published_at": "2026-11-02T10:29:23+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
