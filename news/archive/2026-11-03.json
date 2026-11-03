@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T06:17:16Z",
-  "count": 23,
+  "generated_at": "2026-11-03T12:22:13Z",
+  "count": 27,
   "articles": [
     {
       "title": "GEFS on OpenBSD continues to improve",
@@ -19,25 +19,24 @@
       "article_type": "news"
     },
     {
-      "title": "Check out some of the highest-rated Steam Deck Verified games released in October 2026",
-      "summary": "Here's some of the highest-rated Steam Deck Verified games released on Steam during October 2026. Helping you find something great to play on the go!",
-      "url": "https://www.gamingonlinux.com/2026/11/check-out-some-of-the-highest-rated-steam-deck-verified-games-released-in-october-2026",
+      "title": "More upgrades for the Epic Games Launcher Preview including a collapsible friends list",
+      "summary": "Epic Games controlling rolling out fixes and features to the new Epic Games Launcher Preview , and now you can actually collapse the friends list.",
+      "url": "https://www.gamingonlinux.com/2026/11/more-upgrades-for-the-epic-games-launcher-preview-including-a-collapsible-friends-list",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-02T15:02:17+00:00",
+      "published_at": "2026-11-03T10:55:53+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
-        "games",
-        "steam"
+        "games"
       ],
       "article_type": "news"
     },
     {
-      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-      "summary": "Why does design matter so much to a company focused on AI training? Karanam says the startup has developed an interface that makes post-training more accessible to its nontechnical customers.",
-      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
-      "source": "TechCrunch AI",
-      "published_at": "2026-11-02T23:13:53+00:00",
+      "title": "Anthropic cracks down on game cloning in Claude Code after wave of AI-built knockoffs",
+      "summary": "Anthropic is blocking its coding assistant Claude Code from recreating existing video games. The article Anthropic cracks down on game cloning in Claude Code after wave of AI-built knockoffs appeared first on The Decoder .",
+      "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs",
+      "source": "The Decoder",
+      "published_at": "2026-11-03T09:48:08+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -72,15 +71,15 @@
       "article_type": "news"
     },
     {
-      "title": "Flying an RC Airplane with Twin Airblower EDFs",
-      "summary": "With the used 2S1P, 1300 mAh Li-Po battery total flight time is about 3-4 minutes, which seems about on par with typical numbers. With a larger airplane and battery these two EDFs probably could be pushed even further, which we fully expect to see in a future video.",
-      "url": "https://hackaday.com/2026/11/02/flying-an-rc-airplane-with-twin-airblower-edfs",
-      "source": "Hackaday",
-      "published_at": "2026-11-03T00:00:31+00:00",
-      "category": "hardware",
+      "title": "What’s new in Android Nov. 2026 Google System Updates: Android photo backup with Quick Share for Windows",
+      "summary": "The monthly “ Google System Release Notes ” primarily detail what’s new in Play services, Play Store, and Play system update across Android phones/tablets, Wear OS, Google/Android TV, Auto, and PC.",
+      "url": "https://9to5google.com/2026/11/02/november-2026-google-system-updates",
+      "source": "9to5Google",
+      "published_at": "2026-11-02T22:48:58+00:00",
+      "category": "android",
       "tags": [
-        "hardware",
-        "maker"
+        "android",
+        "google"
       ],
       "article_type": "news"
     },
@@ -111,11 +110,103 @@
       "article_type": "technical_article"
     },
     {
-      "title": "Here's the most popular Native Linux releases for October 2026",
-      "summary": "Here's some of the highest-rated Native Linux games released on Steam during October 2026. Helping you to find something interesting to go and play if Native Linux gaming is your thing!",
-      "url": "https://www.gamingonlinux.com/2026/11/heres-the-most-popular-native-linux-releases-for-october-2026",
+      "title": "Claymation slapstick comedy brawler Knuckle Creek is out now and looks awesome",
+      "summary": "With a banging release trailer, Knuckle Creek is one you absolutely have to check out if you love the idea of a slapstick comedy brawler made with clay.",
+      "url": "https://www.gamingonlinux.com/2026/11/claymation-slapstick-comedy-brawler-knuckle-creek-is-out-now-and-looks-awesome",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-02T13:49:33+00:00",
+      "published_at": "2026-11-03T08:58:54+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "llm 0.37",
+      "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes.",
+      "url": "https://simonwillison.net/2026/Nov/2/llm",
+      "source": "Simon Willison",
+      "published_at": "2026-11-02T23:49:30+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "ai",
+        "developer-tools",
+        "models"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "AAWireless expands beyond Android Auto adapters with new cooled Qi2 car charger",
+      "summary": "AAWireless is known for helping you convert a wired Android Auto connection into a wireless one, but the company is now launching a new product – an active-cooled Qi2 car charger.",
+      "url": "https://9to5google.com/2026/11/02/aawireless-charge-qi2",
+      "source": "9to5Google",
+      "published_at": "2026-11-02T20:05:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "John Ternus addresses iPhone Duo supply constraints, display issue",
+      "summary": "Today Apple reported record Q4 earnings , which beat Wall Street expectations overall. And in an interview with Reuters , CEO John Ternus addressed current iPhone Duo supply constraints and also referenced units that have been returned for display issues.",
+      "url": "https://9to5mac.com/2026/11/02/john-ternus-addresses-iphone-duo-supply-constraints-display-issue",
+      "source": "9to5Mac",
+      "published_at": "2026-11-02T21:47:30+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "3dSen emulator that transforms NES games into 3D voxel dioramas v2.0 brings huge changes",
+      "summary": "3dSen is just magic. An emulator that turns retro NES games into 3D voxel dioramas across flat PC gaming and VR has a huge new release out with 2.0.",
+      "url": "https://www.gamingonlinux.com/2026/11/3dsen-emulator-that-transforms-nes-games-into-3d-voxel-dioramas-v2-0-brings-huge-changes",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-03T08:38:56+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "summary": "Why does design matter so much to a company focused on AI training? Karanam says the startup has developed an interface that makes post-training more accessible to its nontechnical customers.",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
+      "source": "TechCrunch AI",
+      "published_at": "2026-11-02T23:13:53+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.2’s clever new Messages feature can be tailored to your needs",
+      "summary": "Using these new suggestions, with a quick tap you can turn the message into an action. And they’re so small and unobtrusive in the UI that they don’t clutter up the app at all.",
+      "url": "https://9to5mac.com/2026/11/02/ios-27-2s-clever-new-messages-feature-can-be-tailored-to-your-needs",
+      "source": "9to5Mac",
+      "published_at": "2026-11-02T19:56:12+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Thief: The Dark Project Remastered launches December 3 with pre-orders up",
+      "summary": "Thief: The Dark Project Remastered from Atari / Nightdive is now set for release on December 3rd, with pricing and pre-orders now live. Nightdive generally do a good job on their remasters, so I will be very surprised if this doesn't sell well.",
+      "url": "https://www.gamingonlinux.com/2026/11/thief-the-dark-project-remastered-launches-december-3-with-pre-orders-up",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-03T08:22:12+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -137,33 +228,6 @@
       "article_type": "news"
     },
     {
-      "title": "llm 0.37",
-      "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes.",
-      "url": "https://simonwillison.net/2026/Nov/2/llm",
-      "source": "Simon Willison",
-      "published_at": "2026-11-02T23:49:30+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "ai",
-        "developer-tools",
-        "models"
-      ],
-      "article_type": "release"
-    },
-    {
-      "title": "What’s new in Android Nov. 2026 Google System Updates: Android photo backup with Quick Share for Windows",
-      "summary": "The monthly “ Google System Release Notes ” primarily detail what’s new in Play services, Play Store, and Play system update across Android phones/tablets, Wear OS, Google/Android TV, Auto, and PC.",
-      "url": "https://9to5google.com/2026/11/02/november-2026-google-system-updates",
-      "source": "9to5Google",
-      "published_at": "2026-11-02T22:48:58+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
       "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
       "summary": "Israeli startup 42AI says it is developing a “behavioral world model” that can do just that, and it has just come out of stealth with $62.5 million in seed funding.",
       "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior",
@@ -173,32 +237,6 @@
       "tags": [
         "ai",
         "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "AAWireless expands beyond Android Auto adapters with new cooled Qi2 car charger",
-      "summary": "AAWireless is known for helping you convert a wired Android Auto connection into a wireless one, but the company is now launching a new product – an active-cooled Qi2 car charger.",
-      "url": "https://9to5google.com/2026/11/02/aawireless-charge-qi2",
-      "source": "9to5Google",
-      "published_at": "2026-11-02T20:05:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "iOS 27.2’s clever new Messages feature can be tailored to your needs",
-      "summary": "Using these new suggestions, with a quick tap you can turn the message into an action. And they’re so small and unobtrusive in the UI that they don’t clutter up the app at all.",
-      "url": "https://9to5mac.com/2026/11/02/ios-27-2s-clever-new-messages-feature-can-be-tailored-to-your-needs",
-      "source": "9to5Mac",
-      "published_at": "2026-11-02T19:56:12+00:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "devices"
       ],
       "article_type": "news"
     },
@@ -216,19 +254,6 @@
       "article_type": "news"
     },
     {
-      "title": "Upcoming: New age rating content descriptors in App Store Connect",
-      "summary": "Starting November 16, 2026, App Store Connect will include new content descriptors to help ensure your app’s age ratings accurately reflect its features and are in accordance with local regulations.",
-      "url": "https://developer.apple.com/news?id=yxkh08us",
-      "source": "Apple Developer",
-      "published_at": "2026-11-02T09:30:07-08:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "developers"
-      ],
-      "article_type": "news"
-    },
-    {
       "title": "Google will let Android & iOS apps directly integrate Quick Share next year",
       "summary": "At Android Dev Summit 2026, Google announced a Quick Share SDK that will let Android and iOS apps directly integrate the peer-to-peer file sharing capability.",
       "url": "https://9to5google.com/2026/11/02/quick-share-sdk-apps",
@@ -242,28 +267,54 @@
       "article_type": "news"
     },
     {
-      "title": "Raspberry Pi has another price increase thanks to AI data centres",
-      "summary": "The dream of cheap single-board computers seems a little far from reality nowadays, with the Raspberry Pi announcing another price increase. A lot of this continues to be thanks to AI data centres, buying up all the available RAM and other parts they need.",
-      "url": "https://www.gamingonlinux.com/2026/11/raspberry-pi-has-another-price-increase-thanks-to-ai-data-centres",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-02T10:23:38+00:00",
-      "category": "linux",
+      "title": "Upcoming: New age rating content descriptors in App Store Connect",
+      "summary": "Starting November 16, 2026, App Store Connect will include new content descriptors to help ensure your app’s age ratings accurately reflect its features and are in accordance with local regulations.",
+      "url": "https://developer.apple.com/news?id=yxkh08us",
+      "source": "Apple Developer",
+      "published_at": "2026-11-02T09:30:07-08:00",
+      "category": "ios",
       "tags": [
-        "linux-gaming",
-        "games"
+        "apple",
+        "developers"
       ],
       "article_type": "news"
     },
     {
-      "title": "Another good deal live in the Fanatical Resident Evil Bundle: Demonic Edition (FrightFest)",
-      "summary": "The Fanatical Build your own Resident Evil Bundle: Demonic Edition (FrightFest) is live and with it, your next chance to grab a good deal. A nice way to go and complete your collection while not making your wallet cry.",
-      "url": "https://www.gamingonlinux.com/2026/11/another-good-deal-live-in-the-fanatical-resident-evil-bundle-demonic-edition-frightfest",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-02T08:49:17+00:00",
+      "title": "A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability",
+      "summary": "Fuzzy clustering provides a robust framework for handling ambiguous and overlapping data boundaries, yet its traditional formulation generates entirely dense membership assignments that limit noise resilience and prevent estimating the true number of clusters, when it is unknown.",
+      "url": "https://arxiv.org/abs/2611.00159",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-03T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Early Stopping in Large Reasoning Models: A Survey and Empirical Audit of Efficiency and Reliability",
+      "summary": "Large reasoning models can improve accuracy by generating longer reasoning traces, but some of this computation may be unnecessary. Early-stopping methods aim to stop once enough reasoning is available to answer.",
+      "url": "https://arxiv.org/abs/2611.00166",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-03T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "GCC 17 Compiler Merges Support For AVX10V1AUX",
+      "summary": "Landing today into the GCC 17 compiler codebase is initial support for AVX10V1AUX as the auxillary updates to AVX10.1 that are out of the cross-vendor AI Compute Extensions 'ACE' initiative between AMD and Intel.",
+      "url": "https://www.phoronix.com/news/GCC-17-Merges-AVX10V1AUX",
+      "source": "Phoronix",
+      "published_at": "2026-11-03T05:22:12-05:00",
       "category": "linux",
       "tags": [
-        "linux-gaming",
-        "games"
+        "linux",
+        "open-source"
       ],
       "article_type": "news"
     },
