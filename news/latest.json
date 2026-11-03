@@ -1,41 +1,69 @@
 {
   "schema_version": 2,
-  "date": "2026-11-02",
-  "generated_at": "2026-11-02T13:40:04Z",
-  "count": 17,
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T06:17:16Z",
+  "count": 23,
   "articles": [
     {
-      "title": "Work on GEFS (the Good Enough File System) for OpenBSD progresses",
-      "summary": "A modern filesystem has been missing in OpenBSD for quite a while now. GEFS seems to fit the general mindset and is developed inside the tree already, so I’m really excited about it!",
-      "url": "https://undeadly.org/cgi?action=article%3Bsid%3D20261101115637",
-      "source": "OpenBSD Journal",
-      "published_at": "2026-11-01T11:56:37+00:00",
+      "title": "GEFS on OpenBSD continues to improve",
+      "summary": "Some userspace tools have been done (you can now mkfs on openbsd!), but snapshot control hasn’t. I’m thinking we have a userspace ‘gefs’ program that lets you handle this, trying to keep the interface similar to the 9front ctl file.",
+      "url": "https://www.osnews.com/story/146280/gefs-on-openbsd-continues-to-improve",
+      "source": "OSNews",
+      "published_at": "2026-11-02T20:23:19+00:00",
       "category": "open_source",
       "tags": [
-        "openbsd",
-        "operating-systems"
+        "operating-systems",
+        "open-source",
+        "openbsd"
       ],
       "article_type": "news"
     },
     {
-      "title": "Crunchy retro shooter Selaco Chapter 2 arrives November 13",
-      "summary": "The crunchy retro-shooter Selaco is about to get a massive content update with Selaco Chapter 2: The Machines of War releasing November 13th. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/11/crunchy-retro-shooter-selaco-chapter-2-arrives-november-13",
+      "title": "Check out some of the highest-rated Steam Deck Verified games released in October 2026",
+      "summary": "Here's some of the highest-rated Steam Deck Verified games released on Steam during October 2026. Helping you find something great to play on the go!",
+      "url": "https://www.gamingonlinux.com/2026/11/check-out-some-of-the-highest-rated-steam-deck-verified-games-released-in-october-2026",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-02T13:27:25+00:00",
+      "published_at": "2026-11-02T15:02:17+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
-        "games"
+        "games",
+        "steam"
       ],
       "article_type": "news"
     },
     {
-      "title": "3DO ODE Menu released",
-      "summary": "It works with Fixel’s FZ-1 ODE, XPort and with SataTo3DO-based clones: one menu for the common 3DO ODEs. There are some other clones out there that may or may not work, but I can add support for them when folks discover them.",
-      "url": "https://retrorgb.com/3do-ode-menu-released.html",
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "summary": "Why does design matter so much to a company focused on AI training? Karanam says the startup has developed an interface that makes post-training more accessible to its nontechnical customers.",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
+      "source": "TechCrunch AI",
+      "published_at": "2026-11-02T23:13:53+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Code v2.1.317",
+      "summary": "Added a cost report to the Claude apps gateway admin API, GET /v1/organizations/analytics/cost , for reading past spend over a date range in total, per developer, per day or per IdP group.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+      "source": "Claude Code",
+      "published_at": "2026-11-03T01:25:46+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "RetroTINK 6x / 4K CRT Curvature & Bezels",
+      "summary": "Mike Chi has released some firmware updates that add CRT curvature, bezel options and the ability to emulate composite video with all 15KHz sources; The screenshot above is an HDR example of all those options at once.",
+      "url": "https://retrorgb.com/retrotink-6x-4k-crt-curvature-bezels.html",
       "source": "RetroRGB",
-      "published_at": "2026-11-02T06:07:03+00:00",
+      "published_at": "2026-11-02T16:44:28+00:00",
       "category": "retro_gaming",
       "tags": [
         "retro",
@@ -44,11 +72,24 @@
       "article_type": "news"
     },
     {
-      "title": "Always-on Apple Watch display showing the wrong time? Here’s the fix",
-      "summary": "Issues around daylight saving time switches date back to the Apple Watch Series 4 in 2018 . Apple applied a fix, but a similar problem emerged in 2021 and it has occurred again for some Apple Watch owners over the past week.",
-      "url": "https://9to5mac.com/2026/11/02/always-on-apple-watch-display-showing-the-wrong-time-heres-the-fix",
+      "title": "Flying an RC Airplane with Twin Airblower EDFs",
+      "summary": "With the used 2S1P, 1300 mAh Li-Po battery total flight time is about 3-4 minutes, which seems about on par with typical numbers. With a larger airplane and battery these two EDFs probably could be pushed even further, which we fully expect to see in a future video.",
+      "url": "https://hackaday.com/2026/11/02/flying-an-rc-airplane-with-twin-airblower-edfs",
+      "source": "Hackaday",
+      "published_at": "2026-11-03T00:00:31+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "9to5Mac Daily: November 2, 2026 – What’s next for the Mac and iPad",
+      "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players.",
+      "url": "https://9to5mac.com/2026/11/02/daily-november-2-2026",
       "source": "9to5Mac",
-      "published_at": "2026-11-02T13:36:16+00:00",
+      "published_at": "2026-11-02T22:40:40+00:00",
       "category": "hardware",
       "tags": [
         "apple",
@@ -57,24 +98,64 @@
       "article_type": "news"
     },
     {
-      "title": "iPhone Duo: Latest Buyer Wait Times",
-      "summary": "iPhone Duo order wait times averaged 89 days despite falling by a week, according to UBS Investment Bank data as of October 30. (Via Investing.com.) The USB Evidence Lab tracker covers iPhone availability across more than 30 markets, and puts the iPhone Duo buyer wait time at nearly three months, even after the slight improvement.",
-      "url": "https://www.macrumors.com/2026/11/02/iphone-duo-latest-buyer-wait-times",
-      "source": "MacRumors",
-      "published_at": "2026-11-02T12:32:29+00:00",
-      "category": "hardware",
+      "title": "How we halved DNS build delay and cut memory use by 85%",
+      "summary": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay.",
+      "url": "https://blog.cloudflare.com/dns-targeted-zone-builds",
+      "source": "Cloudflare Blog",
+      "published_at": "2026-11-02T14:00:00+00:00",
+      "category": "cloud",
       "tags": [
-        "apple",
-        "devices"
+        "cloud",
+        "infrastructure"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Here's the most popular Native Linux releases for October 2026",
+      "summary": "Here's some of the highest-rated Native Linux games released on Steam during October 2026. Helping you to find something interesting to go and play if Native Linux gaming is your thing!",
+      "url": "https://www.gamingonlinux.com/2026/11/heres-the-most-popular-native-linux-releases-for-october-2026",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-02T13:49:33+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
       ],
       "article_type": "news"
     },
     {
-      "title": "Wear OS adding ‘system status bar’ to apps, Wear OS 7.1 coming",
-      "summary": "The upcoming feature in question is a “persistent system status bar over Wear OS app windows at the top position of the circular display.” It will display the “current time and system status indicators,” similar to Android on phones and tablets.",
-      "url": "https://9to5google.com/2026/11/01/wear-os-status-bar",
+      "title": "The latest AI news we announced in October 2026",
+      "summary": "For a tech expert, these October 2026 updates represent significant advancements in model capabilities, development tools, and hardware infrastructure. Key takeaways include the release of Gemini 4 Argon for complex coding and financial workflows, and the announcement of Gemini 4 Carbon , a model specialized in long-horizon engineering and cybersecurity defense.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+      "source": "Google AI Blog",
+      "published_at": "2026-11-02T17:45:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "llm 0.37",
+      "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes.",
+      "url": "https://simonwillison.net/2026/Nov/2/llm",
+      "source": "Simon Willison",
+      "published_at": "2026-11-02T23:49:30+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "ai",
+        "developer-tools",
+        "models"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "What’s new in Android Nov. 2026 Google System Updates: Android photo backup with Quick Share for Windows",
+      "summary": "The monthly “ Google System Release Notes ” primarily detail what’s new in Play services, Play Store, and Play system update across Android phones/tablets, Wear OS, Google/Android TV, Auto, and PC.",
+      "url": "https://9to5google.com/2026/11/02/november-2026-google-system-updates",
       "source": "9to5Google",
-      "published_at": "2026-11-01T20:44:36+00:00",
+      "published_at": "2026-11-02T22:48:58+00:00",
       "category": "android",
       "tags": [
         "android",
@@ -83,129 +164,115 @@
       "article_type": "news"
     },
     {
-      "title": "OpenMW 0.52.0 for Morrowind gets a fresh release candidate to test new features",
-      "summary": "The amazing open source game engine OpenMW for the classic RPG Morrowind has released a release candidate for the upcoming 0.52.0 release. Lots of exciting changes are coming for players and modders, I've rounded-up some of the bigger bits along with the full changelog below.",
-      "url": "https://www.gamingonlinux.com/2026/11/openmw-0-52-0-for-morrowind-gets-a-fresh-release-candidate-to-test-new-features",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-02T10:57:04+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
-      "summary": "Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every new rule.",
-      "url": "https://arxiv.org/abs/2610.40758",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-02T00:00:00-05:00",
+      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "summary": "Israeli startup 42AI says it is developing a “behavioral world model” that can do just that, and it has just come out of stealth with $62.5 million in seed funding.",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior",
+      "source": "TechCrunch AI",
+      "published_at": "2026-11-02T16:30:00+00:00",
       "category": "ai",
       "tags": [
         "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "DXVK-NVAPI 0.9.3 adds initial ARM64 support, DirectX Raytracing (DXR) upgrades",
-      "summary": "DXVK-NVAPI is the implementation of NVIDIA's NVAPI/NVOFAPI library for usage with DXVK and VKD3D-Proton - with a new release out now. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/11/dxvk-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",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-02T10:40:11+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
-      "summary": "Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision.",
-      "url": "https://arxiv.org/abs/2610.40798",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-02T00:00:00-05:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "SK Hynix expect the hardware crisis to continue through 2030",
-      "summary": "The company assessed that supply, on the other hand, is not keeping pace with the growth of the market. Given technical difficulty of leading-edge processes and the long lead time required to build new production facilities, it expects the structure in which demand exceeds supply to persist through 2030.\"",
-      "url": "https://www.gamingonlinux.com/2026/11/sk-hynix-expect-the-hardware-crisis-to-continue-through-2030",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-02T10:29:23+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
-      "summary": "AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio of models and resells it to users at a profit.",
-      "url": "https://arxiv.org/abs/2610.40831",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-02T00:00:00-05:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
-      "summary": "Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition.",
-      "url": "https://arxiv.org/abs/2610.40883",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-02T00:00:00-05:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "Cheap FPGA Board Becomes Retro-Style Computer",
-      "summary": "The Tang Nano 9K is a cheap FPGA development board that can usually be acquired for around $15 or so. [ThePartsBin] has been experimenting with this hardware and figured out how to set it up as a retro-style computer.",
-      "url": "https://hackaday.com/2026/11/01/cheap-fpga-board-becomes-retro-style-computer",
-      "source": "Hackaday",
-      "published_at": "2026-11-02T00:00:00+00:00",
-      "category": "retro_computing",
-      "tags": [
-        "hardware",
-        "maker"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Radeon RADV Vulkan Driver Adopts An LLM Policy",
-      "summary": "The Mesa RADV driver that provides Vulkan API support for AMD Radeon GPUs on Linux has adopted its own policy around AI / large language models (LLMs) for code contributions.",
-      "url": "https://www.phoronix.com/news/RADV-Adopts-LLM-Policy",
-      "source": "Phoronix",
-      "published_at": "2026-11-02T06:16:22-05:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source",
         "models"
       ],
       "article_type": "news"
     },
     {
-      "title": "Linux App Release Roundup (October 2026)",
-      "summary": "October’s Linux app releases brought plenty of treats, a couple of tricks and mercifully few frights. In this post, I recap the updates that landed last month.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/linux-app-release-roundup-october-2026",
+      "title": "AAWireless expands beyond Android Auto adapters with new cooled Qi2 car charger",
+      "summary": "AAWireless is known for helping you convert a wired Android Auto connection into a wireless one, but the company is now launching a new product – an active-cooled Qi2 car charger.",
+      "url": "https://9to5google.com/2026/11/02/aawireless-charge-qi2",
+      "source": "9to5Google",
+      "published_at": "2026-11-02T20:05:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.2’s clever new Messages feature can be tailored to your needs",
+      "summary": "Using these new suggestions, with a quick tap you can turn the message into an action. And they’re so small and unobtrusive in the UI that they don’t clutter up the app at all.",
+      "url": "https://9to5mac.com/2026/11/02/ios-27-2s-clever-new-messages-feature-can-be-tailored-to-your-needs",
+      "source": "9to5Mac",
+      "published_at": "2026-11-02T19:56:12+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "pull_request_target blocked by default December 2",
+      "summary": "Starting December 2, 2026, GitHub Actions will block pull_request_target events by default in all public repositories, unless an applicable Actions event policy explicitly allows them.",
+      "url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-02T15:14:46+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Upcoming: New age rating content descriptors in App Store Connect",
+      "summary": "Starting November 16, 2026, App Store Connect will include new content descriptors to help ensure your app’s age ratings accurately reflect its features and are in accordance with local regulations.",
+      "url": "https://developer.apple.com/news?id=yxkh08us",
+      "source": "Apple Developer",
+      "published_at": "2026-11-02T09:30:07-08:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "developers"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google will let Android & iOS apps directly integrate Quick Share next year",
+      "summary": "At Android Dev Summit 2026, Google announced a Quick Share SDK that will let Android and iOS apps directly integrate the peer-to-peer file sharing capability.",
+      "url": "https://9to5google.com/2026/11/02/quick-share-sdk-apps",
+      "source": "9to5Google",
+      "published_at": "2026-11-02T17:51:35+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Raspberry Pi has another price increase thanks to AI data centres",
+      "summary": "The dream of cheap single-board computers seems a little far from reality nowadays, with the Raspberry Pi announcing another price increase. A lot of this continues to be thanks to AI data centres, buying up all the available RAM and other parts they need.",
+      "url": "https://www.gamingonlinux.com/2026/11/raspberry-pi-has-another-price-increase-thanks-to-ai-data-centres",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-02T10:23:38+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Another good deal live in the Fanatical Resident Evil Bundle: Demonic Edition (FrightFest)",
+      "summary": "The Fanatical Build your own Resident Evil Bundle: Demonic Edition (FrightFest) is live and with it, your next chance to grab a good deal. A nice way to go and complete your collection while not making your wallet cry.",
+      "url": "https://www.gamingonlinux.com/2026/11/another-good-deal-live-in-the-fanatical-resident-evil-bundle-demonic-edition-frightfest",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-02T08:49:17+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Affinity is coming to Linux (but there’s no ETA yet)",
+      "summary": "Affinity, the free design suite made by Canva, is coming to Linux. No release date yet, but the company say the port is already in 'active development'.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/affinity-linux-release-confirmed",
       "source": "OMG! Ubuntu",
-      "published_at": "2026-11-01T23:59:00+00:00",
+      "published_at": "2026-11-03T03:33:52+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
@@ -214,11 +281,24 @@
       "article_type": "news"
     },
     {
-      "title": "Enlightenment desktop 0.28 released with better networking",
-      "summary": "Enlightenment 0.28 has been released, the first major update to the open-source desktop environment since early 2025. Given the time between this and the previous 0.27 release, the changelog is suitably lengthy.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/enlightenment-0-28-features",
+      "title": "Linux Mint is ‘bringing back’ hibernation to laptops",
+      "summary": "Linux Mint’s next release will offer a hibernation mode, so you can close your laptop mid-session and not worry about returning to a drained battery.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/linux-mint-hibernation-sleep-mode",
       "source": "OMG! Ubuntu",
-      "published_at": "2026-11-01T19:18:50+00:00",
+      "published_at": "2026-11-03T00:00:03+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Raspberry Pi announce another eye-watering price hike",
+      "summary": "Hot off the back of price rises it announced in October , the Raspberry Pi Foundation today said the cost of its Raspberry Pi 5 single-board computers is going up again.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/raspberry-pi-5-price-goes-up-and-up",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-02T16:51:25+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
