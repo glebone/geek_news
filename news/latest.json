@@ -1,29 +1,15 @@
 {
   "schema_version": 2,
-  "date": "2026-11-05",
-  "generated_at": "2026-11-05T06:15:00Z",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T06:09:09Z",
   "count": 30,
   "articles": [
     {
-      "title": "NetBSD 11.1 released",
-      "summary": "The first point release for NetBSD 11 has been released. As the version number suggests, there’s no major changes here. This release includes security updates for mozilla-rootcerts, brotli, xorg-server, hdaudio(4), compat_linux(8), unbound(8), and ipfilter.",
-      "url": "https://www.osnews.com/story/146301/netbsd-11-1-released",
-      "source": "OSNews",
-      "published_at": "2026-11-04T22:52:16+00:00",
-      "category": "open_source",
-      "tags": [
-        "operating-systems",
-        "open-source",
-        "netbsd"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Deadly Days: Roadtrip 1.0 review",
-      "summary": "Now Deadly Days: Roadtrip has left Early Access as a full and complete game, here's my thoughts on this zombie-slaying bullet heaven inventory management game.",
-      "url": "https://www.gamingonlinux.com/2026/11/deadly-days-roadtrip-1-0-review",
+      "title": "A new GOG Galaxy is coming in 2027 with full Linux support",
+      "summary": "GOG just held their first GOG Showcase, and in it they confirmed that in 2027 we'll see GOG Galaxy fully supported on Linux. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/a-new-gog-galaxy-is-coming-in-2027-with-full-linux-support",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-04T16:07:03+00:00",
+      "published_at": "2026-11-05T18:28:07+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -32,11 +18,24 @@
       "article_type": "news"
     },
     {
-      "title": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
-      "summary": "OpenAI is adding a GIF feature to ChatGPT. With the new Images 2.6 model, users can create animated GIFs from text prompts or photos and then adjust speed and individual frames.",
-      "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model",
+      "title": "The Kotlin Multiplatform Contest Is Open: Win a Trip to KotlinConf",
+      "summary": "The Kotlin Multiplatform Contest is back! Students and recent graduates, turn your idea into a cross-platform project with Kotlin Multiplatform (KMP). The authors of the top three projects will each win a trip to KotlinConf 2027 in Kraków, Poland, with conference tickets, travel, and accommodation covered by the Kotlin Foundation.",
+      "url": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-multiplatform-contest-2027",
+      "source": "Kotlin Blog",
+      "published_at": "2026-11-05T22:05:21+00:00",
+      "category": "programming",
+      "tags": [
+        "kotlin",
+        "programming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
+      "summary": "On ExploitGym, a benchmark that tests whether a model can exploit a given vulnerability in a remote system, GPT-6 Cyber scores 48.5 percent according to OpenAI, compared to 32.1 percent for its predecessor GPT-5.6 Cyber.",
+      "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them",
       "source": "The Decoder",
-      "published_at": "2026-11-04T19:44:20+00:00",
+      "published_at": "2026-11-05T20:36:25+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -45,25 +44,11 @@
       "article_type": "news"
     },
     {
-      "title": "datasette-llm 0.1a10",
-      "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration.",
-      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm",
-      "source": "Simon Willison",
-      "published_at": "2026-11-04T15:26:02+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "ai",
-        "developer-tools",
-        "models"
-      ],
-      "article_type": "technical_article"
-    },
-    {
-      "title": "AM2r Wii Port",
-      "summary": "Developer cmyksoda has just released a port of Another Metroid 2 Remake to the Wii, built on the Butterscotch GameMaker runner with a native GX renderer.",
-      "url": "https://retrorgb.com/am2r-wii-port.html",
+      "title": "ArcStation – Quick Setup Guide",
+      "summary": "I wanted to demonstrate how easy it is to install the ArcStation optical drive emulator, so I posted a “quick install” livestream. Hardware installation took less than ten minutes!",
+      "url": "https://retrorgb.com/arcstation-quick-setup-guide.html",
       "source": "RetroRGB",
-      "published_at": "2026-11-04T17:32:31+00:00",
+      "published_at": "2026-11-05T19:37:14+00:00",
       "category": "retro_gaming",
       "tags": [
         "retro",
@@ -72,11 +57,11 @@
       "article_type": "news"
     },
     {
-      "title": "PiPedal Grants Guitar Effects, Amp Emulation, and More",
-      "summary": "Back in the day, if one wanted a particular guitar effect one would purchase an effects pedal or “stomp box”, and even a modest collection of them could be an eye-watering investment.",
-      "url": "https://hackaday.com/2026/11/04/pipedal-grants-guitar-effects-amp-emulation-and-more",
+      "title": "Translating An Old Display To A New One",
+      "summary": "The display comes as part of a Samsung cash register that looks as though it comes from the 1990s, which is in keeping with it having a monochrome STN display.",
+      "url": "https://hackaday.com/2026/11/05/translating-an-old-display-to-a-new-one",
       "source": "Hackaday",
-      "published_at": "2026-11-05T06:00:54+00:00",
+      "published_at": "2026-11-06T03:00:11+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -85,11 +70,11 @@
       "article_type": "news"
     },
     {
-      "title": "Livestream: Watch Labrinth create a song from scratch tonight using Apple’s new MacBook Pro",
-      "summary": "To promote the new MacBook Pro with PROLED XDR Display , Apple is hosting a livestream in which singer-songwriter Labrinth will create a song from scratch overnight at the company’s Tower Theatre store in Downtown Los Angeles.",
-      "url": "https://9to5mac.com/2026/11/04/livestream-watch-labrinth-create-a-song-from-scratch-tonight-using-apples-new-macbook-pro",
+      "title": "Apple explains how to turn off the new MacBook Pro’s glowing logo",
+      "summary": "The glowing Apple logo on the new MacBook Pro is controllable by software. It has 25kHz PWM and per-device calibration. CoreBrightness controls the relationship between screen and logo brightness.",
+      "url": "https://9to5mac.com/2026/11/05/apple-explains-how-to-turn-off-the-new-macbook-pros-glowing-logo",
       "source": "9to5Mac",
-      "published_at": "2026-11-05T02:00:00+00:00",
+      "published_at": "2026-11-06T01:48:42+00:00",
       "category": "hardware",
       "tags": [
         "apple",
@@ -98,11 +83,11 @@
       "article_type": "news"
     },
     {
-      "title": "Mid-week Android app deals and freebies: Poker Ya Joker, Despotism, Potion Permit, more",
-      "summary": "Today’s best Google Play app and game deals are ready, including This Aint Even Poker, Ya Joker, Potion Permit, Slime Legends – Survivor, Despotism 3k, Three Kingdoms: Grand Strategy, Can You Escape: The Collection, My Car My Life, and more.",
-      "url": "https://9to5toys.com/2026/11/04/todays-highlight-google-play-deals-43",
+      "title": "Google Find Hub rolls out ‘Notify when left behind’ tracker alerts on Android",
+      "summary": "There is a new “Notify when left behind” section to “Receive a notification when this tag is separated from your phone.” By default, there’s an exception for the Home address you’ve stored in your Google Account (Maps).",
+      "url": "https://9to5google.com/2026/11/05/google-find-hub-tracker-alerts",
       "source": "9to5Google",
-      "published_at": "2026-11-04T19:46:32+00:00",
+      "published_at": "2026-11-05T21:30:00+00:00",
       "category": "android",
       "tags": [
         "android",
@@ -111,50 +96,37 @@
       "article_type": "news"
     },
     {
-      "title": "Open source AI is booming. Hugging Face explains who profits.",
-      "summary": "On this episode of TechCrunch’s Equity podcast, Rebecca Bellan caught up with Irene Solaiman , Chief Policy Officer and SVP of Strategy at Hugging Face, about what startups need to know before building on open models, from choosing the right tools and infrastructure to navigating the trade-offs shaping the future of open AI.",
-      "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits",
-      "source": "TechCrunch AI",
-      "published_at": "2026-11-04T19:30:04+00:00",
-      "category": "ai",
+      "title": "Fanatical Platinum Collection (November 2026) game bundle is live with some treats",
+      "summary": "Fanatical just launched their Platinum Collection - Build your own Bundle (November 2026) and it has a number of good games in it for cheaps.",
+      "url": "https://www.gamingonlinux.com/2026/11/fanatical-platinum-collection-november-2026-game-bundle-is-live-with-some-treats",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-05T15:22:00+00:00",
+      "category": "linux",
       "tags": [
-        "ai",
-        "models"
+        "linux-gaming",
+        "games"
       ],
       "article_type": "news"
     },
     {
-      "title": "Dolphin Depot: GameCube “Homebrew Channel”",
-      "summary": "Developer Webhdx has just launched “Dolphin Depot”, which is essentially an app store / homebrew channel for the GameCube. Your GC would require internet access, but luckily there’s now affordable homebrew NIC’s available .",
-      "url": "https://retrorgb.com/dolphin-depot-gamecube-homebrew-channel.html",
-      "source": "RetroRGB",
-      "published_at": "2026-11-04T15:02:54+00:00",
-      "category": "retro_gaming",
+      "title": "Help Shape the Future of .NET: Take the 2026 .NET Developer Survey",
+      "summary": "Take the 2026 .NET Developer Survey to share your experience, help identify common challenges, and guide future .NET investments. The survey takes about 15 minutes.",
+      "url": "https://devblogs.microsoft.com/dotnet/dotnet-developer-survey-2026",
+      "source": "dotnet Blog",
+      "published_at": "2026-11-05T19:00:00+00:00",
+      "category": "programming",
       "tags": [
-        "retro",
-        "gaming"
+        "dotnet",
+        "programming"
       ],
-      "article_type": "news"
+      "article_type": "technical_article"
     },
     {
-      "title": "9to5Mac Daily: November 4, 2026 – iOS 27.3 beta 1 now available",
-      "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players.",
-      "url": "https://9to5mac.com/2026/11/04/daily-november-4-2026",
-      "source": "9to5Mac",
-      "published_at": "2026-11-04T23:25:26+00:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "‘Enough Phone’ is an Android phone roughly the size of iPhone 13 Mini, launching in 2027",
-      "summary": "“Enough Phone” measures in at 132.8 x 63.8 x 12mm and will have a battery between 3,500 and 4,000 mAh which will be user-replaceable. While it’s thicker, the physical size is roughly the same as iPhone 13 Mini.",
-      "url": "https://9to5google.com/2026/11/04/enough-phone-small-android-phone-2027",
+      "title": "Phone by Google 246 beta brings gradient icon redesign on Android",
+      "summary": "Version 246 of Phone by Google — as the app is still officially called to presumably avoid the Pixel overlap that comes with “Google Phone” — is rolling out today to the beta channel.",
+      "url": "https://9to5google.com/2026/11/05/phone-by-google-246-new-icon",
       "source": "9to5Google",
-      "published_at": "2026-11-04T18:00:00+00:00",
+      "published_at": "2026-11-05T19:04:24+00:00",
       "category": "android",
       "tags": [
         "android",
@@ -163,11 +135,11 @@
       "article_type": "news"
     },
     {
-      "title": "GKE Workspaces: Your notebook, on Google's AI infrastructure",
-      "summary": "Today we're introducing GKE Workspaces , a self-hosted AI/ML development platform for Google Kubernetes Engine, built on the open source Kubeflow Workspaces project. Deployed on your team's GKE cluster, it provides a dedicated web dashboard where you can pick an IDE and a machine, and start coding on cloud accelerators in minutes.",
-      "url": "https://opensource.googleblog.com/2026/11/gke-workspaces-notebooks-on-google-ai-infrastructure.html",
+      "title": "Sandboxing Untrusted AI Agents at Scale: Google Donates Agent Substrate and gVisor to the CNCF",
+      "summary": "This week at KubeCon North America in Salt Lake City, Google Cloud is donating Agent Substrate and gVisor to the Cloud Native Computing Foundation (CNCF) in Sandbox status, alongside OpenRL.",
+      "url": "https://opensource.googleblog.com/2026/11/sandboxing-untrusted-ai-agents-at-scale.html",
       "source": "Google Open Source",
-      "published_at": "2026-11-04T19:30:00+00:00",
+      "published_at": "2026-11-05T17:00:00+00:00",
       "category": "open_source",
       "tags": [
         "google",
@@ -176,11 +148,11 @@
       "article_type": "news"
     },
     {
-      "title": "Megaquarium dev reveals Plantlife, a botanical farming management sim",
-      "summary": "Megaquarium developer Twice Circled just revealed Plantlife, a really sweet looking botanical farming management building sim. Taking what they learned building Megaquarium and going in a rather different direction.",
-      "url": "https://www.gamingonlinux.com/2026/11/megaquarium-dev-reveals-plantlife-a-botanical-farming-management-sim",
+      "title": "Tripwire Presents expands publishing to focus on support of smaller indie teams",
+      "summary": "Tripwire Presents, the publishing division of Tripwire Interactive, announced a new initiative to expand support for smaller indie developers and games. Hopefully with some healthy contracts that allow developers just to keep doing what they do, and get paid nicely from it.",
+      "url": "https://www.gamingonlinux.com/2026/11/tripwire-presents-expands-publishing-to-focus-on-support-of-smaller-indie-teams",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-04T11:54:14+00:00",
+      "published_at": "2026-11-05T11:06:17+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -189,11 +161,24 @@
       "article_type": "news"
     },
     {
-      "title": "Anthropic's text watermark is easy to bypass on several older Claude models",
-      "summary": "Anthropic is rolling out text watermarks to four more Claude models ahead of the EU AI Act's December deadline. But on older models like Claude Opus 4.6 and Sonnet 4.6, API users can disable the watermark by changing a single sampling parameter.",
-      "url": "https://the-decoder.com/anthropics-text-watermark-is-easy-to-bypass-on-several-older-claude-models",
-      "source": "The Decoder",
-      "published_at": "2026-11-04T19:03:55+00:00",
+      "title": "Modernize your .NET apps for Windows Arm64 with GitHub Copilot",
+      "summary": "The GitHub Copilot upgrade agent helps you move from those questions to concrete changes. It assesses your .NET projects for migration from Windows x64 or x86 to Windows Arm64, identifies blockers, creates a migration plan, and helps update your code, dependencies, and configuration.",
+      "url": "https://devblogs.microsoft.com/dotnet/modernize-dotnet-apps-for-windows-arm64",
+      "source": "dotnet Blog",
+      "published_at": "2026-11-05T18:05:00+00:00",
+      "category": "programming",
+      "tags": [
+        "dotnet",
+        "programming"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "summary": "OpenAI appears to have noticed. Today, the AI giant announced a new model focused on cybersecurity, ChatGPT Cyber, would be made available to the highest tier of users in the cybersecurity program, Daybreak Red, which allows offensive cybersecurity researchers tools for vulnerability hunting and development.",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough",
+      "source": "TechCrunch AI",
+      "published_at": "2026-11-05T19:06:12+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -202,37 +187,11 @@
       "article_type": "news"
     },
     {
-      "title": "datasette-agent 0.5a0",
-      "summary": "Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent . The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page.",
-      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent",
-      "source": "Simon Willison",
-      "published_at": "2026-11-03T23:13:45+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "ai",
-        "developer-tools"
-      ],
-      "article_type": "technical_article"
-    },
-    {
-      "title": "Ocarina of Time 2026: DF Retro Review",
-      "summary": "John Linneman from Digital Foundry has just released a review and tech analysis of the Switch 2’s remake of Ocarina Of Time. John compares it to the 1998 original, as well as the 3DS remake from 2011.",
-      "url": "https://retrorgb.com/ocarina-of-time-2026-df-retro-review.html",
-      "source": "RetroRGB",
-      "published_at": "2026-11-04T14:16:14+00:00",
-      "category": "retro_gaming",
-      "tags": [
-        "retro",
-        "gaming"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "The first Snapdragon phone with Android Linux Terminal support is here",
-      "summary": "Android power users who want a new Snapdragon 8 Elite Extreme Gen 6-powered phone like the Redmagic 12 Pro now have another reason to be excited about the latest Qualcomm processors: the Android Linux Terminal.",
-      "url": "https://9to5google.com/2026/11/04/the-first-snapdragon-phone-with-android-linux-terminal-support-is-here",
+      "title": "The Android 17 ColorOS 17 update is coming to 6 more OnePlus devices this month",
+      "summary": "OnePlus’s transformation into a fully controlled arm of Oppo is nearly final now that the Android 17 ColorOS 17 update schedule has been made public.",
+      "url": "https://9to5google.com/2026/11/05/the-android-17-coloros-17-update-november-2026-device-list",
       "source": "9to5Google",
-      "published_at": "2026-11-04T16:15:00+00:00",
+      "published_at": "2026-11-05T17:14:11+00:00",
       "category": "android",
       "tags": [
         "android",
@@ -241,11 +200,24 @@
       "article_type": "news"
     },
     {
-      "title": "UPSHOT brings some online co-op ball-shooting comedy on November 12",
-      "summary": "The developer emailed GamingOnLinux to mention: \"UPSHOT is a 1–4 player co-op arena shooter. We grew up playing Bubble Trouble, and we always wondered what it would be like if our friends could play it with us.",
-      "url": "https://www.gamingonlinux.com/2026/11/upshot-brings-some-online-co-op-ball-shooting-comedy-on-november-12",
+      "title": "Supercharging XLA-based inference: Announcing the launch of XLA Serving Engine",
+      "summary": "Today we are excited to announce the launch of XLA Serving Engine (XSE) , a general-purpose model export and inference runtime for the OpenXLA ecosystem , open-sourced under the Apache 2.0 license.",
+      "url": "https://opensource.googleblog.com/2026/11/supercharging-xla-inference-xla-serving-engine.html",
+      "source": "Google Open Source",
+      "published_at": "2026-11-05T12:30:00+00:00",
+      "category": "open_source",
+      "tags": [
+        "google",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Pillars of Eternity and Pillars of Eternity II: Deadfire get major updates with controller support in Beta",
+      "summary": "Obsidian Entertainment are again revamping some older games with both Pillars of Eternity and Pillars of Eternity II: Deadfire getting controller support. The updates for both games are currently in Beta, set to hopefully release for everyone before the year is up.",
+      "url": "https://www.gamingonlinux.com/2026/11/pillars-of-eternity-and-pillars-of-eternity-ii-deadfire-get-major-updates-with-controller-support-in-beta",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-04T10:03:39+00:00",
+      "published_at": "2026-11-05T09:27:46+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -254,11 +226,50 @@
       "article_type": "news"
     },
     {
-      "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
-      "summary": "On this episode of TechCrunch’s Equity podcast, Rebecca Bellan caught up with Irene Solaiman , Chief Policy Officer and SVP of Strategy at Hugging Face, about what startups need to know before building on open models, from choosing the right tools and infrastructure to navigating the trade-offs shaping the future of open AI.",
-      "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs",
+      "title": "What’s New in PyCharm 2026.3",
+      "summary": "PyCharm 2026.3 introduces JetBrains Air for agentic workflows – featuring free Junie Lite – alongside dedicated consoles and terminals per subproject in workspaces, support for Python 3.15 lazy imports, and interactive dependency graphs for FastAPI endpoints.",
+      "url": "https://blog.jetbrains.com/pycharm/2026/11/what-s-new-in-pycharm-2026-3",
+      "source": "PyCharm Blog",
+      "published_at": "2026-11-05T15:03:04+00:00",
+      "category": "programming",
+      "tags": [
+        "python",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent",
+      "summary": "Google Deepmind is making its Gemini Omni 1.2 Flash video-generation model generally available. The updated model creates clips up to 15 seconds long, supports conversational editing, and costs 30 percent less than its predecessor.",
+      "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent",
+      "source": "The Decoder",
+      "published_at": "2026-11-05T19:05:31+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.3 changes the iPhone Duo keyboard, here’s how",
+      "summary": "iPhone Duo has only been available for a couple weeks, but Apple keeps improving the product with software enhancements. The latest arrives in the iOS 27.3 beta via a convenient keyboard update.",
+      "url": "https://9to5mac.com/2026/11/05/ios-27-3-changes-the-iphone-duo-keyboard-heres-how",
+      "source": "9to5Mac",
+      "published_at": "2026-11-05T19:52:53+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude can now analyze your spending with its new Personal Finance tool",
+      "summary": "Anthropic announced Thursday that Claude is getting a new tool called “Personal Finance,” designed to help users keep track of their money. With it, users can connect their bank and credit card accounts through Plaid and ask Claude questions about their finances.",
+      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool",
       "source": "TechCrunch AI",
-      "published_at": "2026-11-04T18:44:57+00:00",
+      "published_at": "2026-11-05T18:00:00+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -267,11 +278,11 @@
       "article_type": "news"
     },
     {
-      "title": "Apple disables Siri AI waitlist in iOS 27, with one exception",
-      "summary": "When Siri AI launched in iOS 27 earlier this fall, Apple used a waitlist to gate access. But a newly updated support document says the waitlist is no longer being used, except in “high demand” times.",
-      "url": "https://9to5mac.com/2026/11/04/apple-disables-siri-ai-waitlist-in-ios-27-with-one-exception",
+      "title": "MacBook Pro with PROLED review, new iPad mini hands-on, and iOS 27.3 features",
+      "summary": "It’s another bumper week, with Chance’s hands-on reviews of both the new iPad mini and the new MacBook Pro to discuss, especially around just how good the OLED display looks, and how touchscreens fit into the Mac ecosystem.",
+      "url": "https://9to5mac.com/2026/11/05/happy-hour-615",
       "source": "9to5Mac",
-      "published_at": "2026-11-04T20:28:23+00:00",
+      "published_at": "2026-11-05T19:24:26+00:00",
       "category": "ios",
       "tags": [
         "apple",
@@ -280,24 +291,11 @@
       "article_type": "news"
     },
     {
-      "title": "Classic ARPG Torchlight II returns with lots of improvements using AI assistance",
-      "summary": "The newer owners of the Torchlight IP (XD INC) have started reviving the classic action-RPG Torchlight II, with multiple Beta upgrades to test out. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/11/classic-arpg-torchlight-ii-returns-with-lots-of-improvements-using-ai-assistance",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-04T09:47:29+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "New open-source benchmark reveals reasoning as the biggest bottleneck for AI in cloud operations",
-      "summary": "CloudOpsBench is a new open-source benchmark that measures how well AI agents handle typical DevOps tasks in the cloud, from fixing services and removing resources to restricting access rights, rolling out updates, and decommissioning projects.",
-      "url": "https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations",
+      "title": "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model",
+      "summary": "Baidu releases ERNIE 5.5 Flash Base: a 280-billion-parameter MoE model pre-trained on 33.5 trillion tokens, shipped deliberately without fine-tuning, so developers can take it wherever they want.",
+      "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model",
       "source": "The Decoder",
-      "published_at": "2026-11-04T16:42:52+00:00",
+      "published_at": "2026-11-05T17:56:41+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -306,37 +304,11 @@
       "article_type": "news"
     },
     {
-      "title": "GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights",
-      "summary": "MIT researchers show that GPT-6 Astra can directly understand and modify the internal settings of other AI models without traditional training. The approach has limits but could change how AI systems are tuned and controlled.",
-      "url": "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights",
-      "source": "The Decoder",
-      "published_at": "2026-11-04T15:44:44+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "iOS 27.3 upgrades Apple Music in two ways, here’s what’s new",
-      "summary": "If you’re an Apple Music subscriber , iOS 27.3 so far has two main changes to look forward to when it ships next month .",
-      "url": "https://9to5mac.com/2026/11/04/ios-27-3-upgrades-apple-music-in-two-ways-heres-whats-new",
-      "source": "9to5Mac",
-      "published_at": "2026-11-04T18:46:02+00:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "CodeQL 2.27.4 improves accuracy and query metadata",
-      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.27.4 with query accuracy improvements across several languages, stronger security checks when you bundle or publish a pack, and corrections to query metadata.",
-      "url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
+      "title": "Usage metrics API adds code review details and addressed rate",
+      "summary": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many Copilot-reviewed pull requests merged without a later change request from a person and how many Copilot code review comments developers acted on.",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
       "source": "GitHub Changelog",
-      "published_at": "2026-11-04T20:04:52+00:00",
+      "published_at": "2026-11-06T00:19:07+00:00",
       "category": "agent_tools",
       "tags": [
         "github",
@@ -345,24 +317,11 @@
       "article_type": "news"
     },
     {
-      "title": "GitHub Copilot is now available in Xcode’s coding assistant",
-      "summary": "You can now work with GitHub Copilot directly in Xcode’s built-in coding assistant , bringing Copilot into your native Xcode workflow. The integration is now in public preview, available starting with Xcode 27.3 beta.",
-      "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
-      "source": "GitHub Changelog",
-      "published_at": "2026-11-04T19:10:40+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "github",
-        "developer-tools"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "macOS 27.3 Brings Live Activities to Macs Without Dynamic Island",
-      "summary": "The first macOS 27.3 developer beta released this week enables Live Activities support in the menu bar for several of Apple's built-in apps, along with things like screen recording.",
-      "url": "https://www.macrumors.com/2026/11/04/macos-27-3-live-activities-in-menu-bar",
+      "title": "First iOS 27.3 and macOS Golden Gate 27.3 Public Betas Now Available",
+      "summary": "Apple today seeded the first betas of iOS 27.3, iPadOS 27.3, macOS Golden Gate 27.3, tvOS 27.3, and watchOS 27.3. The new software comes two days after Apple released the betas for developers.",
+      "url": "https://www.macrumors.com/2026/11/05/ios-27-3-public-beta",
       "source": "MacRumors",
-      "published_at": "2026-11-04T17:40:27+00:00",
+      "published_at": "2026-11-05T19:06:09+00:00",
       "category": "macos",
       "tags": [
         "apple",
@@ -371,11 +330,24 @@
       "article_type": "news"
     },
     {
-      "title": "CodeQL 2.27.3 adds Python 3.15 features and JSON data extensions",
-      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.27.3 .",
-      "url": "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions",
+      "title": "macOS 27.3 Golden Gate public beta 1 now available, here’s everything new",
+      "summary": "Following the release of macOS 27.3 developer beta 1 , Apple is now rolling out the first test build for users enrolled in the public beta.",
+      "url": "https://9to5mac.com/2026/11/05/macos-27-3-golden-gate-public-beta-1-now-available-heres-everything-new",
+      "source": "9to5Mac",
+      "published_at": "2026-11-05T19:04:55+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Usage metrics API flags telemetry and version gaps",
+      "summary": "The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums.",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
       "source": "GitHub Changelog",
-      "published_at": "2026-11-03T14:56:03+00:00",
+      "published_at": "2026-11-06T00:08:31+00:00",
       "category": "agent_tools",
       "tags": [
         "github",
@@ -384,11 +356,37 @@
       "article_type": "news"
     },
     {
-      "title": "Dependabot now supports Python 3.15",
-      "summary": "You can now upgrade your projects to Python 3.15 and keep receiving Dependabot updates. Support for Python 3.15 is available to all github.com users and will be included in GitHub Enterprise Server 3.24.",
-      "url": "https://github.blog/changelog/2026-11-03-dependabot-now-supports-python-3-15",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "summary": "Gemini Omni 1.2 Flash generates clips up to 15 seconds long that hold references together better than before. You can scroll through to see characters, text, and camera moves stay consistent across longer shots, multiple turns and transitions with no cuts.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+      "source": "Google AI Blog",
+      "published_at": "2026-11-05T17:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Now available: Retention messages for subscriptions",
+      "summary": "In App Store Connect, you can configure retention messages for your auto-renewable subscriptions, including subscriber eligibility and the wait time between messages. With the Retention Messaging API , you can choose which message to show each subscriber based on their subscription details.",
+      "url": "https://developer.apple.com/news?id=fk9ps3gv",
+      "source": "Apple Developer",
+      "published_at": "2026-11-04T08:00:56-08:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "developers"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "New pull request overview page in public preview",
+      "summary": "To join, select the ✨ Try the Overview page button in the header. We’re opening this preview early so you can try the new direction on your own pull requests and help shape what comes next.",
+      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview",
       "source": "GitHub Changelog",
-      "published_at": "2026-11-03T13:49:32+00:00",
+      "published_at": "2026-11-05T08:00:00+00:00",
       "category": "agent_tools",
       "tags": [
         "github",
