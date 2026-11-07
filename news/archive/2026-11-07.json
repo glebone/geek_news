@@ -1,0 +1,348 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T05:38:20Z",
+  "count": 26,
+  "articles": [
+    {
+      "title": "Epic Games comments on planned Linux distribution support",
+      "summary": "With the new Epic Games Launcher Preview out with Linux support , you might be wondering what distros exactly they plan to support - we have an answer for you.",
+      "url": "https://www.gamingonlinux.com/2026/11/epic-games-comments-on-planned-linux-distribution-support",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-06T19:22:31+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
+      "summary": "The model uses a dense Transformer architecture with 65 billion parameters instead of the more common mixture-of-experts approach and is optimized for Nvidia hardware. Ripple-65B Preview is available on Hugging Face under the Apache 2.0 license.",
+      "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model",
+      "source": "The Decoder",
+      "published_at": "2026-11-06T19:47:04+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Code v2.1.319",
+      "summary": "Changed auto mode with telemetry or feature flags off, including behind LLM gateways: calls the server can't check are asked about or denied, with no fallback to the built-in classifier; set CLAUDE_CODE_AUTO_MODE_SERVER=0 to keep using it (Bedrock, Vertex and Foundry are unchanged).",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "source": "Claude Code",
+      "published_at": "2026-11-06T17:04:01+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "RetroTINK 6x CE Restock Tomorrow November 7th",
+      "summary": "Mike Chi has just announced that the RetroTINK 6x CE will be restocked tomorrow November 7th at 11AM NYC time. As usual with RetroTINK products, this is not a pre-order – They will be in stock and ready to ship within a reasonable time period.",
+      "url": "https://retrorgb.com/retrotink-6x-ce-restock-tomorrow-november-7th.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-06T18:39:47+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "DIY Rooftop Tent Sets Up In a Jiffy",
+      "summary": "[CraftAndu] shares his DIY car rooftop tent design that looks like a pretty accessible build. It allowed him to test drive the concept to his satisfaction while spending a fraction of what a commercial unit would cost.",
+      "url": "https://hackaday.com/2026/11/06/diy-rooftop-tent-sets-up-in-a-jiffy",
+      "source": "Hackaday",
+      "published_at": "2026-11-07T03:00:30+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "9to5Mac Daily: November 6, 2026 – App Store changes, new MacBook Pro launch",
+      "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players.",
+      "url": "https://9to5mac.com/2026/11/06/daily-november-6-2026",
+      "source": "9to5Mac",
+      "published_at": "2026-11-06T23:47:18+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Roguefort is an open-world roguelike RPG where magic comes from cheesemaking",
+      "summary": "Want some cheese? You're going to need plenty in Roguefort, a new open-world traditional roguelike RPG that has some peculiar ideas. Note: this was a personal purchase.",
+      "url": "https://www.gamingonlinux.com/2026/11/roguefort-is-an-open-world-roguelike-rpg-where-magic-comes-from-cheesemaking",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-06T13:07:14+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Underdog shows off a 32MB speech model in new demo",
+      "summary": "All of this works within the browser through Underdog’s speech generation model, which, the company says, can run on most devices without any internet connection.",
+      "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo",
+      "source": "TechCrunch AI",
+      "published_at": "2026-11-06T13:02:16+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Wobbling Pixels’ RetroTINK 6x CE vs Morph 2K Review",
+      "summary": "Wobbling Pixels has just posted a comparison of the “$200ish” scalers from Mike Chi and PixelFX. As usual, this is a top-tier review, nicely laid out in spreadsheet form and extremely easy to follow.",
+      "url": "https://retrorgb.com/wobbling-pixels-retrotink-6x-ce-vs-morph-2k-review.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-06T16:55:47+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.3: New features, release date, more",
+      "summary": "When it debuted, the iPhone Duo included a more robust version of StandBy with new clock faces and expanded customization options. iOS 27.3 brings the iPhone Duo’s StandBy experience to all iPhone models.",
+      "url": "https://9to5mac.com/2026/11/06/ios-27-3-new-features-release-date-more",
+      "source": "9to5Mac",
+      "published_at": "2026-11-06T21:58:30+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "EXD - Extra Dimensional adds Steam Frame support with a big update",
+      "summary": "Action-adventure VR game EXD - Extra Dimensional recently had a huge upgrade, and with it support for the Steam Frame was added. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/exd-extra-dimensional-adds-steam-frame-support-with-a-big-update",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-06T11:41:17+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Anthropic adds bank account access to Claude so users can track their spending",
+      "summary": "Anthropic lets Claude users connect their bank accounts and ask questions about their money. The new feature, called Personal Finance, gives Claude read-only access. It can't move, manage, or invest funds.",
+      "url": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending",
+      "source": "The Decoder",
+      "published_at": "2026-11-06T11:33:13+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Copilot code review: API management and review overview updates",
+      "summary": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact, and this update includes fixes for billing, automatic reviews, and reliability.",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-07T00:27:19+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Discord is about to get way, way faster on your Android phone",
+      "summary": "I love Discord, but if there’s one thing the app isn’t known for is it’s speed. That’s particularly true on phones that don’t have much RAM, but an upcoming new Discord client is changing the game for all users, regardless of the platform.",
+      "url": "https://9to5google.com/2026/11/06/discord-is-about-to-get-way-way-faster-on-your-android-phone",
+      "source": "9to5Google",
+      "published_at": "2026-11-06T18:13:09+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Star Trek: Infection gets official Steam Frame standalone support",
+      "summary": "Star Trek: Infection gets official Steam Frame standalone support, with the developer bringing over their Meta Quest 3 build with enhancements. They also fixed up some bugs and other issues in the latest update.",
+      "url": "https://www.gamingonlinux.com/2026/11/star-trek-infection-gets-official-steam-frame-standalone-support",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-06T11:18:54+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Copilot impact dashboard adds chat and VS Code agent usage",
+      "summary": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences.",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-06T22:17:28+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.2 adds three new ways to customize your iPhone",
+      "summary": "iOS 27.2 launched last week with a lot of new features, and also several ways you can customize your iPhone. Here’s what’s new for iPhone personalization.",
+      "url": "https://9to5mac.com/2026/11/06/ios-27-2-adds-three-new-ways-to-customize-your-iphone",
+      "source": "9to5Mac",
+      "published_at": "2026-11-06T18:55:34+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Galaxy SmartTag 3 hits Samsung online store as single tracker or four-pack",
+      "summary": "Samsung announced the Galaxy SmartTag 3 last month, though it’s only now available for purchase online. The new tracker bears a different appearance, with a much more uniform and compact shape compared to the larger profile in previous designs.",
+      "url": "https://9to5google.com/2026/11/06/galaxy-smarttag-3-available-from-samsung",
+      "source": "9to5Google",
+      "published_at": "2026-11-06T15:38:29+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GitHub Copilot weekly releases — November 2",
+      "summary": "Introducing a new way to use GitHub Copilot in JetBrains IDEs, with Copilot now available in JetBrains Air. Track multiple agent sessions and run tasks locally in your JetBrains IDE or in the cloud through Air Teams, using your existing Copilot subscription.",
+      "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-06T21:00:26+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "I bought the knock-off Pixel Watch and Fitbit Air bands, and it’s crazy how good they are [Gallery]",
+      "summary": "I love swapping out the bands on my Pixel Watch 5 and Fitbit Air, but Google’s official options are not cheap. It doesn’t take long to find a plethora of knock-off Pixel Watch and Fitbit Air bands around the web and, as it turns out, they’re actually really good.",
+      "url": "https://9to5google.com/2026/11/06/google-pixel-watch-fitbit-air-bands-knock-off",
+      "source": "9to5Google",
+      "published_at": "2026-11-06T14:30:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.2 adds Apple Photos invisible watermark feature, here’s how it works",
+      "summary": "iOS 27.2 arrived last week, and among its changes for Apple Photos , the update adds an invisible watermarking feature when you use certain editing tools.",
+      "url": "https://9to5mac.com/2026/11/06/ios-27-2-adds-apple-photos-invisible-watermark-feature-heres-how-it-works",
+      "source": "9to5Mac",
+      "published_at": "2026-11-06T15:39:08+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "ReactOS Lands Initial USB3 Driver Support",
+      "summary": "After years of work, ReactOS as the 'open-source Windows' operating system striving for Windows program and driver compatibility now has an initial USB 3.0 driver stack in place.",
+      "url": "https://www.phoronix.com/news/ReactOS-Initial-USB-3.0",
+      "source": "Phoronix",
+      "published_at": "2026-11-06T16:49:46-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Global menu extension puts app menus in GNOME’s top panel",
+      "summary": "Earlier global menu efforts have been scuppered by Wayland, API changes and the fact that many modern Linux apps no longer ‘export’ menus, leaving the top panel empty for most apps.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/global-menu-gnome-extension",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-06T17:43:39+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Ubuntu Summit 26.10: Less than a week away!",
+      "summary": "Ubuntu Summit 26.10: Less than a week away! Here in London, the long summer has stepped aside for cooler nights and damp, misty mornings. The trees are turning amber and the sunlight is low on the horizon, which can only mean one thing: the next Ubuntu Summit is just around the corner.",
+      "url": "https://ubuntu.com//blog/ubuntu-summit-26-10-less-than-a-week-away",
+      "source": "Ubuntu Blog",
+      "published_at": "2026-11-06T16:43:41+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "linux"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Linux 7.4-rc2 Change Yields As Much As 162x Improvement For FAT32",
+      "summary": "In addition to a FAT32 optimization yielding as much as a 265x improvement that was merged for the Linux 7.4 cycle and separately another big FAT32 improvement expected for Linux 7.5, merged this week as part of the non-MM fixes for Linux 7.4-rc2 was another big FAT32 performance optimization.",
+      "url": "https://www.phoronix.com/news/Linux-7.4-rc2-FAT32",
+      "source": "Phoronix",
+      "published_at": "2026-11-06T11:21:38-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Linux x86 32-bit Patches Clean Old Kernel Code After Recently Removing Vintage CPUs",
+      "summary": "With the Linux kernel having phased out i486 CPU support and dropping old AMD Elan SoC code along with removing other obsolete and stagnate 32-bit x86 hardware support, some x86 32-bit clean-ups are proceeding along with being able to make the kernel depend unconditionally now on some features.",
+      "url": "https://www.phoronix.com/news/Linux-2026-x86-32-bit-Cleanup",
+      "source": "Phoronix",
+      "published_at": "2026-11-06T09:11:31-05:00",
+      "category": "retro_computing",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
