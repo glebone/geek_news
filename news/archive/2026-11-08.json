@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "date": "2026-11-08",
-  "generated_at": "2026-11-08T11:31:08Z",
+  "generated_at": "2026-11-08T12:00:25Z",
   "count": 14,
   "articles": [
     {
@@ -175,15 +175,15 @@
       "article_type": "news"
     },
     {
-      "title": "Arch Linux vs. CachyOS vs. Omarchy 4.5 Performance Benchmarks",
-      "summary": "With CachyOS recently having rolled out its Linux 7.3 based kernel and various other improvements plus with Omarchy 4.5 having been released this week, this article provides a look at how CachyOS and Omarchy are competing on the performance front relative to upstream Arch Linux.",
-      "url": "https://www.phoronix.com/review/cachyos-omarchy-benchmarks",
-      "source": "Phoronix",
-      "published_at": "2026-11-06T09:55:52-05:00",
+      "title": "The missing piece: bringing up to 15 years of support to Zephyr for microcontroller-based ECUs",
+      "summary": "We recently announced the launch of Zephyr 26.04 LTS , bringing up to 15 years of security maintenance per LTS and enterprise lifecycle management to microcontroller-grade devices.",
+      "url": "https://ubuntu.com//blog/the-missing-piece-bringing-up-to-15-years-of-support-to-zephyr-for-microcontroller-based-ecus",
+      "source": "Ubuntu Blog",
+      "published_at": "2026-11-06T13:37:10+00:00",
       "category": "linux",
       "tags": [
-        "linux",
-        "open-source"
+        "ubuntu",
+        "linux"
       ],
       "article_type": "news"
     }
