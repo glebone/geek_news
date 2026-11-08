@@ -1,0 +1,191 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T05:40:31Z",
+  "count": 14,
+  "articles": [
+    {
+      "title": "Give your brain a challenge with the Non Non Nonograms Humble Bundle",
+      "summary": "Stop your brain from getting bored with the new Non Non Nonograms Humble Bundle which is overall a pretty great deal. We've rounded up all the games along with their ratings to make it easy for you.",
+      "url": "https://www.gamingonlinux.com/2026/11/give-your-brain-a-challenge-with-the-non-non-nonograms-humble-bundle",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-07T12:02:20+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Thinking Machines' Inkling 2 Small drops 316 F-bombs across benchmark runs",
+      "summary": "Thinking Machines' AI model Inkling 2 Small swears during its internal reasoning, 316 times across 2,655 benchmark runs, according to an analysis by Vals AI.",
+      "url": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs",
+      "source": "The Decoder",
+      "published_at": "2026-11-07T16:31:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Artemis II Rocket Was Powerful Enough to Disrupt GPS",
+      "summary": "As a whole, the impact on Artemis comes in waves. Each stage of the Space Launch System performs burns in different parts of the atmosphere, creating increasing ripples as the rocket moves through various layers.",
+      "url": "https://hackaday.com/2026/11/07/artemis-ii-rocket-was-powerful-enough-to-disrupt-gps",
+      "source": "Hackaday",
+      "published_at": "2026-11-08T03:00:52+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hands-on: I tested a bunch of iPhone Duo cases, these are my favorites [Video]",
+      "summary": "For the first time in a long time, I can say that iPhone cases are fun again! The introduction of the iPhone Duo has brought us a new era of cases in all shapes, sizes, functions, and form factors.",
+      "url": "https://9to5mac.com/2026/11/07/hands-on-i-tested-a-bunch-of-iphone-duo-cases-these-are-my-favorites-video",
+      "source": "9to5Mac",
+      "published_at": "2026-11-07T18:02:09+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "SteamOS 0.5.8 Beta for Steam Frame and SteamVR Beta 2.19.2 released",
+      "summary": "Valve just released SteamOS 0.5.8 Beta for Steam Frame and SteamVR Beta 2.19.2 for all users, bringing numerous improvements to smoothen some rough edges. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/steamos-0-5-8-beta-for-steam-frame-and-steamvr-beta-2-19-2-released",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-07T11:53:30+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Build for an expanding lineup of Android XR devices with production-ready tools from Android Developer Summit",
+      "summary": "From full immersion at home to glanceable experiences on the go, building on Android XR lets you meet users wherever they are. At Android Developer Summit , we marked an exciting milestone with the launch of XREAL AURA , the first wired XR glasses powered by Android XR.",
+      "url": "https://developer.android.com/blog/posts/build-android-xr-devices-tools",
+      "source": "Android Developers",
+      "published_at": "2026-11-06T00:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "developers"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Fate of the Galaxy is a big new free Star Wars space combat sim based on FreeSpace Open",
+      "summary": "Fate of the Galaxy is a free total conversion for FreeSpace Open developed by a team of fan volunteers, and it looks really impressive. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/fate-of-the-galaxy-is-a-big-new-free-star-wars-space-combat-sim-based-on-freespace-open",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-06T10:25:52+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Alchi, a deck-builder built around a unique card-mixing system adds Linux and macOS versions",
+      "summary": "With some fun looking scribbly artwork, Alchi is a deck-builder for those of you that want something a bit different with the mixing system. Originally released back in August, the developer noted a few days ago how there's now a Linux and macOS build available, which need some more testing.",
+      "url": "https://www.gamingonlinux.com/2026/11/alchi-a-deck-builder-built-around-a-unique-card-mixing-system-adds-linux-and-macos-versions",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-06T10:05:15+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Top Stories: Apple Product Launches, iOS 27.3 Beta, and More",
+      "summary": "Things are also moving forward on the software side with Apple releasing the first betas of iOS 27.3 and related updates, bringing a number of tweaks and new features.",
+      "url": "https://www.macrumors.com/2026/11/07/top-stories-apple-product-launches",
+      "source": "MacRumors",
+      "published_at": "2026-11-07T14:00:12+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "OpenIndiana 2026.10 Released With Updated Tools & Compilers, New Apps",
+      "summary": "OpenIndiana Hipster 2026.10 is out today as the newest six-month update to this operating system based on Illumos and with the lineage tracing back to the fruitful Sun OpenSolaris days.",
+      "url": "https://www.phoronix.com/news/OpenIndiana-2026.10",
+      "source": "Phoronix",
+      "published_at": "2026-11-07T17:50:46-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "The MacRumors Show: iOS 27.3 Looks Like a Huge Update",
+      "summary": "Apple's first 27.3 betas bring expanded Siri AI actions, a redesigned Health app, and new Fitness+ features, alongside conversation summaries on the Apple Watch. This week's episode of The MacRumors Show takes a closer look at the updates.",
+      "url": "https://www.macrumors.com/2026/11/06/the-macrumors-show-ios-27-3",
+      "source": "MacRumors",
+      "published_at": "2026-11-06T16:38:42+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Kmorph Aims To Provide Rebootless Linux Kernel Crash Recovery",
+      "summary": "Kmorph aims to provide reboot-less kernel crash recovery for Linux systems and can yield as little as ~2 second downtime for recovering the Nginx web server or other important services in the case of a kernel crash.",
+      "url": "https://www.phoronix.com/news/Kmorph-Linux-Crash-Recovery",
+      "source": "Phoronix",
+      "published_at": "2026-11-07T07:05:00-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Asahi Linux Makes Progress On Gaming, More Apple Silicon Upstreaming",
+      "summary": "Given the recent Linux 7.3 upstream kernel release, the Asahi Linux project published a new status report to outline recent code they have upstreamed to the mainline kernel as well as other efforts taking shape in their downstream codebase.",
+      "url": "https://www.phoronix.com/news/Asahi-Linux-7.3-Report",
+      "source": "Phoronix",
+      "published_at": "2026-11-07T05:21:03-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Arch Linux vs. CachyOS vs. Omarchy 4.5 Performance Benchmarks",
+      "summary": "With CachyOS recently having rolled out its Linux 7.3 based kernel and various other improvements plus with Omarchy 4.5 having been released this week, this article provides a look at how CachyOS and Omarchy are competing on the performance front relative to upstream Arch Linux.",
+      "url": "https://www.phoronix.com/review/cachyos-omarchy-benchmarks",
+      "source": "Phoronix",
+      "published_at": "2026-11-06T09:55:52-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
