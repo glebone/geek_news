@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "date": "2026-11-08",
-  "generated_at": "2026-11-08T05:40:31Z",
+  "generated_at": "2026-11-08T11:31:08Z",
   "count": 14,
   "articles": [
     {
@@ -31,11 +31,11 @@
       "article_type": "news"
     },
     {
-      "title": "Artemis II Rocket Was Powerful Enough to Disrupt GPS",
-      "summary": "As a whole, the impact on Artemis comes in waves. Each stage of the Space Launch System performs burns in different parts of the atmosphere, creating increasing ripples as the rocket moves through various layers.",
-      "url": "https://hackaday.com/2026/11/07/artemis-ii-rocket-was-powerful-enough-to-disrupt-gps",
+      "title": "Making a Dog Car Wash Without (very) Fancy Tools",
+      "summary": "Besides the fact that the dog is terrified of the machine and won’t use it, it works brilliantly! Sound off in the comments if you think [Stuff Made Here]’s attempt at making a project without fancy tools was successful.",
+      "url": "https://hackaday.com/2026/11/07/making-a-dog-car-wash-without-very-fancy-tools",
       "source": "Hackaday",
-      "published_at": "2026-11-08T03:00:52+00:00",
+      "published_at": "2026-11-08T06:00:42+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -44,11 +44,11 @@
       "article_type": "news"
     },
     {
-      "title": "Hands-on: I tested a bunch of iPhone Duo cases, these are my favorites [Video]",
-      "summary": "For the first time in a long time, I can say that iPhone cases are fun again! The introduction of the iPhone Duo has brought us a new era of cases in all shapes, sizes, functions, and form factors.",
-      "url": "https://9to5mac.com/2026/11/07/hands-on-i-tested-a-bunch-of-iphone-duo-cases-these-are-my-favorites-video",
+      "title": "Chromagraph Camera is exactly the camera app I’ve been looking for on iPhone",
+      "summary": "When Chromagraph Camera was announced, I was quite interested. I paid the $12.99, and I’ve been happy with the results. I tweeted some of my sample photos when I just got the app, and it’s been well worth it.",
+      "url": "https://9to5mac.com/2026/11/07/chromagraph-camera-is-exactly-the-camera-app-ive-been-looking-for-on-iphone",
       "source": "9to5Mac",
-      "published_at": "2026-11-07T18:02:09+00:00",
+      "published_at": "2026-11-07T22:30:00+00:00",
       "category": "hardware",
       "tags": [
         "apple",
@@ -123,19 +123,6 @@
       "article_type": "news"
     },
     {
-      "title": "OpenIndiana 2026.10 Released With Updated Tools & Compilers, New Apps",
-      "summary": "OpenIndiana Hipster 2026.10 is out today as the newest six-month update to this operating system based on Illumos and with the lineage tracing back to the fruitful Sun OpenSolaris days.",
-      "url": "https://www.phoronix.com/news/OpenIndiana-2026.10",
-      "source": "Phoronix",
-      "published_at": "2026-11-07T17:50:46-05:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
       "title": "The MacRumors Show: iOS 27.3 Looks Like a Huge Update",
       "summary": "Apple's first 27.3 betas bring expanded Siri AI actions, a redesigned Health app, and new Fitness+ features, alongside conversation summaries on the Apple Watch. This week's episode of The MacRumors Show takes a closer look at the updates.",
       "url": "https://www.macrumors.com/2026/11/06/the-macrumors-show-ios-27-3",
@@ -145,6 +132,19 @@
       "tags": [
         "apple",
         "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "OpenIndiana 2026.10 Released With Updated Tools & Compilers, New Apps",
+      "summary": "OpenIndiana Hipster 2026.10 is out today as the newest six-month update to this operating system based on Illumos and with the lineage tracing back to the fruitful Sun OpenSolaris days.",
+      "url": "https://www.phoronix.com/news/OpenIndiana-2026.10",
+      "source": "Phoronix",
+      "published_at": "2026-11-07T17:50:46-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
       ],
       "article_type": "news"
     },
