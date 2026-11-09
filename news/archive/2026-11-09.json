@@ -1,0 +1,204 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T05:50:13Z",
+  "count": 15,
+  "articles": [
+    {
+      "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+      "summary": "Andrej Karpathy, OpenAI co-founder and current Anthropic AI researcher, built HackerTube over a weekend using Claude's Opus 5.5 model. Claude filtered 43 million comments from 20 years of Hacker News and distilled them into 6,454 videos that keep getting recommended there .",
+      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news",
+      "source": "The Decoder",
+      "published_at": "2026-11-08T14:23:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Saving a Vintage High-Voltage Power Supply From the Scrap Heap",
+      "summary": "[Mr Carlson’s Lab] saves a Fluke Model 407 high-voltage power supply from the scrap heap, and demonstrates carefully troubleshooting the vintage device to track the cause of the bad output down to a single capacitor.",
+      "url": "https://hackaday.com/2026/11/08/saving-a-vintage-high-voltage-power-supply-from-the-scrap-heap",
+      "source": "Hackaday",
+      "published_at": "2026-11-09T03:00:42+00:00",
+      "category": "retro_computing",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Space Invaders on a VFD",
+      "summary": "While the salvaged display that [José Luis Monteiro] and his father have been hacking on certainly isn’t portable, it does play a mean Space Invaders .",
+      "url": "https://hackaday.com/2026/11/08/space-invaders-on-a-vfd",
+      "source": "Hackaday",
+      "published_at": "2026-11-09T00:00:01+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hands-on: I tested a bunch of iPhone Duo cases, these are my favorites [Video]",
+      "summary": "For the first time in a long time, I can say that iPhone cases are fun again! The introduction of the iPhone Duo has brought us a new era of cases in all shapes, sizes, functions, and form factors.",
+      "url": "https://9to5mac.com/2026/11/07/hands-on-i-tested-a-bunch-of-iphone-duo-cases-these-are-my-favorites-video",
+      "source": "9to5Mac",
+      "published_at": "2026-11-07T18:02:09+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Enhancing Academic Advisement with Case-Based Reasoning",
+      "summary": "This research involved the study of an application of Case-Based Reasoning (CBR) in the field of academic advising. Academic advisement has been recognised as an important function of higher education.",
+      "url": "https://arxiv.org/abs/2611.08572",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "NormGym: Evaluating Normative Competence through Social Interaction",
+      "summary": "Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluations largely test whether agents can recognize or apply norms they may already know, rather than whether they can acquire previously unknown norms from social interaction.",
+      "url": "https://arxiv.org/abs/2611.08613",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Apple Taking New Approach to Developing iOS 28 and macOS 28",
+      "summary": "Apple has made a change to its development process for iOS 28, macOS 28, and corresponding software updates, according to Bloomberg's Mark Gurman. In his Power On newsletter today, he said Apple separates development of each year's new operating systems into three major stages.",
+      "url": "https://www.macrumors.com/2026/11/08/apple-tweaks-ios-28-development-process",
+      "source": "MacRumors",
+      "published_at": "2026-11-08T15:42:38+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
+      "summary": "Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected.",
+      "url": "https://arxiv.org/abs/2611.08640",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
+      "summary": "LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities, and conversational history, rather than procedural knowledge.",
+      "url": "https://arxiv.org/abs/2611.08644",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Knives Out-inspired mystery thriller from the Duck Detective devs, 'Apple Crumble' arrives December 2",
+      "summary": "Ready for a new mystery thriller adventure? Duck Detective devs next game is a Knives Out-inspired mystery thriller, 'Apple Crumble' set to arrive December 2nd.",
+      "url": "https://www.gamingonlinux.com/2026/11/knives-out-inspired-mystery-thriller-from-the-duck-detective-devs-apple-crumble-arrives-december-2",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-06T09:21:01+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "A slot machine is your weapon in the new release of Slots & Skulls",
+      "summary": "A slot machine as a weapon? Well, they can be pretty dangerous to your wallet but in Slots & Skulls you spin to fight. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/a-slot-machine-is-your-weapon-in-the-new-release-of-slots-skulls",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-06T08:53:13+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "itch.io founder announces the 'return of Flash games' thanks to open source",
+      "summary": "After dealing with all the AI slop , the founder of itch.io has announced that Flash games are set to make a fun return thanks to open source.",
+      "url": "https://www.gamingonlinux.com/2026/11/itch-io-founder-announces-the-return-of-flash-games-thanks-to-open-source",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-06T08:39:43+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "EA bring back many classic games to Steam including Road Rash, Wing Commander, Ultima and more",
+      "summary": "Along with the GOG Showcase that mentioned some revamped classics - EA also restored many classic games and put them on Steam for the first time.",
+      "url": "https://www.gamingonlinux.com/2026/11/ea-bring-back-many-classic-games-to-steam-including-road-rash-wing-commander-ultima-and-more",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-06T08:19:49+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Extension Manager 0.7 released with new (and fixed) features",
+      "summary": "A new version of Extension Manager , the desktop app that makes it easier to browse, install and manage GNOME Shell extension without a web browser, has been released.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/gnome-extension-manager-0-7-released",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-08T18:45:20+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Calibre adds new sources for finding free books & journals",
+      "summary": "Calibre 9.18 adds more accessibility tools to its editor, with Tools > Accessibility now letting you set the language for books and HTML files. Image descriptions, including those of inline SVGs, can be edited and EPUB Accessibility metadata modified.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/calibre-update-new-sources",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-08T01:12:00+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
