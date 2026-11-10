@@ -1,29 +1,28 @@
 {
   "schema_version": 2,
-  "date": "2026-11-09",
-  "generated_at": "2026-11-09T13:23:01Z",
-  "count": 15,
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T06:56:05Z",
+  "count": 23,
   "articles": [
     {
-      "title": "Call of Duty Zombies merged with Team Fortress 2 - Mann Versus Zombies is coming to Steam",
-      "summary": "Love the idea of fighting off zombies in the Team Fortress 2 world? Mann Versus Zombies is bringing the action to Steam. A free standalone mod for TF2 from Breadworks that could be a lot of fun.",
-      "url": "https://www.gamingonlinux.com/2026/11/call-of-duty-zombies-merged-with-team-fortress-2-mann-versus-zombies-is-coming-to-steam",
+      "title": "Theropods review - the joy of discovery without words",
+      "summary": "Theropods is a pixel-art point and click adventure set in prehistoric times of dinosaurs and cave-dwellers, and it proves you don't need words for a good time.",
+      "url": "https://www.gamingonlinux.com/2026/11/theropods-review-the-joy-of-discovery-without-words",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-09T10:53:32+00:00",
+      "published_at": "2026-11-09T16:01:26+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
-        "games",
-        "steam"
+        "games"
       ],
       "article_type": "news"
     },
     {
-      "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
-      "summary": "Andrej Karpathy, OpenAI co-founder and current Anthropic AI researcher, built HackerTube over a weekend using Claude's Opus 5.5 model. Claude filtered 43 million comments from 20 years of Hacker News and distilled them into 6,454 videos that keep getting recommended there .",
-      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news",
+      "title": "Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do",
+      "summary": "Meta has introduced Muse Ember, its smallest and most efficient AI model to date. It's designed for the routine tasks AI agents handle all day: calling tools, handling small coding tasks, routing requests, extracting data, and processing long documents.",
+      "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do",
       "source": "The Decoder",
-      "published_at": "2026-11-08T14:23:00+00:00",
+      "published_at": "2026-11-09T19:41:51+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -32,24 +31,24 @@
       "article_type": "news"
     },
     {
-      "title": "Lumen Keeper looks like a fun mixture of roguelite action meets tower defense",
-      "summary": "In Lumen Keeper, your light depends on the enemies you take down. You take control of a small robot, then run around building the defences you'll fight alongside when the night comes.",
-      "url": "https://www.gamingonlinux.com/2026/11/lumen-keeper-looks-like-a-fun-mixture-of-roguelite-action-meets-tower-defense",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-09T10:20:06+00:00",
-      "category": "linux",
+      "title": "JAMPACK’d Magazine – Issue #2",
+      "summary": "EposVox aka the Stream Professor has just opened pre-orders for the second issue of JAMPACK’d magazine – Physical media with a focus on 100% human-made, no-clickbait content.",
+      "url": "https://retrorgb.com/jampackd-magazine-issue-2.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-09T14:37:53+00:00",
+      "category": "retro_gaming",
       "tags": [
-        "linux-gaming",
-        "games"
+        "retro",
+        "gaming"
       ],
       "article_type": "news"
     },
     {
-      "title": "Determining Location by Listening for Airplanes",
-      "summary": "Beyond what people deliberately disclose, there’s a surprising amount of information hidden in everyday messages, especially photos and videos. Even when people try to hide the location or time at which something was recorded, small details make these surprisingly difficult to obscure.",
-      "url": "https://hackaday.com/2026/11/09/determining-location-by-listening-for-airplanes",
+      "title": "Robotic Car Charger Locks On With Suction",
+      "summary": "Not only does [Mew463]’s robotic car charger take care of plugging in his vehicle for him, it has some really clever features that are great to see in action.",
+      "url": "https://hackaday.com/2026/11/09/robotic-car-charger-locks-on-with-suction",
       "source": "Hackaday",
-      "published_at": "2026-11-09T09:00:31+00:00",
+      "published_at": "2026-11-10T06:00:59+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -58,12 +57,12 @@
       "article_type": "news"
     },
     {
-      "title": "Hands-on: I tested a bunch of iPhone Duo cases, these are my favorites [Video]",
-      "summary": "For the first time in a long time, I can say that iPhone cases are fun again! The introduction of the iPhone Duo has brought us a new era of cases in all shapes, sizes, functions, and form factors.",
-      "url": "https://9to5mac.com/2026/11/07/hands-on-i-tested-a-bunch-of-iphone-duo-cases-these-are-my-favorites-video",
+      "title": "9to5Mac Daily: November 9, 2026 – Apple software development, iOS 28",
+      "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players.",
+      "url": "https://9to5mac.com/2026/11/09/daily-november-9-2026",
       "source": "9to5Mac",
-      "published_at": "2026-11-07T18:02:09+00:00",
-      "category": "hardware",
+      "published_at": "2026-11-10T00:49:31+00:00",
+      "category": "ios",
       "tags": [
         "apple",
         "devices"
@@ -71,51 +70,25 @@
       "article_type": "news"
     },
     {
-      "title": "Path of Exile 2 releases December 11 with a huge update it goes free to play",
-      "summary": "The big day is approaching, Path of Exile 2 hits the 1.0 on December 11 when it will also finally go free to play. Along with it leaving Early Access, the story will also get the final parts to it, so you'll be able to finish a full play-through.",
-      "url": "https://www.gamingonlinux.com/2026/11/path-of-exile-2-releases-december-11-with-a-huge-update-it-goes-free-to-play",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-09T09:50:39+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "New skateboarding deckbuilder Grab Your Deck looks very unique",
-      "summary": "Jump onto your deck and build up some tricks using cards in Grab Your Deck, a new skateboarding deckbuilder that looks unique. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/11/new-skateboarding-deckbuilder-grab-your-deck-looks-very-unique",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-09T09:37:42+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Enhancing Academic Advisement with Case-Based Reasoning",
-      "summary": "This research involved the study of an application of Case-Based Reasoning (CBR) in the field of academic advising. Academic advisement has been recognised as an important function of higher education.",
-      "url": "https://arxiv.org/abs/2611.08572",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-09T00:00:00-05:00",
+      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "summary": "Meta Superintelligence Lab released a new AI model on Monday called Muse Ember, the lab’s lightest and most cost-efficient AI model yet. In its release, Meta said Ember was “designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing.”",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution",
+      "source": "TechCrunch AI",
+      "published_at": "2026-11-09T18:00:00+00:00",
       "category": "ai",
       "tags": [
         "ai",
-        "research"
+        "models"
       ],
-      "article_type": "research"
+      "article_type": "news"
     },
     {
-      "title": "Saving a Vintage High-Voltage Power Supply From the Scrap Heap",
-      "summary": "[Mr Carlson’s Lab] saves a Fluke Model 407 high-voltage power supply from the scrap heap, and demonstrates carefully troubleshooting the vintage device to track the cause of the bad output down to a single capacitor.",
-      "url": "https://hackaday.com/2026/11/08/saving-a-vintage-high-voltage-power-supply-from-the-scrap-heap",
+      "title": "You Wouldn’t Download A Car…",
+      "summary": "His car little open top number with a body 3D printed ion PETG, and finished with a layer of carbon fibre. The styling is very organic, but maybe that windscreen needs a little work.",
+      "url": "https://hackaday.com/2026/11/09/you-wouldnt-download-a-car",
       "source": "Hackaday",
-      "published_at": "2026-11-09T03:00:42+00:00",
-      "category": "retro_computing",
+      "published_at": "2026-11-10T03:00:06+00:00",
+      "category": "hardware",
       "tags": [
         "hardware",
         "maker"
@@ -123,50 +96,38 @@
       "article_type": "news"
     },
     {
-      "title": "NormGym: Evaluating Normative Competence through Social Interaction",
-      "summary": "Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluations largely test whether agents can recognize or apply norms they may already know, rather than whether they can acquire previously unknown norms from social interaction.",
-      "url": "https://arxiv.org/abs/2611.08613",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-09T00:00:00-05:00",
-      "category": "ai",
+      "title": "Claude Code v2.1.321",
+      "summary": "Added --settings <file> to claude remote-control , which applies a settings file to every session it starts; if the file changes, no new session starts until you restart claude remote-control.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+      "source": "Claude Code",
+      "published_at": "2026-11-09T19:22:30+00:00",
+      "category": "agent_tools",
       "tags": [
-        "ai",
-        "research"
+        "claude-code",
+        "ai-coding"
       ],
-      "article_type": "research"
+      "article_type": "release"
     },
     {
-      "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
-      "summary": "Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected.",
-      "url": "https://arxiv.org/abs/2611.08640",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-09T00:00:00-05:00",
-      "category": "ai",
+      "title": "Claude Fable 5.2 in GitHub Copilot",
+      "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases.",
+      "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-09T16:46:43+00:00",
+      "category": "agent_tools",
       "tags": [
-        "ai",
-        "research"
+        "github",
+        "developer-tools",
+        "models"
       ],
-      "article_type": "research"
+      "article_type": "news"
     },
     {
-      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
-      "summary": "LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities, and conversational history, rather than procedural knowledge.",
-      "url": "https://arxiv.org/abs/2611.08644",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-09T00:00:00-05:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "Apple Taking New Approach to Developing iOS 28 and macOS 28",
-      "summary": "Apple has made a change to its development process for iOS 28, macOS 28, and corresponding software updates, according to Bloomberg's Mark Gurman. In his Power On newsletter today, he said Apple separates development of each year's new operating systems into three major stages.",
-      "url": "https://www.macrumors.com/2026/11/08/apple-tweaks-ios-28-development-process",
+      "title": "Here's What Apple Fixed in iOS 27.2.1 and macOS 27.2.1",
+      "summary": "The iOS 27.2.1 , iPadOS 27.2.1, and macOS 27.2.1 updates Apple released today fix a handful of security vulnerabilities. With the security fixes implemented, it's a good idea to update as soon as you can.",
+      "url": "https://www.macrumors.com/2026/11/09/ios-27-2-1-security-fixes",
       "source": "MacRumors",
-      "published_at": "2026-11-08T15:42:38+00:00",
+      "published_at": "2026-11-09T23:07:03+00:00",
       "category": "macos",
       "tags": [
         "apple",
@@ -175,11 +136,129 @@
       "article_type": "news"
     },
     {
-      "title": "Extension Manager 0.7 released with new (and fixed) features",
-      "summary": "A new version of Extension Manager , the desktop app that makes it easier to browse, install and manage GNOME Shell extension without a web browser, has been released.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/gnome-extension-manager-0-7-released",
+      "title": "Samsung bets that you’ll either buy a Galaxy S27 Pro or Ultra next year",
+      "summary": "In this case, Samsung isn’t actually betting next year’s S27 Ultra is going to surpass its predecessor by record numbers; rather, this is all about adding the S27 Pro as a fourth model for consumers to pick from .",
+      "url": "https://9to5google.com/2026/11/09/samsung-bets-that-youll-either-buy-a-galaxy-s27-pro-or-ultra-next-year",
+      "source": "9to5Google",
+      "published_at": "2026-11-09T17:25:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Fight through the districts of a dead city in the demo of SAMOPAL Protocol",
+      "summary": "With no identity and no past to rely on, your only goal is to get out. But as you fight your way through hostile environments, fragments of memory begin to surface — revealing that your survival may not have been a coincidence.\"",
+      "url": "https://www.gamingonlinux.com/2026/11/fight-through-the-districts-of-a-dead-city-in-the-demo-of-samopal-protocol",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-09T08:23:20+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Aftermind is a promising looking boomer-shooter set inside a coma patient's nightmares",
+      "summary": "Things look a bit spooky and full of gibs in the boomer-shooter Aftermind, set inside the mind of a coma patient. Another interesting upcoming game to stick onto your wishlist!",
+      "url": "https://www.gamingonlinux.com/2026/11/aftermind-is-a-promising-looking-boomer-shooter-set-inside-a-coma-patients-nightmares",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-09T08:16:24+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.3: Three new iPhone features coming soon",
+      "summary": "iOS 27.3 is currently in beta and packed with new features , here are three that will hit your iPhone when the update launches next month .",
+      "url": "https://9to5mac.com/2026/11/09/ios-27-3-three-new-iphone-features-coming-soon",
+      "source": "9to5Mac",
+      "published_at": "2026-11-09T20:03:31+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Under-equipped and far from help, retro shooter DERELIKT arrives November 13",
+      "summary": "DERELIKT is a narrative retro FPS built for fans of claustrophobic PS1-era sci-fi horror, and it's set to release on November 13. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/under-equipped-and-far-from-help-retro-shooter-derelikt-arrives-november-13",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-09T08:07:25+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple releases iOS 26.7.3, watchOS 27.2.1, and more",
+      "summary": "Today Apple released a variety of software updates with the latest security fixes, including iOS 26.7.3 for iPhone, watchOS 27.2.1 for Apple Watch, and more.",
+      "url": "https://9to5mac.com/2026/11/09/apple-releases-ios-26-7-3-watchos-27-2-1-and-more",
+      "source": "9to5Mac",
+      "published_at": "2026-11-09T18:26:35+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "macOS 27.2.1 Fixes eMudhra Certificate Flaw in Command-Line Tools",
+      "summary": "Prior to releasing the macOS 27.2.1 update, Apple offered instructions for those who wanted to protect themselves from the compromised eMudhra certificates when using command-line tools, directing users to manually remove the affected root certificates from their Mac's \"/etc/ssl/cert.pem\" file.",
+      "url": "https://www.macrumors.com/2026/11/09/macos-27-2-1-emudhra-fix",
+      "source": "MacRumors",
+      "published_at": "2026-11-09T20:26:44+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+      "summary": "Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge.",
+      "url": "https://arxiv.org/abs/2611.08647",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research",
+        "models"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Apple Releases macOS Golden Gate 27.2.1",
+      "summary": "Apple today released macOS Golden Gate 27.2.1, a minor update for the macOS Golden Gate operating system. macOS Golden Gate includes bug fixes and security updates, according to Apple's release notes.",
+      "url": "https://www.macrumors.com/2026/11/09/apple-releases-macos-golden-gate-27-2-1",
+      "source": "MacRumors",
+      "published_at": "2026-11-09T18:13:57+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Firefox 160 release brings new floating ‘mini window’ mode",
+      "summary": "Firefox 160 released today with some new features. A new “Mini Window” option lets you move a tab or select a portion of a web page to an always-on-top window, so you can keep an eye on it while browsing.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/firefox-160-released-mini-window",
       "source": "OMG! Ubuntu",
-      "published_at": "2026-11-08T18:45:20+00:00",
+      "published_at": "2026-11-09T23:59:00+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
@@ -188,17 +267,44 @@
       "article_type": "news"
     },
     {
-      "title": "Calibre adds new sources for finding free books & journals",
-      "summary": "Calibre 9.18 adds more accessibility tools to its editor, with Tools > Accessibility now letting you set the language for books and HTML files. Image descriptions, including those of inline SVGs, can be edited and EPUB Accessibility metadata modified.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/calibre-update-new-sources",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-11-08T01:12:00+00:00",
-      "category": "linux",
+      "title": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
+      "summary": "arXiv:2611.08669v1 Announce Type: new Abstract: Speculative decoding has become a standard way to accelerate LLM inference: a lightweight drafter proposes tokens that the target verifies in one parallel pass.",
+      "url": "https://arxiv.org/abs/2611.08669",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "category": "ai",
       "tags": [
-        "ubuntu",
-        "desktop"
+        "ai",
+        "research"
       ],
-      "article_type": "news"
+      "article_type": "research"
+    },
+    {
+      "title": "Transporting the Past: An Optimal Transport View of Backtracking Counterfactuals",
+      "summary": "We study backtracking counterfactual inference for Structural Causal Models (SCMs) through the lens of optimal transport. In SCMs, a factual observation generally induces a posterior distribution over exogenous variables, making counterfactual inference inherently distributional.",
+      "url": "https://arxiv.org/abs/2611.08682",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Cancellation Is Not Enough: What Retries Leave Behind in an Overloaded LLM Engine",
+      "summary": "Clients and proxies in front of an LLM engine retry calls that time out. After a transient overload, these retries can keep the engine from recovering even when calls arrive below its capacity.",
+      "url": "https://arxiv.org/abs/2611.08684",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research",
+        "models"
+      ],
+      "article_type": "research"
     }
   ]
 }
