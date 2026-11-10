@@ -1,34 +1,36 @@
 {
   "schema_version": 2,
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T06:56:05Z",
-  "count": 23,
+  "generated_at": "2026-11-10T12:59:21Z",
+  "count": 26,
   "articles": [
     {
-      "title": "Theropods review - the joy of discovery without words",
-      "summary": "Theropods is a pixel-art point and click adventure set in prehistoric times of dinosaurs and cave-dwellers, and it proves you don't need words for a good time.",
-      "url": "https://www.gamingonlinux.com/2026/11/theropods-review-the-joy-of-discovery-without-words",
+      "title": "Proton Experimental gets fixes for Phantom Blade Zero, AION 2, The Forest and more",
+      "summary": "Valve released an early update to Proton Experimental to bring fixes for Windows games on Linux / SteamOS including Steam Deck, Steam Machine and Steam Frame.",
+      "url": "https://www.gamingonlinux.com/2026/11/proton-experimental-gets-fixes-for-phantom-blade-zero-aion-2-the-forest-and-more",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-09T16:01:26+00:00",
+      "published_at": "2026-11-10T12:26:54+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
-        "games"
+        "games",
+        "proton"
       ],
       "article_type": "news"
     },
     {
-      "title": "Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do",
-      "summary": "Meta has introduced Muse Ember, its smallest and most efficient AI model to date. It's designed for the routine tasks AI agents handle all day: calling tools, handling small coding tasks, routing requests, extracting data, and processing long documents.",
-      "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do",
-      "source": "The Decoder",
-      "published_at": "2026-11-09T19:41:51+00:00",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing.",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+      "source": "Simon Willison",
+      "published_at": "2026-11-10T07:28:21+00:00",
       "category": "ai",
       "tags": [
         "ai",
+        "developer-tools",
         "models"
       ],
-      "article_type": "news"
+      "article_type": "technical_article"
     },
     {
       "title": "JAMPACK’d Magazine – Issue #2",
@@ -44,11 +46,11 @@
       "article_type": "news"
     },
     {
-      "title": "Robotic Car Charger Locks On With Suction",
-      "summary": "Not only does [Mew463]’s robotic car charger take care of plugging in his vehicle for him, it has some really clever features that are great to see in action.",
-      "url": "https://hackaday.com/2026/11/09/robotic-car-charger-locks-on-with-suction",
+      "title": "Have You Ever Heard Of the Lobo MAX-80?",
+      "summary": "[Adrian Black]’s enthusiasm is palpable as he shows off something truly unusual: a Lobo MAX-80 computer from 1982 . To call this machine rare would be an understatement, as the company folded soon after its release.",
+      "url": "https://hackaday.com/2026/11/10/have-you-ever-heard-of-the-lobo-max-80",
       "source": "Hackaday",
-      "published_at": "2026-11-10T06:00:59+00:00",
+      "published_at": "2026-11-10T12:00:35+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -70,6 +72,71 @@
       "article_type": "news"
     },
     {
+      "title": "Mesa 26.3.0 arrives with many Linux graphics driver enhancements",
+      "summary": "While there's no announcement for it yet, the Mesa 26.3.0 open source drivers release is tagged and out now. Bringing many enhancements for gamers! We can see the release notes before they put them on the Mesa website thanks to their GitLab .",
+      "url": "https://www.gamingonlinux.com/2026/11/mesa-26-3-0-arrives-with-many-linux-graphics-driver-enhancements",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-10T11:02:38+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hacking the Sidekick in 2026",
+      "summary": "[ashe] ported a visual novel to their Sidekick 3 with their new key, saying “Endings arrive as real Sidekick text notifications, using an emulated modem.” Work continues on the Re:Danger server to bring other functionality back, including plans to spin up a GSM network to connect an actual Sidekick.",
+      "url": "https://hackaday.com/2026/11/10/hacking-the-sidekick-in-2026",
+      "source": "Hackaday",
+      "published_at": "2026-11-10T09:00:48+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Upcoming isometric action rogue-lite Everrest is \"Hades meets EarthBound\"",
+      "summary": "Everrest looks like one to stick onto your wishlist and keep an eye on, if you like the sound of \"Hades meets EarthBound\" as the developer tells me.",
+      "url": "https://www.gamingonlinux.com/2026/11/upcoming-isometric-action-rogue-lite-everrest-is-hades-meets-earthbound",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-10T08:38:50+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do",
+      "summary": "Meta has introduced Muse Ember, its smallest and most efficient AI model to date. It's designed for the routine tasks AI agents handle all day: calling tools, handling small coding tasks, routing requests, extracting data, and processing long documents.",
+      "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do",
+      "source": "The Decoder",
+      "published_at": "2026-11-09T19:41:51+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "OpenZ is an open-source 3D fan remake of the RTS 'Z' (The Bitmap Brothers, 1996)",
+      "summary": "In an email to GamingOnLinux they said: \"We are the small team behind OpenZ, a free and open-source 3D remake of Z, the Bitmap Brothers real-time strategy game from 1996, made for its 30th anniversary.",
+      "url": "https://www.gamingonlinux.com/2026/11/openz-is-an-open-source-3d-fan-remake-of-the-rts-z-the-bitmap-brothers-1996",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-10T08:27:45+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
       "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
       "summary": "Meta Superintelligence Lab released a new AI model on Monday called Muse Ember, the lab’s lightest and most cost-efficient AI model yet. In its release, Meta said Ember was “designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing.”",
       "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution",
@@ -79,19 +146,6 @@
       "tags": [
         "ai",
         "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "You Wouldn’t Download A Car…",
-      "summary": "His car little open top number with a body 3D printed ion PETG, and finished with a layer of carbon fibre. The styling is very organic, but maybe that windscreen needs a little work.",
-      "url": "https://hackaday.com/2026/11/09/you-wouldnt-download-a-car",
-      "source": "Hackaday",
-      "published_at": "2026-11-10T03:00:06+00:00",
-      "category": "hardware",
-      "tags": [
-        "hardware",
-        "maker"
       ],
       "article_type": "news"
     },
@@ -107,6 +161,19 @@
         "ai-coding"
       ],
       "article_type": "release"
+    },
+    {
+      "title": "Samsung bets that you’ll either buy a Galaxy S27 Pro or Ultra next year",
+      "summary": "In this case, Samsung isn’t actually betting next year’s S27 Ultra is going to surpass its predecessor by record numbers; rather, this is all about adding the S27 Pro as a fourth model for consumers to pick from .",
+      "url": "https://9to5google.com/2026/11/09/samsung-bets-that-youll-either-buy-a-galaxy-s27-pro-or-ultra-next-year",
+      "source": "9to5Google",
+      "published_at": "2026-11-09T17:25:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
     },
     {
       "title": "Claude Fable 5.2 in GitHub Copilot",
@@ -136,43 +203,18 @@
       "article_type": "news"
     },
     {
-      "title": "Samsung bets that you’ll either buy a Galaxy S27 Pro or Ultra next year",
-      "summary": "In this case, Samsung isn’t actually betting next year’s S27 Ultra is going to surpass its predecessor by record numbers; rather, this is all about adding the S27 Pro as a fourth model for consumers to pick from .",
-      "url": "https://9to5google.com/2026/11/09/samsung-bets-that-youll-either-buy-a-galaxy-s27-pro-or-ultra-next-year",
-      "source": "9to5Google",
-      "published_at": "2026-11-09T17:25:00+00:00",
-      "category": "android",
+      "title": "Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training",
+      "summary": "AI sycophancy, the tendency of large language models (LLMs) to flatter users and affirm their beliefs, can undermine accuracy and contribute to misinformation, dependence, and overconfidence.",
+      "url": "https://arxiv.org/abs/2611.10045",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "category": "ai",
       "tags": [
-        "android",
-        "google"
+        "ai",
+        "research",
+        "models"
       ],
-      "article_type": "news"
-    },
-    {
-      "title": "Fight through the districts of a dead city in the demo of SAMOPAL Protocol",
-      "summary": "With no identity and no past to rely on, your only goal is to get out. But as you fight your way through hostile environments, fragments of memory begin to surface — revealing that your survival may not have been a coincidence.\"",
-      "url": "https://www.gamingonlinux.com/2026/11/fight-through-the-districts-of-a-dead-city-in-the-demo-of-samopal-protocol",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-09T08:23:20+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Aftermind is a promising looking boomer-shooter set inside a coma patient's nightmares",
-      "summary": "Things look a bit spooky and full of gibs in the boomer-shooter Aftermind, set inside the mind of a coma patient. Another interesting upcoming game to stick onto your wishlist!",
-      "url": "https://www.gamingonlinux.com/2026/11/aftermind-is-a-promising-looking-boomer-shooter-set-inside-a-coma-patients-nightmares",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-09T08:16:24+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
+      "article_type": "research"
     },
     {
       "title": "iOS 27.3: Three new iPhone features coming soon",
@@ -188,30 +230,30 @@
       "article_type": "news"
     },
     {
-      "title": "Under-equipped and far from help, retro shooter DERELIKT arrives November 13",
-      "summary": "DERELIKT is a narrative retro FPS built for fans of claustrophobic PS1-era sci-fi horror, and it's set to release on November 13. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/11/under-equipped-and-far-from-help-retro-shooter-derelikt-arrives-november-13",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-09T08:07:25+00:00",
-      "category": "linux",
+      "title": "Veterans' Mental Health Crisis Severity Annotation: Do LLMs Agree More Than Human Experts?",
+      "summary": "Large language models (LLMs) offer a scalable approach for annotating mental health and crisis-related social media content, but their reliability in safety-critical tasks remains unclear.",
+      "url": "https://arxiv.org/abs/2611.10048",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "category": "ai",
       "tags": [
-        "linux-gaming",
-        "games"
+        "ai",
+        "research"
       ],
-      "article_type": "news"
+      "article_type": "research"
     },
     {
-      "title": "Apple releases iOS 26.7.3, watchOS 27.2.1, and more",
-      "summary": "Today Apple released a variety of software updates with the latest security fixes, including iOS 26.7.3 for iPhone, watchOS 27.2.1 for Apple Watch, and more.",
-      "url": "https://9to5mac.com/2026/11/09/apple-releases-ios-26-7-3-watchos-27-2-1-and-more",
-      "source": "9to5Mac",
-      "published_at": "2026-11-09T18:26:35+00:00",
-      "category": "ios",
+      "title": "LoRazor: Trimming Adapter Execution for Efficient Multi-LoRA Serving",
+      "summary": "LoRA offers a parameter-efficient adaptation strategy, supporting multi-user workloads via customized adapters on a shared backbone. However, serving concurrent requests with different adapters introduces substantial computation and memory-management overhead.",
+      "url": "https://arxiv.org/abs/2611.10049",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "category": "ai",
       "tags": [
-        "apple",
-        "devices"
+        "ai",
+        "research"
       ],
-      "article_type": "news"
+      "article_type": "research"
     },
     {
       "title": "macOS 27.2.1 Fixes eMudhra Certificate Flaw in Command-Line Tools",
@@ -227,20 +269,6 @@
       "article_type": "news"
     },
     {
-      "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
-      "summary": "Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge.",
-      "url": "https://arxiv.org/abs/2611.08647",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-10T00:00:00-05:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research",
-        "models"
-      ],
-      "article_type": "research"
-    },
-    {
       "title": "Apple Releases macOS Golden Gate 27.2.1",
       "summary": "Apple today released macOS Golden Gate 27.2.1, a minor update for the macOS Golden Gate operating system. macOS Golden Gate includes bug fixes and security updates, according to Apple's release notes.",
       "url": "https://www.macrumors.com/2026/11/09/apple-releases-macos-golden-gate-27-2-1",
@@ -254,57 +282,69 @@
       "article_type": "news"
     },
     {
-      "title": "Firefox 160 release brings new floating ‘mini window’ mode",
-      "summary": "Firefox 160 released today with some new features. A new “Mini Window” option lets you move a tab or select a portion of a web page to an always-on-top window, so you can keep an eye on it while browsing.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/firefox-160-released-mini-window",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-11-09T23:59:00+00:00",
-      "category": "linux",
+      "title": "Apple Releases iOS 27.2.1 With Bug Fixes",
+      "summary": "Apple today released iOS 27.2.1, a minor update to the iOS 27 operating system. iOS 27.2.1 comes two weeks after the launch of iOS 27.2.",
+      "url": "https://www.macrumors.com/2026/11/09/apple-releases-ios-27-2-1-with-bug-fixes",
+      "source": "MacRumors",
+      "published_at": "2026-11-09T18:09:57+00:00",
+      "category": "ios",
       "tags": [
-        "ubuntu",
-        "desktop"
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     },
     {
-      "title": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
-      "summary": "arXiv:2611.08669v1 Announce Type: new Abstract: Speculative decoding has become a standard way to accelerate LLM inference: a lightweight drafter proposes tokens that the target verifies in one parallel pass.",
-      "url": "https://arxiv.org/abs/2611.08669",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-10T00:00:00-05:00",
-      "category": "ai",
+      "title": "Longtime Linux Developer Steps Down From Some Roles Due To Patch Flood Caused By AI",
+      "summary": "Linux memory management expert Lorenzo Stoakes at Arm who has been contributing to the kernel since 2014 is stepping away from some reviewership roles within the Linux kernel due to all of the noise from the flood of kernel patches resulting fro AI/LLMs.",
+      "url": "https://www.phoronix.com/news/Lorenzo-Stoakes-AI-Flood",
+      "source": "Phoronix",
+      "published_at": "2026-11-10T07:54:35-05:00",
+      "category": "linux",
       "tags": [
-        "ai",
-        "research"
+        "linux",
+        "open-source"
       ],
-      "article_type": "research"
+      "article_type": "news"
     },
     {
-      "title": "Transporting the Past: An Optimal Transport View of Backtracking Counterfactuals",
-      "summary": "We study backtracking counterfactual inference for Structural Causal Models (SCMs) through the lens of optimal transport. In SCMs, a factual observation generally induces a posterior distribution over exogenous variables, making counterfactual inference inherently distributional.",
-      "url": "https://arxiv.org/abs/2611.08682",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-10T00:00:00-05:00",
-      "category": "ai",
+      "title": "x86 Ecosystem Advisory Group Posts ACE v2 & AVX10.3 Specs, GCC Patches Ready",
+      "summary": "While there aren't any processors released yet with AI Compute Extensions (ACE) or AVX10.2 quite yet, the x86 Ecosystem Advisory Group led by AMD and Intel have now posted their ACE v2 and AVX10.3 specifications.",
+      "url": "https://www.phoronix.com/news/ACE-v2-AVX10.3-Posted",
+      "source": "Phoronix",
+      "published_at": "2026-11-10T06:01:00-05:00",
+      "category": "linux",
       "tags": [
-        "ai",
-        "research"
+        "linux",
+        "open-source"
       ],
-      "article_type": "research"
+      "article_type": "news"
     },
     {
-      "title": "Cancellation Is Not Enough: What Retries Leave Behind in an Overloaded LLM Engine",
-      "summary": "Clients and proxies in front of an LLM engine retry calls that time out. After a transient overload, these retries can keep the engine from recovering even when calls arrive below its capacity.",
-      "url": "https://arxiv.org/abs/2611.08684",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-10T00:00:00-05:00",
-      "category": "ai",
+      "title": "openSUSE Tumbleweed Transitioning To Agama Installer",
+      "summary": "With openSUSE Leap making use of the modern Agama installer developed by SUSE engineers, the rolling-release openSUSE Tumbleweed is now preparing to make the same transitioning in replacing the YaST Installer.",
+      "url": "https://www.phoronix.com/news/openSUSE-Tumbleweed-Goes-Agama",
+      "source": "Phoronix",
+      "published_at": "2026-11-10T05:53:06-05:00",
+      "category": "linux",
       "tags": [
-        "ai",
-        "research",
-        "models"
+        "linux",
+        "open-source"
       ],
-      "article_type": "research"
+      "article_type": "news"
+    },
+    {
+      "title": "RPM v6 Format Approved For Fedora 46, ThinLTO Flag Rejected",
+      "summary": "With Fedora 45 having shipped last week, developers are turning more of their attention to Fedora 46 that will debut by the end of next April.",
+      "url": "https://www.phoronix.com/news/Fedora-46-Approves-RPM-v6",
+      "source": "Phoronix",
+      "published_at": "2026-11-10T05:37:05-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
     }
   ]
 }
