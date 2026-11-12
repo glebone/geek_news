@@ -1,0 +1,335 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T06:52:40Z",
+  "count": 25,
+  "articles": [
+    {
+      "title": "Warhammer Survivors is out now - review",
+      "summary": "Warhammer Survivors has arrived from Auroch Digital as a licensed version of Vampire Survivors wearing the skin of Warhammer. Note: this was a personal purchase.",
+      "url": "https://www.gamingonlinux.com/2026/11/warhammer-survivors-is-out-now-review",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-11T14:02:12+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "llm 0.37.2",
+      "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API endpoints from other providers.",
+      "url": "https://simonwillison.net/2026/Nov/11/llm",
+      "source": "Simon Willison",
+      "published_at": "2026-11-11T17:19:52+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "ai",
+        "developer-tools",
+        "models"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "PlayStation 2 Slim M.2 SATA SSD Mod",
+      "summary": "Tito from Macho Nacho Productions recently posted a video showcasing a new mod called the “M2 Slim” that lets you install an M2 SATA hard drive into a SCPH-700XX series PlayStation 2 Slim.",
+      "url": "https://retrorgb.com/playstation-2-slim-m-2-sata-ssd-mod.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-11T19:35:53+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "A LEGO 3D Printer",
+      "summary": "In light of recent work, we can might suggest that the printer is also a pick-and-place machine . If you want to turn the phrase “LEGO 3D Printer” around, we have seen 3D Printed LEGO before as well .",
+      "url": "https://hackaday.com/2026/11/11/a-lego-3d-printer",
+      "source": "Hackaday",
+      "published_at": "2026-11-12T06:00:42+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iPhone Duo one week later: The future, or not for me?",
+      "summary": "If iPhone Duo is the future of the iPhone, I’ll adapt and move on with my life. But one week in, I think it’s probably just not for me.",
+      "url": "https://9to5mac.com/2026/11/11/iphone-duo-one-week-later-the-future-or-not-for-me",
+      "source": "9to5Mac",
+      "published_at": "2026-11-11T21:33:21+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Wallet rolling out digital Google Home keys with supported locks on Android",
+      "summary": "Behind the scenes, the digital key is linked to the Google Home app rather than a single lock. As such, “each of your compatible Aliro locks will work with a single key in your Google Wallet.” Keys are added to Google Wallet using the Home app, which will prompt you to save after setup.",
+      "url": "https://9to5google.com/2026/11/11/google-wallet-home-key",
+      "source": "9to5Google",
+      "published_at": "2026-11-11T18:58:06+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hand-drawn dino adventure Zid Journey gets a new trailer, set to arrive in Q2 2027",
+      "summary": "The dinosaurs are back! Zid Journey is the second game in the Zid and Zniw series: inspired by classic adventure games. It's set to arrive in Q2 2027.",
+      "url": "https://www.gamingonlinux.com/2026/11/hand-drawn-dino-adventure-zid-journey-gets-a-new-trailer-set-to-arrive-in-q2-2027",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-11T10:40:44+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
+      "summary": "Google Deepmind is introducing the Gemini Decisions API, an interface built for fast, closed-ended decisions like yes/no questions, multiple choice, and scale-based ratings. The underlying model, Gemini Decision 1 , processes up to 1,000 independent questions in a single pass across text, images, audio, video, and PDFs.",
+      "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass",
+      "source": "The Decoder",
+      "published_at": "2026-11-11T20:12:46+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "It’s Elite, For The Commodore Pet",
+      "summary": "It will be a surprise to Commodore Pet owners then, that over four decades later, [David Given] has ported the game to their platform .",
+      "url": "https://hackaday.com/2026/11/11/its-elite-for-the-commodore-pet",
+      "source": "Hackaday",
+      "published_at": "2026-11-12T03:00:20+00:00",
+      "category": "retro_computing",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Zellij Release v0.46.0",
+      "summary": "This release includes a major addition in Zellij: Zellij is now also a desktop terminal. To run it: zellij terminal . It works on linux, mac and windows.",
+      "url": "https://github.com/zellij-org/zellij/releases/tag/v0.46.0",
+      "source": "Zellij",
+      "published_at": "2026-11-11T09:43:57+00:00",
+      "category": "open_source",
+      "tags": [
+        "tui",
+        "terminal"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Devolver Digital trolling with its \"first ever AAA game\" - All Army Attack",
+      "summary": "When I first saw Devolver Digital tease a \"AAA\" game, I knew it would be a stupid troll joke - but the game All Army Attack does sound interesting.",
+      "url": "https://www.gamingonlinux.com/2026/11/devolver-digital-trolling-with-its-first-ever-aaa-game-all-army-attack",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-11T10:10:40+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Summer of Code 2026 results",
+      "summary": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several months.",
+      "url": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results",
+      "source": "Rust Blog",
+      "published_at": "2026-11-11T00:00:00+00:00",
+      "category": "programming",
+      "tags": [
+        "rust",
+        "language"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "summary": "Introducing the Gemini Decisions API, powered by our new Gemini Decision 1 model. Evaluate up to 1,000 yes/no, choice, and rubric-scoring questions in a fast, single pass across text, images, audio, video, and PDFs.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "source": "Google AI Blog",
+      "published_at": "2026-11-11T18:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iCloud+ has new perk in iOS 27 if you pay for more storage",
+      "summary": "The tentpole feature of iCloud+ is cloud storage, but Apple keeps improving and expanding the service to include other perks too. And in iOS 27, iCloud+ has a new benefit for high-storage tiers: AI features for HomeKit cameras.",
+      "url": "https://9to5mac.com/2026/11/11/icloud-has-new-perk-in-ios-27-if-you-pay-for-more-storage",
+      "source": "9to5Mac",
+      "published_at": "2026-11-11T19:32:54+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "How to replace the battery on Pixel Tag [Video]",
+      "summary": "The battery on the Pixel Tag is rated for about a year, but what happens when you need to replace it? Here’s how to replace it.",
+      "url": "https://9to5google.com/2026/11/11/how-to-replace-the-battery-on-pixel-tag-video",
+      "source": "9to5Google",
+      "published_at": "2026-11-11T18:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "JetBrains renewed their support for Godot Engine through 2027",
+      "summary": "Good news for the cross-platform free and open source game engine, JetBrains have renewed their support through 2027. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/jetbrains-renewed-their-support-for-godot-engine-through-2027",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-11T09:59:14+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Pixel Tag is only available in 8 countries, and excludes Europe",
+      "summary": "Compared to the two dozen countries where Pixel 11 phones and the Pixel Watch 5 are sold, the Pixel Tag tracker is only being sold in 8 countries at launch.",
+      "url": "https://9to5google.com/2026/11/11/google-pixel-tag-launch-countries",
+      "source": "9to5Google",
+      "published_at": "2026-11-11T18:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Coding sprint report - Gdansk 2026",
+      "summary": "Haiku used to have coding sprints once or even twice a year. Unfortunately, after the end of the BeGeistert conference, we have lost the habit of doing that.",
+      "url": "https://www.haiku-os.org/blog/pulkomandy/2026-11-10-gdansk_coding_sprint_report",
+      "source": "Haiku Project",
+      "published_at": "2026-11-10T13:30:00+01:00",
+      "category": "open_source",
+      "tags": [
+        "haiku",
+        "operating-systems"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Scaling AI agents with open standards: Kurtis Van Gent on MCP and Agent Skills joining the AAIF",
+      "summary": "To explore how open standards prevent ecosystem fragmentation, and why the best solutions don't always have to be homegrown, we sat down with Kurtis Van Gent, co-creator of the open source MCP Toolbox for Databases and a core maintainer on both MCP and Agent Skills.",
+      "url": "https://opensource.googleblog.com/2026/11/scaling-ai-agents-open-standards-mcp-aaif.html",
+      "source": "Google Open Source",
+      "published_at": "2026-11-11T19:30:00+00:00",
+      "category": "open_source",
+      "tags": [
+        "google",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "summary": "Google Cloud has announced Gemini for healthcare , an AI solution engineered to unify fragmented clinical, operational, and administrative systems. Moving beyond simple information retrieval, it enables healthcare teams to turn siloed data into coordinated action.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
+      "source": "Google AI Blog",
+      "published_at": "2026-11-10T13:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Issue types and fields are available for personal accounts",
+      "summary": "Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers to standardize your workflows and organize issues across repositories.",
+      "url": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-11T17:16:46+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hello Developer: November 2026",
+      "summary": "In this supersized edition: Join us at Europe’s first Apple Developer Center. Say hello to Touch on Mac. Learn about the Swift Student Challenge 2027.",
+      "url": "https://developer.apple.com/news?id=ow0j45ny",
+      "source": "Apple Developer",
+      "published_at": "2026-11-10T08:00:59-08:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "developers"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Sprout Pi lets old iPods run Linux apps and stream Spotify",
+      "summary": "Sprout is an open source replacement motherboard for iPods that keeps the original screen and click wheel, but adds Wi-Fi, Bluetooth and streaming apps. You're reading Sprout Pi lets old iPods run Linux apps and stream Spotify , a blog post from OMG!",
+      "url": "https://www.omgubuntu.co.uk/2026/11/sprout-upgrades-ipod-modern-features",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-11T23:10:00+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "FreeBSD Working To Establish An AI Policy After Polling Developers",
+      "summary": "The FreeBSD Project published its Q3'2026 status report on Tuesday that outlines a number of development initiatives to ongoing work around an AI policy for this BSD operating system.",
+      "url": "https://www.phoronix.com/news/FreeBSD-Q3-2026-Report",
+      "source": "Phoronix",
+      "published_at": "2026-11-11T06:30:00-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source",
+        "freebsd"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "What if your Virtual Data Room (VDR) was Android™ based?",
+      "summary": "With Anbox Cloud, a VDR provider can run their own Android document-viewing application in an isolated containerized instance and stream its content through any browser.",
+      "url": "https://ubuntu.com//blog/what-if-your-virtual-data-room-vdr-was-android-based",
+      "source": "Ubuntu Blog",
+      "published_at": "2026-11-11T08:00:00+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "linux"
+      ],
+      "article_type": "news"
+    }
+  ]
+}

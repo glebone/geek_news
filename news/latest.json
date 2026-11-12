@@ -1,28 +1,15 @@
 {
   "schema_version": 2,
-  "date": "2026-11-11",
-  "generated_at": "2026-11-11T05:47:03Z",
-  "count": 30,
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T06:52:40Z",
+  "count": 25,
   "articles": [
     {
-      "title": "Haiku Activity & Contract Report, October 2026",
-      "summary": "This report covers hrev60193 through hrev60317. Applications rain5409 fixed issues with drawing rounded rectangles in Playground. phoudoin fixed Expander to expand .bz2 and .gz archives into the selected destination folder, instead of the current folder.",
-      "url": "https://www.haiku-os.org/blog/waddlesplash/2026-11-10-haiku_activity_contract_report_october_2026",
-      "source": "Haiku Project",
-      "published_at": "2026-11-10T21:00:00-05:00",
-      "category": "open_source",
-      "tags": [
-        "haiku",
-        "operating-systems"
-      ],
-      "article_type": "technical_article"
-    },
-    {
-      "title": "Massive scale RTS 'Ashes of the Singularity II' out now - review",
-      "summary": "Ashes of the Singularity II is out now from Oxide Games and Stardock Entertainment, here's some of my thoughts on this massive RTS game. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/11/massive-scale-rts-ashes-of-the-singularity-ii-out-now-review",
+      "title": "Warhammer Survivors is out now - review",
+      "summary": "Warhammer Survivors has arrived from Auroch Digital as a licensed version of Vampire Survivors wearing the skin of Warhammer. Note: this was a personal purchase.",
+      "url": "https://www.gamingonlinux.com/2026/11/warhammer-survivors-is-out-now-review",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-10T16:05:43+00:00",
+      "published_at": "2026-11-11T14:02:12+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -31,38 +18,12 @@
       "article_type": "news"
     },
     {
-      "title": "Announcing .NET 11",
-      "summary": "Today, we’re excited to announce the release of .NET 11! This year’s release makes building modern applications faster, more productive, and has improvements across C# 15, ASP.NET Core, .NET MAUI, and Windows development.",
-      "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11",
-      "source": "dotnet Blog",
-      "published_at": "2026-11-10T16:11:00+00:00",
-      "category": "programming",
-      "tags": [
-        "dotnet",
-        "programming"
-      ],
-      "article_type": "technical_article"
-    },
-    {
-      "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
-      "summary": "Anthropic is also launching Interactive Connectors , letting partners like Adobe, Atlassian, and Salesforce embed their apps into Claude, similar to ChatGPT's plugins . Anthropic also says Claude Meetings, which can join calls and take notes, is launching \"soon.\" Enterprise customers get security controls including audit logs, isolated virtual machines, and a compliance API.",
-      "url": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes",
-      "source": "The Decoder",
-      "published_at": "2026-11-10T19:48:40+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "llm-gemini 0.36",
-      "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else .",
-      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini",
+      "title": "llm 0.37.2",
+      "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API endpoints from other providers.",
+      "url": "https://simonwillison.net/2026/Nov/11/llm",
       "source": "Simon Willison",
-      "published_at": "2026-11-10T20:09:44+00:00",
-      "category": "ai",
+      "published_at": "2026-11-11T17:19:52+00:00",
+      "category": "agent_tools",
       "tags": [
         "ai",
         "developer-tools",
@@ -71,11 +32,24 @@
       "article_type": "release"
     },
     {
-      "title": "Print & Place: Add Embedded Electronics While FDM Printing",
-      "summary": "Although combining electronics and 3D-printed structures is fairly common, this usually entails some level of manual assembly. This contrasts strongly with the Print & Place approach demonstrated by [Oliver Child] et al.",
-      "url": "https://hackaday.com/2026/11/10/print-place-add-embedded-electronics-while-fdm-printing",
+      "title": "PlayStation 2 Slim M.2 SATA SSD Mod",
+      "summary": "Tito from Macho Nacho Productions recently posted a video showcasing a new mod called the “M2 Slim” that lets you install an M2 SATA hard drive into a SCPH-700XX series PlayStation 2 Slim.",
+      "url": "https://retrorgb.com/playstation-2-slim-m-2-sata-ssd-mod.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-11T19:35:53+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "A LEGO 3D Printer",
+      "summary": "In light of recent work, we can might suggest that the printer is also a pick-and-place machine . If you want to turn the phrase “LEGO 3D Printer” around, we have seen 3D Printed LEGO before as well .",
+      "url": "https://hackaday.com/2026/11/11/a-lego-3d-printer",
       "source": "Hackaday",
-      "published_at": "2026-11-11T03:00:32+00:00",
+      "published_at": "2026-11-12T06:00:42+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -84,11 +58,11 @@
       "article_type": "news"
     },
     {
-      "title": "Apple Music debuts Labrinth’s new single, created live on the touchscreen MacBook Pro",
-      "summary": "Following last week’s livestream , when Labrinth composed and recorded a song overnight at Apple Tower Theatre in Los Angeles on the new touchscreen MacBook Pro , the single is now available on Apple Music.",
-      "url": "https://9to5mac.com/2026/11/10/apple-music-debuts-labrinths-new-single-created-live-on-the-touchscreen-macbook-pro",
+      "title": "iPhone Duo one week later: The future, or not for me?",
+      "summary": "If iPhone Duo is the future of the iPhone, I’ll adapt and move on with my life. But one week in, I think it’s probably just not for me.",
+      "url": "https://9to5mac.com/2026/11/11/iphone-duo-one-week-later-the-future-or-not-for-me",
       "source": "9to5Mac",
-      "published_at": "2026-11-11T01:31:51+00:00",
+      "published_at": "2026-11-11T21:33:21+00:00",
       "category": "hardware",
       "tags": [
         "apple",
@@ -97,11 +71,180 @@
       "article_type": "news"
     },
     {
-      "title": "GSoC 2026 Mentor Summit: Resilient OSS Communities",
-      "summary": "Unsurprisingly, the Mentor Summit’s unconference format (where attendees create the schedule) featured numerous sessions on managing AI within both GSoC and the broader open source ecosystem.",
-      "url": "https://opensource.googleblog.com/2026/11/gsoc-2026-mentor-summit-resilient-oss.html",
+      "title": "Google Wallet rolling out digital Google Home keys with supported locks on Android",
+      "summary": "Behind the scenes, the digital key is linked to the Google Home app rather than a single lock. As such, “each of your compatible Aliro locks will work with a single key in your Google Wallet.” Keys are added to Google Wallet using the Home app, which will prompt you to save after setup.",
+      "url": "https://9to5google.com/2026/11/11/google-wallet-home-key",
+      "source": "9to5Google",
+      "published_at": "2026-11-11T18:58:06+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hand-drawn dino adventure Zid Journey gets a new trailer, set to arrive in Q2 2027",
+      "summary": "The dinosaurs are back! Zid Journey is the second game in the Zid and Zniw series: inspired by classic adventure games. It's set to arrive in Q2 2027.",
+      "url": "https://www.gamingonlinux.com/2026/11/hand-drawn-dino-adventure-zid-journey-gets-a-new-trailer-set-to-arrive-in-q2-2027",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-11T10:40:44+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
+      "summary": "Google Deepmind is introducing the Gemini Decisions API, an interface built for fast, closed-ended decisions like yes/no questions, multiple choice, and scale-based ratings. The underlying model, Gemini Decision 1 , processes up to 1,000 independent questions in a single pass across text, images, audio, video, and PDFs.",
+      "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass",
+      "source": "The Decoder",
+      "published_at": "2026-11-11T20:12:46+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "It’s Elite, For The Commodore Pet",
+      "summary": "It will be a surprise to Commodore Pet owners then, that over four decades later, [David Given] has ported the game to their platform .",
+      "url": "https://hackaday.com/2026/11/11/its-elite-for-the-commodore-pet",
+      "source": "Hackaday",
+      "published_at": "2026-11-12T03:00:20+00:00",
+      "category": "retro_computing",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Zellij Release v0.46.0",
+      "summary": "This release includes a major addition in Zellij: Zellij is now also a desktop terminal. To run it: zellij terminal . It works on linux, mac and windows.",
+      "url": "https://github.com/zellij-org/zellij/releases/tag/v0.46.0",
+      "source": "Zellij",
+      "published_at": "2026-11-11T09:43:57+00:00",
+      "category": "open_source",
+      "tags": [
+        "tui",
+        "terminal"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Devolver Digital trolling with its \"first ever AAA game\" - All Army Attack",
+      "summary": "When I first saw Devolver Digital tease a \"AAA\" game, I knew it would be a stupid troll joke - but the game All Army Attack does sound interesting.",
+      "url": "https://www.gamingonlinux.com/2026/11/devolver-digital-trolling-with-its-first-ever-aaa-game-all-army-attack",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-11T10:10:40+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Summer of Code 2026 results",
+      "summary": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several months.",
+      "url": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results",
+      "source": "Rust Blog",
+      "published_at": "2026-11-11T00:00:00+00:00",
+      "category": "programming",
+      "tags": [
+        "rust",
+        "language"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "summary": "Introducing the Gemini Decisions API, powered by our new Gemini Decision 1 model. Evaluate up to 1,000 yes/no, choice, and rubric-scoring questions in a fast, single pass across text, images, audio, video, and PDFs.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "source": "Google AI Blog",
+      "published_at": "2026-11-11T18:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iCloud+ has new perk in iOS 27 if you pay for more storage",
+      "summary": "The tentpole feature of iCloud+ is cloud storage, but Apple keeps improving and expanding the service to include other perks too. And in iOS 27, iCloud+ has a new benefit for high-storage tiers: AI features for HomeKit cameras.",
+      "url": "https://9to5mac.com/2026/11/11/icloud-has-new-perk-in-ios-27-if-you-pay-for-more-storage",
+      "source": "9to5Mac",
+      "published_at": "2026-11-11T19:32:54+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "How to replace the battery on Pixel Tag [Video]",
+      "summary": "The battery on the Pixel Tag is rated for about a year, but what happens when you need to replace it? Here’s how to replace it.",
+      "url": "https://9to5google.com/2026/11/11/how-to-replace-the-battery-on-pixel-tag-video",
+      "source": "9to5Google",
+      "published_at": "2026-11-11T18:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "JetBrains renewed their support for Godot Engine through 2027",
+      "summary": "Good news for the cross-platform free and open source game engine, JetBrains have renewed their support through 2027. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/jetbrains-renewed-their-support-for-godot-engine-through-2027",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-11T09:59:14+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Pixel Tag is only available in 8 countries, and excludes Europe",
+      "summary": "Compared to the two dozen countries where Pixel 11 phones and the Pixel Watch 5 are sold, the Pixel Tag tracker is only being sold in 8 countries at launch.",
+      "url": "https://9to5google.com/2026/11/11/google-pixel-tag-launch-countries",
+      "source": "9to5Google",
+      "published_at": "2026-11-11T18:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Coding sprint report - Gdansk 2026",
+      "summary": "Haiku used to have coding sprints once or even twice a year. Unfortunately, after the end of the BeGeistert conference, we have lost the habit of doing that.",
+      "url": "https://www.haiku-os.org/blog/pulkomandy/2026-11-10-gdansk_coding_sprint_report",
+      "source": "Haiku Project",
+      "published_at": "2026-11-10T13:30:00+01:00",
+      "category": "open_source",
+      "tags": [
+        "haiku",
+        "operating-systems"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Scaling AI agents with open standards: Kurtis Van Gent on MCP and Agent Skills joining the AAIF",
+      "summary": "To explore how open standards prevent ecosystem fragmentation, and why the best solutions don't always have to be homegrown, we sat down with Kurtis Van Gent, co-creator of the open source MCP Toolbox for Databases and a core maintainer on both MCP and Agent Skills.",
+      "url": "https://opensource.googleblog.com/2026/11/scaling-ai-agents-open-standards-mcp-aaif.html",
       "source": "Google Open Source",
-      "published_at": "2026-11-10T19:30:00+00:00",
+      "published_at": "2026-11-11T19:30:00+00:00",
       "category": "open_source",
       "tags": [
         "google",
@@ -110,24 +253,11 @@
       "article_type": "news"
     },
     {
-      "title": ".NET and .NET Framework November 2026 servicing updates",
-      "summary": "The November 10, 2026 servicing updates for .NET 10, .NET 9, and .NET 8 include security and non-security fixes. This post brings together the security advisories, release notes, and download links for this month’s updates, along with resources for .NET Framework servicing.",
-      "url": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-november-2026-servicing-updates",
-      "source": "dotnet Blog",
-      "published_at": "2026-11-10T16:10:00+00:00",
-      "category": "programming",
-      "tags": [
-        "dotnet",
-        "programming"
-      ],
-      "article_type": "technical_article"
-    },
-    {
-      "title": "Gemini Intelligence: New features, on more devices",
-      "summary": "Gemini Intelligence is now available on more devices, including motorola signature 27 and Pixel 10. See how expanded capabilities across these devices help you do more.",
-      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "summary": "Google Cloud has announced Gemini for healthcare , an AI solution engineered to unify fragmented clinical, operational, and administrative systems. Moving beyond simple information retrieval, it enables healthcare teams to turn siloed data into coordinated action.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
       "source": "Google AI Blog",
-      "published_at": "2026-11-10T19:00:00+00:00",
+      "published_at": "2026-11-10T13:00:00+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -136,168 +266,11 @@
       "article_type": "news"
     },
     {
-      "title": "9to5Mac Daily: November 10, 2026 – iOS 27.2.1, HomeView rumors",
-      "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players.",
-      "url": "https://9to5mac.com/2026/11/10/daily-november-10-2026",
-      "source": "9to5Mac",
-      "published_at": "2026-11-11T00:00:34+00:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "No, the Pixel Tag is not available today",
-      "summary": "There's some online confusion so we're here to clear the air: Google's new Pixel Tag is not available today, but it's not far off either.",
-      "url": "https://9to5google.com/2026/11/10/no-the-pixel-tag-is-not-available-today",
-      "source": "9to5Google",
-      "published_at": "2026-11-10T20:00:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Python 3.16.0 alpha 2 is now available",
-      "summary": "Python 3.16.0a2 is ready to try! This is the second of seven planned alpha releases, with new features, bug fixes, and performance improvements to test.",
-      "url": "https://blog.python.org/2026/11/python-3160-alpha-2-is-now-available",
-      "source": "Python Insider",
-      "published_at": "2026-11-10T00:00:00+00:00",
-      "category": "programming",
-      "tags": [
-        "python",
-        "language"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
-      "summary": "To teach robots new tasks, humans usually have to laboriously teleoperate them during training. Nvidia's new AI model GR00T 2 is designed to cut that effort by transferring human movements from videos to robotic arms.",
-      "url": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot",
-      "source": "The Decoder",
-      "published_at": "2026-11-10T18:41:52+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Gemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet",
-      "summary": "Now, Carbon is already starting to feel a little less fresh. Anthropic just unveiled its new top model, Fable 5.2 , which outperforms the new Gemini model in the Artificial Analysis test even at lower reasoning intensity.",
-      "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet",
-      "source": "The Decoder",
-      "published_at": "2026-11-10T18:19:13+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "November Pixel Watch Drop: Create My Widget, Phone-to-Watch Unlock, and Wear OS 7.1",
-      "summary": "With the Wear OS 7.1 update , the Pixel Watch 3 and newer will summarize “extensive” notification clusters and multi-message chats into overviews. This requires a paired Pixel 9 (excluding the A-Series) or newer.",
-      "url": "https://9to5google.com/2026/11/10/november-2026-pixel-watch-drop",
-      "source": "9to5Google",
-      "published_at": "2026-11-10T19:01:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-      "summary": "Anthropic announced new workplace features on Tuesday, including Claude Meetings, which brings Claude into video calls to begin working on tasks while participants are still talking.",
-      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks",
-      "source": "TechCrunch AI",
-      "published_at": "2026-11-10T17:30:00+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Google rolling out Android 17 QPR2 for Pixel",
-      "summary": "Android 17 QPR2 is rolling out to Google Pixel devices as a sizable release that comes a month early in a small deviation from the quarterly cycle.",
-      "url": "https://9to5google.com/2026/11/10/android-17-qpr2-pixel",
-      "source": "9to5Google",
-      "published_at": "2026-11-10T19:00:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "iOS 27.2 adds new features in six iPhone apps, details here",
-      "summary": "The feature was originally part of the iOS 27 beta this summer, but didn’t make the public build. Now it’s back in iOS 27.2, new and improved.",
-      "url": "https://9to5mac.com/2026/11/10/ios-27-2-adds-new-features-in-six-iphone-apps-details-here",
-      "source": "9to5Mac",
-      "published_at": "2026-11-10T19:50:14+00:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Dune: Awakening gets fully offline single-player in the latest update",
-      "summary": "Dune: Awakening developers delivered what they promised, as the game can now be played entirely offline in single-player. This was part of a small roadmap they released recently with a free expansion coming next month, and even more to come later next year for the game.",
-      "url": "https://www.gamingonlinux.com/2026/11/dune-awakening-gets-fully-offline-single-player-in-the-latest-update",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-10T08:18:00+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Gemini 4 Carbon in GitHub Copilot",
-      "summary": "Gemini 4 Carbon, Google’s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation and security-focused work.",
-      "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+      "title": "Issue types and fields are available for personal accounts",
+      "summary": "Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers to standardize your workflows and organize issues across repositories.",
+      "url": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
       "source": "GitHub Changelog",
-      "published_at": "2026-11-10T19:26:51+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "github",
-        "developer-tools",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Warhammer 40,000: Dark Heresy set for release in January, 2027",
-      "summary": "Warhammer 40,000: Dark Heresy from Owlcat Games just got a release date reveal of January 28, 2027, plus there's a brand new trailer too. From the developer of the massively popular Warhammer 40,000: Rogue Trader, this is sure to be another hit.",
-      "url": "https://www.gamingonlinux.com/2026/11/warhammer-40-000-dark-heresy-set-for-release-in-january-2027",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-10T08:11:32+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "C++ language server now auto-configures MSBuild builds",
-      "summary": "The Microsoft C++ Language Server for GitHub Copilot CLI now bundles its MSBuild compile commands extractor and invokes it automatically. An agent no longer needs to discover and run a separate configuration skill before it can get precise code intelligence for your project.",
-      "url": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
-      "source": "GitHub Changelog",
-      "published_at": "2026-11-10T17:04:10+00:00",
+      "published_at": "2026-11-11T17:16:46+00:00",
       "category": "agent_tools",
       "tags": [
         "github",
@@ -306,11 +279,11 @@
       "article_type": "news"
     },
     {
-      "title": "Announcing the Swift Student Challenge 2027",
-      "summary": "Apple is proud to support the next generation of developers, creators, and entrepreneurs with the Swift Student Challenge. The Challenge gives students from around the world the opportunity to showcase their creativity and app development skills.The Challenge is open February 8–28, 2027.",
-      "url": "https://developer.apple.com/news?id=jkykd58d",
+      "title": "Hello Developer: November 2026",
+      "summary": "In this supersized edition: Join us at Europe’s first Apple Developer Center. Say hello to Touch on Mac. Learn about the Swift Student Challenge 2027.",
+      "url": "https://developer.apple.com/news?id=ow0j45ny",
       "source": "Apple Developer",
-      "published_at": "2026-11-10T09:00:12-08:00",
+      "published_at": "2026-11-10T08:00:59-08:00",
       "category": "ios",
       "tags": [
         "apple",
@@ -319,37 +292,11 @@
       "article_type": "news"
     },
     {
-      "title": "Dwarf Fortress now has audio for the Fortress Mode",
-      "summary": "Dwarf Fortress, the popular colony sim just had another big upgrade, with Fortress Mode now actually having audio in it. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/11/dwarf-fortress-now-has-audio-for-the-fortress-mode",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-10T08:00:55+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "A more informative GitHub dashboard",
-      "summary": "Since the new dashboard experience became the default, we’ve heard from developers that it used too much space to show too little. Generous padding, wrapped titles, and a low default item count meant extra navigation just to see what needed attention.",
-      "url": "https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard",
-      "source": "GitHub Changelog",
-      "published_at": "2026-11-10T10:34:35+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "github",
-        "developer-tools"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "An easier way to enter characters with accent marks on Ubuntu",
-      "summary": "It shouldn’t interfere with regular typing (though it does mean you can press and hold some characters to enter repeating letters). The developer of Accent Hold says it works with all keyboard layouts (QWERTY, AZERTY, etc).",
-      "url": "https://www.omgubuntu.co.uk/2026/11/gnome-type-accents-press-and-hold",
+      "title": "Sprout Pi lets old iPods run Linux apps and stream Spotify",
+      "summary": "Sprout is an open source replacement motherboard for iPods that keeps the original screen and click wheel, but adds Wi-Fi, Bluetooth and streaming apps. You're reading Sprout Pi lets old iPods run Linux apps and stream Spotify , a blog post from OMG!",
+      "url": "https://www.omgubuntu.co.uk/2026/11/sprout-upgrades-ipod-modern-features",
       "source": "OMG! Ubuntu",
-      "published_at": "2026-11-11T03:46:04+00:00",
+      "published_at": "2026-11-11T23:10:00+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
@@ -358,41 +305,29 @@
       "article_type": "news"
     },
     {
-      "title": "Nautilus file manager may be getting section headers",
-      "summary": "Nautilus could be getting a neater way to organise its file views, with section headers breaking up long lists of content into groups. You're reading Nautilus file manager may be getting section headers , a blog post from OMG!",
-      "url": "https://www.omgubuntu.co.uk/2026/11/nautilus-file-manager-section-headers",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-11-10T23:51:38+00:00",
+      "title": "FreeBSD Working To Establish An AI Policy After Polling Developers",
+      "summary": "The FreeBSD Project published its Q3'2026 status report on Tuesday that outlines a number of development initiatives to ongoing work around an AI policy for this BSD operating system.",
+      "url": "https://www.phoronix.com/news/FreeBSD-Q3-2026-Report",
+      "source": "Phoronix",
+      "published_at": "2026-11-11T06:30:00-05:00",
       "category": "linux",
       "tags": [
-        "ubuntu",
-        "desktop"
+        "linux",
+        "open-source",
+        "freebsd"
       ],
       "article_type": "news"
     },
     {
-      "title": "High Tide (Linux Tidal Client) adds playlist editing, artist blocking",
-      "summary": "Playlists can now be created and editing through High Tide . Previous versions of the player did allow new tracks to be added to existing playlists, but it wasn’t possible to create, edit or delete them, nor remove tracks.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/high-tide-linux-update",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-11-10T21:29:25+00:00",
+      "title": "What if your Virtual Data Room (VDR) was Android™ based?",
+      "summary": "With Anbox Cloud, a VDR provider can run their own Android document-viewing application in an isolated containerized instance and stream its content through any browser.",
+      "url": "https://ubuntu.com//blog/what-if-your-virtual-data-room-vdr-was-android-based",
+      "source": "Ubuntu Blog",
+      "published_at": "2026-11-11T08:00:00+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
-        "desktop"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Firefox 160 release brings new floating ‘mini window’ mode",
-      "summary": "Firefox 160 released today with some new features. A new “Mini Window” option lets you move a tab or select a portion of a web page to an always-on-top window, so you can keep an eye on it while browsing.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/firefox-160-released-mini-window",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-11-09T23:59:00+00:00",
-      "category": "linux",
-      "tags": [
-        "ubuntu",
-        "desktop"
+        "linux"
       ],
       "article_type": "news"
     }
