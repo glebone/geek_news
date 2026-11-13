@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
-  "date": "2026-11-12",
-  "generated_at": "2026-11-12T06:52:40Z",
-  "count": 25,
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T06:12:19Z",
+  "count": 28,
   "articles": [
     {
-      "title": "Warhammer Survivors is out now - review",
-      "summary": "Warhammer Survivors has arrived from Auroch Digital as a licensed version of Vampire Survivors wearing the skin of Warhammer. Note: this was a personal purchase.",
-      "url": "https://www.gamingonlinux.com/2026/11/warhammer-survivors-is-out-now-review",
+      "title": "Chill in some idle games with the new Fanatical Idler Bundle",
+      "summary": "Idle and clicker games have exploded in popularity over the last year - so here's your chance to experience some for cheaps. Fanatical's new Idler Bundle has some interesting looking selections for you.",
+      "url": "https://www.gamingonlinux.com/2026/11/chill-in-some-idle-games-with-the-new-fanatical-idler-bundle",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-11T14:02:12+00:00",
+      "published_at": "2026-11-12T16:42:29+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -18,25 +18,24 @@
       "article_type": "news"
     },
     {
-      "title": "llm 0.37.2",
-      "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API endpoints from other providers.",
-      "url": "https://simonwillison.net/2026/Nov/11/llm",
-      "source": "Simon Willison",
-      "published_at": "2026-11-11T17:19:52+00:00",
-      "category": "agent_tools",
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "summary": "I covered this topic live with Shishir Tewari, Senior Manager, Data Engineering at Procore, during GitHub Universe 2026. Our session was titled “Build once, run on any agent: a practical guide to agent skills” .",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
+      "source": "GitHub AI",
+      "published_at": "2026-11-12T22:54:52+00:00",
+      "category": "ai",
       "tags": [
         "ai",
-        "developer-tools",
-        "models"
+        "developer-tools"
       ],
-      "article_type": "release"
+      "article_type": "news"
     },
     {
-      "title": "PlayStation 2 Slim M.2 SATA SSD Mod",
-      "summary": "Tito from Macho Nacho Productions recently posted a video showcasing a new mod called the “M2 Slim” that lets you install an M2 SATA hard drive into a SCPH-700XX series PlayStation 2 Slim.",
-      "url": "https://retrorgb.com/playstation-2-slim-m-2-sata-ssd-mod.html",
+      "title": "Life On Mars 2 – Pre Orders",
+      "summary": "Kai Magazine has just opened pre-orders on the sequel to their game Life On Mars. It's only being offered as a physical edition that includes an \"audio enhancement chip\", which can be heard in the intro above.",
+      "url": "https://retrorgb.com/life-on-mars-2-pre-orders.html",
       "source": "RetroRGB",
-      "published_at": "2026-11-11T19:35:53+00:00",
+      "published_at": "2026-11-13T00:18:34+00:00",
       "category": "retro_gaming",
       "tags": [
         "retro",
@@ -45,11 +44,11 @@
       "article_type": "news"
     },
     {
-      "title": "A LEGO 3D Printer",
-      "summary": "In light of recent work, we can might suggest that the printer is also a pick-and-place machine . If you want to turn the phrase “LEGO 3D Printer” around, we have seen 3D Printed LEGO before as well .",
-      "url": "https://hackaday.com/2026/11/11/a-lego-3d-printer",
+      "title": "Hacking Meta’s Smart Glasses",
+      "summary": "Meta’s Ray-Ban smart glasses have attracted plenty of controversy in the relatively short time they have been available, given their potential for covert and unvanted surveillance.",
+      "url": "https://hackaday.com/2026/11/12/hacking-metas-smart-glasses",
       "source": "Hackaday",
-      "published_at": "2026-11-12T06:00:42+00:00",
+      "published_at": "2026-11-13T03:00:45+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -58,11 +57,11 @@
       "article_type": "news"
     },
     {
-      "title": "iPhone Duo one week later: The future, or not for me?",
-      "summary": "If iPhone Duo is the future of the iPhone, I’ll adapt and move on with my life. But one week in, I think it’s probably just not for me.",
-      "url": "https://9to5mac.com/2026/11/11/iphone-duo-one-week-later-the-future-or-not-for-me",
+      "title": "9to5Mac Daily: November 12, 2026 – OLED iPad Air rumors, MacBook Pro teardown",
+      "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players.",
+      "url": "https://9to5mac.com/2026/11/12/daily-november-12-2026",
       "source": "9to5Mac",
-      "published_at": "2026-11-11T21:33:21+00:00",
+      "published_at": "2026-11-12T22:45:57+00:00",
       "category": "hardware",
       "tags": [
         "apple",
@@ -71,11 +70,11 @@
       "article_type": "news"
     },
     {
-      "title": "Google Wallet rolling out digital Google Home keys with supported locks on Android",
-      "summary": "Behind the scenes, the digital key is linked to the Google Home app rather than a single lock. As such, “each of your compatible Aliro locks will work with a single key in your Google Wallet.” Keys are added to Google Wallet using the Home app, which will prompt you to save after setup.",
-      "url": "https://9to5google.com/2026/11/11/google-wallet-home-key",
+      "title": "Google rolling out Android 17 QPR3 Beta 4 for Pixel",
+      "summary": "Report issues via the Android Beta Feedback app on Pixel devices. Access it from the application drawer or Quick Settings to file bugs in Google’s issue tracker.",
+      "url": "https://9to5google.com/2026/11/12/android-17-qpr3-beta-3-pixel-2",
       "source": "9to5Google",
-      "published_at": "2026-11-11T18:58:06+00:00",
+      "published_at": "2026-11-12T21:16:09+00:00",
       "category": "android",
       "tags": [
         "android",
@@ -84,11 +83,11 @@
       "article_type": "news"
     },
     {
-      "title": "Hand-drawn dino adventure Zid Journey gets a new trailer, set to arrive in Q2 2027",
-      "summary": "The dinosaurs are back! Zid Journey is the second game in the Zid and Zniw series: inspired by classic adventure games. It's set to arrive in Q2 2027.",
-      "url": "https://www.gamingonlinux.com/2026/11/hand-drawn-dino-adventure-zid-journey-gets-a-new-trailer-set-to-arrive-in-q2-2027",
+      "title": "NVIDIA announce Jensen Huang has resigned as CEO following scandal",
+      "summary": "Oh my, Jensen Huang you very naughty boy. NVIDIA just announced that Huang has resigned as CEO following a recent scandal. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/nvidia-announce-jensen-huang-has-resigned-as-ceo-following-scandal",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-11T10:40:44+00:00",
+      "published_at": "2026-11-12T14:30:20+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -97,11 +96,11 @@
       "article_type": "news"
     },
     {
-      "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
-      "summary": "Google Deepmind is introducing the Gemini Decisions API, an interface built for fast, closed-ended decisions like yes/no questions, multiple choice, and scale-based ratings. The underlying model, Gemini Decision 1 , processes up to 1,000 independent questions in a single pass across text, images, audio, video, and PDFs.",
-      "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass",
+      "title": "Claude Meetings lets Anthropic's AI join your video calls",
+      "summary": "Anthropic has launched Claude Meetings, a feature that puts Claude into video calls as a visible participant. During a call, Claude can answer questions, generate documents and whiteboards, and log notes and action items, responding in text by default and accessing connected tools when granted permission.",
+      "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls",
       "source": "The Decoder",
-      "published_at": "2026-11-11T20:12:46+00:00",
+      "published_at": "2026-11-12T20:26:50+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -110,37 +109,37 @@
       "article_type": "news"
     },
     {
-      "title": "It’s Elite, For The Commodore Pet",
-      "summary": "It will be a surprise to Commodore Pet owners then, that over four decades later, [David Given] has ported the game to their platform .",
-      "url": "https://hackaday.com/2026/11/11/its-elite-for-the-commodore-pet",
-      "source": "Hackaday",
-      "published_at": "2026-11-12T03:00:20+00:00",
-      "category": "retro_computing",
+      "title": "Claude Code v2.1.323",
+      "summary": "Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+      "source": "Claude Code",
+      "published_at": "2026-11-12T22:12:13+00:00",
+      "category": "agent_tools",
       "tags": [
-        "hardware",
-        "maker"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Zellij Release v0.46.0",
-      "summary": "This release includes a major addition in Zellij: Zellij is now also a desktop terminal. To run it: zellij terminal . It works on linux, mac and windows.",
-      "url": "https://github.com/zellij-org/zellij/releases/tag/v0.46.0",
-      "source": "Zellij",
-      "published_at": "2026-11-11T09:43:57+00:00",
-      "category": "open_source",
-      "tags": [
-        "tui",
-        "terminal"
+        "claude-code",
+        "ai-coding"
       ],
       "article_type": "release"
     },
     {
-      "title": "Devolver Digital trolling with its \"first ever AAA game\" - All Army Attack",
-      "summary": "When I first saw Devolver Digital tease a \"AAA\" game, I knew it would be a stupid troll joke - but the game All Army Attack does sound interesting.",
-      "url": "https://www.gamingonlinux.com/2026/11/devolver-digital-trolling-with-its-first-ever-aaa-game-all-army-attack",
+      "title": "Opera One for iOS adds Data Saver feature, cutting browsing data usage by up to 80%",
+      "summary": "In today’s announcement, Opera also touted the arrival of Data Saver on Opera One for iOS, which the company says can reduce browsing data usage by up to 80% by compressing images and text on its servers before they reach the user’s device.",
+      "url": "https://9to5mac.com/2026/11/12/opera-one-for-ios-adds-data-saver-feature-cutting-browsing-data-usage-by-up-to-80",
+      "source": "9to5Mac",
+      "published_at": "2026-11-12T20:52:21+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "With formidable female protagonists, check out the Green Man Gaming's Girls Just Wanna Have Guns! Bundle",
+      "summary": "Every purchase also supports Safe in Our World and its work raising mental health awareness across the games industry and beyond. The bundle also includes instant Steam key fulfilment and a bonus 3% voucher for a future Green Man Gaming purchase.",
+      "url": "https://www.gamingonlinux.com/2026/11/with-formidable-female-protagonists-check-out-the-green-man-gamings-girls-just-wanna-have-guns-bundle",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-11T10:10:40+00:00",
+      "published_at": "2026-11-12T13:59:35+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -149,11 +148,11 @@
       "article_type": "news"
     },
     {
-      "title": "Google Summer of Code 2026 results",
-      "summary": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several months.",
-      "url": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results",
+      "title": "Announcing Rust 1.100.0",
+      "summary": "The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software.",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0",
       "source": "Rust Blog",
-      "published_at": "2026-11-11T00:00:00+00:00",
+      "published_at": "2026-11-12T00:00:00+00:00",
       "category": "programming",
       "tags": [
         "rust",
@@ -162,11 +161,11 @@
       "article_type": "technical_article"
     },
     {
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "summary": "Introducing the Gemini Decisions API, powered by our new Gemini Decision 1 model. Evaluate up to 1,000 yes/no, choice, and rubric-scoring questions in a fast, single pass across text, images, audio, video, and PDFs.",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
-      "source": "Google AI Blog",
-      "published_at": "2026-11-11T18:00:00+00:00",
+      "title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
+      "summary": "Unlike the frontier models Gemini 4 Carbon and Gemini 4 Argon , which Google designed for deep, long-horizon reasoning on hard problems, Hydrogen is meant to handle everyday tasks quickly and cheaply.",
+      "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch",
+      "source": "The Decoder",
+      "published_at": "2026-11-12T19:58:43+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -175,11 +174,11 @@
       "article_type": "news"
     },
     {
-      "title": "iCloud+ has new perk in iOS 27 if you pay for more storage",
-      "summary": "The tentpole feature of iCloud+ is cloud storage, but Apple keeps improving and expanding the service to include other perks too. And in iOS 27, iCloud+ has a new benefit for high-storage tiers: AI features for HomeKit cameras.",
-      "url": "https://9to5mac.com/2026/11/11/icloud-has-new-perk-in-ios-27-if-you-pay-for-more-storage",
+      "title": "iOS 27’s Find My app adds convenient feature I’ve long wished for",
+      "summary": "iOS 27 is packed with new features, including several for the Find My app . One upgrade to Find My—custom sharing durations—grants a feature request I’ve had for years.",
+      "url": "https://9to5mac.com/2026/11/12/ios-27s-find-my-app-adds-convenient-feature-ive-long-wished-for",
       "source": "9to5Mac",
-      "published_at": "2026-11-11T19:32:54+00:00",
+      "published_at": "2026-11-12T19:21:20+00:00",
       "category": "ios",
       "tags": [
         "apple",
@@ -188,24 +187,11 @@
       "article_type": "news"
     },
     {
-      "title": "How to replace the battery on Pixel Tag [Video]",
-      "summary": "The battery on the Pixel Tag is rated for about a year, but what happens when you need to replace it? Here’s how to replace it.",
-      "url": "https://9to5google.com/2026/11/11/how-to-replace-the-battery-on-pixel-tag-video",
-      "source": "9to5Google",
-      "published_at": "2026-11-11T18:00:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "JetBrains renewed their support for Godot Engine through 2027",
-      "summary": "Good news for the cross-platform free and open source game engine, JetBrains have renewed their support through 2027. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/11/jetbrains-renewed-their-support-for-godot-engine-through-2027",
+      "title": "Humble Bundle goes through a re-design that's being accused of messy vibe-coding",
+      "summary": "Fixing what isn't broken huh? Humble Bundle just completely remade their website and store, and lots of people are unhappy with it. It's full of issues, with many across social media (and my inbox - oh my) accusing them of forcing out a clearly not ready \"vibe-coded\" new store design.",
+      "url": "https://www.gamingonlinux.com/2026/11/humble-bundle-goes-through-a-re-design-thats-being-accused-of-messy-vibe-coding",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-11T09:59:14+00:00",
+      "published_at": "2026-11-12T11:43:51+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -214,50 +200,11 @@
       "article_type": "news"
     },
     {
-      "title": "Google Pixel Tag is only available in 8 countries, and excludes Europe",
-      "summary": "Compared to the two dozen countries where Pixel 11 phones and the Pixel Watch 5 are sold, the Pixel Tag tracker is only being sold in 8 countries at launch.",
-      "url": "https://9to5google.com/2026/11/11/google-pixel-tag-launch-countries",
-      "source": "9to5Google",
-      "published_at": "2026-11-11T18:00:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Coding sprint report - Gdansk 2026",
-      "summary": "Haiku used to have coding sprints once or even twice a year. Unfortunately, after the end of the BeGeistert conference, we have lost the habit of doing that.",
-      "url": "https://www.haiku-os.org/blog/pulkomandy/2026-11-10-gdansk_coding_sprint_report",
-      "source": "Haiku Project",
-      "published_at": "2026-11-10T13:30:00+01:00",
-      "category": "open_source",
-      "tags": [
-        "haiku",
-        "operating-systems"
-      ],
-      "article_type": "technical_article"
-    },
-    {
-      "title": "Scaling AI agents with open standards: Kurtis Van Gent on MCP and Agent Skills joining the AAIF",
-      "summary": "To explore how open standards prevent ecosystem fragmentation, and why the best solutions don't always have to be homegrown, we sat down with Kurtis Van Gent, co-creator of the open source MCP Toolbox for Databases and a core maintainer on both MCP and Agent Skills.",
-      "url": "https://opensource.googleblog.com/2026/11/scaling-ai-agents-open-standards-mcp-aaif.html",
-      "source": "Google Open Source",
-      "published_at": "2026-11-11T19:30:00+00:00",
-      "category": "open_source",
-      "tags": [
-        "google",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Google Cloud launches Gemini for healthcare.",
-      "summary": "Google Cloud has announced Gemini for healthcare , an AI solution engineered to unify fragmented clinical, operational, and administrative systems. Moving beyond simple information retrieval, it enables healthcare teams to turn siloed data into coordinated action.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
-      "source": "Google AI Blog",
-      "published_at": "2026-11-10T13:00:00+00:00",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question",
+      "source": "TechCrunch AI",
+      "published_at": "2026-11-12T18:39:23+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -266,11 +213,76 @@
       "article_type": "news"
     },
     {
-      "title": "Issue types and fields are available for personal accounts",
-      "summary": "Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers to standardize your workflows and organize issues across repositories.",
-      "url": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+      "title": "Apple Notes adds a powerful new advantage in iOS 27.3",
+      "summary": "There’s no shortage of note-taking apps on the App Store, but Apple Notes has long been my favorite, and in iOS 27.3 it’s gaining a new advantage: extensive app controls via Siri AI.",
+      "url": "https://9to5mac.com/2026/11/12/apple-notes-adds-a-powerful-new-advantage-in-ios-27-3",
+      "source": "9to5Mac",
+      "published_at": "2026-11-12T16:10:20+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Deals: Galaxy SmartTag 3 up to 30% off, Chromebooks, Google Home Speaker, Walmart early Black Friday now live, more",
+      "summary": "Today, Woot is offering the first chance to save on the brand new Samsung Galaxy SmartTag 3 . While the all-new Google Pixel Tag has arrived at the same $30 regular price , Woot is now offering as much as 30% off multi-pack bundles of the new Samsung tracker.",
+      "url": "https://9to5google.com/2026/11/12/deals-smarttag-3-chromebook-walmart-early-black-friday",
+      "source": "9to5Google",
+      "published_at": "2026-11-12T16:48:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "summary": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more intuitive, visual, and precise answers. This update helps you navigate complex questions by understanding your intent, conducting simultaneous queries, and displaying structured information like tables and images.",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "source": "Google AI Blog",
+      "published_at": "2026-11-12T18:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Kubernetes Python client gets a modern overhaul for the AI/ML era",
+      "summary": "Yet for the past several years, this critical bridge between Python and Kubernetes has operated in low-maintenance mode. As AI/ML workloads have exploded in scale and complexity, the gap between what modern AI infrastructure demands and what the legacy Python client was built to deliver has become impossible to ignore.",
+      "url": "https://opensource.googleblog.com/2026/11/kubernetes-python-client-modern-overhaul-ai-ml.html",
+      "source": "Google Open Source",
+      "published_at": "2026-11-12T19:30:00+00:00",
+      "category": "open_source",
+      "tags": [
+        "google",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "summary": "Huang’s advocacy for open source and open-weight AI has long extended beyond Hugging Face. In July, the CEO published an AI policy letter as his first-ever post on the social network X .",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+      "source": "TechCrunch AI",
+      "published_at": "2026-11-12T17:36:40+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Actions for ARM32 Linux & Windows retirement",
+      "summary": "GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node 24 does not support ARM32.",
+      "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
       "source": "GitHub Changelog",
-      "published_at": "2026-11-11T17:16:46+00:00",
+      "published_at": "2026-11-12T20:59:36+00:00",
       "category": "agent_tools",
       "tags": [
         "github",
@@ -279,24 +291,38 @@
       "article_type": "news"
     },
     {
-      "title": "Hello Developer: November 2026",
-      "summary": "In this supersized edition: Join us at Europe’s first Apple Developer Center. Say hello to Touch on Mac. Learn about the Swift Student Challenge 2027.",
-      "url": "https://developer.apple.com/news?id=ow0j45ny",
-      "source": "Apple Developer",
-      "published_at": "2026-11-10T08:00:59-08:00",
-      "category": "ios",
+      "title": "‘Hey Gemini’ hotword debuts on Android XR glasses",
+      "summary": "Around a decade after “Hey Google” made its debut, Google is introducing its first new always-listening hotword. “Hey Gemini” makes its debut on Google’s Intelligent Eyewear glasses powered by Android XR, with wearers able to use that hotword in place of “Hey Google.”",
+      "url": "https://9to5google.com/2026/11/12/hey-gemini-hotword-debuts-on-android-xr-glasses",
+      "source": "9to5Google",
+      "published_at": "2026-11-12T15:00:00+00:00",
+      "category": "android",
       "tags": [
-        "apple",
-        "developers"
+        "android",
+        "google",
+        "models"
       ],
       "article_type": "news"
     },
     {
-      "title": "Sprout Pi lets old iPods run Linux apps and stream Spotify",
-      "summary": "Sprout is an open source replacement motherboard for iPods that keeps the original screen and click wheel, but adds Wi-Fi, Bluetooth and streaming apps. You're reading Sprout Pi lets old iPods run Linux apps and stream Spotify , a blog post from OMG!",
-      "url": "https://www.omgubuntu.co.uk/2026/11/sprout-upgrades-ipod-modern-features",
+      "title": "Public monitoring alerts now have direct links",
+      "summary": "In your enterprise’s Public monitoring view, click an alert number to open the alert. You can use its URL to bookmark the finding or share it with teammates who have access.",
+      "url": "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-12T14:37:38+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Polo is a Wayland compositor for the MATE desktop",
+      "summary": "Polo is a new Wayland compositor for MATE modelled on the desktop’s existing X11-based window manager Marco (which was forked from GNOME’s Metacity a long time ago).",
+      "url": "https://www.omgubuntu.co.uk/2026/11/mate-wayland-compositor-polo",
       "source": "OMG! Ubuntu",
-      "published_at": "2026-11-11T23:10:00+00:00",
+      "published_at": "2026-11-13T02:26:20+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
@@ -305,29 +331,41 @@
       "article_type": "news"
     },
     {
-      "title": "FreeBSD Working To Establish An AI Policy After Polling Developers",
-      "summary": "The FreeBSD Project published its Q3'2026 status report on Tuesday that outlines a number of development initiatives to ongoing work around an AI policy for this BSD operating system.",
-      "url": "https://www.phoronix.com/news/FreeBSD-Q3-2026-Report",
-      "source": "Phoronix",
-      "published_at": "2026-11-11T06:30:00-05:00",
+      "title": "Running Android apps on Ubuntu is now surprisingly easy",
+      "summary": "Ubuntu doesn’t run Android apps and games natively, but Waydroid is an open-source effort that lets you use them – and it’s really easy to setup on Ubuntu.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/android-apps-on-ubuntu-waydroid",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-12T22:28:18+00:00",
       "category": "linux",
       "tags": [
-        "linux",
-        "open-source",
-        "freebsd"
+        "ubuntu",
+        "desktop"
       ],
       "article_type": "news"
     },
     {
-      "title": "What if your Virtual Data Room (VDR) was Android™ based?",
-      "summary": "With Anbox Cloud, a VDR provider can run their own Android document-viewing application in an isolated containerized instance and stream its content through any browser.",
-      "url": "https://ubuntu.com//blog/what-if-your-virtual-data-room-vdr-was-android-based",
-      "source": "Ubuntu Blog",
-      "published_at": "2026-11-11T08:00:00+00:00",
+      "title": "Firefox’s free built-in VPN removes its data limit (until next year)",
+      "summary": "Mozilla has lifted its 50GB data cap on Firefox’s built-in VPN until 31 January 2027. From 10 November, you can enable the free VPN in Firefox and browse as much as you like, for as long as you like, without needing to worry about reaching the fixed monthly limit.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/firefox-vpn-unlimited-data-temp",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-12T16:59:33+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
-        "linux"
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Khronos To Explore New High Level API For Remote Offloading",
+      "summary": "The Khronos Group, the industry consortium responsible for OpenGL, OpenCL, Vulkan, and other industry standard APIs has formed an exploratory group to evaluate the possibility of a high-level remote offloading API.",
+      "url": "https://www.phoronix.com/news/Khronos-Remote-Offloading-API",
+      "source": "Phoronix",
+      "published_at": "2026-11-12T10:17:31-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
       ],
       "article_type": "news"
     }
