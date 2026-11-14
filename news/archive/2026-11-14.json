@@ -1,0 +1,385 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T05:56:24Z",
+  "count": 29,
+  "articles": [
+    {
+      "title": "GDC November 2026 survey shows 40% of developers using generative AI",
+      "summary": "The GDC 2026 survey has been released , and it's another interesting look behind the scenes of the gaming industry as a whole. Compared with the earlier report there's more people in it this time, with \"over 2,600\" game industry professionals going through the survey across 69 different countries.",
+      "url": "https://www.gamingonlinux.com/2026/11/gdc-november-2026-survey-shows-40-percent-of-developers-using-generative-ai",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-13T16:15:17+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "What’s Fixed and Improved in PyCharm 2026.3",
+      "summary": "PyCharm 2026.3 is here! Alongside major features like JetBrains Air, workspaces, Python 3.15 lazy imports, and the redesigned interpreter widget, this release includes 303 fixes and improvements to everyday Python development.",
+      "url": "https://blog.jetbrains.com/pycharm/2026/11/what-s-fixed-and-improved-in-pycharm-2026-3",
+      "source": "PyCharm Blog",
+      "published_at": "2026-11-13T14:28:09+00:00",
+      "category": "programming",
+      "tags": [
+        "python",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
+      "summary": "Anthropic has released Claude for Manufacturing, a plugin giving the AI direct access to industrial software to automate factory workflows. The new solution connects via four universal interfaces to Autodesk Fusion, Oracle NetSuite, Microsoft 365, and Infor.",
+      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows",
+      "source": "The Decoder",
+      "published_at": "2026-11-13T16:37:01+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Code v2.1.325",
+      "summary": "Added a spinner tip in VS Code and similar integrated terminals about re-running a notebook cell, shown once Claude has read or edited a Jupyter notebook.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
+      "source": "Claude Code",
+      "published_at": "2026-11-13T20:40:01+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Final Fight CD Vinyl Soundtrack Pre-Order",
+      "summary": "Mana Wave Media has launched pre-order for Final Fight CD soundtrack composed by Manami Matsumae, Yoshihiro Sakaguchi, Harumi Fujita, Junko Tamiya, Yasuaki Fujita, Hiromitsu Takaoka, and Yoko Shimomura from Sega CD on a vinyl record.",
+      "url": "https://retrorgb.com/final-fight-cd-vinyl-soundtrack-pre-order.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-13T18:47:47+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Borland C++ 2.0 Compiler Source Reconstructed",
+      "summary": "As the successor to Turbo C++, Borland C++ was a staple of professional IDEs for C and C++ development, starting with the initial 2.0 release in 1991.",
+      "url": "https://hackaday.com/2026/11/13/borland-c-2-0-compiler-source-reconstructed",
+      "source": "Hackaday",
+      "published_at": "2026-11-14T03:00:44+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "9to5Mac Overtime 090: iPhone Duo honeymoon",
+      "summary": "The Overtime crew revisits the iPhone Duo after prolonged usage. Is it still worth it without a telephoto lens or Face ID? We dig into its multitasking chops, standout FaceTime features, and how it stacks up against the Galaxy Z Fold 8.",
+      "url": "https://9to5mac.com/2026/11/13/9to5mac-overtime-090-iphone-duo-honeymoon",
+      "source": "9to5Mac",
+      "published_at": "2026-11-13T21:00:00+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Kitesurf is now open source",
+      "summary": "That promise is now real. Kitesurf is open source on GitHub under the Apache 2.0 license. You can read the code, run it locally, change it, and deploy your own instance to Cloudflare Workers.",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source",
+      "source": "Cloudflare Blog",
+      "published_at": "2026-11-13T20:20:21+00:00",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "infrastructure"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Fanatical's new Play on the Go Bundle is here for November 2026",
+      "summary": "Pick up some quality cheap games to play on your Steam Deck, ROG Ally, Legion Go - or whatever else you're gaming on. The Fanatical Play on the Go Elite Collection Bundle is back!",
+      "url": "https://www.gamingonlinux.com/2026/11/fanaticals-new-play-on-the-go-bundle-is-here-for-november-2026",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-13T14:22:55+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Developer cleverly shrank 2,600 lines of C into a six-line script but still ending up losing sleep",
+      "summary": "This week, meet a reader we'll Regomize as \"Tim\" who told us that while working for a phone company he once rewrote 2,650 lines of C as a six line shell script.",
+      "url": "https://www.theregister.com/software/2026/11/13/developer-cleverly-shrank-2600-lines-of-c-into-a-six-line-script-but-still-ending-up-losing-sleep/5309264",
+      "source": "The Register",
+      "published_at": "2026-11-13T07:27:00+01:00",
+      "category": "programming",
+      "tags": [
+        "software",
+        "technology"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "The King of Fighters ’96 ’97 ’99 Vinyl Soundtrack Pre-Order",
+      "summary": "Mana Wave Media has launched pre-order for The King of Fighters ’96, ’97 and ’99 soundtrack composed by SNK Neo Sound Orchestra group from arcade and Neo Geo on a vinyl record.",
+      "url": "https://retrorgb.com/the-king-of-fighters-96-97-99-vinyl-soundtrack-pre-order.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-13T18:47:43+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.3 adds three new features I’ve used almost every day",
+      "summary": "If you have an Apple Watch Series 12 or Apple Watch Ultra 4 , iOS 27.3 adds a powerful new feature called Siri Recap that “ambiently takes notes on your conversations throughout your day and creates high-level Apple Intelligence–generated summaries that you can use later to jog your memory.”",
+      "url": "https://9to5mac.com/2026/11/13/ios-27-3-adds-three-new-features-ive-used-almost-every-day",
+      "source": "9to5Mac",
+      "published_at": "2026-11-13T18:56:41+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Android Auto 18.2 update starts rolling out with more light mode teases",
+      "summary": "Light mode for Android Auto is something we’ve been waiting ages to see go live, and every recent update has been building out the feature more and more.",
+      "url": "https://9to5google.com/2026/11/13/android-auto-18-2-update-beta-release",
+      "source": "9to5Google",
+      "published_at": "2026-11-13T16:45:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Discord go into more detail on their Linux upgrades, with more to come",
+      "summary": "Discord seem like they really are taking Linux more seriously now, with various upgrades made for it over the last year with more to come.",
+      "url": "https://www.gamingonlinux.com/2026/11/discord-go-into-more-detail-on-their-linux-upgrades-with-more-to-come",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-13T13:20:21+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "OSSC Pro’s Extra AV Out v2 Back In Stock",
+      "summary": "Both Stone Age Gamer in the US and Video Game Perfection in the EU have stock of the latest Extra AV Out expansion card for the OSSC Pro.",
+      "url": "https://retrorgb.com/ossc-pros-extra-av-out-v2-back-in-stock.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-13T17:41:06+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "This tiny iOS 27 camera feature really makes a huge difference",
+      "summary": "Of course, third-party apps still have an important role, but this one change has made a big difference to me when using the stock camera app for both photos and video.",
+      "url": "https://9to5mac.com/2026/11/13/this-tiny-ios-27-camera-feature-really-makes-a-huge-difference",
+      "source": "9to5Mac",
+      "published_at": "2026-11-13T17:00:00+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Pixel Watch update brings a sweet redesign I wish was on more apps",
+      "summary": "Google has been at its gradient redesign schtick for a while now to varying levels of success, but its latest redesign has just landed on the Pixel Watch for the Media Controls app, and I love it.",
+      "url": "https://9to5google.com/2026/11/13/google-pixel-watch-media-controls-redesign-update",
+      "source": "9to5Google",
+      "published_at": "2026-11-13T15:55:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "This Week in Open Source for November 13, 2026",
+      "summary": "Open source communities are navigating a structural tension: automated tools are accelerating code generation and security probing faster than human maintainers can review pull requests, build consensus, or fund shared infrastructure.",
+      "url": "https://opensource.googleblog.com/2026/11/this-week-in-open-source-nov-13.html",
+      "source": "Google Open Source",
+      "published_at": "2026-11-13T19:30:00+00:00",
+      "category": "open_source",
+      "tags": [
+        "google",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Splatchinko is a chaotic space roguelike pachinko out now - reviewed",
+      "summary": "I do love watching numbers go up, and I do love building up ridiculous combinations - Splatchinko is a chaotic space roguelike pachinko out now.",
+      "url": "https://www.gamingonlinux.com/2026/11/splatchinko-is-a-chaotic-space-roguelike-pachinko-out-now-reviewed",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-13T12:35:41+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Drop-in Vintage CPU Replacements with the tranZPUter Project",
+      "summary": "Standing for ‘transformable ZPU Computer’, the tranZPUter is transformable in the sense that it features an FPGA or MCU and the initial iteration targeting the ZPU Evo CPU design.",
+      "url": "https://hackaday.com/2026/11/13/drop-in-vintage-cpu-replacements-with-the-tranzputer-project",
+      "source": "Hackaday",
+      "published_at": "2026-11-13T19:30:00+00:00",
+      "category": "retro_computing",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple Maps in iOS 27 has hidden new feature I’ve been loving",
+      "summary": "iOS 27 gave Apple Maps a handful of new features , and my favorite is one that keeps offering fresh updates every week: Local Lists.",
+      "url": "https://9to5mac.com/2026/11/13/apple-maps-in-ios-27-has-hidden-new-feature-ive-been-loving",
+      "source": "9to5Mac",
+      "published_at": "2026-11-13T16:59:38+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "I’d rather use Android XR glasses over Meta Ray-Bans for the app alone",
+      "summary": "In trying out Google’s Intelligent Eyewear Android XR glasses for the first time, one of my main takeaways is that it’s the app, not necessarily the glasses themselves that would push me into using them over the mainstay Meta Ray-Bans.",
+      "url": "https://9to5google.com/2026/11/13/id-rather-use-android-xr-glasses-over-meta-ray-bans-for-the-app-alone",
+      "source": "9to5Google",
+      "published_at": "2026-11-13T13:30:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+      "summary": "*Claude Haiku 4.5 will remain available to individual GitHub Copilot subscribers on annual plans. The deprecation of Claude Haiku 4.5 does not apply to these customers.",
+      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-13T20:40:05+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+      "summary": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests.",
+      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-13T18:27:13+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Manage AI Scan for repositories using the REST API",
+      "summary": "You can now turn GitHub code scanning’s AI Scan for repositories on or off with the REST API at the organization and repository levels. This public preview adds a repository_scan setting to the existing AI Scan enablement endpoints.",
+      "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-13T12:22:41+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Norway’s Dropbox Rival Jottacloud is making a Linux app",
+      "summary": "Norwegian Dropbox rival Jottacloud is finally working on a desktop app for Linux. Jottacloud, run by Jotta Group AS, has been around since 2008, offering file and photo backup, syncing and sharing via official Windows, Apple and Android apps.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/jottacloud-linux-app-coming-soon",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-14T03:55:34+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Euro-Office, the ONLYOFFICE fork, now has a desktop app",
+      "summary": "Euro-Office, the Nextcloud-backed fork of ONLYOFFICE, is now available to download and install on desktops as Nextcloud Office Desktop. Announced in March 2026, Euro-Office is a European-based alternative to Microsoft 365 and a fork of ONLYOFFICE.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/euro-office-desktop-apps-nextcloud",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-13T20:14:18+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Linux 7.5 To Include New hwpoison-panic Tool For Intentionally Crashing Your System",
+      "summary": "A new tool expected to be merged to the Linux 7.5 source tree provides a new exercise for the kernel and in the process bringing down the system.",
+      "url": "https://www.phoronix.com/news/Linux-7.5-hwpoison-panic",
+      "source": "Phoronix",
+      "published_at": "2026-11-13T10:26:14-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Dasharo ACPI Fan Control Linux Driver Posted For Adjusting Fan Curves",
+      "summary": "The 3mdeb consulting firm that has ported their Coreboot-based open-source firmware stack to the likes of an AMD Ryzen AM5 motherboard from MSI and a Gigabyte EPYC server motherboard, among others, has posted a new Linux kernel driver for supporting fan controls with Dasharo firmware.",
+      "url": "https://www.phoronix.com/news/Dasharo-ACPI-Fan-Control-Driver",
+      "source": "Phoronix",
+      "published_at": "2026-11-13T05:51:34-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
