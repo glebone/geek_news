@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "date": "2026-11-15",
-  "generated_at": "2026-11-15T05:58:03Z",
-  "count": 13,
+  "generated_at": "2026-11-15T12:16:21Z",
+  "count": 15,
   "articles": [
     {
       "title": "SteamVR 2.19.3 Beta and SteamOS 0.5.9 Beta for Steam Frame released",
@@ -19,11 +19,11 @@
       "article_type": "news"
     },
     {
-      "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
-      "summary": "Google's Gemini 4 Carbon has become the first non-OpenAI model in a while to top the MathArena math benchmark. It knocked GPT-6.1 Sol from the top spot, while Claude Fable 5.2 came in second, making it potentially one of the most capable publicly available models for math tasks.",
-      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol",
+      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+      "summary": "Meituan releases the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents. It was trained entirely on Chinese hardware and performs at the level US models like Claude Opus 5 reached a few months ago on coding benchmarks.",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu",
       "source": "The Decoder",
-      "published_at": "2026-11-14T16:48:01+00:00",
+      "published_at": "2026-11-15T10:06:06+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -46,11 +46,11 @@
       "article_type": "technical_article"
     },
     {
-      "title": "RPN Loved Honk If (or, Write Your Own PostScript Interpreter)",
-      "summary": "Maybe you like old laser printers. Maybe you were a fan of [Don Lancaster]. Maybe you like Forth, HP calculators, and everything RPN. Whichever it is, why not write your own PostScript interpreter ?",
-      "url": "https://hackaday.com/2026/11/14/rpn-loved-honk-if-or-write-your-own-postscript-interpreter",
+      "title": "Reverse Engineer that USB Device in Style",
+      "summary": "Proprietary device drivers, dedicated applications, and their ilk are the bane of the open-source hacker. If only we could snoop on every device out there, recording the “secret” USB transactions as they go over the wire, we’d have a chance.",
+      "url": "https://hackaday.com/2026/11/15/reverse-engineer-that-usb-device-in-style",
       "source": "Hackaday",
-      "published_at": "2026-11-15T03:00:49+00:00",
+      "published_at": "2026-11-15T09:00:44+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -99,11 +99,11 @@
       "article_type": "news"
     },
     {
-      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
-      "summary": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort.",
-      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5",
+      "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+      "summary": "Google's Gemini 4 Carbon has become the first non-OpenAI model in a while to top the MathArena math benchmark. It knocked GPT-6.1 Sol from the top spot, while Claude Fable 5.2 came in second, making it potentially one of the most capable publicly available models for math tasks.",
+      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol",
       "source": "The Decoder",
-      "published_at": "2026-11-14T16:42:56+00:00",
+      "published_at": "2026-11-14T16:48:01+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -125,6 +125,19 @@
       "article_type": "news"
     },
     {
+      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+      "summary": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort.",
+      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5",
+      "source": "The Decoder",
+      "published_at": "2026-11-14T16:42:56+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
       "title": "SteamOS 3.10.0 Preview brings HDMI 2.1 VRR, FRL, and ALLM for AMD and improvements for NVIDIA",
       "summary": "Valve released SteamOS 3.10.0 Preview which brings a pretty big set of features, especially if you're on an AMD GPU and now improved NVIDIA support too.",
       "url": "https://www.gamingonlinux.com/2026/11/steamos-3-10-0-preview-brings-hdmi-2-1-vrr-frl-and-allm-for-amd-and-improvements-for-nvidia",
@@ -134,6 +147,19 @@
       "tags": [
         "linux-gaming",
         "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "ASUS Ascent QN10 Mini PC Powered By Snapdragon X2 Elite Seeing Linux Support",
+      "summary": "In addition to a number of laptops powered by Qualcomm's Snapdragon X2 beginning to see Linux support, there's now a X2 Elite powered mini PC seeing Linux patches too.",
+      "url": "https://www.phoronix.com/news/ASUS-Ascent-QN10-Linux",
+      "source": "Phoronix",
+      "published_at": "2026-11-15T06:01:55-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
       ],
       "article_type": "news"
     },
