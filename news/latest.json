@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T13:09:14Z",
+  "generated_at": "2026-11-16T13:49:27Z",
   "count": 18,
   "articles": [
     {
@@ -28,6 +28,19 @@
       "tags": [
         "linux-gaming",
         "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "'iPhone 20 Pro' Rumored to Be Based on iPhone Air",
+      "summary": "Next year's \"iPhone 20 Pro\" models will use the same glass design as the iPhone Air , but with more pronounced curvature along all four sides, according to the leaker known as \" Fixed Focus Digital .\"",
+      "url": "https://www.macrumors.com/2026/11/16/iphone-20-pro-to-be-based-on-iphone-air",
+      "source": "MacRumors",
+      "published_at": "2026-11-16T13:40:33+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     },
@@ -80,19 +93,6 @@
       "tags": [
         "ai",
         "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "ESP32 WIFI Jam Detector Finds the Raspberry",
-      "summary": "We’ve seen plenty of ESP32 WiFi projects that test wifi systems with attacks such as Deauth, and even jamming. Today’s project is a bit different.",
-      "url": "https://hackaday.com/2026/11/16/esp32-wifi-jam-detector-finds-the-raspberry",
-      "source": "Hackaday",
-      "published_at": "2026-11-16T12:00:47+00:00",
-      "category": "hardware",
-      "tags": [
-        "hardware",
-        "maker"
       ],
       "article_type": "news"
     },
@@ -189,6 +189,19 @@
       "article_type": "research"
     },
     {
+      "title": "GNU's Gawk 5.4.2 Released With Big Performance Improvement",
+      "summary": "Gawk as the GNU's implementation of the AWK programming language is out with a new release for this tool commonly used for extracting data and pattern matching / data manipulation.",
+      "url": "https://www.phoronix.com/news/GNU-Gawk-5.4.2",
+      "source": "Phoronix",
+      "published_at": "2026-11-16T08:41:16-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
       "title": "Purism Aiming To Deliver New Librem 5 Smartphone With RISC-V SoC",
       "summary": "After the variety of delays and other challenges that Purism had with their Librem 5 smartphone, surprisingly, they are trying again now with the Librem 5 v2 smartphone being announced.",
       "url": "https://www.phoronix.com/news/Librem-5-v2-Announced",
@@ -220,19 +233,6 @@
       "url": "https://www.omgubuntu.co.uk/2026/11/librem-5-risc-v-new-linux-phone",
       "source": "OMG! Ubuntu",
       "published_at": "2026-11-15T18:39:16+00:00",
-      "category": "linux",
-      "tags": [
-        "ubuntu",
-        "desktop"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Blanc, the browser made with AI, swaps Electron for Chromium",
-      "summary": "Current versions of Blanc use castLabs’ Electron fork , which includes Widevine so sites like Netflix work. But Electron only includes enough Chromium to display web pages, and not so many of the pieces that make a browser a browser.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/blanc-browser-chromium-port",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-11-15T16:51:40+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
