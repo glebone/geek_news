@@ -1,0 +1,219 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T05:57:46Z",
+  "count": 16,
+  "articles": [
+    {
+      "title": "Disk encryption on NetBSD: achieving secrecy",
+      "summary": "NetBSD developer Nia Alarie has written a guide on how to set up a NetBSD system with disk encryption that’s quite useful for those of us who deeply care about such a level of security.",
+      "url": "https://www.osnews.com/story/146397/disk-encryption-on-netbsd-achieving-secrecy",
+      "source": "OSNews",
+      "published_at": "2026-11-15T23:21:39+00:00",
+      "category": "open_source",
+      "tags": [
+        "operating-systems",
+        "open-source",
+        "netbsd"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "VapourDeck is the 486 Handheld You Didn’t Know You Needed",
+      "summary": "Do you need a 486-based handheld computer for DOS games? Well, we didn’t think so either — until we saw [Sprite_tm]’s impressive and excellently documented VapourDeck homebrew handheld PC.",
+      "url": "https://hackaday.com/2026/11/15/vapourdeck-is-the-486-handheld-you-didnt-know-you-needed",
+      "source": "Hackaday",
+      "published_at": "2026-11-16T03:00:56+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Pixel Tag is a brilliant Band-Aid on a Find Hub network Google can’t easily fix",
+      "summary": "The Google Pixel Tag is here and, at least so far, it’s really good. But fresh hardware and some new features can’t fix the core problem.",
+      "url": "https://9to5google.com/2026/11/15/google-pixel-tag-find-hub-problems",
+      "source": "9to5Google",
+      "published_at": "2026-11-15T14:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+      "summary": "Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, complete with bristle texture and paint application.",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them",
+      "source": "The Decoder",
+      "published_at": "2026-11-15T15:42:03+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hackaday Links: November 15, 2026",
+      "summary": "Another Hackaday Supercon is in the history books. The new venue was amazing. We had more attendees than ever and still had room to spare.",
+      "url": "https://hackaday.com/2026/11/15/hackaday-links-november-15-2026",
+      "source": "Hackaday",
+      "published_at": "2026-11-16T00:00:27+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Pixel rolls out new ‘Family Hub’ feature with useful controls [Gallery]",
+      "summary": "First appearing earlier this month, Google Pixel phones are rolling out a handy new Family feature in the Settings menu. Here’s what it can do.",
+      "url": "https://9to5google.com/2026/11/14/google-pixel-family-hub-feature-rolled-out",
+      "source": "9to5Google",
+      "published_at": "2026-11-14T23:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "summary": "LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts.",
+      "url": "https://arxiv.org/abs/2611.17338",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research",
+        "models"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+      "summary": "Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels.",
+      "url": "https://arxiv.org/abs/2611.17339",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "summary": "Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters.",
+      "url": "https://arxiv.org/abs/2611.17340",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Massive-scale god sim The Universim gets a big surprise update",
+      "summary": "Quite a nice surprise, Crytivo actually returned to their original massive-scale god sim The Universim to give it some much needed upgrades. Currently, you'll need Proton on Linux to play the new version, as they don't seem to have updated the Linux or macOS builds.",
+      "url": "https://www.gamingonlinux.com/2026/11/massive-scale-god-sim-the-universim-gets-a-big-surprise-update",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-13T09:25:02+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+      "summary": "Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient admissions and ask an LLM to infer a medication set.",
+      "url": "https://arxiv.org/abs/2611.17341",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Survival horror Confronted gets a big performance boost ahead of the 1.0 release",
+      "summary": "It's not very well-known but looks worth a go, survival horror Confronted recently had a big performance upgrade to it. Also announced is a release window - it's going to hit the 1.0 release sometime in Spring 2027.",
+      "url": "https://www.gamingonlinux.com/2026/11/survival-horror-confronted-gets-a-big-performance-boost-ahead-of-the-1-0-release",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-13T09:12:57+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Unlimited Maid Works is an unusual roguelike about being a maid",
+      "summary": "Unlimited Maid Works brings the most unusual roguelike where you're a maid, and it actually looks really quite interesting and unique. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/unlimited-maid-works-is-an-unusual-roguelike-about-being-a-maid",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-13T08:28:28+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Professor Layton and the New World of Steam arrives December 9 with Steam Deck support",
+      "summary": "For fans of puzzle mystery adventures, Professor Layton and the New World of Steam is set to arrive on December 9th. And, it will have Steam Deck support - it's even noted directly on the Steam page for the touchscreen controls.",
+      "url": "https://www.gamingonlinux.com/2026/11/professor-layton-and-the-new-world-of-steam-arrives-december-9-with-steam-deck-support",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-13T08:06:46+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Purism announces second-gen Librem 5 Linux phone",
+      "summary": "Purism is crowdfunding a new version of its Librem 5 Linux smartphone, this one powered by RISC-V rather than Arm. Librem 5 v2 will use an octa-core SpacemiT K1 RISC-V SoC, replacing the quad-core Arm64 NXP CPU.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/librem-5-risc-v-new-linux-phone",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-15T18:39:16+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Blanc, the browser made with AI, swaps Electron for Chromium",
+      "summary": "Current versions of Blanc use castLabs’ Electron fork , which includes Widevine so sites like Netflix work. But Electron only includes enough Chromium to display web pages, and not so many of the pieces that make a browser a browser.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/blanc-browser-chromium-port",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-15T16:51:40+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    }
+  ]
+}

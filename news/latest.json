@@ -1,15 +1,186 @@
 {
   "schema_version": 2,
-  "date": "2026-11-15",
-  "generated_at": "2026-11-15T12:16:21Z",
-  "count": 15,
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T05:57:46Z",
+  "count": 16,
   "articles": [
     {
-      "title": "SteamVR 2.19.3 Beta and SteamOS 0.5.9 Beta for Steam Frame released",
-      "summary": "Valve released both SteamVR 2.19.3 Beta for all VR gamers, and SteamOS 0.5.9 Beta for Steam Frame as well. Here's all that's new and improved.",
-      "url": "https://www.gamingonlinux.com/2026/11/steamvr-2-19-3-beta-and-steamos-0-5-9-beta-for-steam-frame-released",
+      "title": "Disk encryption on NetBSD: achieving secrecy",
+      "summary": "NetBSD developer Nia Alarie has written a guide on how to set up a NetBSD system with disk encryption that’s quite useful for those of us who deeply care about such a level of security.",
+      "url": "https://www.osnews.com/story/146397/disk-encryption-on-netbsd-achieving-secrecy",
+      "source": "OSNews",
+      "published_at": "2026-11-15T23:21:39+00:00",
+      "category": "open_source",
+      "tags": [
+        "operating-systems",
+        "open-source",
+        "netbsd"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "VapourDeck is the 486 Handheld You Didn’t Know You Needed",
+      "summary": "Do you need a 486-based handheld computer for DOS games? Well, we didn’t think so either — until we saw [Sprite_tm]’s impressive and excellently documented VapourDeck homebrew handheld PC.",
+      "url": "https://hackaday.com/2026/11/15/vapourdeck-is-the-486-handheld-you-didnt-know-you-needed",
+      "source": "Hackaday",
+      "published_at": "2026-11-16T03:00:56+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Pixel Tag is a brilliant Band-Aid on a Find Hub network Google can’t easily fix",
+      "summary": "The Google Pixel Tag is here and, at least so far, it’s really good. But fresh hardware and some new features can’t fix the core problem.",
+      "url": "https://9to5google.com/2026/11/15/google-pixel-tag-find-hub-problems",
+      "source": "9to5Google",
+      "published_at": "2026-11-15T14:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+      "summary": "Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, complete with bristle texture and paint application.",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them",
+      "source": "The Decoder",
+      "published_at": "2026-11-15T15:42:03+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hackaday Links: November 15, 2026",
+      "summary": "Another Hackaday Supercon is in the history books. The new venue was amazing. We had more attendees than ever and still had room to spare.",
+      "url": "https://hackaday.com/2026/11/15/hackaday-links-november-15-2026",
+      "source": "Hackaday",
+      "published_at": "2026-11-16T00:00:27+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Pixel rolls out new ‘Family Hub’ feature with useful controls [Gallery]",
+      "summary": "First appearing earlier this month, Google Pixel phones are rolling out a handy new Family feature in the Settings menu. Here’s what it can do.",
+      "url": "https://9to5google.com/2026/11/14/google-pixel-family-hub-feature-rolled-out",
+      "source": "9to5Google",
+      "published_at": "2026-11-14T23:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "summary": "LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts.",
+      "url": "https://arxiv.org/abs/2611.17338",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research",
+        "models"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+      "summary": "Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels.",
+      "url": "https://arxiv.org/abs/2611.17339",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "summary": "Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters.",
+      "url": "https://arxiv.org/abs/2611.17340",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Massive-scale god sim The Universim gets a big surprise update",
+      "summary": "Quite a nice surprise, Crytivo actually returned to their original massive-scale god sim The Universim to give it some much needed upgrades. Currently, you'll need Proton on Linux to play the new version, as they don't seem to have updated the Linux or macOS builds.",
+      "url": "https://www.gamingonlinux.com/2026/11/massive-scale-god-sim-the-universim-gets-a-big-surprise-update",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-14T09:38:05+00:00",
+      "published_at": "2026-11-13T09:25:02+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+      "summary": "Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient admissions and ask an LLM to infer a medication set.",
+      "url": "https://arxiv.org/abs/2611.17341",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Survival horror Confronted gets a big performance boost ahead of the 1.0 release",
+      "summary": "It's not very well-known but looks worth a go, survival horror Confronted recently had a big performance upgrade to it. Also announced is a release window - it's going to hit the 1.0 release sometime in Spring 2027.",
+      "url": "https://www.gamingonlinux.com/2026/11/survival-horror-confronted-gets-a-big-performance-boost-ahead-of-the-1-0-release",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-13T09:12:57+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Unlimited Maid Works is an unusual roguelike about being a maid",
+      "summary": "Unlimited Maid Works brings the most unusual roguelike where you're a maid, and it actually looks really quite interesting and unique. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/unlimited-maid-works-is-an-unusual-roguelike-about-being-a-maid",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-13T08:28:28+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Professor Layton and the New World of Steam arrives December 9 with Steam Deck support",
+      "summary": "For fans of puzzle mystery adventures, Professor Layton and the New World of Steam is set to arrive on December 9th. And, it will have Steam Deck support - it's even noted directly on the Steam page for the touchscreen controls.",
+      "url": "https://www.gamingonlinux.com/2026/11/professor-layton-and-the-new-world-of-steam-arrives-december-9-with-steam-deck-support",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-13T08:06:46+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -19,186 +190,28 @@
       "article_type": "news"
     },
     {
-      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
-      "summary": "Meituan releases the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents. It was trained entirely on Chinese hardware and performs at the level US models like Claude Opus 5 reached a few months ago on coding benchmarks.",
-      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu",
-      "source": "The Decoder",
-      "published_at": "2026-11-15T10:06:06+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "datasette-llm 0.1a11",
-      "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.",
-      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm",
-      "source": "Simon Willison",
-      "published_at": "2026-11-14T23:59:28+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "ai",
-        "developer-tools",
-        "models"
-      ],
-      "article_type": "technical_article"
-    },
-    {
-      "title": "Reverse Engineer that USB Device in Style",
-      "summary": "Proprietary device drivers, dedicated applications, and their ilk are the bane of the open-source hacker. If only we could snoop on every device out there, recording the “secret” USB transactions as they go over the wire, we’d have a chance.",
-      "url": "https://hackaday.com/2026/11/15/reverse-engineer-that-usb-device-in-style",
-      "source": "Hackaday",
-      "published_at": "2026-11-15T09:00:44+00:00",
-      "category": "hardware",
-      "tags": [
-        "hardware",
-        "maker"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Hands-on: ESR’s MagSafe kickstand charger solves two key iPhone Duo shortcomings",
-      "summary": "iPhone Duo, because it offers a much larger inside display, means theres all tons of new use cases that you wouldn’t normally come across with your iPhone.",
-      "url": "https://9to5mac.com/2026/11/14/hands-on-esrs-magsafe-kickstand-charger-solves-two-key-iphone-duo-shortcomings",
-      "source": "9to5Mac",
-      "published_at": "2026-11-15T00:42:21+00:00",
-      "category": "hardware",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Pixel 11 Pro’s HiLight feature also now works on WhatsApp messages",
-      "summary": "As a part of the November 2026 Pixel Drop that was released this week , Google Messages added support for HiLight on the Pixel 11 Pro series.",
-      "url": "https://9to5google.com/2026/11/13/pixel-11-pro-hilight-whatsapp",
-      "source": "9to5Google",
-      "published_at": "2026-11-14T01:15:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Proton Experimental fixes ArcheAge Chronicles, Warhammer 40,000: Darktide, Deep Rock Galactic",
-      "summary": "Valve pushed out a small update for Proton Experimental, fixing issues in a few specific games. This follows on from the last update on November 10th .",
-      "url": "https://www.gamingonlinux.com/2026/11/proton-experimental-fixes-archeage-chronicles-warhammer-40-000-darktide-deep-rock-galactic",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-14T09:21:29+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games",
-        "proton"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
-      "summary": "Google's Gemini 4 Carbon has become the first non-OpenAI model in a while to top the MathArena math benchmark. It knocked GPT-6.1 Sol from the top spot, while Claude Fable 5.2 came in second, making it potentially one of the most capable publicly available models for math tasks.",
-      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol",
-      "source": "The Decoder",
-      "published_at": "2026-11-14T16:48:01+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Wine 11.22 brings improved support for ARM64, MSXML and address space randomisation",
-      "summary": "Address space randomisation is an interesting one for security, as it makes the locations of programs and data in memory less predictable. Making certain memory-based exploits harder to carry out.",
-      "url": "https://www.gamingonlinux.com/2026/11/wine-11-22-brings-improved-support-for-arm64-msxml-and-address-space-randomisation",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-14T09:15:18+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
-      "summary": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort.",
-      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5",
-      "source": "The Decoder",
-      "published_at": "2026-11-14T16:42:56+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "SteamOS 3.10.0 Preview brings HDMI 2.1 VRR, FRL, and ALLM for AMD and improvements for NVIDIA",
-      "summary": "Valve released SteamOS 3.10.0 Preview which brings a pretty big set of features, especially if you're on an AMD GPU and now improved NVIDIA support too.",
-      "url": "https://www.gamingonlinux.com/2026/11/steamos-3-10-0-preview-brings-hdmi-2-1-vrr-frl-and-allm-for-amd-and-improvements-for-nvidia",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-14T09:08:09+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "ASUS Ascent QN10 Mini PC Powered By Snapdragon X2 Elite Seeing Linux Support",
-      "summary": "In addition to a number of laptops powered by Qualcomm's Snapdragon X2 beginning to see Linux support, there's now a X2 Elite powered mini PC seeing Linux patches too.",
-      "url": "https://www.phoronix.com/news/ASUS-Ascent-QN10-Linux",
-      "source": "Phoronix",
-      "published_at": "2026-11-15T06:01:55-05:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Redox OS Gets Golang Working, GIMP Ported & Simplified AI Policy",
-      "summary": "The Rust-based Redox OS open-source operating system is now out with its October development summary that highlights recent software ports, progress on NUMA, and other enhancements made to this from-scratch platform.",
-      "url": "https://www.phoronix.com/news/Redox-OS-Golang-GIMP",
-      "source": "Phoronix",
-      "published_at": "2026-11-14T11:06:43-05:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Rugged Emdoor Laptops Beginning To See Improved Linux Support",
-      "summary": "Emdoor that is a leading manufacturer of rugged laptops and tablets used by various industries is beginning to see improved Linux support thanks to a new platform driver being developed.",
-      "url": "https://www.phoronix.com/news/Emdoor-Linux-Platform-Driver",
-      "source": "Phoronix",
-      "published_at": "2026-11-14T06:03:49-05:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "From desktop to cloud to road",
-      "summary": "Traditional automotive engineering treats every environment, including desktop, cloud, and target electronic control unit (ECU), as a unique universe. Development teams write code on x86 workstations and validate algorithms on cloud instances.",
-      "url": "https://ubuntu.com//blog/from-desktop-to-cloud-to-road",
-      "source": "Ubuntu Blog",
-      "published_at": "2026-11-13T09:31:00+00:00",
+      "title": "Purism announces second-gen Librem 5 Linux phone",
+      "summary": "Purism is crowdfunding a new version of its Librem 5 Linux smartphone, this one powered by RISC-V rather than Arm. Librem 5 v2 will use an octa-core SpacemiT K1 RISC-V SoC, replacing the quad-core Arm64 NXP CPU.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/librem-5-risc-v-new-linux-phone",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-15T18:39:16+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
-        "linux"
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Blanc, the browser made with AI, swaps Electron for Chromium",
+      "summary": "Current versions of Blanc use castLabs’ Electron fork , which includes Widevine so sites like Netflix work. But Electron only includes enough Chromium to display web pages, and not so many of the pieces that make a browser a browser.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/blanc-browser-chromium-port",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-15T16:51:40+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
       ],
       "article_type": "news"
     }
