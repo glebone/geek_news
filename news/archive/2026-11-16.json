@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T05:57:46Z",
-  "count": 16,
+  "generated_at": "2026-11-16T13:09:14Z",
+  "count": 18,
   "articles": [
     {
       "title": "Disk encryption on NetBSD: achieving secrecy",
@@ -19,15 +19,28 @@
       "article_type": "news"
     },
     {
-      "title": "VapourDeck is the 486 Handheld You Didn’t Know You Needed",
-      "summary": "Do you need a 486-based handheld computer for DOS games? Well, we didn’t think so either — until we saw [Sprite_tm]’s impressive and excellently documented VapourDeck homebrew handheld PC.",
-      "url": "https://hackaday.com/2026/11/15/vapourdeck-is-the-486-handheld-you-didnt-know-you-needed",
-      "source": "Hackaday",
-      "published_at": "2026-11-16T03:00:56+00:00",
+      "title": "Get a big mixture of silly games in the Seriously Unserious Collection Humble Bundle",
+      "summary": "Now some of the issues have been solved from the recent Humble Store overhaul , it's time for a new highlight with the Seriously Unserious Collection Humble .",
+      "url": "https://www.gamingonlinux.com/2026/11/get-a-big-mixture-of-silly-games-in-the-seriously-unserious-collection-humble-bundle",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-16T09:54:14+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "New camera sensor coming to the iPhone 20 Pro’s main camera, says leaker",
+      "summary": "A brief report from leaker Ice Universe suggests that the iPhone 20 Pro will get a new and more sophisticated sensor for the main camera.",
+      "url": "https://9to5mac.com/2026/11/16/new-camera-sensor-coming-to-the-iphone-20-pros-main-camera-says-leaker",
+      "source": "9to5Mac",
+      "published_at": "2026-11-16T13:02:52+00:00",
       "category": "hardware",
       "tags": [
-        "hardware",
-        "maker"
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     },
@@ -45,6 +58,19 @@
       "article_type": "news"
     },
     {
+      "title": "Wuthering Waves fixes for SteamOS / Linux in the new DWProton 11.0-17 release",
+      "summary": "DWProton that's popular for various Anime games on SteamOS / Linux has a new release out, to bring fixes for the latest Wuthering Waves updates.",
+      "url": "https://www.gamingonlinux.com/2026/11/wuthering-waves-fixes-for-steamos-linux-in-the-new-dwproton-11-0-17-release",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-16T09:31:54+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
       "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
       "summary": "Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, complete with bristle texture and paint application.",
       "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them",
@@ -58,11 +84,11 @@
       "article_type": "news"
     },
     {
-      "title": "Hackaday Links: November 15, 2026",
-      "summary": "Another Hackaday Supercon is in the history books. The new venue was amazing. We had more attendees than ever and still had room to spare.",
-      "url": "https://hackaday.com/2026/11/15/hackaday-links-november-15-2026",
+      "title": "ESP32 WIFI Jam Detector Finds the Raspberry",
+      "summary": "We’ve seen plenty of ESP32 WiFi projects that test wifi systems with attacks such as Deauth, and even jamming. Today’s project is a bit different.",
+      "url": "https://hackaday.com/2026/11/16/esp32-wifi-jam-detector-finds-the-raspberry",
       "source": "Hackaday",
-      "published_at": "2026-11-16T00:00:27+00:00",
+      "published_at": "2026-11-16T12:00:47+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -80,6 +106,32 @@
       "tags": [
         "android",
         "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Planetary Annihilation: TITANS finally gets a new modern UI system",
+      "summary": "Planetary Annihilation: TITANS has a new update out now, which finally tears out their old and unreliable UI system ready to keep expanding the game.",
+      "url": "https://www.gamingonlinux.com/2026/11/planetary-annihilation-titans-finally-gets-a-new-modern-ui-system",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-16T09:20:01+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Super Meat Boy Again+ announced reviving the classic tough platformer",
+      "summary": "Super Meat Boy is a tough as nails platformer originally released to much fanfare and great acclaim in 2010. It is held as a gold standard in difficult but fair platforming.",
+      "url": "https://www.gamingonlinux.com/2026/11/super-meat-boy-again-announced-reviving-the-classic-tough-platformer",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-16T08:50:58+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
       ],
       "article_type": "news"
     },
@@ -124,19 +176,6 @@
       "article_type": "research"
     },
     {
-      "title": "Massive-scale god sim The Universim gets a big surprise update",
-      "summary": "Quite a nice surprise, Crytivo actually returned to their original massive-scale god sim The Universim to give it some much needed upgrades. Currently, you'll need Proton on Linux to play the new version, as they don't seem to have updated the Linux or macOS builds.",
-      "url": "https://www.gamingonlinux.com/2026/11/massive-scale-god-sim-the-universim-gets-a-big-surprise-update",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-13T09:25:02+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
       "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
       "summary": "Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient admissions and ask an LLM to infer a medication set.",
       "url": "https://arxiv.org/abs/2611.17341",
@@ -150,42 +189,28 @@
       "article_type": "research"
     },
     {
-      "title": "Survival horror Confronted gets a big performance boost ahead of the 1.0 release",
-      "summary": "It's not very well-known but looks worth a go, survival horror Confronted recently had a big performance upgrade to it. Also announced is a release window - it's going to hit the 1.0 release sometime in Spring 2027.",
-      "url": "https://www.gamingonlinux.com/2026/11/survival-horror-confronted-gets-a-big-performance-boost-ahead-of-the-1-0-release",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-13T09:12:57+00:00",
+      "title": "Purism Aiming To Deliver New Librem 5 Smartphone With RISC-V SoC",
+      "summary": "After the variety of delays and other challenges that Purism had with their Librem 5 smartphone, surprisingly, they are trying again now with the Librem 5 v2 smartphone being announced.",
+      "url": "https://www.phoronix.com/news/Librem-5-v2-Announced",
+      "source": "Phoronix",
+      "published_at": "2026-11-16T06:06:05-05:00",
       "category": "linux",
       "tags": [
-        "linux-gaming",
-        "games"
+        "linux",
+        "open-source"
       ],
       "article_type": "news"
     },
     {
-      "title": "Unlimited Maid Works is an unusual roguelike about being a maid",
-      "summary": "Unlimited Maid Works brings the most unusual roguelike where you're a maid, and it actually looks really quite interesting and unique. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/11/unlimited-maid-works-is-an-unusual-roguelike-about-being-a-maid",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-13T08:28:28+00:00",
+      "title": "Fwupd 2.1.10 Brings Fixes, New Synaptics Touchpad Supported",
+      "summary": "Lead Fwupd/LVFS developer Richard Hughes of Red Hat kicked off the new week by releasing Fwupd 2.1.10 as the newest stable release for performing firmware updates on Linux.",
+      "url": "https://www.phoronix.com/news/Fwupd-2.1.10-Released",
+      "source": "Phoronix",
+      "published_at": "2026-11-16T05:34:54-05:00",
       "category": "linux",
       "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Professor Layton and the New World of Steam arrives December 9 with Steam Deck support",
-      "summary": "For fans of puzzle mystery adventures, Professor Layton and the New World of Steam is set to arrive on December 9th. And, it will have Steam Deck support - it's even noted directly on the Steam page for the touchscreen controls.",
-      "url": "https://www.gamingonlinux.com/2026/11/professor-layton-and-the-new-world-of-steam-arrives-december-9-with-steam-deck-support",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-13T08:06:46+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games",
-        "steam"
+        "linux",
+        "open-source"
       ],
       "article_type": "news"
     },
