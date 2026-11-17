@@ -1,0 +1,399 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T07:35:50Z",
+  "count": 30,
+  "articles": [
+    {
+      "title": "Finally, a truly premium Linux laptop: Star Labs’ StarFighter Ultra",
+      "summary": "One such laptop is Star Labs’ brand new StarFighter , which I’ve been using and testing over the last little while since it was launched.",
+      "url": "https://www.osnews.com/story/146343/finally-a-truly-premium-linux-laptop-star-labs-starfighter-ultra",
+      "source": "OSNews",
+      "published_at": "2026-11-16T21:12:04+00:00",
+      "category": "open_source",
+      "tags": [
+        "operating-systems",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Discord's upcoming new Rust client will bring some missing features to Linux",
+      "summary": "\"The new Rust client's architecture allows us to bring more feature parity across platforms. Linux will now have overlay support as well as other features previously locked to Windows, and macOS will get them as well.\"",
+      "url": "https://www.gamingonlinux.com/2026/11/discords-upcoming-new-rust-client-will-bring-some-missing-features-to-linux",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-16T14:57:41+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Enabling the parallel frontend on nightly",
+      "summary": "TL;DR: We are enabling the parallel frontend of the Rust compiler on nightly by default, to find remaining issues in preparation for its stabilization. Context The Rust compiler has been using multiple threads to compile code in its \"backend\" part (using LLVM) for a long time.",
+      "url": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly",
+      "source": "Rust Blog",
+      "published_at": "2026-11-16T00:00:00+00:00",
+      "category": "programming",
+      "tags": [
+        "rust",
+        "language"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "llm 0.37.3",
+      "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code .",
+      "url": "https://simonwillison.net/2026/Nov/16/llm",
+      "source": "Simon Willison",
+      "published_at": "2026-11-16T23:57:26+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "ai",
+        "developer-tools",
+        "models"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "OSSC Downscaler Firmware",
+      "summary": "Developer manfredi90 recently released a 2nd firmware for any original OSSC running the latest firmware, that turns it into a feature-filled downscaler. It accepts up to 1080p input and downscales to either 240p or 480i.",
+      "url": "https://retrorgb.com/ossc-downscaler-firmware.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-17T00:00:36+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "The Fastest Paddleboard in the World",
+      "summary": "The world is full of linguistic boundaries that seem obvious during regular communication but can break down upon closer inspection. Is a pizza an open-faced sandwich?",
+      "url": "https://hackaday.com/2026/11/16/the-fastest-paddleboard-in-the-world",
+      "source": "Hackaday",
+      "published_at": "2026-11-17T06:00:50+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iPhone Duo gets one of Face ID’s best features with upcoming iOS 27.3 update",
+      "summary": "With today’s iOS 27.3 developer beta 2 , iPhone Duo gained a new feature: Unlock with Front Camera . This lets you unlock your iPhone Duo in a similar fashion to Face ID, but using the front selfie camera, rather than Face ID’s TrueDepth 3D camera system.",
+      "url": "https://9to5mac.com/2026/11/16/iphone-duo-gets-one-of-face-ids-best-features-with-upcoming-ios-27-3-update",
+      "source": "9to5Mac",
+      "published_at": "2026-11-17T03:15:50+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "What’s new in Android’s November 2026 Google System Updates [U: Pixel virtual gamepad]",
+      "summary": "The monthly “ Google System Release Notes ” primarily detail what’s new in Play services, Play Store, and Play system update across Android phones/tablets, Wear OS, Google/Android TV, Auto, and PC.",
+      "url": "https://9to5google.com/2026/11/16/november-2026-google-system-updates",
+      "source": "9to5Google",
+      "published_at": "2026-11-17T00:43:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Get some revamped classics in the Masterful Remasters Bundle: Volume II",
+      "summary": "Green Man Gaming again with another quality bundle with multiple revamped classics now in the Masterful Remasters Bundle: Volume II . As usual from GamingOnLinux we've rounded up the user ratings and compatibility details for you to save you some time.",
+      "url": "https://www.gamingonlinux.com/2026/11/get-some-revamped-classics-in-the-masterful-remasters-bundle-volume-ii",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-16T13:47:45+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "XTM Transifex sponsors Python’s documentation translations",
+      "summary": "Python’s documentation translation teams help people learn and use Python in their own language. Several of these teams use XTM Transifex as their translation platform, working together through its web-based interface.",
+      "url": "https://blog.python.org/2026/11/transifex-sponsors-python-docs",
+      "source": "Python Insider",
+      "published_at": "2026-11-16T00:00:00+00:00",
+      "category": "programming",
+      "tags": [
+        "python",
+        "language"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
+      "summary": "OpenAI physicist Nathaniel Craig used GPT-6 Astra to tackle a problem that had stumped particle physicists for over 25 years. The AI model took Craig's strategy for defining the full Standard Model on a computational lattice and turned it into a working proof.",
+      "url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice",
+      "source": "The Decoder",
+      "published_at": "2026-11-16T19:19:56+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Code v2.1.326",
+      "summary": "Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+      "source": "Claude Code",
+      "published_at": "2026-11-16T22:11:05+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Water in the Ancient Desert",
+      "summary": "The desert of the Iranian Plateau receives very little rainfall, and most of it falls in the mountains before flowing underneath the porous ground of the region.",
+      "url": "https://hackaday.com/2026/11/16/water-in-the-ancient-desert",
+      "source": "Hackaday",
+      "published_at": "2026-11-17T03:00:29+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
+      "summary": "Because Moonshot AI sees diminishing returns in coding, the Beijing startup is redirecting its Kimi language models toward biology, chemistry, and pharma research. International director Giacomo Ficari said at the Web Summit in Lisbon that science demands smarter AI models than law, finance, or code.",
+      "url": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten",
+      "source": "The Decoder",
+      "published_at": "2026-11-16T18:52:55+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Everything New in iOS 27.3 Beta 2",
+      "summary": "Apple released the second beta of iOS 27.3 today, and like the first beta , it has several major new features. There are improvements to the iPhone Duo , tweaks to apps, new Siri features, and more.",
+      "url": "https://www.macrumors.com/2026/11/16/ios-27-3-beta-2-everything-new",
+      "source": "MacRumors",
+      "published_at": "2026-11-17T00:15:18+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Phone by Google 246 rolls out gradient icon redesign on Android [U]",
+      "summary": "Update 11/16 : Phone by Google is the first to roll out the new gradient icon to stable users with version 246 on phones. There are no other changes to the app today, while we’re still waiting for Google Messages (still in beta) and Contacts for Android.",
+      "url": "https://9to5google.com/2026/11/16/phone-by-google-246-new-icon",
+      "source": "9to5Google",
+      "published_at": "2026-11-16T19:54:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google beta lets you test ‘Create My Widget’ on Pixel 10 and 11 now",
+      "summary": "Create My Widget and other Pixel Drop features are rolling out over the coming weeks. Ahead of that, Google is opening a Create My Widget beta on the Play Store.",
+      "url": "https://9to5google.com/2026/11/16/pixel-create-my-widget-beta",
+      "source": "9to5Google",
+      "published_at": "2026-11-16T17:39:58+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Dependabot alert dismissal requests now last one year",
+      "summary": "If you use delegated alert dismissal for Dependabot , dismissal requests now stay open for one year instead of one week. Reviewers have more time to respond before a request expires and has to be resubmitted.",
+      "url": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-17T00:09:27+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "First macOS Sequoia 15.8.4 and macOS Tahoe 26.7.4 RCs rolling out",
+      "summary": "In addition to macOS 27.3 beta 2 , Apple is also rolling out the first Release Candidates for macOS Sequoia 15.8.4 and macOS Tahoe 26.7.4.",
+      "url": "https://9to5mac.com/2026/11/16/first-macos-sequoia-15-8-4-and-macos-tahoe-26-7-4-rcs-rolling-out",
+      "source": "9to5Mac",
+      "published_at": "2026-11-16T19:27:57+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
+      "summary": "Qwen4-Max is Alibaba's answer to Opus 5.5, GPT-6, and Kimi K3.1 Pro. The new flagship pairs a more efficient architecture with much lower prices and targets professional work in industry, science, and finance.",
+      "url": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices",
+      "source": "The Decoder",
+      "published_at": "2026-11-16T16:56:04+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GitHub Copilot weekly releases — November 9",
+      "summary": "This week, bring GitHub Enterprise Server repositories into the Copilot app and see which agent sessions need you first in VS Code. You can also try two new models, Claude Fable 5.2 and Gemini 4 Carbon.",
+      "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-16T21:34:53+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Selaco: The Machines of War massive free update is out now",
+      "summary": "Selaco: The Machines of War is a massive free update out now for the incredible retro shooter, with lots that's new to play through. This is easily one of the best retro boomer shooters ever, and even just the main highlights of what's new is quite long.",
+      "url": "https://www.gamingonlinux.com/2026/11/selaco-the-machines-of-war-massive-free-update-is-out-now",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-16T08:40:07+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML",
+      "summary": "Claude can now embed text, buttons, and other web elements into complex graphics and 3D effects. The article Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML appeared first on The Decoder .",
+      "url": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html",
+      "source": "The Decoder",
+      "published_at": "2026-11-16T16:10:22+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Budget limit increased to 40,000 budgets per account",
+      "summary": "If you set budgets for individual users, or manage budgets across many cost centers and organizations, you can keep adding budgets as your enterprise grows.",
+      "url": "https://github.blog/changelog/2026-11-16-budget-limit-increased-to-40000-budgets-per-account",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-16T21:30:49+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "macOS 27.3 Warns Against Giving AI Apps Full Mac Control",
+      "summary": "With the latest macOS 27.3 beta, Apple is giving Mac users more control over the data they share and the access they give to apps, including apps that use AI agents.",
+      "url": "https://www.macrumors.com/2026/11/16/macos-27-3-full-desk-access",
+      "source": "MacRumors",
+      "published_at": "2026-11-16T21:08:20+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Updates to Device Control and Data Access, and Full Disk Access in macOS",
+      "summary": "Developers of apps that use Full Disk Access for disk backup, or the new Accessibility settings to provide assistive technologies, can request entitlements to deliver the same experience for new installations that they offered before macOS 27.3.",
+      "url": "https://developer.apple.com/news?id=oqng0zjk",
+      "source": "Apple Developer",
+      "published_at": "2026-11-16T08:00:11-08:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "developers"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Check out the new demo for CultGame, an ASCII art cult simulator RPG",
+      "summary": "More about it: Create your own cult, perform forbidden rituals, and crusade against the filthy non-believers. It's time to play god. CultGame is a cult simulator RPG where you start your own cult in a procedurally generated fantasy world with haunting ASCII art.",
+      "url": "https://www.gamingonlinux.com/2026/11/check-out-the-new-demo-for-cultgame-an-ascii-art-cult-simulator-rpg",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-16T08:19:47+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GitHub Copilot models deprecated on November 16, 2026",
+      "summary": "As of today, November 16, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions).",
+      "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-16T20:25:20+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "macOS Golden Gate 27.3 Beta 2 Now Available for Developers",
+      "summary": "Apple today seeded the second beta of macOS Golden Gate 27.3, with the software coming two weeks after the first beta. Registered developers can download macOS Golden Gate 27.3 by opening up the System Settings app, clicking on General, selecting Software Update, and opting in to macOS Golden Gate betas.",
+      "url": "https://www.macrumors.com/2026/11/16/macos-golden-gate-27-3-beta-2",
+      "source": "MacRumors",
+      "published_at": "2026-11-16T19:15:44+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Discord’s Linux app sure did improve a lot this year",
+      "summary": "Discord recently shared a potted roundup of improvements made to its Linux app this year, including smarter updating, better screen sharing on Wayland and working push-to-talk.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/discord-linux-app-wayland-updates",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-16T23:44:18+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
