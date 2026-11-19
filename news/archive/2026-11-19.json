@@ -1,0 +1,401 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T06:58:48Z",
+  "count": 30,
+  "articles": [
+    {
+      "title": "Car Park Capital is initially nostalgia bait but so much more",
+      "summary": "In many ways, Car Park Capital is a game about being thoroughly evil. Comically so. It's about turning everything you can grey, and spreading propaganda to thoroughly brainwash people into loving cars even more so you can make a tidy profit.",
+      "url": "https://www.gamingonlinux.com/2026/11/car-park-capital-is-initially-nostalgia-bait-but-so-much-more",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-18T14:18:51+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Kotlin Toolchain 0.14: Agentic Development and iOS Publishing",
+      "summary": "The Kotlin Toolchain helps you build and ship multiplatform apps faster, with less setup and configuration. Its CLI provides a unified workflow for building, running, testing, and publishing apps for Android, iOS, desktop, and web, whether you’re developing with AI agents or writing code yourself.",
+      "url": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-toolchain-0-14-agentic-development-and-ios-publishing",
+      "source": "Kotlin Blog",
+      "published_at": "2026-11-17T15:25:05+00:00",
+      "category": "programming",
+      "tags": [
+        "kotlin",
+        "programming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
+      "summary": "Google released Gemini 4 Neon, a new frontier model built for software development, knowledge work, and science. It handles text, images, video, audio, and PDFs with a context window of one million tokens.",
+      "url": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month",
+      "source": "The Decoder",
+      "published_at": "2026-11-18T21:03:23+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Code v2.1.328",
+      "summary": "Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions with no permission mode start in it.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+      "source": "Claude Code",
+      "published_at": "2026-11-19T01:14:04+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Castlevania 46LP Vinyl Boxset",
+      "summary": "Materia Collective has released a Castlevania double boxset by Konami Kukeiha Club, based on games from MSX/FDS/NES all the way to XBox360/PS3/Wii on 46LP, featuring artwork from Johnny Dombrowski.",
+      "url": "https://retrorgb.com/castlevania-46lp-vinyl-boxset.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-18T14:50:25+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Sega Dreamcast Plays Nintendo 64 Cartridges",
+      "summary": "In many ways, the Sega Dreamcast was the most forward-thinking console ever produced. It included a built-in Internet connection in a time when the Internet was just becoming widely accessible, VGA output when most people connected their consoles to their televisions with composite video or RF adapters, and even supported a custom version of Windows.",
+      "url": "https://hackaday.com/2026/11/18/sega-dreamcast-plays-nintendo-64-cartridges",
+      "source": "Hackaday",
+      "published_at": "2026-11-19T06:00:01+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Siri Modular Apple Watch face gains two new styles with watchOS 27.3",
+      "summary": "Siri Modular, the new Apple Watch face in watchOS 27, is gaining new style options. watchOS 27.3, currently in beta, adds two more style options to the existing set.",
+      "url": "https://9to5mac.com/2026/11/18/siri-modular-apple-watch-face-gains-two-new-styles-with-watchos-27-3",
+      "source": "9to5Mac",
+      "published_at": "2026-11-19T00:49:22+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+      "summary": "We’re also excited to re-introduce ourselves as the Workers AI superintelligence team, the frontier AI research team behind Clef , Clairic, and lots more in the works.",
+      "url": "https://blog.cloudflare.com/open-clairic",
+      "source": "Cloudflare Blog",
+      "published_at": "2026-11-18T22:00:00+00:00",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "infrastructure"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Motorola Razr Fold finally gets its Android 17 update – hopefully the next 7 years go faster",
+      "summary": "Motorola has kicked off its Android 17 rollout for the Razr Fold, marking the first major update for the company’s first book-style foldable, and the start of a potentially interest 7 years of software support.",
+      "url": "https://9to5google.com/2026/11/18/motorola-razr-fold-android-17-update",
+      "source": "9to5Google",
+      "published_at": "2026-11-18T21:35:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Two decades of The Apache Way: Celebrating 20 years of Google and the Apache Software Foundation",
+      "summary": "In 2006, Google formalized its relationship with the Apache Software Foundation (ASF) as one of its first corporate sponsors and twenty years later, that partnership continues through ongoing sponsorship and upstream contributions.",
+      "url": "https://opensource.googleblog.com/2026/11/two-decades-of-the-apache-way-google-asf-20-years.html",
+      "source": "Google Open Source",
+      "published_at": "2026-11-18T19:30:00+00:00",
+      "category": "open_source",
+      "tags": [
+        "google",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Digiphile has a wonderful charity bundle with a mixture of fun games",
+      "summary": "Digiphile are steadily becoming closer to what Humble Bundle was originally, and their latest charity bundle is quite a nice one too. The Jacksepticeye’s Thankmas 2026 Bundle is live now until December 6 - but they might run out of keys sooner, so if you do want to grab it don't sit on it.",
+      "url": "https://www.gamingonlinux.com/2026/11/digiphile-has-a-wonderful-charity-bundle-with-a-mixture-of-fun-games",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-18T12:54:42+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+      "summary": "Snapchat announced on Wednesday that it’s giving Lens creators the ability to build Lenses using the AI coding assistants they already use, like Claude Code, Cursor, and Codex.",
+      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor",
+      "source": "TechCrunch AI",
+      "published_at": "2026-11-18T19:56:39+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Pixel officially re-releases App Lock in beta, Samsung Galaxy gets it too",
+      "summary": "It’s been a wild ride for Google Pixel’s App Lock feature, but the company is officially re-releasing the feature today, right alongside its debut on Samsung Galaxy devices.",
+      "url": "https://9to5google.com/2026/11/18/google-pixel-app-lock-release-beta",
+      "source": "9to5Google",
+      "published_at": "2026-11-18T21:20:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "The Tripwire Interactive: Mayhem & Combat Bundle is another top deal",
+      "summary": "Available until December 8th, the Tripwire Interactive: Mayhem & Combat Bundle from Green Man Gaming brings some quality action gaming for cheaps. The usual from GamingOnLinux here, with all different ratings and Steam links below to help you decide if it's worth it.",
+      "url": "https://www.gamingonlinux.com/2026/11/the-tripwire-interactive-mayhem-combat-bundle-is-another-top-deal",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-18T11:13:44+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "summary": "Until recently, hardware limits meant those phones only had basic voice commands. Now, we’re bringing the Gemini app to eligible Android (Go edition) devices , putting Google’s personal AI assistant in the hands of hundreds of millions more people.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices",
+      "source": "Google AI Blog",
+      "published_at": "2026-11-18T17:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.3 adds Siri AI usage limits, here’s what counts toward your limit",
+      "summary": "Siri AI has usage limits for some requests in iOS 27.3, here's what it looks like when limits are hit and details on what counts toward them.",
+      "url": "https://9to5mac.com/2026/11/18/ios-27-3-adds-siri-ai-usage-limits-heres-what-counts-toward-your-limit",
+      "source": "9to5Mac",
+      "published_at": "2026-11-18T16:40:26+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Steam is officially drowning in game releases",
+      "summary": "\"We aim to test every game build in a timely manner, typically within 3-5 business days. However, we're running a little behind right now and taking up to 12 business days.",
+      "url": "https://www.gamingonlinux.com/2026/11/steam-is-officially-drowning-in-game-releases",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-18T09:57:39+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems",
+      "summary": "Mistral's AI agent Vibe now has its own desktop app. The article Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems appeared first on The Decoder .",
+      "url": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems",
+      "source": "The Decoder",
+      "published_at": "2026-11-18T14:40:52+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "9to5Mac Daily: November 18, 2026 – More on iOS 27.3, iPhone Duo",
+      "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players.",
+      "url": "https://9to5mac.com/2026/11/18/daily-november-18-2026",
+      "source": "9to5Mac",
+      "published_at": "2026-11-18T15:58:33+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Play wants Android apps to nail foldable basics by April 2027",
+      "summary": "At the same time, Google Play will require foldable device screenshots for app listings: “Providing foldable screenshots by April 2027 will become a standard submission requirement when publishing new apps or updating your store listing.”",
+      "url": "https://9to5google.com/2026/11/18/android-foldable-apps-google-play",
+      "source": "9to5Google",
+      "published_at": "2026-11-18T18:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hugging Face now routes model requests through OpenRouter for the best price or speed",
+      "summary": "Hugging Face's Inference Providers service now routes language model requests through OpenRouter, the company announced . The router picks a provider for each call based on price, speed, and reliability, and automatically falls back to another provider during outages.",
+      "url": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed",
+      "source": "The Decoder",
+      "published_at": "2026-11-18T14:33:44+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iPhone Duo is getting three new features in iOS 27.3",
+      "summary": "It’s not exactly a “new feature,” but iPhone Duo users will also find that the system keyboard has changed in iOS 27.3. Apple tweaked the outer display keyboard to push keys closer together and make one-handed use easier.",
+      "url": "https://9to5mac.com/2026/11/18/iphone-duo-is-getting-three-new-features-in-ios-27-3",
+      "source": "9to5Mac",
+      "published_at": "2026-11-18T15:55:33+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Wait for pull request events with GitHub CLI",
+      "summary": "GitHub CLI now supports GitHub Event Streams . With gh v2.105.0 , you and your agents can wait for a pull request to change with a single command instead of polling it in a loop.",
+      "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-19T00:00:13+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Connect Supabase, Box, Calendly, and more to Copilot",
+      "summary": "You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like Slack, Figma, and Sentry.",
+      "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-18T22:04:50+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Gemini 4 Neon in GitHub Copilot",
+      "summary": "Gemini 4 Neon is now generally available in GitHub Copilot. It is designed for agentic coding, multistep tool use, and knowledge work. According to Google, Gemini 4 Neon delivers quality close to Gemini 4 Carbon at a lower token cost per task.",
+      "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-18T21:49:21+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
+      "summary": "One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both.",
+      "url": "https://arxiv.org/abs/2611.23322",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-19T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Customize GitHub Copilot for your team",
+      "summary": "You can now share the GitHub Copilot plugins your team relies on without asking every member to repeat the same setup. Team customizations are generally available for organization teams.",
+      "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-18T16:00:13+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Proton’s Lumo AI chatbot is now available on Linux desktops",
+      "summary": "Proton has released desktop apps for its Lumo AI chatbot on all major desktop OSes, including Linux. Lumo is the Swiss privacy company’s own AI assistant, introduced last year and available to use on line.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/proton-lumo-ai-linux-desktop",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-18T23:40:00+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop",
+        "proton"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Automating bare metal infrastructure in FIPS-regulated environments with MAAS",
+      "summary": "With the release of MAAS v3.7.4 , Canonical introduces long-awaited FIPS mode support for the bare metal management control plane. This allows organizations to apply stricter cryptographic and security controls to their infrastructure, while maintaining automated provisioning and lifecycle management of physical servers.",
+      "url": "https://ubuntu.com//blog/automating-bare-metal-infrastructure-in-fips-regulated-environments-with-maas",
+      "source": "Ubuntu Blog",
+      "published_at": "2026-11-18T22:26:26+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "linux"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Qualcomm Ath12k Linux Driver Preparing For New WiFi 8 Hardware",
+      "summary": "Last week Qualcomm engineers published an initial draft of their new Ath12k WiFi driver and already a second version of this driver debuted today for addressing some issues raised by the early Sashiko-based AI review.",
+      "url": "https://www.phoronix.com/news/Qualcomm-Ath12k-Linux-WiFi-8",
+      "source": "Phoronix",
+      "published_at": "2026-11-18T05:40:00-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
