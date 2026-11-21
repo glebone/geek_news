@@ -1,0 +1,374 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T06:46:26Z",
+  "count": 28,
+  "articles": [
+    {
+      "title": "FreeBSD GUS: RCU’s cool cousin",
+      "summary": "FreeBSD has a pretty neat safe memory reclamation scheme (something akin to RCU), that’s also been adopted by XNU that hasn’t really been well-documented outside of code comments, and I thought it would’ve been interesting to write about it.",
+      "url": "https://www.osnews.com/story/146443/freebsd-gus-rcus-cool-cousin",
+      "source": "OSNews",
+      "published_at": "2026-11-20T10:09:17+00:00",
+      "category": "open_source",
+      "tags": [
+        "operating-systems",
+        "open-source",
+        "freebsd"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Epic Games Launcher Preview now supported across Fedora, Ubuntu and Debian",
+      "summary": "Well, sort of. More like restored support, but I’ll take it. When the new launcher preview originally arrived it was in an AppImage that worked across many Linux distros.",
+      "url": "https://www.gamingonlinux.com/2026/11/epic-games-launcher-preview-now-supported-across-fedora-ubuntu-and-debian",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-20T21:43:24+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
+      "summary": "Google is bringing \"Computer Use\" to Gemini for Mac, letting the AI operate desktop apps, local files, and websites in an isolated background window with a live preview while users keep working.",
+      "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working",
+      "source": "The Decoder",
+      "published_at": "2026-11-20T18:50:31+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Claude Code v2.1.330",
+      "summary": "Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after claude auth login , Claude Code applies the organization's settings and uses its cloud provider or gateway.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "source": "Claude Code",
+      "published_at": "2026-11-20T22:32:56+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "RetroTINK 6x / 4K Firmware v1.99.19",
+      "summary": "Mike Chi just released another firmware update for the RetroTINK 6x and 4K’s with some noteworthy features. Both CE’s now offer an “Edge Adaptive Deinterlacing” mode, which is important for people with a lot of 480i content.",
+      "url": "https://retrorgb.com/retrotink-6x-4k-firmware-v1-99-19.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-20T18:59:56+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Printable Homelab Racks You Can Design In A Browser",
+      "summary": "Printable Racks aims to provide a simple, accessible solution for just this situation. If you want to whip up a 10-inch rack for your homelab, you start by picking a frame from a range of printable or ready-made designs.",
+      "url": "https://hackaday.com/2026/11/20/printable-homelab-racks-you-can-design-in-a-browser",
+      "source": "Hackaday",
+      "published_at": "2026-11-21T06:00:12+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27 lets you use two iPhones with the same phone number",
+      "summary": "Among iOS 27’s many new features is a great change for anyone with multiple iPhones: you can now keep the same phone number on two iPhones via iPhone Handoff.",
+      "url": "https://9to5mac.com/2026/11/20/ios-27-lets-you-use-two-iphones-with-the-same-phone-number",
+      "source": "9to5Mac",
+      "published_at": "2026-11-20T23:06:00+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Is the Galaxy S26 Ultra still a good buy at the end of 2026?",
+      "summary": "Yes, the Samsung Galaxy S26 Ultra remains a good buy in late 2026 if you want a large-screen Android phone with versatile cameras, an integrated S Pen, and long-term software support.",
+      "url": "https://9to5google.com/2026/11/20/is-the-galaxy-s26-ultra-still-a-good-buy-at-the-end-of-2026",
+      "source": "9to5Google",
+      "published_at": "2026-11-20T19:12:42+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "This Week in Open Source for November 20, 2026",
+      "summary": "Automated tools are flooding open source repositories with bug reports and pull requests faster than human maintainers can review patches, coordinate security embargoes, or fund the work behind critical infrastructure.",
+      "url": "https://opensource.googleblog.com/2026/11/this-week-in-open-source-nov-20.html",
+      "source": "Google Open Source",
+      "published_at": "2026-11-20T19:30:00+00:00",
+      "category": "open_source",
+      "tags": [
+        "google",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Rayman Legends Retold is Steam Deck and Steam Machine Verified ahead of launch",
+      "summary": "Rayman Legends Retold arrives December 4th, and you'll be good to go on basically any Linux platform like Steam Deck and Steam Machine where it's now Verified.",
+      "url": "https://www.gamingonlinux.com/2026/11/rayman-legends-retold-is-steam-deck-and-steam-machine-verified-ahead-of-launch",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-20T10:21:44+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "summary": "Before a banker can recommend an acquisition to their client, they need to make sense of financial statements, customer contracts and management presentations. Hebbia’s Matrix helps bring that research together, linking answers to the documents behind them.",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "source": "OpenAI News",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Dolphin Depot: Macho Nacho Demo",
+      "summary": "Tito from Macho Nacho Productions just released a video demoing Dolphin Depo, which is essentially an app store / homebrew channel for any GameCube that can launch homebrew and connect to the internet.",
+      "url": "https://retrorgb.com/dolphin-depot-macho-nacho-demo.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-20T17:52:25+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Improving Aluminium Anodes for Lithium Batteries With Magnesium",
+      "summary": "Generally lithium-ion cells feature graphite anodes, but their chemical stability comes with the trade-off of poor capacity. Metal alloy anodes such as aluminium, silver and magnesium provide many advantages here, especially in terms of much higher capacity and higher charge/discharge rates.",
+      "url": "https://hackaday.com/2026/11/20/improving-aluminium-anodes-for-lithium-batteries-with-magnesium",
+      "source": "Hackaday",
+      "published_at": "2026-11-21T03:00:30+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Bringing the lake back to the lakehouse: Introducing the FILE type in Apache Iceberg",
+      "summary": "The integration of the FILE type into the Apache Iceberg specification marks a major step forward for open lakehouse architectures. Rather than forcing organizations to rely on proprietary wrappers or fragmented storage systems to handle unstructured media, Iceberg establishes a portable, open standard.",
+      "url": "https://opensource.googleblog.com/2026/11/iceberg-file-type-multimodal-lakehouse.html",
+      "source": "Google Open Source",
+      "published_at": "2026-11-19T19:30:00+00:00",
+      "category": "open_source",
+      "tags": [
+        "google",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Run your own mercenary company in the new demo of MetalMercs",
+      "summary": "MetalMercs is a real-time-with-pause mech strategy game where you run a mercenary company. You negotiate contracts, fight on battlefields generated for every mission, salvage what's left of the enemy, and refit your mechs with whatever you can afford.",
+      "url": "https://www.gamingonlinux.com/2026/11/run-your-own-mercenary-company-in-the-new-demo-of-metalmercs",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-20T09:25:27+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "summary": "Before a model can reason about a compound’s properties, it needs to identify the molecule correctly. Chemical drawings encode atom connections, ring structures, and stereochemistry.",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "source": "OpenAI News",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Pixel held its ground in the US despite a middling Pixel 11 launch",
+      "summary": "The latest quarterly data for the US smartphone market reveals that Google Pixel is holding its ground despite the overall market faltering, and the other two major Android brands struggling.",
+      "url": "https://9to5google.com/2026/11/20/google-pixel-us-smartphone-market-q3-2026",
+      "source": "9to5Google",
+      "published_at": "2026-11-20T17:30:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Keep an eye on SuperWEIRD, a game that blends multiple genres in strange ways",
+      "summary": "SuperWEIRD is an automation roguelite where you rebuild a shattered planet with a crew of single-task robots. Set up production chains, equip your fighters and take on the Goofy Goo, solo or with up to three friends.",
+      "url": "https://www.gamingonlinux.com/2026/11/keep-an-eye-on-superweird-a-game-that-blends-multiple-genres-in-strange-ways",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-20T09:09:51+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27 has clever new Messages feature I’ve been using a lot",
+      "summary": "iOS 27 gives the Messages app a variety of welcome upgrades , including one I’ve found myself using a lot: a Smart Reply feature that’s now personalized to the user’s writing style.",
+      "url": "https://9to5mac.com/2026/11/20/ios-27-has-clever-new-messages-feature-ive-been-using-a-lot",
+      "source": "9to5Mac",
+      "published_at": "2026-11-20T18:50:59+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GitHub Enterprise Server 3.23 release candidate",
+      "summary": "If your enterprise uses GitHub Secret Protection, you can detect unstructured secrets entirely within your network using AI secret detection on GHES, including in air-gapped environments.",
+      "url": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-20T20:41:26+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple Calendar got two feature upgrades it really needed in iOS 27",
+      "summary": "Apple Calendar keeps getting better, including some design updates coming in iOS 27.3. But there are two standout feature upgrades added recently in iOS 27 that Apple’s Calendar app really needed.",
+      "url": "https://9to5mac.com/2026/11/20/apple-calendar-got-two-feature-upgrades-it-really-needed-in-ios-27",
+      "source": "9to5Mac",
+      "published_at": "2026-11-20T15:52:47+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Pin your favorite repositories to your dashboard",
+      "summary": "Your favorites sync with your pinned repositories in GitHub Mobile. Changes you make in either place appear in the other after you refresh. You can pin up to 25 repositories across both experiences.",
+      "url": "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-20T14:12:05+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GitHub Desktop now supports multiple accounts per host",
+      "summary": "GitHub Desktop now lets you sign in with more than one account on the same host, including GitHub.com, GitHub Enterprise Server, and GHE.com. This has been one of the most requested features in the Desktop community.",
+      "url": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-20T02:06:01+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Inside the Codex sandbox",
+      "summary": "For example, consider using Codex to develop an iOS app on a Mac. If you decided to sandbox Codex by running it inside Docker, Codex would not be able to run the iOS build toolchain composed of native Mac executables, nor could it launch the iPhone simulator to run the code.",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "source": "OpenAI News",
+      "published_at": "2026-11-18T08:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Kessler is an open-source, zine-style music player (with iPod support)",
+      "summary": "kessler is a new, open-source music player with a zine-style design, dithered album artwork and iPod support. It was also made with AI coding tools.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/kessler-music-player",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-21T05:30:13+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Linux 7.3 is likely to be the next LTS kernel",
+      "summary": "Linux 7.3 is looking like it’ll be the new long-term support (LTS) kernel. Greg Kroah-Hartman, one of the kernels’ key maintainers, intimated this in early November in a reply on the Linux Kernel Mailing List, discussing the status of Linux 7.4 and when it’s likely to be released.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/linux-7-3-lts-kernel-likely",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-20T17:37:35+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Rust Coreutils 0.13 Release Delivers More Performance, Better Compatibility",
+      "summary": "Rust Coreutils 0.13 released today as the newest feature update to this Rust-based re-implementation of GNU Coreutils that is used by Ubuntu Linux and other platforms.",
+      "url": "https://www.phoronix.com/news/Rust-Coreutils-0.13",
+      "source": "Phoronix",
+      "published_at": "2026-11-20T06:16:03-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "FFmpeg 9.1 Released With NVIDIA Optical Flow FRUC, APV Vulkan Encoder",
+      "summary": "Following the FFmpeg 9.1 release preparations that began last month, FFmpeg 9.1 is now formally released as the newest feature update to this widely-used, cross-platform multimedia library.",
+      "url": "https://www.phoronix.com/news/FFmpeg-9.1-Released",
+      "source": "Phoronix",
+      "published_at": "2026-11-20T05:30:05-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
