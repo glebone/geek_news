@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "date": "2026-11-22",
-  "generated_at": "2026-11-22T06:16:21Z",
-  "count": 16,
+  "generated_at": "2026-11-22T12:51:59Z",
+  "count": 18,
   "articles": [
     {
       "title": "Dual boot NetBSD 11.1 and Debian 13 on a ThinkPad T14 G1",
@@ -32,24 +32,11 @@
       "article_type": "news"
     },
     {
-      "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
-      "summary": "OpenAI has released new prompt templates for GPT-6.2 Astra and Sol meant to fix common model behaviors such as overly brief answers, unnecessary follow-up questions, and excessive testing when coding.",
-      "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions",
-      "source": "The Decoder",
-      "published_at": "2026-11-21T13:32:35+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Building a Robotic Hand on a Budget",
-      "summary": "Although the hand is the main point of the project, it’s really a full forearm. The skeleton is 3D printed and driven by servo motors; like a human hand, the motors are located mostly in the forearm and use tendons to actuate the joints.",
-      "url": "https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget",
+      "title": "Potatoes Grow in Simulated Lunar Soil as Well as on Earth",
+      "summary": "Notable is that compared to the Earth soil (Adkins) control all lunar regolith potatoes were less healthy and produced less biomass. This is likely due to how sharp regolith is on a microscopic level, which are postulated to cause constant damage to the roots and other elements of the plant.",
+      "url": "https://hackaday.com/2026/11/22/potatoes-grow-in-simulated-lunar-soil-as-well-as-on-earth",
       "source": "Hackaday",
-      "published_at": "2026-11-22T06:00:20+00:00",
+      "published_at": "2026-11-22T12:00:53+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -85,11 +72,11 @@
       "article_type": "news"
     },
     {
-      "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
-      "summary": "Hours after Alpöge's announcement, the story took a dramatic turn. Just before a board meeting, Stanford math professor and American Mathematical Society (AMS) president Ravi Vakil posted a \"hurried announcement\" on his blog, sharing an independent draft proof of the Generalized Riemann Hypothesis written by mathematician Alessandro Masullo.",
-      "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
+      "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+      "summary": "OpenAI's GPT-6.2 Astra and Sol give much shorter answers, get to the point faster, and impose less structure on their responses than their predecessors. At the same time, Artificial Analysis rates their tendency to admit uncertainty much lower.",
+      "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude",
       "source": "The Decoder",
-      "published_at": "2026-11-21T11:19:49+00:00",
+      "published_at": "2026-11-22T09:41:37+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -112,15 +99,41 @@
       "article_type": "release"
     },
     {
-      "title": "Capturing and Mineralizing Atmospheric Carbon Dioxide",
-      "summary": "By mineralizing the carbon dioxide it should end up in a stable form that will last the ages. Here crushed wollastonite is used to finally mineralize the gas, with it being fed in at high pressure and temperature to speed up the process.",
-      "url": "https://hackaday.com/2026/11/21/capturing-and-mineralizing-atmospheric-carbon-dioxide",
+      "title": "Quick WIFI Adapter Through USB",
+      "summary": "There’s breaking news! Quick, check your computer and look it up! What? Your computer doesn’t have internet right now because its WiFi chip fried itself?",
+      "url": "https://hackaday.com/2026/11/22/quick-wifi-adapter-through-usb",
       "source": "Hackaday",
-      "published_at": "2026-11-22T03:00:36+00:00",
+      "published_at": "2026-11-22T09:00:44+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
         "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+      "summary": "OpenAI has released new prompt templates for GPT-6.2 Astra and Sol meant to fix common model behaviors such as overly brief answers, unnecessary follow-up questions, and excessive testing when coding.",
+      "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions",
+      "source": "The Decoder",
+      "published_at": "2026-11-21T13:32:35+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+      "summary": "Hours after Alpöge's announcement, the story took a dramatic turn. Just before a board meeting, Stanford math professor and American Mathematical Society (AMS) president Ravi Vakil posted a \"hurried announcement\" on his blog, sharing an independent draft proof of the Generalized Riemann Hypothesis written by mathematician Alessandro Masullo.",
+      "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
+      "source": "The Decoder",
+      "published_at": "2026-11-21T11:19:49+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
       ],
       "article_type": "news"
     },
@@ -130,19 +143,6 @@
       "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop",
       "source": "The Decoder",
       "published_at": "2026-11-21T10:33:02+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
-      "summary": "AI agents increasingly rely on complex training pipelines. A team from TikTok parent Bytedance and several US universities aims to show that three steps are enough.",
-      "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model",
-      "source": "The Decoder",
-      "published_at": "2026-11-21T09:17:24+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -191,11 +191,11 @@
       "article_type": "news"
     },
     {
-      "title": "Linux 7.4 To Remove NVMe Namespaces In Parallel For Faster Results",
-      "summary": "As part of this week's block subsystem fixes for the Linux 7.4-rc4 kernel release due out on Sunday are many bug fixes plus also a nice NVMe namespaces optimization.",
-      "url": "https://www.phoronix.com/news/Linux-7.4-NVMe-NS-Parallel",
+      "title": "Linux 7.5 To Introduce Initial Mainline Support For Ambarella SoCs",
+      "summary": "Following some initial Device Tree and driver preparation patches that were merged for Linux v7.4, the upcoming Linux v7.5 kernel is set to introduce initial support for Ambarella SoCs with the CV75 being the initial SoC target.",
+      "url": "https://www.phoronix.com/news/Linux-7.5-Ambarella-SoCs",
       "source": "Phoronix",
-      "published_at": "2026-11-21T20:24:33-05:00",
+      "published_at": "2026-11-22T06:35:20-05:00",
       "category": "linux",
       "tags": [
         "linux",
@@ -204,11 +204,37 @@
       "article_type": "news"
     },
     {
-      "title": "KDE Plasma 6.9 Allows Adjusting The Text Cursor Blinking Rate, Other Improvements",
-      "summary": "It has been another busy week in the KDE development space with more feature work and fixes piling up for the upcoming Plasma 6.9 desktop.",
-      "url": "https://www.phoronix.com/news/KDE-Plasma-6.9-Cursor-Blinking",
+      "title": "The First Rust WMI Linux Driver Being Developed Is For Clevo Laptops",
+      "summary": "The first Rust-based driver being developed for making use of the Linux kernel's Rust Windows Management Instrumentation (WMI) interface abstractions is 'clevo-laptop' and is a new driver for Clevo laptops, including those sold by TUXEDO Computers, Metabox, Sager, XMG, and others.",
+      "url": "https://www.phoronix.com/news/Rust-WMI-Driver-Clevo-Laptops",
       "source": "Phoronix",
-      "published_at": "2026-11-21T05:51:46-05:00",
+      "published_at": "2026-11-22T05:56:26-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "15 years of long term support for bare metal automation with MAAS",
+      "summary": "With MAAS 3.8, Canonical introduces the first Long Term Supported (LTS) release of MAAS, offering up to 15 years of security maintenance , predictable operational stability, and enterprise support for its bare metal automation platform, following Ubuntu LTS commitment .",
+      "url": "https://ubuntu.com//blog/15-years-of-long-term-support-for-bare-metal-automation-with-maas",
+      "source": "Ubuntu Blog",
+      "published_at": "2026-11-22T10:30:00+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "linux"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Linux 7.4 To Remove NVMe Namespaces In Parallel For Faster Results",
+      "summary": "As part of this week's block subsystem fixes for the Linux 7.4-rc4 kernel release due out on Sunday are many bug fixes plus also a nice NVMe namespaces optimization.",
+      "url": "https://www.phoronix.com/news/Linux-7.4-NVMe-NS-Parallel",
+      "source": "Phoronix",
+      "published_at": "2026-11-21T20:24:33-05:00",
       "category": "linux",
       "tags": [
         "linux",
