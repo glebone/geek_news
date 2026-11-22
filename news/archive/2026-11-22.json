@@ -1,0 +1,220 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T06:16:21Z",
+  "count": 16,
+  "articles": [
+    {
+      "title": "Dual boot NetBSD 11.1 and Debian 13 on a ThinkPad T14 G1",
+      "summary": "After gaining some confidence from installing NetBSD on my Raspberry Pi, I started wondering, what if I installed it on my daily-driver ThinkPad and set it up to dual-boot?",
+      "url": "https://www.osnews.com/story/146447/dual-boot-netbsd-11-1-and-debian-13-on-a-thinkpad-t14-g1",
+      "source": "OSNews",
+      "published_at": "2026-11-21T23:52:41+00:00",
+      "category": "open_source",
+      "tags": [
+        "operating-systems",
+        "open-source",
+        "netbsd"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Get some gems in the Deck the Halls with Deckbuilders Bundle",
+      "summary": "The Deck the Halls with Deckbuilders Bundle is live and with it you can get some real indie gems here. As usual from GamingOnLinux you'll get all the ratings and other details below, along with Steam links for more info.",
+      "url": "https://www.gamingonlinux.com/2026/11/get-some-gems-in-the-deck-the-halls-with-deckbuilders-bundle",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-21T13:35:58+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+      "summary": "OpenAI has released new prompt templates for GPT-6.2 Astra and Sol meant to fix common model behaviors such as overly brief answers, unnecessary follow-up questions, and excessive testing when coding.",
+      "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions",
+      "source": "The Decoder",
+      "published_at": "2026-11-21T13:32:35+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Building a Robotic Hand on a Budget",
+      "summary": "Although the hand is the main point of the project, it’s really a full forearm. The skeleton is 3D printed and driven by servo motors; like a human hand, the motors are located mostly in the forearm and use tendons to actuate the joints.",
+      "url": "https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget",
+      "source": "Hackaday",
+      "published_at": "2026-11-22T06:00:20+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27: My favorite new iPhone features (other than AI)",
+      "summary": "When Apple released iOS 27 in September, Siri Ai stole a lot of the headline. However, the update also includes plenty of non-AI features that I’ve come to really enjoy.",
+      "url": "https://9to5mac.com/2026/11/21/ios-27-my-favorite-new-iphone-features-other-than-ai",
+      "source": "9to5Mac",
+      "published_at": "2026-11-21T22:22:26+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Gemini app rolls out very slick camera redesign on Android",
+      "summary": "This camera redesign first launched in the Gemini for iOS app, but has now widely rolled out on Android in both the beta and stable (version 17.76+) channels.",
+      "url": "https://9to5google.com/2026/11/21/gemini-camera-redesign",
+      "source": "9to5Google",
+      "published_at": "2026-11-21T20:52:52+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+      "summary": "Hours after Alpöge's announcement, the story took a dramatic turn. Just before a board meeting, Stanford math professor and American Mathematical Society (AMS) president Ravi Vakil posted a \"hurried announcement\" on his blog, sharing an independent draft proof of the Generalized Riemann Hypothesis written by mathematician Alessandro Masullo.",
+      "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
+      "source": "The Decoder",
+      "published_at": "2026-11-21T11:19:49+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "llm-gemini 0.38.1",
+      "summary": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level.",
+      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini",
+      "source": "Simon Willison",
+      "published_at": "2026-11-20T03:01:57+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "developer-tools",
+        "models"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Capturing and Mineralizing Atmospheric Carbon Dioxide",
+      "summary": "By mineralizing the carbon dioxide it should end up in a stable form that will last the ages. Here crushed wollastonite is used to finally mineralize the gas, with it being fed in at high pressure and temperature to speed up the process.",
+      "url": "https://hackaday.com/2026/11/21/capturing-and-mineralizing-atmospheric-carbon-dioxide",
+      "source": "Hackaday",
+      "published_at": "2026-11-22T03:00:36+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+      "summary": "Thinking Machines has released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token. This lets the model reason internally for longer without generating extra text.",
+      "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop",
+      "source": "The Decoder",
+      "published_at": "2026-11-21T10:33:02+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+      "summary": "AI agents increasingly rely on complex training pipelines. A team from TikTok parent Bytedance and several US universities aims to show that three steps are enough.",
+      "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model",
+      "source": "The Decoder",
+      "published_at": "2026-11-21T09:17:24+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Solbrand has a demo worth checking out with a seriously cool UI and atomsphere",
+      "summary": "If you like mysterious underwater adventuring, Solbrand is one you should be checking out with the fantastic atmosphere. I'm also a big fan of the user interface in this one, love all the flip switches and the general design of it.",
+      "url": "https://www.gamingonlinux.com/2026/11/solbrand-has-a-demo-worth-checking-out-with-a-seriously-cool-ui-and-atomsphere",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-20T08:48:44+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "The Godot Engine 2026 Showreel has a nice varied selection",
+      "summary": "The Godot Engine team have put up a 2026 Showreel of various different types of games being made with the free and open source game engine.",
+      "url": "https://www.gamingonlinux.com/2026/11/the-godot-engine-2026-showreel-has-a-nice-varied-selection",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-20T08:34:44+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "SteamVR Beta 2.19.4 brings Steam Link Streaming upgrades",
+      "summary": "A fresh SteamVR Beta has arrived for all supported platforms, bringing some nice sounding improvements to Steam Link Streaming and Linux. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/steamvr-beta-2-19-4-brings-steam-link-streaming-upgrades",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-20T08:29:18+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Linux 7.4 To Remove NVMe Namespaces In Parallel For Faster Results",
+      "summary": "As part of this week's block subsystem fixes for the Linux 7.4-rc4 kernel release due out on Sunday are many bug fixes plus also a nice NVMe namespaces optimization.",
+      "url": "https://www.phoronix.com/news/Linux-7.4-NVMe-NS-Parallel",
+      "source": "Phoronix",
+      "published_at": "2026-11-21T20:24:33-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "KDE Plasma 6.9 Allows Adjusting The Text Cursor Blinking Rate, Other Improvements",
+      "summary": "It has been another busy week in the KDE development space with more feature work and fixes piling up for the upcoming Plasma 6.9 desktop.",
+      "url": "https://www.phoronix.com/news/KDE-Plasma-6.9-Cursor-Blinking",
+      "source": "Phoronix",
+      "published_at": "2026-11-21T05:51:46-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    }
+  ]
+}
