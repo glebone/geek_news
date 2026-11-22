@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "date": "2026-11-22",
-  "generated_at": "2026-11-22T12:51:59Z",
+  "generated_at": "2026-11-22T13:27:30Z",
   "count": 18,
   "articles": [
     {
@@ -19,11 +19,11 @@
       "article_type": "news"
     },
     {
-      "title": "Get some gems in the Deck the Halls with Deckbuilders Bundle",
-      "summary": "The Deck the Halls with Deckbuilders Bundle is live and with it you can get some real indie gems here. As usual from GamingOnLinux you'll get all the ratings and other details below, along with Steam links for more info.",
-      "url": "https://www.gamingonlinux.com/2026/11/get-some-gems-in-the-deck-the-halls-with-deckbuilders-bundle",
+      "title": "CachyOS November 2026 Release brings support for Easy Anti-Cheat Linux v2",
+      "summary": "This release brings support for Easy Anti-Cheat Linux v2 . EAC only lets games start when it can verify how the system was booted: Secure Boot with a kernel signed by a key that Epic trusts, a TPM 2.0, an enabled IOMMU, and a kernel running in lockdown mode that only loads signed modules.",
+      "url": "https://www.gamingonlinux.com/2026/11/cachyos-november-2026-release-brings-support-for-easy-anti-cheat-linux-v2",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-21T13:35:58+00:00",
+      "published_at": "2026-11-22T12:55:53+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -68,6 +68,19 @@
         "android",
         "google",
         "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Get some gems in the Deck the Halls with Deckbuilders Bundle",
+      "summary": "The Deck the Halls with Deckbuilders Bundle is live and with it you can get some real indie gems here. As usual from GamingOnLinux you'll get all the ratings and other details below, along with Steam links for more info.",
+      "url": "https://www.gamingonlinux.com/2026/11/get-some-gems-in-the-deck-the-halls-with-deckbuilders-bundle",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-21T13:35:58+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
       ],
       "article_type": "news"
     },
@@ -173,20 +186,6 @@
       "tags": [
         "linux-gaming",
         "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "SteamVR Beta 2.19.4 brings Steam Link Streaming upgrades",
-      "summary": "A fresh SteamVR Beta has arrived for all supported platforms, bringing some nice sounding improvements to Steam Link Streaming and Linux. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/11/steamvr-beta-2-19-4-brings-steam-link-streaming-upgrades",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-20T08:29:18+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games",
-        "steam"
       ],
       "article_type": "news"
     },
