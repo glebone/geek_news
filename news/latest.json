@@ -1,21 +1,164 @@
 {
   "schema_version": 2,
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T07:08:00Z",
-  "count": 14,
+  "generated_at": "2026-11-23T15:23:27Z",
+  "count": 22,
   "articles": [
     {
-      "title": "When Drawers Get Their Own Status Lights",
-      "summary": "The lights come from a single WS2814 RGBW COB strip, with 21 pixels dedicated across the drawer columns. The strip is powered from 24 V, with a step-down DC-DC converter feeding the ESP32-C6 that runs everything.",
-      "url": "https://hackaday.com/2026/11/22/when-drawers-get-their-own-status-lights",
+      "title": "Jensen Huang returns to NVIDIA as President, CEO and Board Director",
+      "summary": "Today, the NVIDIA Board issued a statement on their official press area to note that they've reinstated Jensen Huang as President, CEO and Board Director.",
+      "url": "https://www.gamingonlinux.com/2026/11/jensen-huang-returns-to-nvidia-as-president-ceo-and-board-director",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-23T14:27:04+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model",
+      "summary": "Z.ai is moving its flagship GLM-5.4 model to a loop architecture in which 28 layers run twice, which the company says lets the 750-billion-parameter model match models with 2 to 3 trillion parameters.",
+      "url": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model",
+      "source": "The Decoder",
+      "published_at": "2026-11-23T15:13:03+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Contra Force NES to SNES, 60fps Conversion",
+      "summary": "Developer Infidelity has just released his latest NES to SNES port, this time for the game Contra Force. As usual, there’s the reduced (or eliminated) sprite flicker or slowdown, but this conversion also allows the game to run at a stable 60fps!",
+      "url": "https://retrorgb.com/contra-force-nes-to-snes-60fps-conversion.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-23T15:20:29+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "AirPods Pro 3 were worth the upgrade for one standout feature",
+      "summary": "AirPods Pro 3 ( now only $149 , down from $249 ) offer many advantages over AirPods Pro 2, but after a year of use, the improvements to Active Noise Cancellation alone have proven worth the upgrade.",
+      "url": "https://9to5mac.com/2026/11/23/airpods-pro-3-were-worth-the-upgrade-for-one-standout-feature",
+      "source": "9to5Mac",
+      "published_at": "2026-11-23T15:18:39+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "How Modern Smartphones Talk To Satellites",
+      "summary": "There is another, entirely different concept for satellite communications for modern smartphones. That is—what if a satellite was just a cell tower, that a phone could talk to using its regular modem like any other?",
+      "url": "https://hackaday.com/2026/11/23/how-modern-smartphones-talk-to-satellites",
       "source": "Hackaday",
-      "published_at": "2026-11-23T06:00:20+00:00",
+      "published_at": "2026-11-23T15:00:16+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
         "maker"
       ],
       "article_type": "news"
+    },
+    {
+      "title": "Probing DNS at Cloudflare",
+      "summary": "This is something the Cloudflare DNS team has experienced firsthand. In one rollout of the service that publishes DNS records to our edge, a scheduling bug let some record changes sit unpublished for hours.",
+      "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare",
+      "source": "Cloudflare Blog",
+      "published_at": "2026-11-23T14:00:00+00:00",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "infrastructure"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "‘Galaxy Watch 10’ won’t launch in 2027 as Samsung tries to slow RAMageddon losses",
+      "summary": "According to a new report, Samsung’s next “Galaxy Watch 10” won’t be releasing in 2027 with the company moving to a bi-yearly release schedule for its smartwatches.",
+      "url": "https://9to5google.com/2026/11/23/samsung-galaxy-watch-10-new-schedule-report",
+      "source": "9to5Google",
+      "published_at": "2026-11-23T13:35:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Stop-motion horror game ABIDE brings a freaky new trailer",
+      "summary": "Cult art-driven indie dev duo Talha & Jack Co showed off an intense new trailer for ABIDE - their upcoming stop-motion, first-person horror. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/stop-motion-horror-game-abide-brings-a-freaky-new-trailer",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-23T13:25:22+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Wii on Wii U – Finally Fixed!",
+      "summary": "Developer GaryOderNichts – the same dev who came up with the fix to prevent bricked Wii U’s – has just discovered why Wii games played via the Wii U’s “vWii” backward compatibility mode look so bad.",
+      "url": "https://retrorgb.com/wii-on-wii-u-finally-fixed.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-23T14:17:06+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Which Samsung folding phone is right for you? Galaxy Z Fold 8, Ultra, or Flip 8",
+      "summary": "You can get the Galaxy Z Fold 8, Fold 8 Ultra, and Flip 8 from your favorite carriers and retailers, but Best Buy is one of the best places to score a great deal with solid trade-in values and deep discounts around Black Friday and throughout the holiday season.",
+      "url": "https://9to5google.com/2026/11/23/samsung-folding-phone-guide",
+      "source": "9to5Google",
+      "published_at": "2026-11-23T13:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Grab a Black Friday deal with the new Fanatical Capcom Bundle",
+      "summary": "Finish up your collection of Capcom games in the Fanatical Black Friday Bundle . If you don't already have a bunch, this can work out to be one of the best ways to grab a nice mixture of games.",
+      "url": "https://www.gamingonlinux.com/2026/11/grab-a-black-friday-deal-with-the-new-fanatical-capcom-bundle",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-23T10:31:14+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
+      "summary": "Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. We crossed AI partnership (one versus two) with behavioral formation (calibrated to average human behavior versus customized by the participant) in a brainstorming experiment ($N$=168) with human-human dyads as reference.",
+      "url": "https://arxiv.org/abs/2611.26663",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-23T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
     },
     {
       "title": "iOS 27 has a clever fix for unreliable Wi-Fi connections",
@@ -44,43 +187,17 @@
       "article_type": "news"
     },
     {
-      "title": "I Heard There Was a Secret Port…",
-      "summary": "TPC specifies 2^16 ports, 65536, much more than are typically used. In fact, the port zero is almost never used, or, as [Acid Vegas] found out, about 0.25% of hosts globally (give or take) to be precise.",
-      "url": "https://hackaday.com/2026/11/22/i-heard-there-was-a-secret-port",
-      "source": "Hackaday",
-      "published_at": "2026-11-23T03:00:47+00:00",
-      "category": "hardware",
+      "title": "Surreal corporate horror deckbuilder Mr Magpie's Harmless Card Game arrives February 2027",
+      "summary": "Mr Magpie's Harmless Card Game is a surreal corporate horror deckbuilder combining Minesweeper-inspired deduction, push-your-luck mechanics and more. During the Horror Game Awards 2026 they revealed a release date for February 18, 2027.",
+      "url": "https://www.gamingonlinux.com/2026/11/surreal-corporate-horror-deckbuilder-mr-magpies-harmless-card-game-arrives-february-2027",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-23T09:14:10+00:00",
+      "category": "linux",
       "tags": [
-        "hardware",
-        "maker"
+        "linux-gaming",
+        "games"
       ],
       "article_type": "news"
-    },
-    {
-      "title": "Samsung Galaxy Watch Ultra 2 vs Watch 9: When is it right to spend more?",
-      "summary": "Samsung rates the Galaxy Watch Ultra 2 for up to 60 hours with the always-on display enabled, compared with up to 30 hours for the Watch 9, and that extra headroom is appealing when your day starts with a workout and finishes well into the evening.",
-      "url": "https://9to5google.com/2026/11/22/samsung-galaxy-watch-ultra-2-vs-watch-9-when-is-it-right-to-spend-more",
-      "source": "9to5Google",
-      "published_at": "2026-11-22T14:26:51+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
-      "summary": "Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. We crossed AI partnership (one versus two) with behavioral formation (calibrated to average human behavior versus customized by the participant) in a brainstorming experiment ($N$=168) with human-human dyads as reference.",
-      "url": "https://arxiv.org/abs/2611.26663",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-23T00:00:00-05:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
     },
     {
       "title": "Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation",
@@ -123,30 +240,41 @@
       "article_type": "research"
     },
     {
-      "title": "SteamVR Beta 2.19.4 brings Steam Link Streaming upgrades",
-      "summary": "A fresh SteamVR Beta has arrived for all supported platforms, bringing some nice sounding improvements to Steam Link Streaming and Linux. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/11/steamvr-beta-2-19-4-brings-steam-link-streaming-upgrades",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-20T08:29:18+00:00",
+      "title": "VKD3D 2.2 Released With More Improvements For Direct3D 12 On Vulkan",
+      "summary": "Ahead of the Wine 12.0 release candidates expected to begin in December with the stable Wine 12.0 release then in early 2027, VKD3D 2.2 is now available for this Direct3D 12 on Vulkan API implementation.",
+      "url": "https://www.phoronix.com/news/VKD3D-2.2-Released",
+      "source": "Phoronix",
+      "published_at": "2026-11-23T06:36:58-05:00",
       "category": "linux",
       "tags": [
-        "linux-gaming",
-        "games",
-        "steam"
+        "linux",
+        "open-source"
       ],
       "article_type": "news"
     },
     {
-      "title": "SteamOS 0.5.10 Beta for Steam Frame brings Image Quality Improvements",
-      "summary": "SteamOS 0.5.10 Beta for Steam Frame was released by Valve to further enhance the visual quality on this SteamOS Linux VR device. We also just recently hit 300 games that are Steam Frame Standalone Verified .",
-      "url": "https://www.gamingonlinux.com/2026/11/steamos-0-5-10-beta-for-steam-frame-brings-image-quality-improvements",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-20T08:21:59+00:00",
+      "title": "Mesa 27.0 Merges LLVMpipe AVX-512 Support",
+      "summary": "As a follow-up to the article last month around David Airlie and AI resurrecting AVX-512 support for Mesa's LLVMpipe software driver, that code is now merged for Mesa 27.0.",
+      "url": "https://www.phoronix.com/news/Mesa-27.0-AVX-512-LLVMpipe",
+      "source": "Phoronix",
+      "published_at": "2026-11-23T06:24:55-05:00",
       "category": "linux",
       "tags": [
-        "linux-gaming",
-        "games",
-        "steam"
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Automating encryption at rest with Canonical’s Charmed MongoDB",
+      "summary": "That’s enough with the warnings; let’s dig into how encryption at rest works in MongoDB. Canonical’s Charmed MongoDB Operator supports data encryption at rest of the data using a two-level key hierarchy, and is local to each instance.",
+      "url": "https://ubuntu.com//blog/encryption-at-rest-with-charmed-mongodb",
+      "source": "Ubuntu Blog",
+      "published_at": "2026-11-23T10:00:00+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "linux"
       ],
       "article_type": "news"
     },
@@ -160,32 +288,6 @@
       "tags": [
         "ubuntu",
         "desktop"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Ubuntu 27.04 daily builds are available to download",
-      "summary": "If you plan to track development of Ubuntu 27.04 ‘Tenacious T-Rex’ up close, daily build images are now available for download. Daily builds are produced for the duration of a development cycle, right up until the final, stable release.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/ubuntu-2704-daily-builds-are-out",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-11-21T16:26:14+00:00",
-      "category": "linux",
-      "tags": [
-        "ubuntu",
-        "desktop"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "KDE Plasma 6.9 Allows Adjusting The Text Cursor Blinking Rate, Other Improvements",
-      "summary": "It has been another busy week in the KDE development space with more feature work and fixes piling up for the upcoming Plasma 6.9 desktop.",
-      "url": "https://www.phoronix.com/news/KDE-Plasma-6.9-Cursor-Blinking",
-      "source": "Phoronix",
-      "published_at": "2026-11-21T05:51:46-05:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
       ],
       "article_type": "news"
     }
