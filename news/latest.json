@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T15:23:27Z",
-  "count": 22,
+  "generated_at": "2026-11-23T16:12:30Z",
+  "count": 26,
   "articles": [
     {
       "title": "Jensen Huang returns to NVIDIA as President, CEO and Board Director",
@@ -14,6 +14,19 @@
       "tags": [
         "linux-gaming",
         "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Kotlin Benchmark 2.0: How AI Coding Agents Handle Harder Tasks and Closed-Source Code",
+      "summary": "In July, we released the Kotlin Benchmark – a collection of 105 real repository-level tasks for evaluating AI coding agents’ work with Kotlin. Since then, we’ve updated it to be more representative of what Kotlin teams do, with more reliable results and more data to help you choose an agent-model configuration.",
+      "url": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code",
+      "source": "Kotlin Blog",
+      "published_at": "2026-11-23T14:13:29+00:00",
+      "category": "programming",
+      "tags": [
+        "kotlin",
+        "programming"
       ],
       "article_type": "news"
     },
@@ -44,12 +57,12 @@
       "article_type": "news"
     },
     {
-      "title": "AirPods Pro 3 were worth the upgrade for one standout feature",
-      "summary": "AirPods Pro 3 ( now only $149 , down from $249 ) offer many advantages over AirPods Pro 2, but after a year of use, the improvements to Active Noise Cancellation alone have proven worth the upgrade.",
-      "url": "https://9to5mac.com/2026/11/23/airpods-pro-3-were-worth-the-upgrade-for-one-standout-feature",
+      "title": "iOS 27.3 adds new features in six iPhone apps, details here",
+      "summary": "iOS 27.3 is coming soon , and it’s a big update for new iPhone features, including additions that span six built-in Apple apps. Here’s what’s new.",
+      "url": "https://9to5mac.com/2026/11/23/ios-27-3-adds-new-features-in-six-iphone-apps-details-here",
       "source": "9to5Mac",
-      "published_at": "2026-11-23T15:18:39+00:00",
-      "category": "hardware",
+      "published_at": "2026-11-23T16:06:02+00:00",
+      "category": "ios",
       "tags": [
         "apple",
         "devices"
@@ -109,6 +122,32 @@
       "article_type": "news"
     },
     {
+      "title": "Creating Polars Expression Plugins in PyCharm: A Step-by-Step Guide for Rust Beginners",
+      "summary": "Polars is a favorite among data scientists. It’s a high-performance, columnar DataFrame library written in Rust and powered by Apache Arrow. Unlike traditional single-threaded tools, Polars uses full multicore CPU parallelism, efficient memory allocation, and lazy execution with query optimization.",
+      "url": "https://blog.jetbrains.com/pycharm/2026/11/creating-polars-expression-plugins-in-pycharm-a-step-by-step-guide-for-rust-beginners",
+      "source": "PyCharm Blog",
+      "published_at": "2026-11-23T12:42:50+00:00",
+      "category": "programming",
+      "tags": [
+        "python",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Code coverage uploads now flag invalid report formats",
+      "summary": "Previously, these uploads appeared to succeed, but no coverage showed up on your pull requests. Now you’ll find out about the problem in the workflow run, with a clear next step.",
+      "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-23T15:28:36+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
       "title": "Wii on Wii U – Finally Fixed!",
       "summary": "Developer GaryOderNichts – the same dev who came up with the fix to prevent bricked Wii U’s – has just discovered why Wii games played via the Wii U’s “vWii” backward compatibility mode look so bad.",
       "url": "https://retrorgb.com/wii-on-wii-u-finally-fixed.html",
@@ -118,6 +157,19 @@
       "tags": [
         "retro",
         "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "AirPods Pro 3 were worth the upgrade for one standout feature",
+      "summary": "AirPods Pro 3 ( now only $149 , down from $249 ) offer many advantages over AirPods Pro 2, but after a year of use, the improvements to Active Noise Cancellation alone have proven worth the upgrade.",
+      "url": "https://9to5mac.com/2026/11/23/airpods-pro-3-were-worth-the-upgrade-for-one-standout-feature",
+      "source": "9to5Mac",
+      "published_at": "2026-11-23T15:18:39+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     },
@@ -161,19 +213,6 @@
       "article_type": "research"
     },
     {
-      "title": "iOS 27 has a clever fix for unreliable Wi-Fi connections",
-      "summary": "iOS 27 includes a really clever new feature that aims to solve the awkward middle ground between cellular and Wi-Fi connectivity. Here’s how it works and how you can turn it on.",
-      "url": "https://9to5mac.com/2026/11/22/ios-27-has-a-clever-fix-for-unreliable-wi-fi-connections",
-      "source": "9to5Mac",
-      "published_at": "2026-11-22T22:02:43+00:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
       "title": "Pixel Weather rolls out ‘Report current weather’ to ‘improve local forecasts’",
       "summary": "The main change today is a “Report current weather” feature to “Share the current weather condition to improve local forecasts.” The card appears at the very bottom of your current location and can be moved up the feed.",
       "url": "https://9to5google.com/2026/11/22/pixel-weather-report",
@@ -211,6 +250,19 @@
         "research"
       ],
       "article_type": "research"
+    },
+    {
+      "title": "iOS 27 has a clever fix for unreliable Wi-Fi connections",
+      "summary": "iOS 27 includes a really clever new feature that aims to solve the awkward middle ground between cellular and Wi-Fi connectivity. Here’s how it works and how you can turn it on.",
+      "url": "https://9to5mac.com/2026/11/22/ios-27-has-a-clever-fix-for-unreliable-wi-fi-connections",
+      "source": "9to5Mac",
+      "published_at": "2026-11-22T22:02:43+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
     },
     {
       "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
