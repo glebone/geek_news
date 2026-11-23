@@ -1,0 +1,193 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T07:08:00Z",
+  "count": 14,
+  "articles": [
+    {
+      "title": "When Drawers Get Their Own Status Lights",
+      "summary": "The lights come from a single WS2814 RGBW COB strip, with 21 pixels dedicated across the drawer columns. The strip is powered from 24 V, with a step-down DC-DC converter feeding the ESP32-C6 that runs everything.",
+      "url": "https://hackaday.com/2026/11/22/when-drawers-get-their-own-status-lights",
+      "source": "Hackaday",
+      "published_at": "2026-11-23T06:00:20+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27 has a clever fix for unreliable Wi-Fi connections",
+      "summary": "iOS 27 includes a really clever new feature that aims to solve the awkward middle ground between cellular and Wi-Fi connectivity. Here’s how it works and how you can turn it on.",
+      "url": "https://9to5mac.com/2026/11/22/ios-27-has-a-clever-fix-for-unreliable-wi-fi-connections",
+      "source": "9to5Mac",
+      "published_at": "2026-11-22T22:02:43+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Pixel Weather rolls out ‘Report current weather’ to ‘improve local forecasts’",
+      "summary": "The main change today is a “Report current weather” feature to “Share the current weather condition to improve local forecasts.” The card appears at the very bottom of your current location and can be moved up the feed.",
+      "url": "https://9to5google.com/2026/11/22/pixel-weather-report",
+      "source": "9to5Google",
+      "published_at": "2026-11-22T21:12:41+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "I Heard There Was a Secret Port…",
+      "summary": "TPC specifies 2^16 ports, 65536, much more than are typically used. In fact, the port zero is almost never used, or, as [Acid Vegas] found out, about 0.25% of hosts globally (give or take) to be precise.",
+      "url": "https://hackaday.com/2026/11/22/i-heard-there-was-a-secret-port",
+      "source": "Hackaday",
+      "published_at": "2026-11-23T03:00:47+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Samsung Galaxy Watch Ultra 2 vs Watch 9: When is it right to spend more?",
+      "summary": "Samsung rates the Galaxy Watch Ultra 2 for up to 60 hours with the always-on display enabled, compared with up to 30 hours for the Watch 9, and that extra headroom is appealing when your day starts with a workout and finishes well into the evening.",
+      "url": "https://9to5google.com/2026/11/22/samsung-galaxy-watch-ultra-2-vs-watch-9-when-is-it-right-to-spend-more",
+      "source": "9to5Google",
+      "published_at": "2026-11-22T14:26:51+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
+      "summary": "Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. We crossed AI partnership (one versus two) with behavioral formation (calibrated to average human behavior versus customized by the participant) in a brainstorming experiment ($N$=168) with human-human dyads as reference.",
+      "url": "https://arxiv.org/abs/2611.26663",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-23T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation",
+      "summary": "Synthesizing relational training data such as knowledge graphs with a large language model typically emits structured objects one at a time, which keeps each object valid but leaves the relationships between them ungrounded.",
+      "url": "https://arxiv.org/abs/2611.26717",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-23T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
+      "summary": "To autonomously execute multi-step tasks, enterprise agents must reliably interact with tools, call APIs, or query databases, making tool-calling a fundamental capability of AI models.",
+      "url": "https://arxiv.org/abs/2611.26722",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-23T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
+      "summary": "Molecular dynamics (MD) simulation resolves atomic-scale motion and predicts the structural, mechanical, and dynamic properties of materials, making it cen- tral to materials design and discovery.",
+      "url": "https://arxiv.org/abs/2611.26782",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-23T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research",
+        "models"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "SteamVR Beta 2.19.4 brings Steam Link Streaming upgrades",
+      "summary": "A fresh SteamVR Beta has arrived for all supported platforms, bringing some nice sounding improvements to Steam Link Streaming and Linux. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/steamvr-beta-2-19-4-brings-steam-link-streaming-upgrades",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-20T08:29:18+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "SteamOS 0.5.10 Beta for Steam Frame brings Image Quality Improvements",
+      "summary": "SteamOS 0.5.10 Beta for Steam Frame was released by Valve to further enhance the visual quality on this SteamOS Linux VR device. We also just recently hit 300 games that are Steam Frame Standalone Verified .",
+      "url": "https://www.gamingonlinux.com/2026/11/steamos-0-5-10-beta-for-steam-frame-brings-image-quality-improvements",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-20T08:21:59+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "High Tide (Linux TIDAL client) adds support for DLNA, Chromecast",
+      "summary": "High Tide, the open-source TIDAL client for Linux, can now play to Chromecast and DLNA devices like TVs and smart speakers. The feature rolls out in v1.8.0, released this weekend with a variety of smaller bug fixes and minor bumps, including showing artist names over Discord RPC.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/high-tide-chromecast-dlna-support",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-22T21:17:14+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Ubuntu 27.04 daily builds are available to download",
+      "summary": "If you plan to track development of Ubuntu 27.04 ‘Tenacious T-Rex’ up close, daily build images are now available for download. Daily builds are produced for the duration of a development cycle, right up until the final, stable release.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/ubuntu-2704-daily-builds-are-out",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-21T16:26:14+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "KDE Plasma 6.9 Allows Adjusting The Text Cursor Blinking Rate, Other Improvements",
+      "summary": "It has been another busy week in the KDE development space with more feature work and fixes piling up for the upcoming Plasma 6.9 desktop.",
+      "url": "https://www.phoronix.com/news/KDE-Plasma-6.9-Cursor-Blinking",
+      "source": "Phoronix",
+      "published_at": "2026-11-21T05:51:46-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    }
+  ]
+}

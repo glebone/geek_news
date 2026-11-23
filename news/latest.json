@@ -1,42 +1,15 @@
 {
   "schema_version": 2,
-  "date": "2026-11-22",
-  "generated_at": "2026-11-22T13:27:30Z",
-  "count": 18,
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T07:08:00Z",
+  "count": 14,
   "articles": [
     {
-      "title": "Dual boot NetBSD 11.1 and Debian 13 on a ThinkPad T14 G1",
-      "summary": "After gaining some confidence from installing NetBSD on my Raspberry Pi, I started wondering, what if I installed it on my daily-driver ThinkPad and set it up to dual-boot?",
-      "url": "https://www.osnews.com/story/146447/dual-boot-netbsd-11-1-and-debian-13-on-a-thinkpad-t14-g1",
-      "source": "OSNews",
-      "published_at": "2026-11-21T23:52:41+00:00",
-      "category": "open_source",
-      "tags": [
-        "operating-systems",
-        "open-source",
-        "netbsd"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "CachyOS November 2026 Release brings support for Easy Anti-Cheat Linux v2",
-      "summary": "This release brings support for Easy Anti-Cheat Linux v2 . EAC only lets games start when it can verify how the system was booted: Secure Boot with a kernel signed by a key that Epic trusts, a TPM 2.0, an enabled IOMMU, and a kernel running in lockdown mode that only loads signed modules.",
-      "url": "https://www.gamingonlinux.com/2026/11/cachyos-november-2026-release-brings-support-for-easy-anti-cheat-linux-v2",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-22T12:55:53+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Potatoes Grow in Simulated Lunar Soil as Well as on Earth",
-      "summary": "Notable is that compared to the Earth soil (Adkins) control all lunar regolith potatoes were less healthy and produced less biomass. This is likely due to how sharp regolith is on a microscopic level, which are postulated to cause constant damage to the roots and other elements of the plant.",
-      "url": "https://hackaday.com/2026/11/22/potatoes-grow-in-simulated-lunar-soil-as-well-as-on-earth",
+      "title": "When Drawers Get Their Own Status Lights",
+      "summary": "The lights come from a single WS2814 RGBW COB strip, with 21 pixels dedicated across the drawer columns. The strip is powered from 24 V, with a step-down DC-DC converter feeding the ESP32-C6 that runs everything.",
+      "url": "https://hackaday.com/2026/11/22/when-drawers-get-their-own-status-lights",
       "source": "Hackaday",
-      "published_at": "2026-11-22T12:00:53+00:00",
+      "published_at": "2026-11-23T06:00:20+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -45,11 +18,11 @@
       "article_type": "news"
     },
     {
-      "title": "iOS 27: My favorite new iPhone features (other than AI)",
-      "summary": "When Apple released iOS 27 in September, Siri Ai stole a lot of the headline. However, the update also includes plenty of non-AI features that I’ve come to really enjoy.",
-      "url": "https://9to5mac.com/2026/11/21/ios-27-my-favorite-new-iphone-features-other-than-ai",
+      "title": "iOS 27 has a clever fix for unreliable Wi-Fi connections",
+      "summary": "iOS 27 includes a really clever new feature that aims to solve the awkward middle ground between cellular and Wi-Fi connectivity. Here’s how it works and how you can turn it on.",
+      "url": "https://9to5mac.com/2026/11/22/ios-27-has-a-clever-fix-for-unreliable-wi-fi-connections",
       "source": "9to5Mac",
-      "published_at": "2026-11-21T22:22:26+00:00",
+      "published_at": "2026-11-22T22:02:43+00:00",
       "category": "ios",
       "tags": [
         "apple",
@@ -58,65 +31,24 @@
       "article_type": "news"
     },
     {
-      "title": "Gemini app rolls out very slick camera redesign on Android",
-      "summary": "This camera redesign first launched in the Gemini for iOS app, but has now widely rolled out on Android in both the beta and stable (version 17.76+) channels.",
-      "url": "https://9to5google.com/2026/11/21/gemini-camera-redesign",
+      "title": "Pixel Weather rolls out ‘Report current weather’ to ‘improve local forecasts’",
+      "summary": "The main change today is a “Report current weather” feature to “Share the current weather condition to improve local forecasts.” The card appears at the very bottom of your current location and can be moved up the feed.",
+      "url": "https://9to5google.com/2026/11/22/pixel-weather-report",
       "source": "9to5Google",
-      "published_at": "2026-11-21T20:52:52+00:00",
+      "published_at": "2026-11-22T21:12:41+00:00",
       "category": "android",
       "tags": [
         "android",
-        "google",
-        "models"
+        "google"
       ],
       "article_type": "news"
     },
     {
-      "title": "Get some gems in the Deck the Halls with Deckbuilders Bundle",
-      "summary": "The Deck the Halls with Deckbuilders Bundle is live and with it you can get some real indie gems here. As usual from GamingOnLinux you'll get all the ratings and other details below, along with Steam links for more info.",
-      "url": "https://www.gamingonlinux.com/2026/11/get-some-gems-in-the-deck-the-halls-with-deckbuilders-bundle",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-21T13:35:58+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
-      "summary": "OpenAI's GPT-6.2 Astra and Sol give much shorter answers, get to the point faster, and impose less structure on their responses than their predecessors. At the same time, Artificial Analysis rates their tendency to admit uncertainty much lower.",
-      "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude",
-      "source": "The Decoder",
-      "published_at": "2026-11-22T09:41:37+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "llm-gemini 0.38.1",
-      "summary": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level.",
-      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini",
-      "source": "Simon Willison",
-      "published_at": "2026-11-20T03:01:57+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "developer-tools",
-        "models"
-      ],
-      "article_type": "release"
-    },
-    {
-      "title": "Quick WIFI Adapter Through USB",
-      "summary": "There’s breaking news! Quick, check your computer and look it up! What? Your computer doesn’t have internet right now because its WiFi chip fried itself?",
-      "url": "https://hackaday.com/2026/11/22/quick-wifi-adapter-through-usb",
+      "title": "I Heard There Was a Secret Port…",
+      "summary": "TPC specifies 2^16 ports, 65536, much more than are typically used. In fact, the port zero is almost never used, or, as [Acid Vegas] found out, about 0.25% of hosts globally (give or take) to be precise.",
+      "url": "https://hackaday.com/2026/11/22/i-heard-there-was-a-secret-port",
       "source": "Hackaday",
-      "published_at": "2026-11-22T09:00:44+00:00",
+      "published_at": "2026-11-23T03:00:47+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -125,115 +57,131 @@
       "article_type": "news"
     },
     {
-      "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
-      "summary": "OpenAI has released new prompt templates for GPT-6.2 Astra and Sol meant to fix common model behaviors such as overly brief answers, unnecessary follow-up questions, and excessive testing when coding.",
-      "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions",
-      "source": "The Decoder",
-      "published_at": "2026-11-21T13:32:35+00:00",
-      "category": "ai",
+      "title": "Samsung Galaxy Watch Ultra 2 vs Watch 9: When is it right to spend more?",
+      "summary": "Samsung rates the Galaxy Watch Ultra 2 for up to 60 hours with the always-on display enabled, compared with up to 30 hours for the Watch 9, and that extra headroom is appealing when your day starts with a workout and finishes well into the evening.",
+      "url": "https://9to5google.com/2026/11/22/samsung-galaxy-watch-ultra-2-vs-watch-9-when-is-it-right-to-spend-more",
+      "source": "9to5Google",
+      "published_at": "2026-11-22T14:26:51+00:00",
+      "category": "android",
       "tags": [
-        "ai",
-        "models"
+        "android",
+        "google"
       ],
       "article_type": "news"
     },
     {
-      "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
-      "summary": "Hours after Alpöge's announcement, the story took a dramatic turn. Just before a board meeting, Stanford math professor and American Mathematical Society (AMS) president Ravi Vakil posted a \"hurried announcement\" on his blog, sharing an independent draft proof of the Generalized Riemann Hypothesis written by mathematician Alessandro Masullo.",
-      "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
-      "source": "The Decoder",
-      "published_at": "2026-11-21T11:19:49+00:00",
+      "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
+      "summary": "Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. We crossed AI partnership (one versus two) with behavioral formation (calibrated to average human behavior versus customized by the participant) in a brainstorming experiment ($N$=168) with human-human dyads as reference.",
+      "url": "https://arxiv.org/abs/2611.26663",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-23T00:00:00-05:00",
       "category": "ai",
       "tags": [
         "ai",
-        "models"
+        "research"
       ],
-      "article_type": "news"
+      "article_type": "research"
     },
     {
-      "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
-      "summary": "Thinking Machines has released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token. This lets the model reason internally for longer without generating extra text.",
-      "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop",
-      "source": "The Decoder",
-      "published_at": "2026-11-21T10:33:02+00:00",
+      "title": "Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation",
+      "summary": "Synthesizing relational training data such as knowledge graphs with a large language model typically emits structured objects one at a time, which keeps each object valid but leaves the relationships between them ungrounded.",
+      "url": "https://arxiv.org/abs/2611.26717",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-23T00:00:00-05:00",
       "category": "ai",
       "tags": [
         "ai",
-        "models"
+        "research"
       ],
-      "article_type": "news"
+      "article_type": "research"
     },
     {
-      "title": "Solbrand has a demo worth checking out with a seriously cool UI and atomsphere",
-      "summary": "If you like mysterious underwater adventuring, Solbrand is one you should be checking out with the fantastic atmosphere. I'm also a big fan of the user interface in this one, love all the flip switches and the general design of it.",
-      "url": "https://www.gamingonlinux.com/2026/11/solbrand-has-a-demo-worth-checking-out-with-a-seriously-cool-ui-and-atomsphere",
+      "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
+      "summary": "To autonomously execute multi-step tasks, enterprise agents must reliably interact with tools, call APIs, or query databases, making tool-calling a fundamental capability of AI models.",
+      "url": "https://arxiv.org/abs/2611.26722",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-23T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
+      "summary": "Molecular dynamics (MD) simulation resolves atomic-scale motion and predicts the structural, mechanical, and dynamic properties of materials, making it cen- tral to materials design and discovery.",
+      "url": "https://arxiv.org/abs/2611.26782",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-23T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research",
+        "models"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "SteamVR Beta 2.19.4 brings Steam Link Streaming upgrades",
+      "summary": "A fresh SteamVR Beta has arrived for all supported platforms, bringing some nice sounding improvements to Steam Link Streaming and Linux. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/steamvr-beta-2-19-4-brings-steam-link-streaming-upgrades",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-20T08:48:44+00:00",
+      "published_at": "2026-11-20T08:29:18+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
-        "games"
+        "games",
+        "steam"
       ],
       "article_type": "news"
     },
     {
-      "title": "The Godot Engine 2026 Showreel has a nice varied selection",
-      "summary": "The Godot Engine team have put up a 2026 Showreel of various different types of games being made with the free and open source game engine.",
-      "url": "https://www.gamingonlinux.com/2026/11/the-godot-engine-2026-showreel-has-a-nice-varied-selection",
+      "title": "SteamOS 0.5.10 Beta for Steam Frame brings Image Quality Improvements",
+      "summary": "SteamOS 0.5.10 Beta for Steam Frame was released by Valve to further enhance the visual quality on this SteamOS Linux VR device. We also just recently hit 300 games that are Steam Frame Standalone Verified .",
+      "url": "https://www.gamingonlinux.com/2026/11/steamos-0-5-10-beta-for-steam-frame-brings-image-quality-improvements",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-20T08:34:44+00:00",
+      "published_at": "2026-11-20T08:21:59+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
-        "games"
+        "games",
+        "steam"
       ],
       "article_type": "news"
     },
     {
-      "title": "Linux 7.5 To Introduce Initial Mainline Support For Ambarella SoCs",
-      "summary": "Following some initial Device Tree and driver preparation patches that were merged for Linux v7.4, the upcoming Linux v7.5 kernel is set to introduce initial support for Ambarella SoCs with the CV75 being the initial SoC target.",
-      "url": "https://www.phoronix.com/news/Linux-7.5-Ambarella-SoCs",
-      "source": "Phoronix",
-      "published_at": "2026-11-22T06:35:20-05:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "The First Rust WMI Linux Driver Being Developed Is For Clevo Laptops",
-      "summary": "The first Rust-based driver being developed for making use of the Linux kernel's Rust Windows Management Instrumentation (WMI) interface abstractions is 'clevo-laptop' and is a new driver for Clevo laptops, including those sold by TUXEDO Computers, Metabox, Sager, XMG, and others.",
-      "url": "https://www.phoronix.com/news/Rust-WMI-Driver-Clevo-Laptops",
-      "source": "Phoronix",
-      "published_at": "2026-11-22T05:56:26-05:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "15 years of long term support for bare metal automation with MAAS",
-      "summary": "With MAAS 3.8, Canonical introduces the first Long Term Supported (LTS) release of MAAS, offering up to 15 years of security maintenance , predictable operational stability, and enterprise support for its bare metal automation platform, following Ubuntu LTS commitment .",
-      "url": "https://ubuntu.com//blog/15-years-of-long-term-support-for-bare-metal-automation-with-maas",
-      "source": "Ubuntu Blog",
-      "published_at": "2026-11-22T10:30:00+00:00",
+      "title": "High Tide (Linux TIDAL client) adds support for DLNA, Chromecast",
+      "summary": "High Tide, the open-source TIDAL client for Linux, can now play to Chromecast and DLNA devices like TVs and smart speakers. The feature rolls out in v1.8.0, released this weekend with a variety of smaller bug fixes and minor bumps, including showing artist names over Discord RPC.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/high-tide-chromecast-dlna-support",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-22T21:17:14+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
-        "linux"
+        "desktop"
       ],
       "article_type": "news"
     },
     {
-      "title": "Linux 7.4 To Remove NVMe Namespaces In Parallel For Faster Results",
-      "summary": "As part of this week's block subsystem fixes for the Linux 7.4-rc4 kernel release due out on Sunday are many bug fixes plus also a nice NVMe namespaces optimization.",
-      "url": "https://www.phoronix.com/news/Linux-7.4-NVMe-NS-Parallel",
+      "title": "Ubuntu 27.04 daily builds are available to download",
+      "summary": "If you plan to track development of Ubuntu 27.04 ‘Tenacious T-Rex’ up close, daily build images are now available for download. Daily builds are produced for the duration of a development cycle, right up until the final, stable release.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/ubuntu-2704-daily-builds-are-out",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-21T16:26:14+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "KDE Plasma 6.9 Allows Adjusting The Text Cursor Blinking Rate, Other Improvements",
+      "summary": "It has been another busy week in the KDE development space with more feature work and fixes piling up for the upcoming Plasma 6.9 desktop.",
+      "url": "https://www.phoronix.com/news/KDE-Plasma-6.9-Cursor-Blinking",
       "source": "Phoronix",
-      "published_at": "2026-11-21T20:24:33-05:00",
+      "published_at": "2026-11-21T05:51:46-05:00",
       "category": "linux",
       "tags": [
         "linux",
