@@ -1,15 +1,28 @@
 {
   "schema_version": 2,
-  "date": "2026-11-23",
-  "generated_at": "2026-11-23T16:12:30Z",
-  "count": 26,
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T09:31:56Z",
+  "count": 25,
   "articles": [
     {
-      "title": "Jensen Huang returns to NVIDIA as President, CEO and Board Director",
-      "summary": "Today, the NVIDIA Board issued a statement on their official press area to note that they've reinstated Jensen Huang as President, CEO and Board Director.",
-      "url": "https://www.gamingonlinux.com/2026/11/jensen-huang-returns-to-nvidia-as-president-ceo-and-board-director",
+      "title": "Zellij Release v0.46.1",
+      "summary": "Zellij is a labor of love and is provided free and open-source to anyone who wishes to use it. Zellij will never display ads or collect your data.",
+      "url": "https://github.com/zellij-org/zellij/releases/tag/v0.46.1",
+      "source": "Zellij",
+      "published_at": "2026-11-24T07:48:25+00:00",
+      "category": "open_source",
+      "tags": [
+        "tui",
+        "terminal"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Your futile journey into the sunset continues in Race The Sun 2",
+      "summary": "The classic casual racer returns, Race The Sun 2 has been announced by Flippfly LLC. The original released way back in 2013, so it has been quite a long time!",
+      "url": "https://www.gamingonlinux.com/2026/11/your-futile-journey-into-the-sunset-continues-in-race-the-sun-2",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-23T14:27:04+00:00",
+      "published_at": "2026-11-24T09:05:11+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -18,24 +31,25 @@
       "article_type": "news"
     },
     {
-      "title": "Kotlin Benchmark 2.0: How AI Coding Agents Handle Harder Tasks and Closed-Source Code",
-      "summary": "In July, we released the Kotlin Benchmark – a collection of 105 real repository-level tasks for evaluating AI coding agents’ work with Kotlin. Since then, we’ve updated it to be more representative of what Kotlin teams do, with more reliable results and more data to help you choose an agent-model configuration.",
-      "url": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code",
-      "source": "Kotlin Blog",
-      "published_at": "2026-11-23T14:13:29+00:00",
+      "title": "Run local models in your .NET apps with Llama on Windows",
+      "summary": "Llama on Windows takes care of that for you. It’s a tray app that helps you find, download, and chat with open models on your PC.",
+      "url": "https://devblogs.microsoft.com/dotnet/local-models-dotnet-llama-windows",
+      "source": "dotnet Blog",
+      "published_at": "2026-11-23T18:05:00+00:00",
       "category": "programming",
       "tags": [
-        "kotlin",
-        "programming"
+        "dotnet",
+        "programming",
+        "models"
       ],
-      "article_type": "news"
+      "article_type": "technical_article"
     },
     {
-      "title": "Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model",
-      "summary": "Z.ai is moving its flagship GLM-5.4 model to a loop architecture in which 28 layers run twice, which the company says lets the 750-billion-parameter model match models with 2 to 3 trillion parameters.",
-      "url": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model",
-      "source": "The Decoder",
-      "published_at": "2026-11-23T15:13:03+00:00",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "summary": "Anthropic is moving from having Claude write code to helping developers decide when that code is ready to ship. On Monday, the newly public AI company announced the launch of Claude Ship , a suite of AI agents for automating code reviews, fixes, and approvals of routine code changes.",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+      "source": "TechCrunch AI",
+      "published_at": "2026-11-23T22:05:50+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -44,11 +58,24 @@
       "article_type": "news"
     },
     {
-      "title": "Contra Force NES to SNES, 60fps Conversion",
-      "summary": "Developer Infidelity has just released his latest NES to SNES port, this time for the game Contra Force. As usual, there’s the reduced (or eliminated) sprite flicker or slowdown, but this conversion also allows the game to run at a stable 60fps!",
-      "url": "https://retrorgb.com/contra-force-nes-to-snes-60fps-conversion.html",
+      "title": "datasette-agent 0.7a1",
+      "summary": "Release: datasette-agent 0.7a1 I small improvement to Datasette Agent : chat sessions can open an iframe side panel, and that panel can then navigate to different pages.",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent",
+      "source": "Simon Willison",
+      "published_at": "2026-11-24T03:45:57+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "ai",
+        "developer-tools"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Original OSSC “HD CRT” Firmware",
+      "summary": "Developer manfredi90 – The same dev who recently released the OSSC Downscaling firmware – Just released another alternate/2nd firmware for the original OSSC, designed specifically for people with HD CRT’s.",
+      "url": "https://retrorgb.com/original-ossc-hd-crt-firmware.html",
       "source": "RetroRGB",
-      "published_at": "2026-11-23T15:20:29+00:00",
+      "published_at": "2026-11-23T22:09:47+00:00",
       "category": "retro_gaming",
       "tags": [
         "retro",
@@ -57,24 +84,11 @@
       "article_type": "news"
     },
     {
-      "title": "iOS 27.3 adds new features in six iPhone apps, details here",
-      "summary": "iOS 27.3 is coming soon , and it’s a big update for new iPhone features, including additions that span six built-in Apple apps. Here’s what’s new.",
-      "url": "https://9to5mac.com/2026/11/23/ios-27-3-adds-new-features-in-six-iphone-apps-details-here",
-      "source": "9to5Mac",
-      "published_at": "2026-11-23T16:06:02+00:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "How Modern Smartphones Talk To Satellites",
-      "summary": "There is another, entirely different concept for satellite communications for modern smartphones. That is—what if a satellite was just a cell tower, that a phone could talk to using its regular modem like any other?",
-      "url": "https://hackaday.com/2026/11/23/how-modern-smartphones-talk-to-satellites",
+      "title": "RF Remote Cloning Without the Benefit of an SDR",
+      "summary": "But snooping on higher frequencies usually requires considerably more expensive gear, which is the problem that [Henrikbiscuit] recently ran into . He wanted to hook the Lindby Velua ceiling light into Home Assistant, and that meant cloning the signals being sent by its 2.4 GHz remote.",
+      "url": "https://hackaday.com/2026/11/24/rf-remote-cloning-without-the-benefit-of-an-sdr",
       "source": "Hackaday",
-      "published_at": "2026-11-23T15:00:16+00:00",
+      "published_at": "2026-11-24T09:00:27+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -83,89 +97,11 @@
       "article_type": "news"
     },
     {
-      "title": "Probing DNS at Cloudflare",
-      "summary": "This is something the Cloudflare DNS team has experienced firsthand. In one rollout of the service that publishes DNS records to our edge, a scheduling bug let some record changes sit unpublished for hours.",
-      "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare",
-      "source": "Cloudflare Blog",
-      "published_at": "2026-11-23T14:00:00+00:00",
-      "category": "cloud",
-      "tags": [
-        "cloud",
-        "infrastructure"
-      ],
-      "article_type": "technical_article"
-    },
-    {
-      "title": "‘Galaxy Watch 10’ won’t launch in 2027 as Samsung tries to slow RAMageddon losses",
-      "summary": "According to a new report, Samsung’s next “Galaxy Watch 10” won’t be releasing in 2027 with the company moving to a bi-yearly release schedule for its smartwatches.",
-      "url": "https://9to5google.com/2026/11/23/samsung-galaxy-watch-10-new-schedule-report",
-      "source": "9to5Google",
-      "published_at": "2026-11-23T13:35:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Stop-motion horror game ABIDE brings a freaky new trailer",
-      "summary": "Cult art-driven indie dev duo Talha & Jack Co showed off an intense new trailer for ABIDE - their upcoming stop-motion, first-person horror. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/11/stop-motion-horror-game-abide-brings-a-freaky-new-trailer",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-23T13:25:22+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Creating Polars Expression Plugins in PyCharm: A Step-by-Step Guide for Rust Beginners",
-      "summary": "Polars is a favorite among data scientists. It’s a high-performance, columnar DataFrame library written in Rust and powered by Apache Arrow. Unlike traditional single-threaded tools, Polars uses full multicore CPU parallelism, efficient memory allocation, and lazy execution with query optimization.",
-      "url": "https://blog.jetbrains.com/pycharm/2026/11/creating-polars-expression-plugins-in-pycharm-a-step-by-step-guide-for-rust-beginners",
-      "source": "PyCharm Blog",
-      "published_at": "2026-11-23T12:42:50+00:00",
-      "category": "programming",
-      "tags": [
-        "python",
-        "developer-tools"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Code coverage uploads now flag invalid report formats",
-      "summary": "Previously, these uploads appeared to succeed, but no coverage showed up on your pull requests. Now you’ll find out about the problem in the workflow run, with a clear next step.",
-      "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
-      "source": "GitHub Changelog",
-      "published_at": "2026-11-23T15:28:36+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "github",
-        "developer-tools"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Wii on Wii U – Finally Fixed!",
-      "summary": "Developer GaryOderNichts – the same dev who came up with the fix to prevent bricked Wii U’s – has just discovered why Wii games played via the Wii U’s “vWii” backward compatibility mode look so bad.",
-      "url": "https://retrorgb.com/wii-on-wii-u-finally-fixed.html",
-      "source": "RetroRGB",
-      "published_at": "2026-11-23T14:17:06+00:00",
-      "category": "retro_gaming",
-      "tags": [
-        "retro",
-        "gaming"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "AirPods Pro 3 were worth the upgrade for one standout feature",
-      "summary": "AirPods Pro 3 ( now only $149 , down from $249 ) offer many advantages over AirPods Pro 2, but after a year of use, the improvements to Active Noise Cancellation alone have proven worth the upgrade.",
-      "url": "https://9to5mac.com/2026/11/23/airpods-pro-3-were-worth-the-upgrade-for-one-standout-feature",
+      "title": "These are my two must-have iPhone Duo accessories",
+      "summary": "I’ve been using an Apple Pencil with my iPhone Duo since iOS 27.2 added support. It’s a great way to interact with the foldable iPhone form factor.",
+      "url": "https://9to5mac.com/2026/11/23/these-are-my-two-must-have-iphone-duo-accessories",
       "source": "9to5Mac",
-      "published_at": "2026-11-23T15:18:39+00:00",
+      "published_at": "2026-11-24T01:30:09+00:00",
       "category": "hardware",
       "tags": [
         "apple",
@@ -174,24 +110,11 @@
       "article_type": "news"
     },
     {
-      "title": "Which Samsung folding phone is right for you? Galaxy Z Fold 8, Ultra, or Flip 8",
-      "summary": "You can get the Galaxy Z Fold 8, Fold 8 Ultra, and Flip 8 from your favorite carriers and retailers, but Best Buy is one of the best places to score a great deal with solid trade-in values and deep discounts around Black Friday and throughout the holiday season.",
-      "url": "https://9to5google.com/2026/11/23/samsung-folding-phone-guide",
-      "source": "9to5Google",
-      "published_at": "2026-11-23T13:00:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Grab a Black Friday deal with the new Fanatical Capcom Bundle",
-      "summary": "Finish up your collection of Capcom games in the Fanatical Black Friday Bundle . If you don't already have a bunch, this can work out to be one of the best ways to grab a nice mixture of games.",
-      "url": "https://www.gamingonlinux.com/2026/11/grab-a-black-friday-deal-with-the-new-fanatical-capcom-bundle",
+      "title": "RimWorld meets Dungeon Keeper in the new release of Malignus",
+      "summary": "Malignus is an Early Access dungeon colony sim where you play the dungeon itself, that blends elements of RimWorld and Dungeon Keeper together. A 2D dungeon colony sim and emergent story generator.",
+      "url": "https://www.gamingonlinux.com/2026/11/rimworld-meets-dungeon-keeper-in-the-new-release-of-malignus",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-23T10:31:14+00:00",
+      "published_at": "2026-11-24T08:43:03+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -200,63 +123,11 @@
       "article_type": "news"
     },
     {
-      "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
-      "summary": "Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. We crossed AI partnership (one versus two) with behavioral formation (calibrated to average human behavior versus customized by the participant) in a brainstorming experiment ($N$=168) with human-human dyads as reference.",
-      "url": "https://arxiv.org/abs/2611.26663",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-23T00:00:00-05:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "Pixel Weather rolls out ‘Report current weather’ to ‘improve local forecasts’",
-      "summary": "The main change today is a “Report current weather” feature to “Share the current weather condition to improve local forecasts.” The card appears at the very bottom of your current location and can be moved up the feed.",
-      "url": "https://9to5google.com/2026/11/22/pixel-weather-report",
-      "source": "9to5Google",
-      "published_at": "2026-11-22T21:12:41+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Surreal corporate horror deckbuilder Mr Magpie's Harmless Card Game arrives February 2027",
-      "summary": "Mr Magpie's Harmless Card Game is a surreal corporate horror deckbuilder combining Minesweeper-inspired deduction, push-your-luck mechanics and more. During the Horror Game Awards 2026 they revealed a release date for February 18, 2027.",
-      "url": "https://www.gamingonlinux.com/2026/11/surreal-corporate-horror-deckbuilder-mr-magpies-harmless-card-game-arrives-february-2027",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-23T09:14:10+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation",
-      "summary": "Synthesizing relational training data such as knowledge graphs with a large language model typically emits structured objects one at a time, which keeps each object valid but leaves the relationships between them ungrounded.",
-      "url": "https://arxiv.org/abs/2611.26717",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-23T00:00:00-05:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "iOS 27 has a clever fix for unreliable Wi-Fi connections",
-      "summary": "iOS 27 includes a really clever new feature that aims to solve the awkward middle ground between cellular and Wi-Fi connectivity. Here’s how it works and how you can turn it on.",
-      "url": "https://9to5mac.com/2026/11/22/ios-27-has-a-clever-fix-for-unreliable-wi-fi-connections",
+      "title": "iOS 27.2 upgraded Apple Photos in two ways, here’s what’s new",
+      "summary": "Apple Photos got a lot of new features in iOS 27, but the recent release of iOS 27.2 brought even more improvements. Here’s what’s new.",
+      "url": "https://9to5mac.com/2026/11/23/ios-27-2-just-upgraded-apple-photos-in-two-ways-heres-whats-new",
       "source": "9to5Mac",
-      "published_at": "2026-11-22T22:02:43+00:00",
+      "published_at": "2026-11-24T00:19:18+00:00",
       "category": "ios",
       "tags": [
         "apple",
@@ -265,11 +136,38 @@
       "article_type": "news"
     },
     {
-      "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
-      "summary": "To autonomously execute multi-step tasks, enterprise agents must reliably interact with tools, call APIs, or query databases, making tool-calling a fundamental capability of AI models.",
-      "url": "https://arxiv.org/abs/2611.26722",
+      "title": "Claude rolling out updated Android app with Material 3 Expressive redesign",
+      "summary": "Confirmed on Twitter/X by Anthropic Product Manager Robert Bye, Claude is now rolling out a Material 3 Expressive redesign for its Android app that, while not a full embrace of Google’s design language, does make a clear attempt to better fit in on Android.",
+      "url": "https://9to5google.com/2026/11/23/claude-android-material-3-update",
+      "source": "9to5Google",
+      "published_at": "2026-11-23T22:15:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Fable: Return to Albion is an open source Godot remake of Fable II and Fable III",
+      "summary": "Love the classics Fable II and Fable III? You may want to keep an eye on the Fable: Return to Albion remake project made with Godot .",
+      "url": "https://www.gamingonlinux.com/2026/11/fable-return-to-albion-is-an-open-source-godot-remake-of-fable-ii-and-fable-iii",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-24T08:35:37+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "SAMA: Training-Free Consensus Ridge Tracking for Camera-Based Heart Rate on Five Public Datasets",
+      "summary": "Remote photoplethysmography (rPPG) is usually benchmarked by one heart rate per video, a figure that hides the short windows in which a tele-consultation would actually read the pulse.",
+      "url": "https://arxiv.org/abs/2611.28185",
       "source": "arXiv cs.AI",
-      "published_at": "2026-11-23T00:00:00-05:00",
+      "published_at": "2026-11-24T00:00:00-05:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -278,64 +176,155 @@
       "article_type": "research"
     },
     {
-      "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
-      "summary": "Molecular dynamics (MD) simulation resolves atomic-scale motion and predicts the structural, mechanical, and dynamic properties of materials, making it cen- tral to materials design and discovery.",
-      "url": "https://arxiv.org/abs/2611.26782",
+      "title": "Claude Code v2.1.331",
+      "summary": "Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONPath (RFC 9535).",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+      "source": "Claude Code",
+      "published_at": "2026-11-23T21:34:41+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Which 2026 Samsung Galaxy Tab should you buy?",
+      "summary": "The Galaxy Tab S12+ is the Samsung tablet to choose for a premium mix of entertainment, creativity, and productivity. The Galaxy Tab S12 Ultra gives you an even bigger canvas, while the Galaxy Tab S11 brings flagship features to a more portable size.",
+      "url": "https://9to5google.com/2026/11/23/which-2026-samsung-galaxy-tab-should-you-buy",
+      "source": "9to5Google",
+      "published_at": "2026-11-23T21:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Nominations now open for The 2026 Steam Awards",
+      "summary": "The next great popularity contest is here - The 2026 Steam Awards are now open for you to nominate games across various categories. Valve are celebrating the 10th anniversary of the awards too, how time flies huh?",
+      "url": "https://www.gamingonlinux.com/2026/11/nominations-now-open-for-the-2026-steam-awards",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-24T07:56:27+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "steam"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "torchtsetlin: Fast, Interpretable Tsetlin Machines for PyTorch",
+      "summary": "The Tsetlin machine learns propositional rules with teams of Tsetlin automata that are driven by reward and penalty rather than gradients, so its models are interpretable by construction and cheap to evaluate.",
+      "url": "https://arxiv.org/abs/2611.28195",
       "source": "arXiv cs.AI",
-      "published_at": "2026-11-23T00:00:00-05:00",
+      "published_at": "2026-11-24T00:00:00-05:00",
       "category": "ai",
       "tags": [
         "ai",
-        "research",
-        "models"
+        "research"
       ],
       "article_type": "research"
     },
     {
-      "title": "VKD3D 2.2 Released With More Improvements For Direct3D 12 On Vulkan",
-      "summary": "Ahead of the Wine 12.0 release candidates expected to begin in December with the stable Wine 12.0 release then in early 2027, VKD3D 2.2 is now available for this Direct3D 12 on Vulkan API implementation.",
-      "url": "https://www.phoronix.com/news/VKD3D-2.2-Released",
-      "source": "Phoronix",
-      "published_at": "2026-11-23T06:36:58-05:00",
-      "category": "linux",
+      "title": "Issue statuses and repository boards are in public preview",
+      "summary": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight and what to work on next, then visualize your progress with repository boards.",
+      "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-23T20:37:11+00:00",
+      "category": "agent_tools",
       "tags": [
-        "linux",
-        "open-source"
+        "github",
+        "developer-tools"
       ],
       "article_type": "news"
     },
     {
-      "title": "Mesa 27.0 Merges LLVMpipe AVX-512 Support",
-      "summary": "As a follow-up to the article last month around David Airlie and AI resurrecting AVX-512 support for Mesa's LLVMpipe software driver, that code is now merged for Mesa 27.0.",
-      "url": "https://www.phoronix.com/news/Mesa-27.0-AVX-512-LLVMpipe",
-      "source": "Phoronix",
-      "published_at": "2026-11-23T06:24:55-05:00",
-      "category": "linux",
+      "title": "iOS 27 gave your iPhone an alarm feature that’s long been missing",
+      "summary": "Alarms are one of the most important iPhone features, and iOS 27 offers a key feature that should help your alarm actually wake you: a new volume setting for alarms that’s independent of other volume settings.",
+      "url": "https://9to5mac.com/2026/11/23/ios-27-gave-your-iphone-an-alarm-feature-thats-long-been-missing",
+      "source": "9to5Mac",
+      "published_at": "2026-11-23T18:41:50+00:00",
+      "category": "ios",
       "tags": [
-        "linux",
-        "open-source"
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     },
     {
-      "title": "Automating encryption at rest with Canonical’s Charmed MongoDB",
-      "summary": "That’s enough with the warnings; let’s dig into how encryption at rest works in MongoDB. Canonical’s Charmed MongoDB Operator supports data encryption at rest of the data using a two-level key hierarchy, and is local to each instance.",
-      "url": "https://ubuntu.com//blog/encryption-at-rest-with-charmed-mongodb",
-      "source": "Ubuntu Blog",
-      "published_at": "2026-11-23T10:00:00+00:00",
+      "title": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment",
+      "summary": "Coding agents can translate 3D measurements into CAD geometry, but reconstructing engineering models for the built environment demands semantic interpretation and consistent construction constraints beyond surface fitting.",
+      "url": "https://arxiv.org/abs/2611.28197",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-24T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+      "summary": "Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running. We find that much of this gap lies in the harness, which decides what the model sees, what it remembers, and how its outputs become actions over time.",
+      "url": "https://arxiv.org/abs/2611.28202",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-24T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Usage reports will include a user ID column starting December 1",
+      "summary": "Starting December 1, 2026, usage reports that include a username column will also include a user_id column next to it. Every column after username will move one position to the right.",
+      "url": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-23T10:29:36+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "github",
+        "developer-tools"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Ladybird browser reaches alpha after four years of development",
+      "summary": "Building a new web browser around a rendering engine written from scratch is no mean feat, but after four years of effort, Ladybird has finally reached alpha , with Linux and macOS builds available for testing.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/ladybird-browser-enters-alpha",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-23T23:59:00+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
-        "linux"
+        "desktop"
       ],
       "article_type": "news"
     },
     {
-      "title": "High Tide (Linux TIDAL client) adds support for DLNA, Chromecast",
-      "summary": "High Tide, the open-source TIDAL client for Linux, can now play to Chromecast and DLNA devices like TVs and smart speakers. The feature rolls out in v1.8.0, released this weekend with a variety of smaller bug fixes and minor bumps, including showing artist names over Discord RPC.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/high-tide-chromecast-dlna-support",
+      "title": "Firefox 161 brings classic theme options, smarter VPN",
+      "summary": "Customisation fans are well served with this update. A set of “classic themes” are available to install from the browser’s add-ons page. Mozilla says it includes the ‘Proton theme from earlier versions of Firefox’, an OLED theme and solid colours.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/firefox-161-released-vpn-classic-themes",
       "source": "OMG! Ubuntu",
-      "published_at": "2026-11-22T21:17:14+00:00",
+      "published_at": "2026-11-23T21:09:58+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Ubuntu 27.04 daily builds are available to download",
+      "summary": "If you plan to track development of Ubuntu 27.04 ‘Tenacious T-Rex’ up close, daily build images are now available for download. Daily builds are produced for the duration of a development cycle, right up until the final, stable release.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/ubuntu-2704-daily-builds-are-out",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-21T16:26:14+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
