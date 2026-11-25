@@ -1,20 +1,19 @@
 {
   "schema_version": 2,
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T08:02:21Z",
-  "count": 23,
+  "generated_at": "2026-11-25T14:58:04Z",
+  "count": 28,
   "articles": [
     {
-      "title": "SteamOS 3.9.7 Beta and a new Steam Client Beta fix up various issues",
-      "summary": "SteamOS 3.9.7 Beta and a new Steam Client Beta were released for testing bringing a small but nice selection of bug fixes. All the changes across the two updates are listed below, hopefully this will make the overall experience a little bit smoother.",
-      "url": "https://www.gamingonlinux.com/2026/11/steamos-3-9-7-beta-and-a-new-steam-client-beta-fix-up-various-issues",
+      "title": "GOG Black Friday sale is live, plus multiple Lara Croft games enter the GOG Preservation Program",
+      "summary": "GOG just announced their big Black Friday sale, along with three adventures with Lara Croft arriving on GOG with two in the GOG Preservation Program.",
+      "url": "https://www.gamingonlinux.com/2026/11/gog-black-friday-sale-is-live-plus-multiple-lara-croft-games-enter-the-gog-preservation-program",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-25T07:57:27+00:00",
+      "published_at": "2026-11-25T14:49:18+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
-        "games",
-        "steam"
+        "games"
       ],
       "article_type": "news"
     },
@@ -32,11 +31,11 @@
       "article_type": "technical_article"
     },
     {
-      "title": "Anthropic turns Claude Artifacts into standalone desktop apps for macOS and Windows",
-      "summary": "Anthropic now lets you install Claude Artifacts as desktop apps on Mac and Windows, and a free account is enough. You build one in chat without writing code, and it can add menu bar items, send notifications, and create transparent windows.",
-      "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows",
+      "title": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant",
+      "summary": "Google Deepmind lets AI agents run experiments on their own for the next Gemini model. On the company's podcast, VP of Research Koray Kavukcuoglu, who leads Gemini development, frames this as part of a strategic shift at the lab.",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
       "source": "The Decoder",
-      "published_at": "2026-11-24T20:42:29+00:00",
+      "published_at": "2026-11-25T13:23:36+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -58,12 +57,25 @@
       "article_type": "release"
     },
     {
-      "title": "Apple Mail added four convenient new features in iOS 27",
-      "summary": "iOS 27 adds new features to many system apps, including convenient upgrades for the Mail app. Here’s everything new for Apple Mail in iOS 27.",
-      "url": "https://9to5mac.com/2026/11/24/heres-everything-new-for-apple-mail-in-ios-27",
+      "title": "Castlevania SotN Ultimate (PS1 Edition)",
+      "summary": "Developer belaLugosiIsDead recently uploaded a version of Castlevania Symphony Of The Night for the PlayStation 1, that also includes all the Sega Saturn version’s exclusive content.",
+      "url": "https://retrorgb.com/castlevania-sotn-ultimate-ps1-edition.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-25T14:03:11+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple has iPads running macOS already, but don’t get too excited",
+      "summary": "Apple has iPads internally running macOS, and they’ve had that for some time. The fact that they have the underlying architecture of Apple Silicon that’s the same on the iPad and the Mac gives them the flexibility in order to test these types of things.",
+      "url": "https://9to5mac.com/2026/11/25/apple-has-ipads-running-macos-already-but-dont-get-too-excited",
       "source": "9to5Mac",
-      "published_at": "2026-11-24T23:56:12+00:00",
-      "category": "ios",
+      "published_at": "2026-11-25T13:40:50+00:00",
+      "category": "macos",
       "tags": [
         "apple",
         "devices"
@@ -71,11 +83,37 @@
       "article_type": "news"
     },
     {
-      "title": "So far, Littlelands is a thoroughly charming adventure",
-      "summary": "Developed by Rafael Martín / Kyle Creamer and published by Apogee Entertainment, Littlelands is a truly charming, handcrafted exploration adventure blending elements of a cozy life sim with classic Zelda-like action-adventure gameplay.",
-      "url": "https://www.gamingonlinux.com/2026/11/so-far-littlelands-is-a-thoroughly-charming-adventure",
+      "title": "Apple Has iPads Running macOS Internally, Says Gurman",
+      "summary": "Apple has iPads running macOS internally and has had them \"for some time,\" according to Bloomberg 's Mark Gurman, although he says no work is currently being done to bring the Mac operating system to iPads.",
+      "url": "https://www.macrumors.com/2026/11/25/apple-has-ipads-running-macos-internally",
+      "source": "MacRumors",
+      "published_at": "2026-11-25T12:55:37+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Maps update on Android Auto adds navigation routes for motorcycles",
+      "summary": "Users in India have recently noticed that Google Maps for Android Auto is showing a new message asking them to restart the app to “switch to two-wheeler directions.” Once enabled, a motorcycle icon appears on the ETA card.",
+      "url": "https://9to5google.com/2026/11/25/google-maps-android-auto-motorcycle-navigation-routes",
+      "source": "9to5Google",
+      "published_at": "2026-11-25T11:00:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Terraria 1.4.6 is out with 'Crossplay Phase One'",
+      "summary": "\"This feature has been years in the making and we're so pleased to be able to release to you Phase One of Crossplay. Starting today, for most people using the same Wi-Fi/wired network you will be able to play together with any device which has v1.4.6 Terraria, without a multiplayer subscription.",
+      "url": "https://www.gamingonlinux.com/2026/11/terraria-1-4-6-is-out-with-crossplay-phase-one",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-24T16:17:46+00:00",
+      "published_at": "2026-11-25T09:44:35+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -84,11 +122,11 @@
       "article_type": "news"
     },
     {
-      "title": "How Gemini is changing the game for Golden State's organization and fans.",
-      "summary": "Today, we’re expanding our partnership with Golden State — making Google Gemini the Official AI Assistant Partner and Official Generative AI & Enterprise LLM Partner of the Warriors, the 2026 WNBA Champion Valkyries, and Chase Center.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
-      "source": "Google AI Blog",
-      "published_at": "2026-11-24T16:00:00+00:00",
+      "title": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values",
+      "summary": "Startup PrismML has released Ternary Bonsai 2.5 27B, an updated version of its aggressively compressed language model. The article PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values appeared first on The Decoder .",
+      "url": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb",
+      "source": "The Decoder",
+      "published_at": "2026-11-25T11:51:49+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -111,11 +149,24 @@
       "article_type": "technical_article"
     },
     {
-      "title": "Keeping your Molten Salt Reactor Fuel Fresh with Helium Bubbles",
-      "summary": "There are a lot of advantages to a molten salt fission reactor (MSR) where the fuel is mixed in with the salt coolant, such as an inherently safe design, and very easy refueling by just dumping in more of the salt and fuel while scooping out any fission products that cannot be further fissioned.",
-      "url": "https://hackaday.com/2026/11/24/keeping-your-molten-salt-reactor-fuel-fresh-with-helium-bubbles",
+      "title": "An annoying ‘mistake’ in macOS was actually prep for the latest MacBook Pro",
+      "summary": "I was one of a number of people to note that trying to grab the corner of a window in macOS Tahoe in order to resize it would oft e n fail .",
+      "url": "https://9to5mac.com/2026/11/25/an-annoying-mistake-in-macos-was-actually-prep-for-the-latest-macbook-pro",
+      "source": "9to5Mac",
+      "published_at": "2026-11-25T12:00:57+00:00",
+      "category": "macos",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Game Boy Museum on a Cart Gives the Gift of Knowledge",
+      "summary": "The museum website [Marcel] developed contains tons of photos and articles on Game Boy memorabilia. Hardware variants, obscure peripherals, and game boxes are digitally preserved for the general public’s perusal.",
+      "url": "https://hackaday.com/2026/11/25/game-boy-museum-on-a-cart-gives-the-gift-of-knowledge",
       "source": "Hackaday",
-      "published_at": "2026-11-25T03:00:01+00:00",
+      "published_at": "2026-11-25T12:00:10+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
@@ -124,11 +175,11 @@
       "article_type": "news"
     },
     {
-      "title": "VR Forever Awards returns this December with a big SteamVR Festival",
-      "summary": "Need some more VR games? You're going to get a good chance real soon with the return of the VR Forever Awards and a SteamVR Festival.",
-      "url": "https://www.gamingonlinux.com/2026/11/vr-forever-awards-returns-this-december-with-a-big-steamvr-festival",
+      "title": "Pop!_OS 26.04 LTS is out now with new theme bundles, remote desktop, drawing tablet support and more",
+      "summary": "System76 continue building up their COSMIC desktop environment with a fresh Pop!_OS 26.04 LTS release now available . Really love what they're doing with this.",
+      "url": "https://www.gamingonlinux.com/2026/11/pop-os-26-04-lts-is-out-now-with-new-theme-bundles-remote-desktop-drawing-tablet-support-and-more",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-24T11:48:56+00:00",
+      "published_at": "2026-11-25T09:37:26+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -137,11 +188,63 @@
       "article_type": "news"
     },
     {
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "summary": "In a preprint titled GPT‑6 as a Universal Foundation Model for Protein Biology: Beyond Specialized Models , we show that our GPT‑6 family of models has intrinsic capabilities for designing new proteins: the models can design new protein structures and sequences without relying on specialized biology models, using only reasoning and general-purpose coding tools.",
-      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "source": "OpenAI News",
-      "published_at": "2026-11-24T13:00:00+00:00",
+      "title": "Anthropic turns Claude Artifacts into standalone desktop apps for macOS and Windows",
+      "summary": "Anthropic now lets you install Claude Artifacts as desktop apps on Mac and Windows, and a free account is enough. You build one in chat without writing code, and it can add menu bar items, send notifications, and create transparent windows.",
+      "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows",
+      "source": "The Decoder",
+      "published_at": "2026-11-24T20:42:29+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Apple Mail added four convenient new features in iOS 27",
+      "summary": "iOS 27 adds new features to many system apps, including convenient upgrades for the Mail app. Here’s everything new for Apple Mail in iOS 27.",
+      "url": "https://9to5mac.com/2026/11/24/heres-everything-new-for-apple-mail-in-ios-27",
+      "source": "9to5Mac",
+      "published_at": "2026-11-24T23:56:12+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Threads App for iPad Now Available",
+      "summary": "Threads has released a native iPad app. Threads design head Christopher Clare said on Monday it was coming \"very soon,\" and it has since appeared on the App Store .",
+      "url": "https://www.macrumors.com/2026/11/25/threads-app-for-ipad-now-available",
+      "source": "MacRumors",
+      "published_at": "2026-11-25T11:10:54+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Build up your casual game collection in a new Fanatical Casual Bundle",
+      "summary": "Casual games are great for coffee breaks, when you're feeling rough or just to relax with - and now you can get a bunch cheap from Fanatical .",
+      "url": "https://www.gamingonlinux.com/2026/11/build-up-your-casual-game-collection-in-a-new-fanatical-casual-bundle",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-25T09:12:06+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "summary": "Today, we’re expanding our partnership with Golden State — making Google Gemini the Official AI Assistant Partner and Official Generative AI & Enterprise LLM Partner of the Warriors, the 2026 WNBA Champion Valkyries, and Chase Center.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+      "source": "Google AI Blog",
+      "published_at": "2026-11-24T16:00:00+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -163,41 +266,15 @@
       "article_type": "news"
     },
     {
-      "title": "Humanity is on the menu, and it's time to fight back in boomer shooter TREMEN",
-      "summary": "Set to arrive on PC sometime in 2027, TREMEN is a brutalist boomer shooter inspired by graphic novels by Pim Bos. I'll admit, not someone I had heard of before.",
-      "url": "https://www.gamingonlinux.com/2026/11/humanity-is-on-the-menu-and-its-time-to-fight-back-in-boomer-shooter-tremen",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-24T11:17:49+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
-      "summary": "Anthropic launched Claude Ship in beta, a new tool that automatically reviews proposed code changes, fixes problems, and approves merges based on team policies. The system pairs the already available Code Review feature for catching bugs with two new AI agents called PR Steward and Claude Approvals.",
-      "url": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own",
-      "source": "The Decoder",
-      "published_at": "2026-11-24T11:26:23+00:00",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "summary": "In a preprint titled GPT‑6 as a Universal Foundation Model for Protein Biology: Beyond Specialized Models , we show that our GPT‑6 family of models has intrinsic capabilities for designing new proteins: the models can design new protein structures and sequences without relying on specialized biology models, using only reasoning and general-purpose coding tools.",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source": "OpenAI News",
+      "published_at": "2026-11-24T13:00:00+00:00",
       "category": "ai",
       "tags": [
         "ai",
         "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Google Says Apple's iOS Browser Rules Offer 'Choice on Paper, Not in Practice'",
-      "summary": "We agree with @mozilla. Nearly 3 years after alternative browser engines on iOS were EU-mandated, zero launched due to remaining Apple restrictions. Forcing browsers to ship separate apps and re-acquire users is choice on paper, not in practice.",
-      "url": "https://www.macrumors.com/2026/11/24/google-ios-eu-browser-rules",
-      "source": "MacRumors",
-      "published_at": "2026-11-24T21:00:43+00:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "devices"
       ],
       "article_type": "news"
     },
@@ -215,19 +292,6 @@
       "article_type": "news"
     },
     {
-      "title": "Watch This (Virtual) Mechanical Watch Do Its Thing",
-      "summary": "The COSC certifies chronometers and the standard is -4 to +6 seconds per day. And that’s in a bunch of different positions. Pretty much every mid tier (Rolex, Omega etc) mechanical watch that rolls off the line these days is a certified chronometer.",
-      "url": "https://hackaday.com/2026/11/24/watch-this-virtual-mechanical-watch-do-its-thing",
-      "source": "Hackaday",
-      "published_at": "2026-11-24T21:00:12+00:00",
-      "category": "hardware",
-      "tags": [
-        "hardware",
-        "maker"
-      ],
-      "article_type": "news"
-    },
-    {
       "title": "More predictable notifications on GitHub.com",
       "summary": "Starting December 1, 2026, we’re migrating notifications on GitHub.com over the course of a week to make subscriptions more predictable, correct unexpected behavior, and support the growing scale of activity.",
       "url": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
@@ -241,17 +305,43 @@
       "article_type": "news"
     },
     {
-      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
-      "summary": "Autonomous agent governance is commonly framed as a problem of enforcing correct execution. However, in multi-agent systems, an equally fundamental question precedes execution: which agents are allowed to act.",
-      "url": "https://arxiv.org/abs/2611.31284",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-25T00:00:00-05:00",
-      "category": "ai",
+      "title": "Google Says Apple's iOS Browser Rules Offer 'Choice on Paper, Not in Practice'",
+      "summary": "We agree with @mozilla. Nearly 3 years after alternative browser engines on iOS were EU-mandated, zero launched due to remaining Apple restrictions. Forcing browsers to ship separate apps and re-acquire users is choice on paper, not in practice.",
+      "url": "https://www.macrumors.com/2026/11/24/google-ios-eu-browser-rules",
+      "source": "MacRumors",
+      "published_at": "2026-11-24T21:00:43+00:00",
+      "category": "ios",
       "tags": [
-        "ai",
-        "research"
+        "apple",
+        "devices"
       ],
-      "article_type": "research"
+      "article_type": "news"
+    },
+    {
+      "title": "Pop!_OS 26.04 LTS vs. Pop!_OS 24.04 LTS Benchmarks",
+      "summary": "I ran some benchmarks of Pop!_OS 26.04 LTS on the new System76 Thelio Prime and then installed a clean Pop!_OS 24.04 LTS image to see how the performance evolved.",
+      "url": "https://www.phoronix.com/review/pop-os-2604-benchmarks",
+      "source": "Phoronix",
+      "published_at": "2026-11-25T09:38:32-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Linux 7.4 Disables LLVM Profi Usage To Avoid Performance Hit, Pathological Build Times",
+      "summary": "A change merged this week to the Linux 7.4 kernel and also set to be back-ported to stable kernel branches is to disable use of LLVM's Profi flow-based profile inference algorithm when leveraging AutoFDO.",
+      "url": "https://www.phoronix.com/news/Linux-Kernel-Disable-Profi",
+      "source": "Phoronix",
+      "published_at": "2026-11-25T06:27:04-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
     },
     {
       "title": "Ubuntu details plans to replace its app grid with an AI smart launcher",
@@ -276,32 +366,6 @@
       "tags": [
         "ubuntu",
         "desktop"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Pop!_OS 26.04 LTS Released With More COSMIC Apps, Remote Desktop & More",
-      "summary": "System76 has a wonderful surprise today with the release of Pop!_OS 26.04 LTS as the newest iteration of their in-house Linux distribution now built atop the Ubuntu 26.04 LTS package base and incorporating their latest enhancements to their COSMIC desktop.",
-      "url": "https://www.phoronix.com/news/Pop-OS-26.04-Released",
-      "source": "Phoronix",
-      "published_at": "2026-11-24T16:00:00-05:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Ubuntu Outlines Plans For Its AI-Powered New Way To Interact With The Ubuntu Desktop",
-      "summary": "Following Ubuntu 26.10 offering the Myna speech-to-text AI powered functionality in tech preview form and then a Snap appearing recently as a new design mock-up for an AI-powered launcher, Canonical today shared more plans on their AI-embraced Ubuntu desktop.",
-      "url": "https://www.phoronix.com/news/Ubuntu-AI-Desktop-Interact",
-      "source": "Phoronix",
-      "published_at": "2026-11-24T11:12:00-05:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
       ],
       "article_type": "news"
     }
