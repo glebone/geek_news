@@ -1,212 +1,15 @@
 {
   "schema_version": 2,
-  "date": "2026-11-24",
-  "generated_at": "2026-11-24T09:31:56Z",
-  "count": 25,
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T08:02:21Z",
+  "count": 23,
   "articles": [
     {
-      "title": "Zellij Release v0.46.1",
-      "summary": "Zellij is a labor of love and is provided free and open-source to anyone who wishes to use it. Zellij will never display ads or collect your data.",
-      "url": "https://github.com/zellij-org/zellij/releases/tag/v0.46.1",
-      "source": "Zellij",
-      "published_at": "2026-11-24T07:48:25+00:00",
-      "category": "open_source",
-      "tags": [
-        "tui",
-        "terminal"
-      ],
-      "article_type": "release"
-    },
-    {
-      "title": "Your futile journey into the sunset continues in Race The Sun 2",
-      "summary": "The classic casual racer returns, Race The Sun 2 has been announced by Flippfly LLC. The original released way back in 2013, so it has been quite a long time!",
-      "url": "https://www.gamingonlinux.com/2026/11/your-futile-journey-into-the-sunset-continues-in-race-the-sun-2",
+      "title": "SteamOS 3.9.7 Beta and a new Steam Client Beta fix up various issues",
+      "summary": "SteamOS 3.9.7 Beta and a new Steam Client Beta were released for testing bringing a small but nice selection of bug fixes. All the changes across the two updates are listed below, hopefully this will make the overall experience a little bit smoother.",
+      "url": "https://www.gamingonlinux.com/2026/11/steamos-3-9-7-beta-and-a-new-steam-client-beta-fix-up-various-issues",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-24T09:05:11+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Run local models in your .NET apps with Llama on Windows",
-      "summary": "Llama on Windows takes care of that for you. It’s a tray app that helps you find, download, and chat with open models on your PC.",
-      "url": "https://devblogs.microsoft.com/dotnet/local-models-dotnet-llama-windows",
-      "source": "dotnet Blog",
-      "published_at": "2026-11-23T18:05:00+00:00",
-      "category": "programming",
-      "tags": [
-        "dotnet",
-        "programming",
-        "models"
-      ],
-      "article_type": "technical_article"
-    },
-    {
-      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-      "summary": "Anthropic is moving from having Claude write code to helping developers decide when that code is ready to ship. On Monday, the newly public AI company announced the launch of Claude Ship , a suite of AI agents for automating code reviews, fixes, and approvals of routine code changes.",
-      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
-      "source": "TechCrunch AI",
-      "published_at": "2026-11-23T22:05:50+00:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "datasette-agent 0.7a1",
-      "summary": "Release: datasette-agent 0.7a1 I small improvement to Datasette Agent : chat sessions can open an iframe side panel, and that panel can then navigate to different pages.",
-      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent",
-      "source": "Simon Willison",
-      "published_at": "2026-11-24T03:45:57+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "ai",
-        "developer-tools"
-      ],
-      "article_type": "technical_article"
-    },
-    {
-      "title": "Original OSSC “HD CRT” Firmware",
-      "summary": "Developer manfredi90 – The same dev who recently released the OSSC Downscaling firmware – Just released another alternate/2nd firmware for the original OSSC, designed specifically for people with HD CRT’s.",
-      "url": "https://retrorgb.com/original-ossc-hd-crt-firmware.html",
-      "source": "RetroRGB",
-      "published_at": "2026-11-23T22:09:47+00:00",
-      "category": "retro_gaming",
-      "tags": [
-        "retro",
-        "gaming"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "RF Remote Cloning Without the Benefit of an SDR",
-      "summary": "But snooping on higher frequencies usually requires considerably more expensive gear, which is the problem that [Henrikbiscuit] recently ran into . He wanted to hook the Lindby Velua ceiling light into Home Assistant, and that meant cloning the signals being sent by its 2.4 GHz remote.",
-      "url": "https://hackaday.com/2026/11/24/rf-remote-cloning-without-the-benefit-of-an-sdr",
-      "source": "Hackaday",
-      "published_at": "2026-11-24T09:00:27+00:00",
-      "category": "hardware",
-      "tags": [
-        "hardware",
-        "maker"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "These are my two must-have iPhone Duo accessories",
-      "summary": "I’ve been using an Apple Pencil with my iPhone Duo since iOS 27.2 added support. It’s a great way to interact with the foldable iPhone form factor.",
-      "url": "https://9to5mac.com/2026/11/23/these-are-my-two-must-have-iphone-duo-accessories",
-      "source": "9to5Mac",
-      "published_at": "2026-11-24T01:30:09+00:00",
-      "category": "hardware",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "RimWorld meets Dungeon Keeper in the new release of Malignus",
-      "summary": "Malignus is an Early Access dungeon colony sim where you play the dungeon itself, that blends elements of RimWorld and Dungeon Keeper together. A 2D dungeon colony sim and emergent story generator.",
-      "url": "https://www.gamingonlinux.com/2026/11/rimworld-meets-dungeon-keeper-in-the-new-release-of-malignus",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-24T08:43:03+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "iOS 27.2 upgraded Apple Photos in two ways, here’s what’s new",
-      "summary": "Apple Photos got a lot of new features in iOS 27, but the recent release of iOS 27.2 brought even more improvements. Here’s what’s new.",
-      "url": "https://9to5mac.com/2026/11/23/ios-27-2-just-upgraded-apple-photos-in-two-ways-heres-whats-new",
-      "source": "9to5Mac",
-      "published_at": "2026-11-24T00:19:18+00:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Claude rolling out updated Android app with Material 3 Expressive redesign",
-      "summary": "Confirmed on Twitter/X by Anthropic Product Manager Robert Bye, Claude is now rolling out a Material 3 Expressive redesign for its Android app that, while not a full embrace of Google’s design language, does make a clear attempt to better fit in on Android.",
-      "url": "https://9to5google.com/2026/11/23/claude-android-material-3-update",
-      "source": "9to5Google",
-      "published_at": "2026-11-23T22:15:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google",
-        "models"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Fable: Return to Albion is an open source Godot remake of Fable II and Fable III",
-      "summary": "Love the classics Fable II and Fable III? You may want to keep an eye on the Fable: Return to Albion remake project made with Godot .",
-      "url": "https://www.gamingonlinux.com/2026/11/fable-return-to-albion-is-an-open-source-godot-remake-of-fable-ii-and-fable-iii",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-24T08:35:37+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "SAMA: Training-Free Consensus Ridge Tracking for Camera-Based Heart Rate on Five Public Datasets",
-      "summary": "Remote photoplethysmography (rPPG) is usually benchmarked by one heart rate per video, a figure that hides the short windows in which a tele-consultation would actually read the pulse.",
-      "url": "https://arxiv.org/abs/2611.28185",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-24T00:00:00-05:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "Claude Code v2.1.331",
-      "summary": "Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONPath (RFC 9535).",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
-      "source": "Claude Code",
-      "published_at": "2026-11-23T21:34:41+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "claude-code",
-        "ai-coding"
-      ],
-      "article_type": "release"
-    },
-    {
-      "title": "Which 2026 Samsung Galaxy Tab should you buy?",
-      "summary": "The Galaxy Tab S12+ is the Samsung tablet to choose for a premium mix of entertainment, creativity, and productivity. The Galaxy Tab S12 Ultra gives you an even bigger canvas, while the Galaxy Tab S11 brings flagship features to a more portable size.",
-      "url": "https://9to5google.com/2026/11/23/which-2026-samsung-galaxy-tab-should-you-buy",
-      "source": "9to5Google",
-      "published_at": "2026-11-23T21:00:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Nominations now open for The 2026 Steam Awards",
-      "summary": "The next great popularity contest is here - The 2026 Steam Awards are now open for you to nominate games across various categories. Valve are celebrating the 10th anniversary of the awards too, how time flies huh?",
-      "url": "https://www.gamingonlinux.com/2026/11/nominations-now-open-for-the-2026-steam-awards",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-24T07:56:27+00:00",
+      "published_at": "2026-11-25T07:57:27+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -216,37 +19,50 @@
       "article_type": "news"
     },
     {
-      "title": "torchtsetlin: Fast, Interpretable Tsetlin Machines for PyTorch",
-      "summary": "The Tsetlin machine learns propositional rules with teams of Tsetlin automata that are driven by reward and penalty rather than gradients, so its models are interpretable by construction and cheap to evaluate.",
-      "url": "https://arxiv.org/abs/2611.28195",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-24T00:00:00-05:00",
+      "title": "Introducing DocumentExtractionClient (preview): Extract documents in .NET",
+      "summary": "Today we’re introducing a preview of DocumentExtractionClient in Microsoft.Extensions.DocumentExtraction , along with a set of starter providers in the .NET AI Community Toolkit . Whichever provider you choose, the flow is the same.",
+      "url": "https://devblogs.microsoft.com/dotnet/document-extraction-dotnet-preview",
+      "source": "dotnet Blog",
+      "published_at": "2026-11-24T18:05:00+00:00",
+      "category": "programming",
+      "tags": [
+        "dotnet",
+        "programming"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Anthropic turns Claude Artifacts into standalone desktop apps for macOS and Windows",
+      "summary": "Anthropic now lets you install Claude Artifacts as desktop apps on Mac and Windows, and a free account is enough. You build one in chat without writing code, and it can add menu bar items, send notifications, and create transparent windows.",
+      "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows",
+      "source": "The Decoder",
+      "published_at": "2026-11-24T20:42:29+00:00",
       "category": "ai",
       "tags": [
         "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "Issue statuses and repository boards are in public preview",
-      "summary": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight and what to work on next, then visualize your progress with repository boards.",
-      "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
-      "source": "GitHub Changelog",
-      "published_at": "2026-11-23T20:37:11+00:00",
-      "category": "agent_tools",
-      "tags": [
-        "github",
-        "developer-tools"
+        "models"
       ],
       "article_type": "news"
     },
     {
-      "title": "iOS 27 gave your iPhone an alarm feature that’s long been missing",
-      "summary": "Alarms are one of the most important iPhone features, and iOS 27 offers a key feature that should help your alarm actually wake you: a new volume setting for alarms that’s independent of other volume settings.",
-      "url": "https://9to5mac.com/2026/11/23/ios-27-gave-your-iphone-an-alarm-feature-thats-long-been-missing",
+      "title": "Claude Code v2.1.332",
+      "summary": "Added a PreSkillShellCommand hook event that can refuse a skill or command's inline shell commands as it loads; on 2.1.331 and older, a settings file naming it opens a dialog at start.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "source": "Claude Code",
+      "published_at": "2026-11-25T01:32:14+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "claude-code",
+        "ai-coding"
+      ],
+      "article_type": "release"
+    },
+    {
+      "title": "Apple Mail added four convenient new features in iOS 27",
+      "summary": "iOS 27 adds new features to many system apps, including convenient upgrades for the Mail app. Here’s everything new for Apple Mail in iOS 27.",
+      "url": "https://9to5mac.com/2026/11/24/heres-everything-new-for-apple-mail-in-ios-27",
       "source": "9to5Mac",
-      "published_at": "2026-11-23T18:41:50+00:00",
+      "published_at": "2026-11-24T23:56:12+00:00",
       "category": "ios",
       "tags": [
         "apple",
@@ -255,37 +71,168 @@
       "article_type": "news"
     },
     {
-      "title": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment",
-      "summary": "Coding agents can translate 3D measurements into CAD geometry, but reconstructing engineering models for the built environment demands semantic interpretation and consistent construction constraints beyond surface fitting.",
-      "url": "https://arxiv.org/abs/2611.28197",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-24T00:00:00-05:00",
+      "title": "So far, Littlelands is a thoroughly charming adventure",
+      "summary": "Developed by Rafael Martín / Kyle Creamer and published by Apogee Entertainment, Littlelands is a truly charming, handcrafted exploration adventure blending elements of a cozy life sim with classic Zelda-like action-adventure gameplay.",
+      "url": "https://www.gamingonlinux.com/2026/11/so-far-littlelands-is-a-thoroughly-charming-adventure",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-24T16:17:46+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "summary": "Today, we’re expanding our partnership with Golden State — making Google Gemini the Official AI Assistant Partner and Official Generative AI & Enterprise LLM Partner of the Warriors, the 2026 WNBA Champion Valkyries, and Chase Center.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+      "source": "Google AI Blog",
+      "published_at": "2026-11-24T16:00:00+00:00",
       "category": "ai",
       "tags": [
         "ai",
-        "research"
+        "models"
       ],
-      "article_type": "research"
+      "article_type": "news"
     },
     {
-      "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
-      "summary": "Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running. We find that much of this gap lies in the harness, which decides what the model sees, what it remembers, and how its outputs become actions over time.",
-      "url": "https://arxiv.org/abs/2611.28202",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-24T00:00:00-05:00",
+      "title": "Three LLM inflection points in twelve months",
+      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points",
+      "source": "Simon Willison",
+      "published_at": "2026-11-24T23:02:07+00:00",
+      "category": "agent_tools",
+      "tags": [
+        "ai",
+        "developer-tools",
+        "models"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Keeping your Molten Salt Reactor Fuel Fresh with Helium Bubbles",
+      "summary": "There are a lot of advantages to a molten salt fission reactor (MSR) where the fuel is mixed in with the salt coolant, such as an inherently safe design, and very easy refueling by just dumping in more of the salt and fuel while scooping out any fission products that cannot be further fissioned.",
+      "url": "https://hackaday.com/2026/11/24/keeping-your-molten-salt-reactor-fuel-fresh-with-helium-bubbles",
+      "source": "Hackaday",
+      "published_at": "2026-11-25T03:00:01+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "VR Forever Awards returns this December with a big SteamVR Festival",
+      "summary": "Need some more VR games? You're going to get a good chance real soon with the return of the VR Forever Awards and a SteamVR Festival.",
+      "url": "https://www.gamingonlinux.com/2026/11/vr-forever-awards-returns-this-december-with-a-big-steamvr-festival",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-24T11:48:56+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "summary": "In a preprint titled GPT‑6 as a Universal Foundation Model for Protein Biology: Beyond Specialized Models , we show that our GPT‑6 family of models has intrinsic capabilities for designing new proteins: the models can design new protein structures and sequences without relying on specialized biology models, using only reasoning and general-purpose coding tools.",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source": "OpenAI News",
+      "published_at": "2026-11-24T13:00:00+00:00",
       "category": "ai",
       "tags": [
         "ai",
-        "research"
+        "models"
       ],
-      "article_type": "research"
+      "article_type": "news"
     },
     {
-      "title": "Usage reports will include a user ID column starting December 1",
-      "summary": "Starting December 1, 2026, usage reports that include a username column will also include a user_id column next to it. Every column after username will move one position to the right.",
-      "url": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
+      "title": "Yes, the Pixel 10 is still a great buy [Video]",
+      "summary": "Yes, if you're on the lookout for a cheap device, the Google Pixel 10 is still a great buy for anyone in the market for an upgrade.",
+      "url": "https://9to5google.com/2026/11/24/yes-the-pixel-10-is-still-a-great-buy-video",
+      "source": "9to5Google",
+      "published_at": "2026-11-24T16:45:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Humanity is on the menu, and it's time to fight back in boomer shooter TREMEN",
+      "summary": "Set to arrive on PC sometime in 2027, TREMEN is a brutalist boomer shooter inspired by graphic novels by Pim Bos. I'll admit, not someone I had heard of before.",
+      "url": "https://www.gamingonlinux.com/2026/11/humanity-is-on-the-menu-and-its-time-to-fight-back-in-boomer-shooter-tremen",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-24T11:17:49+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
+      "summary": "Anthropic launched Claude Ship in beta, a new tool that automatically reviews proposed code changes, fixes problems, and approves merges based on team policies. The system pairs the already available Code Review feature for catching bugs with two new AI agents called PR Steward and Claude Approvals.",
+      "url": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own",
+      "source": "The Decoder",
+      "published_at": "2026-11-24T11:26:23+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Google Says Apple's iOS Browser Rules Offer 'Choice on Paper, Not in Practice'",
+      "summary": "We agree with @mozilla. Nearly 3 years after alternative browser engines on iOS were EU-mandated, zero launched due to remaining Apple restrictions. Forcing browsers to ship separate apps and re-acquire users is choice on paper, not in practice.",
+      "url": "https://www.macrumors.com/2026/11/24/google-ios-eu-browser-rules",
+      "source": "MacRumors",
+      "published_at": "2026-11-24T21:00:43+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "summary": "Clay also brings these capabilities to where customers are already working with plugins for Codex and ChatGPT, making it easier to create and run go-to-market workflows and research accounts and deals.",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "source": "OpenAI News",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Watch This (Virtual) Mechanical Watch Do Its Thing",
+      "summary": "The COSC certifies chronometers and the standard is -4 to +6 seconds per day. And that’s in a bunch of different positions. Pretty much every mid tier (Rolex, Omega etc) mechanical watch that rolls off the line these days is a certified chronometer.",
+      "url": "https://hackaday.com/2026/11/24/watch-this-virtual-mechanical-watch-do-its-thing",
+      "source": "Hackaday",
+      "published_at": "2026-11-24T21:00:12+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "More predictable notifications on GitHub.com",
+      "summary": "Starting December 1, 2026, we’re migrating notifications on GitHub.com over the course of a week to make subscriptions more predictable, correct unexpected behavior, and support the growing scale of activity.",
+      "url": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
       "source": "GitHub Changelog",
-      "published_at": "2026-11-23T10:29:36+00:00",
+      "published_at": "2026-11-24T16:40:59+00:00",
       "category": "agent_tools",
       "tags": [
         "github",
@@ -294,11 +241,24 @@
       "article_type": "news"
     },
     {
-      "title": "Ladybird browser reaches alpha after four years of development",
-      "summary": "Building a new web browser around a rendering engine written from scratch is no mean feat, but after four years of effort, Ladybird has finally reached alpha , with Linux and macOS builds available for testing.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/ladybird-browser-enters-alpha",
+      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+      "summary": "Autonomous agent governance is commonly framed as a problem of enforcing correct execution. However, in multi-agent systems, an equally fundamental question precedes execution: which agents are allowed to act.",
+      "url": "https://arxiv.org/abs/2611.31284",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-11-25T00:00:00-05:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "article_type": "research"
+    },
+    {
+      "title": "Ubuntu details plans to replace its app grid with an AI smart launcher",
+      "summary": "Canonical has shared more detail on plans for an AI-powered Ubuntu launcher , which it hopes will offer users “a new way to interact” with the desktop.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/ubuntu-ai-launcher-details",
       "source": "OMG! Ubuntu",
-      "published_at": "2026-11-23T23:59:00+00:00",
+      "published_at": "2026-11-25T04:37:45+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
@@ -307,11 +267,11 @@
       "article_type": "news"
     },
     {
-      "title": "Firefox 161 brings classic theme options, smarter VPN",
-      "summary": "Customisation fans are well served with this update. A set of “classic themes” are available to install from the browser’s add-ons page. Mozilla says it includes the ‘Proton theme from earlier versions of Firefox’, an OLED theme and solid colours.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/firefox-161-released-vpn-classic-themes",
+      "title": "Pop!_OS 26.04 LTS released with COSMIC theme updates",
+      "summary": "Users of the previous release, Pop!_OS 24.04 LTS, will be familiar with the majority of changes, as they were added via software updates over the past few months.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/pop_os-26-04-lts-released",
       "source": "OMG! Ubuntu",
-      "published_at": "2026-11-23T21:09:58+00:00",
+      "published_at": "2026-11-24T22:42:25+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
@@ -320,15 +280,28 @@
       "article_type": "news"
     },
     {
-      "title": "Ubuntu 27.04 daily builds are available to download",
-      "summary": "If you plan to track development of Ubuntu 27.04 ‘Tenacious T-Rex’ up close, daily build images are now available for download. Daily builds are produced for the duration of a development cycle, right up until the final, stable release.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/ubuntu-2704-daily-builds-are-out",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-11-21T16:26:14+00:00",
+      "title": "Pop!_OS 26.04 LTS Released With More COSMIC Apps, Remote Desktop & More",
+      "summary": "System76 has a wonderful surprise today with the release of Pop!_OS 26.04 LTS as the newest iteration of their in-house Linux distribution now built atop the Ubuntu 26.04 LTS package base and incorporating their latest enhancements to their COSMIC desktop.",
+      "url": "https://www.phoronix.com/news/Pop-OS-26.04-Released",
+      "source": "Phoronix",
+      "published_at": "2026-11-24T16:00:00-05:00",
       "category": "linux",
       "tags": [
-        "ubuntu",
-        "desktop"
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Ubuntu Outlines Plans For Its AI-Powered New Way To Interact With The Ubuntu Desktop",
+      "summary": "Following Ubuntu 26.10 offering the Myna speech-to-text AI powered functionality in tech preview form and then a Snap appearing recently as a new design mock-up for an AI-powered launcher, Canonical today shared more plans on their AI-embraced Ubuntu desktop.",
+      "url": "https://www.phoronix.com/news/Ubuntu-AI-Desktop-Interact",
+      "source": "Phoronix",
+      "published_at": "2026-11-24T11:12:00-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
       ],
       "article_type": "news"
     }
