@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T07:54:52Z",
+  "generated_at": "2026-11-27T14:21:17Z",
   "count": 19,
   "articles": [
     {
-      "title": "Get some action in the Boomer Shooter Fanatical Bundle",
-      "summary": "Pick and choose what you want from the new Boomer Shooter Fanatical Bundle with plenty of highly rated games to choose from. As usual from GamingOnLinux - all the details will be in the below table including various ratings and compatibility notes.",
-      "url": "https://www.gamingonlinux.com/2026/11/get-some-action-in-the-boomer-shooter-fanatical-bundle",
+      "title": "Cult-classic tactical RPG Symphony of War is getting a sequel - Symphony of War II: Dominion",
+      "summary": "Symphony of War II: Dominion has been announced and it's being published by Hooded Horse, so they've picked another good one. A sequel to a critically acclaimed, best-selling tactical RPG that's set to release next year.",
+      "url": "https://www.gamingonlinux.com/2026/11/cult-classic-tactical-rpg-symphony-of-war-is-getting-a-sequel-symphony-of-war-ii-dominion",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-26T14:12:25+00:00",
+      "published_at": "2026-11-27T11:33:23+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -57,24 +57,24 @@
       "article_type": "technical_article"
     },
     {
-      "title": "A Modular 6502 Computer",
-      "summary": "Back in the day, there were plenty of nice compact microcomputers out there that featured the 6502 CPU. There were also simpler computers that put the chip on a bare board and put you very closer to the bare metal.",
-      "url": "https://hackaday.com/2026/11/26/a-modular-6502-computer",
-      "source": "Hackaday",
-      "published_at": "2026-11-27T06:00:46+00:00",
+      "title": "iPhone 18 Production Delay Leaves Apple Little Time Before Launch",
+      "summary": "In October, the same source pointed to late November as the production target for the standard ‌iPhone 18‌ and suggested Apple was preparing to build a large inventory.",
+      "url": "https://www.macrumors.com/2026/11/27/iphone-18-production-delay",
+      "source": "MacRumors",
+      "published_at": "2026-11-27T13:48:42+00:00",
       "category": "hardware",
       "tags": [
-        "hardware",
-        "maker"
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     },
     {
-      "title": "Compatibility tool manager ProtonPlus adds game support to Lutris, Faugus, Heroic Games, and Bottles",
-      "summary": "In version 0.6.9 that just went out - you can now manage games and their runners directly in the app for the likes of Lutris, Faugus Launcher, Heroic Games Launcher, and Bottles.",
-      "url": "https://www.gamingonlinux.com/2026/11/compatibility-tool-manager-protonplus-adds-game-support-to-lutris-faugus-heroic-games-and-bottles",
+      "title": "itch.io Creator Day & Black Friday 2026 sale is live",
+      "summary": "Creator Day also kicks off our Black Friday 2026 sale, which runs until Wednesday, December 2nd at 10:00 AM PT . This is our biggest Black Friday sale yet, with over 40,000 projects on sale from more than 5,300 creator sales.",
+      "url": "https://www.gamingonlinux.com/2026/11/itch-io-creator-day-black-friday-2026-sale-is-live",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-26T11:48:53+00:00",
+      "published_at": "2026-11-27T09:58:04+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -83,15 +83,15 @@
       "article_type": "news"
     },
     {
-      "title": "When Decoupling Capacitors Go Wrong",
-      "summary": "Popular wisdom holds that decoupling capacitors are good, and thus more decoupling capacitors is better. Unfortunately physics disagrees on that notion, as [Ben Eater] discusses in a recent video , following feedback from a viewer who found that upon adding said capacitors, their supply rail got unstable and began oscillating.",
-      "url": "https://hackaday.com/2026/11/26/when-decoupling-capacitors-go-wrong",
-      "source": "Hackaday",
-      "published_at": "2026-11-27T03:00:47+00:00",
+      "title": "The Best Black Friday AirPods Deals",
+      "summary": "You can check out our main post on all of the best Apple Black Friday deals for information on sales for Macs, iPads, Apple Watches, and more.",
+      "url": "https://www.macrumors.com/2026/11/27/best-black-friday-airpods-deals-2026",
+      "source": "MacRumors",
+      "published_at": "2026-11-27T13:15:00+00:00",
       "category": "hardware",
       "tags": [
-        "hardware",
-        "maker"
+        "apple",
+        "devices"
       ],
       "article_type": "news"
     },
@@ -109,11 +109,11 @@
       "article_type": "news"
     },
     {
-      "title": "Incremental casual city-builder Clicky Islands - review",
-      "summary": "Clicky Islands is a fresh casual incremental game release from Karrot Games and Pocketpair Publishing, here's my thoughts on it. Disclosure: a key was provided to GamingOnLinux by the developer.",
-      "url": "https://www.gamingonlinux.com/2026/11/incremental-casual-city-builder-clicky-islands-review",
+      "title": "Turn-based tactical football with superpowers sounds awesome in Football Tactics: Dare to Dream",
+      "summary": "Football Tactics: Dare to Dream was recently revealed by Brightside Games, a turn-based football strategy game with superpowers. There's a demo available on itch.io .",
+      "url": "https://www.gamingonlinux.com/2026/11/turn-based-tactical-football-with-superpowers-sounds-awesome-in-football-tactics-dare-to-dream",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-26T11:14:34+00:00",
+      "published_at": "2026-11-27T09:21:24+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -135,11 +135,11 @@
       "article_type": "news"
     },
     {
-      "title": "VR mech game IRON REBELLION gets a big PvE campaign update on December 14",
-      "summary": "Coming as a free update for everyone, the awesome looking VR mech battler IRON REBELLION is getting a single-player PvE campaign. Currently it's only an online PvP game, which is not great for a niche like VR with so few players.",
-      "url": "https://www.gamingonlinux.com/2026/11/vr-mech-game-iron-rebellion-gets-a-big-pve-campaign-update-on-december-14",
+      "title": "Mech roguelite shooter Tin Coffins arrives on December 7",
+      "summary": "The highly anticipated mech roguelite shooter Tin Coffins has announced its release date of December 7th with Linux support. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/mech-roguelite-shooter-tin-coffins-arrives-on-december-7",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-26T09:07:04+00:00",
+      "published_at": "2026-11-27T09:06:40+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
