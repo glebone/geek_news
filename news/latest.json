@@ -1,32 +1,19 @@
 {
   "schema_version": 2,
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T14:21:17Z",
-  "count": 19,
+  "generated_at": "2026-11-27T15:20:28Z",
+  "count": 20,
   "articles": [
     {
-      "title": "Cult-classic tactical RPG Symphony of War is getting a sequel - Symphony of War II: Dominion",
-      "summary": "Symphony of War II: Dominion has been announced and it's being published by Hooded Horse, so they've picked another good one. A sequel to a critically acclaimed, best-selling tactical RPG that's set to release next year.",
-      "url": "https://www.gamingonlinux.com/2026/11/cult-classic-tactical-rpg-symphony-of-war-is-getting-a-sequel-symphony-of-war-ii-dominion",
+      "title": "Immersive sim dino-horror FPS 'Athanasia' enters Early Access",
+      "summary": "From Momentum Games and Black Lantern Collective, Athanasia is an immersive first-person shooter, inspired by System Shock and Dino Crisis. Disclosure: a key was provided to GamingOnLinux.",
+      "url": "https://www.gamingonlinux.com/2026/11/immersive-sim-dino-horror-fps-athanasia-enters-early-access",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-27T11:33:23+00:00",
+      "published_at": "2026-11-27T14:56:17+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
         "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Advent of Code 2026: ’Tis the Season to Code in Kotlin",
-      "summary": "December is almost here, and so is one of our favorite coding traditions! We’re excited to take part in Advent of Code once again and invite you to join us for another season of festive puzzles, clever Kotlin solutions, and friendly competition.",
-      "url": "https://blog.jetbrains.com/kotlin/2026/11/advent-of-code-2026-in-kotlin",
-      "source": "Kotlin Blog",
-      "published_at": "2026-11-26T22:35:00+00:00",
-      "category": "programming",
-      "tags": [
-        "kotlin",
-        "programming"
       ],
       "article_type": "news"
     },
@@ -57,6 +44,71 @@
       "article_type": "technical_article"
     },
     {
+      "title": "These are the best AirPods deals for Black Friday",
+      "summary": "If you’re even mildly considering a new pair of AirPods Pro 3, for yourself or otherwise, the Black Friday deal live right now is a total no-brainer.",
+      "url": "https://9to5mac.com/2026/11/27/airpods-pro-black-friday-deals-pirces",
+      "source": "9to5Mac",
+      "published_at": "2026-11-27T15:03:06+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Best Black Friday deals: Google Pixel Watch 5, Pixel 11, Fold 8, accessories, TVs, more [Updated]",
+      "summary": "If you’re looking to upgrade your setup with a robotic cleaning system, Roborock should be your first choice – its models are easily some of the best out there and you can now score giant Black Friday deals at up to $1,610 off its ultra-intelligent 2026 releases.",
+      "url": "https://9to5google.com/2026/11/27/best-thanksgiving-deals-pixel-galaxy-chargers",
+      "source": "9to5Google",
+      "published_at": "2026-11-27T14:09:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Cult-classic tactical RPG Symphony of War is getting a sequel - Symphony of War II: Dominion",
+      "summary": "Symphony of War II: Dominion has been announced and it's being published by Hooded Horse, so they've picked another good one. A sequel to a critically acclaimed, best-selling tactical RPG that's set to release next year.",
+      "url": "https://www.gamingonlinux.com/2026/11/cult-classic-tactical-rpg-symphony-of-war-is-getting-a-sequel-symphony-of-war-ii-dominion",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-27T11:33:23+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Advent of Code 2026: ’Tis the Season to Code in Kotlin",
+      "summary": "December is almost here, and so is one of our favorite coding traditions! We’re excited to take part in Advent of Code once again and invite you to join us for another season of festive puzzles, clever Kotlin solutions, and friendly competition.",
+      "url": "https://blog.jetbrains.com/kotlin/2026/11/advent-of-code-2026-in-kotlin",
+      "source": "Kotlin Blog",
+      "published_at": "2026-11-26T22:35:00+00:00",
+      "category": "programming",
+      "tags": [
+        "kotlin",
+        "programming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "iOS 27.3 adds limits for these advanced features, details here",
+      "summary": "iOS 27.3 launches soon with a key change: certain advanced AI features will have daily usage limits. In an article posted on X , leaker pdfu details how this new system works.",
+      "url": "https://9to5mac.com/2026/11/27/ios-27-3-adds-limits-for-these-advanced-features-details-here",
+      "source": "9to5Mac",
+      "published_at": "2026-11-27T14:50:41+00:00",
+      "category": "ios",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
       "title": "iPhone 18 Production Delay Leaves Apple Little Time Before Launch",
       "summary": "In October, the same source pointed to late November as the production target for the standard ‌iPhone 18‌ and suggested Apple was preparing to build a large inventory.",
       "url": "https://www.macrumors.com/2026/11/27/iphone-18-production-delay",
@@ -83,19 +135,6 @@
       "article_type": "news"
     },
     {
-      "title": "The Best Black Friday AirPods Deals",
-      "summary": "You can check out our main post on all of the best Apple Black Friday deals for information on sales for Macs, iPads, Apple Watches, and more.",
-      "url": "https://www.macrumors.com/2026/11/27/best-black-friday-airpods-deals-2026",
-      "source": "MacRumors",
-      "published_at": "2026-11-27T13:15:00+00:00",
-      "category": "hardware",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
       "title": "The Motorola Signature 27’s haptics finally feel more like a Pixel, and it’s about time",
       "summary": "Typing on the Signature 27 is pure bliss because of it. Tapping each key feels more like the press of a physical keyboard key. Unlocking the phone emits a satisfying light punch to my thumb, signalling a successful read.",
       "url": "https://9to5google.com/2026/11/26/the-motorola-signature-27s-haptics-finally-feel-more-like-a-pixel-and-its-about-time",
@@ -114,32 +153,6 @@
       "url": "https://www.gamingonlinux.com/2026/11/turn-based-tactical-football-with-superpowers-sounds-awesome-in-football-tactics-dare-to-dream",
       "source": "GamingOnLinux",
       "published_at": "2026-11-27T09:21:24+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Best Thanksgiving deals: Google Pixel Watch 5, Pixel 11, Fold 8, accessories, TVs, more",
-      "summary": "All of that joins hundreds in savings on Galaxy Z Fold 8 at $350 off , entry Galaxy phones from $230 , and S26 Ultra at $450 off .",
-      "url": "https://9to5google.com/2026/11/26/best-thanksgiving-deals-pixel-galaxy-chargers",
-      "source": "9to5Google",
-      "published_at": "2026-11-26T14:09:02+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Mech roguelite shooter Tin Coffins arrives on December 7",
-      "summary": "The highly anticipated mech roguelite shooter Tin Coffins has announced its release date of December 7th with Linux support. Read the full article on GamingOnLinux .",
-      "url": "https://www.gamingonlinux.com/2026/11/mech-roguelite-shooter-tin-coffins-arrives-on-december-7",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-27T09:06:40+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
