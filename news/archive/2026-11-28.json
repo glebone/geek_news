@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "date": "2026-11-28",
-  "generated_at": "2026-11-28T07:24:23Z",
+  "generated_at": "2026-11-28T13:36:58Z",
   "count": 15,
   "articles": [
     {
@@ -45,11 +45,11 @@
       "article_type": "news"
     },
     {
-      "title": "Repurposing Lava Lamps To Cook Dinner",
-      "summary": "Should you cook anything with a lava lamp? Probably not. Can you? Well, [Nate Scovill] seemed to think he could, and he set out to demonstrate just that.",
-      "url": "https://hackaday.com/2026/11/27/repurposing-lava-lamps-to-cook-dinner",
+      "title": "Robot Jellyfish Swims On Solar Power",
+      "summary": "Jellyfish are fun, gloopy creatures that have a unique swimming style very much of their own. [Robert Skinner] has managed to emulate the vibes of these unique creatures with a rather stylish robotic build .",
+      "url": "https://hackaday.com/2026/11/28/robot-jellyfish-swims-on-solar-power",
       "source": "Hackaday",
-      "published_at": "2026-11-28T06:00:39+00:00",
+      "published_at": "2026-11-28T12:00:55+00:00",
       "category": "hardware",
       "tags": [
         "hardware",
