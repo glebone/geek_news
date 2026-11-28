@@ -1,0 +1,204 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T07:24:23Z",
+  "count": 15,
+  "articles": [
+    {
+      "title": "Proton Experimental updated with fixes for Strange Brigade, FBC: Firebreak, Terminator: Dark Fate - Defiance and more",
+      "summary": "A small update for Proton Experimental to end the week, with Valve getting in a few extra fixes for running Windows games on Linux / SteamOS devices.",
+      "url": "https://www.gamingonlinux.com/2026/11/proton-experimental-updated-with-fixes-for-strange-brigade-fbc-firebreak-terminator-dark-fate-defiance-and-more",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-27T17:23:20+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games",
+        "proton"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?",
+      "summary": "Days after GTA 6's record console launch, numerous projects are working to bring a leaked Xbox build to PC. AI coding agents are dramatically speeding up reverse engineering and shaking up Rockstar's business model.",
+      "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents",
+      "source": "The Decoder",
+      "published_at": "2026-11-27T15:37:47+00:00",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "models"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Morph 2K – v4 Firmware Released",
+      "summary": "PixelFX have just released a preview firmware of their latest v4 firmware for the Morph 2K. You can download it simply by setting your M2K’s firmware to the “preview” channel and updating normally.",
+      "url": "https://retrorgb.com/morph-2k-v4-firmware-released.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-27T21:21:23+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Repurposing Lava Lamps To Cook Dinner",
+      "summary": "Should you cook anything with a lava lamp? Probably not. Can you? Well, [Nate Scovill] seemed to think he could, and he set out to demonstrate just that.",
+      "url": "https://hackaday.com/2026/11/27/repurposing-lava-lamps-to-cook-dinner",
+      "source": "Hackaday",
+      "published_at": "2026-11-28T06:00:39+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Here are the best Apple Watch deals for Black Friday",
+      "summary": "Just about every Apple Watch Series 12 configuration is now sitting at the lowest price ever with $100 in savings while Apple Watch Ultra 4 hits a new all-time low at $150 off , and the underrated Apple Watch SE 3 sits down at $179 .",
+      "url": "https://9to5mac.com/2026/11/27/here-are-the-best-apple-watch-deals-for-black-friday",
+      "source": "9to5Mac",
+      "published_at": "2026-11-27T20:40:35+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "I’m so glad I didn’t give up on the Galaxy Z Fold 8",
+      "summary": "The amount of hype this phone brought with it at launch was unreal. Even then, I ultimately wound up going with the Galaxy Z Fold 8 Ultra of the two models Samsung released earlier this year.",
+      "url": "https://9to5google.com/2026/11/27/i-didnt-give-up-on-the-galaxy-z-fold-8",
+      "source": "9to5Google",
+      "published_at": "2026-11-27T19:15:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hollow Knight: Silksong - Sea of Sorrow arrives December 11",
+      "summary": "A free expansion is coming real soon as Hollow Knight: Silksong - Sea of Sorrow has been announced for a December 11th release date. The already quite long action metroidvania is set to get even bigger, and it really does look fantastic.",
+      "url": "https://www.gamingonlinux.com/2026/11/hollow-knight-silksong-sea-of-sorrow-arrives-december-11",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-27T15:28:01+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Morph 4K Firmware v4.1.2.4",
+      "summary": "PixelFX have released more firmware updates for the Morph 4K that focus on improving and speeding up bezel support. First, you can easily download full bezel profile packs right from the Morph’s web interface, which makes getting them on the SD card a lot easier.",
+      "url": "https://retrorgb.com/morph-4k-firmware-v4-1-2-4.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-27T20:47:42+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Like clockwork, the Pixel 11 is a way better buy after a few months [Video]",
+      "summary": "As we all know, with price drops and some months on from launch, the Pixel 11 is an even better buy than it has been.",
+      "url": "https://9to5google.com/2026/11/27/like-clockwork-the-pixel-11-is-a-way-better-buy-after-a-few-months-video",
+      "source": "9to5Google",
+      "published_at": "2026-11-27T16:45:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Linux Mint 27 Beta brings full Wayland support to Cinnamon",
+      "summary": "Linux Mint 27 \"Adrien\" is based on Ubuntu 26.04 LTS and ships with Linux kernel 7.0, with a Beta release now available to try out.",
+      "url": "https://www.gamingonlinux.com/2026/11/linux-mint-27-beta-brings-full-wayland-support-to-cinnamon",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-27T15:21:40+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "CRT Sync – iOS Camera App",
+      "summary": "Action Retro is now selling a photo/video recording app called “CRT Sync”, that’s designed to sync with the refresh rates of CRT’s. There’s some pre-configured settings for common CRT’s, as well as a detection option that seemed to work really well.",
+      "url": "https://retrorgb.com/crt-sync-ios-camera-app.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-27T20:09:45+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Announcing Rust 1.100.1",
+      "summary": "The Rust team has published a new point release of Rust, 1.100.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.",
+      "url": "https://blog.rust-lang.org/2026/11/27/Rust-1.100.1",
+      "source": "Rust Blog",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "category": "programming",
+      "tags": [
+        "rust",
+        "language"
+      ],
+      "article_type": "technical_article"
+    },
+    {
+      "title": "Mech roguelite shooter Tin Coffins arrives on December 7",
+      "summary": "The highly anticipated mech roguelite shooter Tin Coffins has announced its release date of December 7th with Linux support. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/mech-roguelite-shooter-tin-coffins-arrives-on-december-7",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-27T09:06:40+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Framework’s $99 Wireless Touchpad Keyboard is up for pre-order",
+      "summary": "If you’re interested, the Framework Wireless Touchpad Keyboard is available to pre-order in the USA, the UK and other countries, priced at $99/£99 ($50/£50 deposit).",
+      "url": "https://www.omgubuntu.co.uk/2026/11/frameworks-wireless-touchpad-keyboard-preorder",
+      "source": "OMG! Ubuntu",
+      "published_at": "2026-11-28T04:10:59+00:00",
+      "category": "linux",
+      "tags": [
+        "ubuntu",
+        "desktop"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Wine 11.23 Released With Support For ARM64 macOS, AVX In 32-bit Emulation On ARM64",
+      "summary": "We are getting close to the Wine 12.0 release candidate phase but out today is Wine 11.23 as the latest bi-weekly development release continuing to land new features into Wine.",
+      "url": "https://www.phoronix.com/news/Wine-11.23-Released",
+      "source": "Phoronix",
+      "published_at": "2026-11-27T20:31:43-05:00",
+      "category": "linux",
+      "tags": [
+        "linux",
+        "open-source"
+      ],
+      "article_type": "news"
+    }
+  ]
+}

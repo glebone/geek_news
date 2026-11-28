@@ -1,28 +1,29 @@
 {
   "schema_version": 2,
-  "date": "2026-11-27",
-  "generated_at": "2026-11-27T15:20:28Z",
-  "count": 20,
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T07:24:23Z",
+  "count": 15,
   "articles": [
     {
-      "title": "Immersive sim dino-horror FPS 'Athanasia' enters Early Access",
-      "summary": "From Momentum Games and Black Lantern Collective, Athanasia is an immersive first-person shooter, inspired by System Shock and Dino Crisis. Disclosure: a key was provided to GamingOnLinux.",
-      "url": "https://www.gamingonlinux.com/2026/11/immersive-sim-dino-horror-fps-athanasia-enters-early-access",
+      "title": "Proton Experimental updated with fixes for Strange Brigade, FBC: Firebreak, Terminator: Dark Fate - Defiance and more",
+      "summary": "A small update for Proton Experimental to end the week, with Valve getting in a few extra fixes for running Windows games on Linux / SteamOS devices.",
+      "url": "https://www.gamingonlinux.com/2026/11/proton-experimental-updated-with-fixes-for-strange-brigade-fbc-firebreak-terminator-dark-fate-defiance-and-more",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-27T14:56:17+00:00",
+      "published_at": "2026-11-27T17:23:20+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
-        "games"
+        "games",
+        "proton"
       ],
       "article_type": "news"
     },
     {
-      "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
-      "summary": "OpenAI says a billing bug gave GPT-6.2 users incorrect discounts. After the fix, Astra and Sol users hit their limits 40 and 25 percent faster than last week.",
-      "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error",
+      "title": "Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?",
+      "summary": "Days after GTA 6's record console launch, numerous projects are working to bring a leaked Xbox build to PC. AI coding agents are dramatically speeding up reverse engineering and shaking up Rockstar's business model.",
+      "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents",
       "source": "The Decoder",
-      "published_at": "2026-11-26T17:28:56+00:00",
+      "published_at": "2026-11-27T15:37:47+00:00",
       "category": "ai",
       "tags": [
         "ai",
@@ -31,50 +32,141 @@
       "article_type": "news"
     },
     {
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "summary": "My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough).",
-      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685",
-      "source": "Simon Willison",
-      "published_at": "2026-11-26T05:08:46+00:00",
-      "category": "agent_tools",
+      "title": "Morph 2K – v4 Firmware Released",
+      "summary": "PixelFX have just released a preview firmware of their latest v4 firmware for the Morph 2K. You can download it simply by setting your M2K’s firmware to the “preview” channel and updating normally.",
+      "url": "https://retrorgb.com/morph-2k-v4-firmware-released.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-27T21:21:23+00:00",
+      "category": "retro_gaming",
       "tags": [
-        "ai",
-        "developer-tools"
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Repurposing Lava Lamps To Cook Dinner",
+      "summary": "Should you cook anything with a lava lamp? Probably not. Can you? Well, [Nate Scovill] seemed to think he could, and he set out to demonstrate just that.",
+      "url": "https://hackaday.com/2026/11/27/repurposing-lava-lamps-to-cook-dinner",
+      "source": "Hackaday",
+      "published_at": "2026-11-28T06:00:39+00:00",
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "maker"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Here are the best Apple Watch deals for Black Friday",
+      "summary": "Just about every Apple Watch Series 12 configuration is now sitting at the lowest price ever with $100 in savings while Apple Watch Ultra 4 hits a new all-time low at $150 off , and the underrated Apple Watch SE 3 sits down at $179 .",
+      "url": "https://9to5mac.com/2026/11/27/here-are-the-best-apple-watch-deals-for-black-friday",
+      "source": "9to5Mac",
+      "published_at": "2026-11-27T20:40:35+00:00",
+      "category": "hardware",
+      "tags": [
+        "apple",
+        "devices"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "I’m so glad I didn’t give up on the Galaxy Z Fold 8",
+      "summary": "The amount of hype this phone brought with it at launch was unreal. Even then, I ultimately wound up going with the Galaxy Z Fold 8 Ultra of the two models Samsung released earlier this year.",
+      "url": "https://9to5google.com/2026/11/27/i-didnt-give-up-on-the-galaxy-z-fold-8",
+      "source": "9to5Google",
+      "published_at": "2026-11-27T19:15:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Hollow Knight: Silksong - Sea of Sorrow arrives December 11",
+      "summary": "A free expansion is coming real soon as Hollow Knight: Silksong - Sea of Sorrow has been announced for a December 11th release date. The already quite long action metroidvania is set to get even bigger, and it really does look fantastic.",
+      "url": "https://www.gamingonlinux.com/2026/11/hollow-knight-silksong-sea-of-sorrow-arrives-december-11",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-27T15:28:01+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Morph 4K Firmware v4.1.2.4",
+      "summary": "PixelFX have released more firmware updates for the Morph 4K that focus on improving and speeding up bezel support. First, you can easily download full bezel profile packs right from the Morph’s web interface, which makes getting them on the SD card a lot easier.",
+      "url": "https://retrorgb.com/morph-4k-firmware-v4-1-2-4.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-27T20:47:42+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Like clockwork, the Pixel 11 is a way better buy after a few months [Video]",
+      "summary": "As we all know, with price drops and some months on from launch, the Pixel 11 is an even better buy than it has been.",
+      "url": "https://9to5google.com/2026/11/27/like-clockwork-the-pixel-11-is-a-way-better-buy-after-a-few-months-video",
+      "source": "9to5Google",
+      "published_at": "2026-11-27T16:45:00+00:00",
+      "category": "android",
+      "tags": [
+        "android",
+        "google"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Linux Mint 27 Beta brings full Wayland support to Cinnamon",
+      "summary": "Linux Mint 27 \"Adrien\" is based on Ubuntu 26.04 LTS and ships with Linux kernel 7.0, with a Beta release now available to try out.",
+      "url": "https://www.gamingonlinux.com/2026/11/linux-mint-27-beta-brings-full-wayland-support-to-cinnamon",
+      "source": "GamingOnLinux",
+      "published_at": "2026-11-27T15:21:40+00:00",
+      "category": "linux",
+      "tags": [
+        "linux-gaming",
+        "games"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "CRT Sync – iOS Camera App",
+      "summary": "Action Retro is now selling a photo/video recording app called “CRT Sync”, that’s designed to sync with the refresh rates of CRT’s. There’s some pre-configured settings for common CRT’s, as well as a detection option that seemed to work really well.",
+      "url": "https://retrorgb.com/crt-sync-ios-camera-app.html",
+      "source": "RetroRGB",
+      "published_at": "2026-11-27T20:09:45+00:00",
+      "category": "retro_gaming",
+      "tags": [
+        "retro",
+        "gaming"
+      ],
+      "article_type": "news"
+    },
+    {
+      "title": "Announcing Rust 1.100.1",
+      "summary": "The Rust team has published a new point release of Rust, 1.100.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.",
+      "url": "https://blog.rust-lang.org/2026/11/27/Rust-1.100.1",
+      "source": "Rust Blog",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "category": "programming",
+      "tags": [
+        "rust",
+        "language"
       ],
       "article_type": "technical_article"
     },
     {
-      "title": "These are the best AirPods deals for Black Friday",
-      "summary": "If you’re even mildly considering a new pair of AirPods Pro 3, for yourself or otherwise, the Black Friday deal live right now is a total no-brainer.",
-      "url": "https://9to5mac.com/2026/11/27/airpods-pro-black-friday-deals-pirces",
-      "source": "9to5Mac",
-      "published_at": "2026-11-27T15:03:06+00:00",
-      "category": "hardware",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Best Black Friday deals: Google Pixel Watch 5, Pixel 11, Fold 8, accessories, TVs, more [Updated]",
-      "summary": "If you’re looking to upgrade your setup with a robotic cleaning system, Roborock should be your first choice – its models are easily some of the best out there and you can now score giant Black Friday deals at up to $1,610 off its ultra-intelligent 2026 releases.",
-      "url": "https://9to5google.com/2026/11/27/best-thanksgiving-deals-pixel-galaxy-chargers",
-      "source": "9to5Google",
-      "published_at": "2026-11-27T14:09:00+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Cult-classic tactical RPG Symphony of War is getting a sequel - Symphony of War II: Dominion",
-      "summary": "Symphony of War II: Dominion has been announced and it's being published by Hooded Horse, so they've picked another good one. A sequel to a critically acclaimed, best-selling tactical RPG that's set to release next year.",
-      "url": "https://www.gamingonlinux.com/2026/11/cult-classic-tactical-rpg-symphony-of-war-is-getting-a-sequel-symphony-of-war-ii-dominion",
+      "title": "Mech roguelite shooter Tin Coffins arrives on December 7",
+      "summary": "The highly anticipated mech roguelite shooter Tin Coffins has announced its release date of December 7th with Linux support. Read the full article on GamingOnLinux .",
+      "url": "https://www.gamingonlinux.com/2026/11/mech-roguelite-shooter-tin-coffins-arrives-on-december-7",
       "source": "GamingOnLinux",
-      "published_at": "2026-11-27T11:33:23+00:00",
+      "published_at": "2026-11-27T09:06:40+00:00",
       "category": "linux",
       "tags": [
         "linux-gaming",
@@ -83,141 +175,11 @@
       "article_type": "news"
     },
     {
-      "title": "Advent of Code 2026: ’Tis the Season to Code in Kotlin",
-      "summary": "December is almost here, and so is one of our favorite coding traditions! We’re excited to take part in Advent of Code once again and invite you to join us for another season of festive puzzles, clever Kotlin solutions, and friendly competition.",
-      "url": "https://blog.jetbrains.com/kotlin/2026/11/advent-of-code-2026-in-kotlin",
-      "source": "Kotlin Blog",
-      "published_at": "2026-11-26T22:35:00+00:00",
-      "category": "programming",
-      "tags": [
-        "kotlin",
-        "programming"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "iOS 27.3 adds limits for these advanced features, details here",
-      "summary": "iOS 27.3 launches soon with a key change: certain advanced AI features will have daily usage limits. In an article posted on X , leaker pdfu details how this new system works.",
-      "url": "https://9to5mac.com/2026/11/27/ios-27-3-adds-limits-for-these-advanced-features-details-here",
-      "source": "9to5Mac",
-      "published_at": "2026-11-27T14:50:41+00:00",
-      "category": "ios",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "iPhone 18 Production Delay Leaves Apple Little Time Before Launch",
-      "summary": "In October, the same source pointed to late November as the production target for the standard ‌iPhone 18‌ and suggested Apple was preparing to build a large inventory.",
-      "url": "https://www.macrumors.com/2026/11/27/iphone-18-production-delay",
-      "source": "MacRumors",
-      "published_at": "2026-11-27T13:48:42+00:00",
-      "category": "hardware",
-      "tags": [
-        "apple",
-        "devices"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "itch.io Creator Day & Black Friday 2026 sale is live",
-      "summary": "Creator Day also kicks off our Black Friday 2026 sale, which runs until Wednesday, December 2nd at 10:00 AM PT . This is our biggest Black Friday sale yet, with over 40,000 projects on sale from more than 5,300 creator sales.",
-      "url": "https://www.gamingonlinux.com/2026/11/itch-io-creator-day-black-friday-2026-sale-is-live",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-27T09:58:04+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "The Motorola Signature 27’s haptics finally feel more like a Pixel, and it’s about time",
-      "summary": "Typing on the Signature 27 is pure bliss because of it. Tapping each key feels more like the press of a physical keyboard key. Unlocking the phone emits a satisfying light punch to my thumb, signalling a successful read.",
-      "url": "https://9to5google.com/2026/11/26/the-motorola-signature-27s-haptics-finally-feel-more-like-a-pixel-and-its-about-time",
-      "source": "9to5Google",
-      "published_at": "2026-11-26T15:36:19+00:00",
-      "category": "android",
-      "tags": [
-        "android",
-        "google"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Turn-based tactical football with superpowers sounds awesome in Football Tactics: Dare to Dream",
-      "summary": "Football Tactics: Dare to Dream was recently revealed by Brightside Games, a turn-based football strategy game with superpowers. There's a demo available on itch.io .",
-      "url": "https://www.gamingonlinux.com/2026/11/turn-based-tactical-football-with-superpowers-sounds-awesome-in-football-tactics-dare-to-dream",
-      "source": "GamingOnLinux",
-      "published_at": "2026-11-27T09:21:24+00:00",
-      "category": "linux",
-      "tags": [
-        "linux-gaming",
-        "games"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
-      "summary": "The growing use of large language models (LLMs) for mental health support raises important safety concerns. Existing guard models primarily identify categories of harmful content, often overlooking the context needed to determine an appropriate response.",
-      "url": "https://arxiv.org/abs/2611.33263",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-27T00:00:00-05:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
-      "summary": "Procedurally generated logic problems are used to both evaluate and train reasoning in language models. Their difficulty is usually set by planting a proof, that is, by sampling a proof of the desired depth and stating its premises as the problem.",
-      "url": "https://arxiv.org/abs/2611.33303",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-27T00:00:00-05:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
-      "summary": "The Platonic Representation Hypothesis (PRH) posits that AI models converge toward a shared representation of the world, even when trained on different data modalities. Previous work has found evidence for the PRH in the activations of vision and language models.",
-      "url": "https://arxiv.org/abs/2611.33304",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-27T00:00:00-05:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
-      "summary": "A language model can name a brand without classifying it correctly. This study measures these outcomes separately for 1,000 B2B SaaS brands across 333 product categories.",
-      "url": "https://arxiv.org/abs/2611.33322",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-11-27T00:00:00-05:00",
-      "category": "ai",
-      "tags": [
-        "ai",
-        "research"
-      ],
-      "article_type": "research"
-    },
-    {
-      "title": "New Linux kernel patches unlock native resolution on 4K/5K iMacs",
-      "summary": "Owners of 4K and 5K iMacs could soon enjoy their screen’s full native resolution on Linux, thanks to a set of proposed kernel patches. I run Ubuntu on a 2017 21.5-inch iMac with a 4K display.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/linux-imac-tiled-display-support-coming",
+      "title": "Framework’s $99 Wireless Touchpad Keyboard is up for pre-order",
+      "summary": "If you’re interested, the Framework Wireless Touchpad Keyboard is available to pre-order in the USA, the UK and other countries, priced at $99/£99 ($50/£50 deposit).",
+      "url": "https://www.omgubuntu.co.uk/2026/11/frameworks-wireless-touchpad-keyboard-preorder",
       "source": "OMG! Ubuntu",
-      "published_at": "2026-11-27T04:53:31+00:00",
+      "published_at": "2026-11-28T04:10:59+00:00",
       "category": "linux",
       "tags": [
         "ubuntu",
@@ -226,37 +188,11 @@
       "article_type": "news"
     },
     {
-      "title": "Linux Mint 27 beta downloads are available for testing",
-      "summary": "Beta builds of Linux Mint 27 ‘Adrien’ have hit the distro’s official download mirrors, though there’s been no official announcement about it yet. Linux Mint 27 is built on Ubuntu 26.04 LTS and the Linux 7.0 kernel.",
-      "url": "https://www.omgubuntu.co.uk/2026/11/linux-mint-27-beta-download",
-      "source": "OMG! Ubuntu",
-      "published_at": "2026-11-26T22:17:05+00:00",
-      "category": "linux",
-      "tags": [
-        "ubuntu",
-        "desktop"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "It Looks Like AI Agent Skills Will Be Submitted For Linux 7.5",
-      "summary": "For the upcoming Linux 7.5 merge window happening in late December, it appears that AI agent skills will be submitted for adding in-tree documentation for instructing AI agents on different kernel processes.",
-      "url": "https://www.phoronix.com/news/Linux-AI-Agent-Skills-Ready",
+      "title": "Wine 11.23 Released With Support For ARM64 macOS, AVX In 32-bit Emulation On ARM64",
+      "summary": "We are getting close to the Wine 12.0 release candidate phase but out today is Wine 11.23 as the latest bi-weekly development release continuing to land new features into Wine.",
+      "url": "https://www.phoronix.com/news/Wine-11.23-Released",
       "source": "Phoronix",
-      "published_at": "2026-11-26T15:55:02-05:00",
-      "category": "linux",
-      "tags": [
-        "linux",
-        "open-source"
-      ],
-      "article_type": "news"
-    },
-    {
-      "title": "Ubuntu 27.04 Snapshot 1 Released For Testing",
-      "summary": "For those with extra time around the US Thanksgiving holiday, the first Tenacious Snapshot 1 was just released today as the first stepping stone toward Ubuntu 27.04.",
-      "url": "https://www.phoronix.com/news/Ubuntu-27.04-Snapshot-1",
-      "source": "Phoronix",
-      "published_at": "2026-11-26T12:21:13-05:00",
+      "published_at": "2026-11-27T20:31:43-05:00",
       "category": "linux",
       "tags": [
         "linux",
